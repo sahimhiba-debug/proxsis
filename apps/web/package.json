@@ -44,7 +44,7 @@
     "@types/react-dom": "19.3.0",
     "eslint": "9.39.5",
     "eslint-config-next": "16.3.8",
-    "knip": "5.66.1",
+    "knip": "6.41.0",
     "madge": "8.0.0",
     "tailwindcss": "4.3.3",
     "typescript": "5.9.3",
