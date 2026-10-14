@@ -1,0 +1,77 @@
+{
+ "cible": "T0 : nouveau marché public (simap) dans les 8 semaines",
+ "k": 20,
+ "n_semaines": 44,
+ "semaines": [
+  "2025-10-06",
+  "2026-08-03"
+ ],
+ "taux_de_base": 0.1598091525806136,
+ "entreprises_classees_moyenne": 556.3409090909091,
+ "p_at_k": {
+  "hasard": {
+   "moyenne": 0.1598091525806136,
+   "ic95": [
+    0.14502401455641245,
+    0.1814581780297715
+   ]
+  },
+  "recence": {
+   "moyenne": 0.3102272727272727,
+   "ic95": [
+    0.2874715909090909,
+    0.3704545454545455
+   ]
+  },
+  "frequence_52s": {
+   "moyenne": 0.5500000000000002,
+   "ic95": [
+    0.48403409090909083,
+    0.6852556818181817
+   ]
+  },
+  "m0_marches": {
+   "moyenne": 0.5272727272727273,
+   "ic95": [
+    0.4727272727272727,
+    0.6272727272727272
+   ]
+  }
+ },
+ "bloc_semaines": 8,
+ "sensibilite_bloc_12": {
+  "hasard": [
+   0.14766696508729787,
+   0.18487230518279027
+  ],
+  "recence": [
+   0.2897727272727273,
+   0.3772727272727273
+  ],
+  "frequence_52s": [
+   0.5067897727272728,
+   0.6966193181818181
+  ],
+  "m0_marches": [
+   0.4908806818181818,
+   0.6352272727272728
+  ]
+ },
+ "m0_moins_meilleure_naive": {
+  "naive": "frequence_52s",
+  "moyenne": -0.02272727272727272,
+  "ic95": [
+   -0.08863636363636362,
+   0.01363636363636364
+  ]
+ },
+ "donnees": {
+  "fichiers": [
+   "../data/reel/simap/adjudications_romandie_construction_2024-07_2026-09.jsonl"
+  ],
+  "adjudications": 1892,
+  "evenements_entreprise": 1891,
+  "entreprises": 731,
+  "fin_des_donnees": "2026-09-30"
+ }
+}

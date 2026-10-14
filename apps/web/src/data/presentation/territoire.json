@@ -1,0 +1,1856 @@
+{
+ "schema": 1,
+ "lundi": "2026-10-05",
+ "source": {
+  "nom": "simap.ch",
+  "mention": "Ceci n'est pas une publication officielle. Les données publiées sur la plateforme www.simap.ch font foi."
+ },
+ "controles": {
+  "forme_juridique": "le nom porte une forme juridique (une entreprise, pas une personne)",
+  "siege_commune": "le siège publié se rattache à une commune du Valais de la carte",
+  "marche_source": "au moins un marché publié avant le lundi de la liste, daté, avec sa page simap.ch",
+  "appel_prepare": "l'appel préparé donne une raison fondée sur un fait publié et des questions à poser",
+  "donnees_personnelles": "le dossier passe le balayage des données personnelles",
+  "nom_unique": "aucune autre entreprise de l'application ne porte le même nom"
+ },
+ "exemple": {
+  "commune": "6141",
+  "entreprise": "ent-1ef761b229"
+ },
+ "communes": {
+  "6002": {
+   "siege": [
+    "ent-05fb182e20",
+    "ent-a18d53ad49"
+   ],
+   "marches": [
+    {
+     "id": "ent-04c51f7c9d",
+     "date": "2026-07-15",
+     "titre": "Rénovation du bâtiment de la police cantonale à Brique / CFC 240 Installations de chauffage",
+     "url": "https://www.simap.ch/fr/project-detail/17d539a2-3f6b-483c-aa1c-934a574f8a68"
+    },
+    {
+     "id": "ent-7a6a26b648",
+     "date": "2026-04-28",
+     "titre": "Collège de Brique - Rénovation de l'internat / CFC .... (tract sud)",
+     "url": "https://www.simap.ch/fr/project-detail/cb60efc2-d13b-4836-91f3-6b73d35c8912"
+    },
+    {
+     "id": "ent-1b28ee92b6",
+     "date": "2026-02-20",
+     "titre": "ARA Briglina Realisierung BKP 211.11 Baumeisterarbeiten",
+     "url": "https://www.simap.ch/fr/project-detail/952cf548-76a9-4224-bb58-1066f545a4ce"
+    },
+    {
+     "id": "ent-571d0a02a0",
+     "date": "2026-02-14",
+     "titre": "RDC Klostermatte - Chauffage à distance raccordement sous station Geschina",
+     "url": "https://www.simap.ch/fr/project-detail/dd11e8c5-2f3a-43cf-b9bc-ff23816cc877"
+    },
+    {
+     "id": "ent-571d0a02a0",
+     "date": "2026-02-11",
+     "titre": "Kollegium Brig - Sanierung Internat / BKP 222 + 224 Spengler- und Bedachungsarbeiten (Südtrakt)",
+     "url": "https://www.simap.ch/fr/project-detail/161dc25d-1ff8-4dcf-aba4-19cd6ba9b781"
+    },
+    {
+     "id": "ent-a18d53ad49",
+     "date": "2025-11-07",
+     "titre": "Kollegium Brig – Sanierung Internat / BKP 250 Sanitäranlagen (Südtrakt)",
+     "url": "https://www.simap.ch/fr/project-detail/f9198e7c-a3bb-4f76-bdfb-2a2484142f5a"
+    },
+    {
+     "id": "ent-9ee20debe5",
+     "date": "2025-11-07",
+     "titre": "Kollegium Brig – Sanierung Internat / BKP 244 Lufttechnische Anlagen (Südtrakt)",
+     "url": "https://www.simap.ch/fr/project-detail/27b75a5a-721f-424f-8114-236243646589"
+    },
+    {
+     "id": "ent-571d0a02a0",
+     "date": "2025-11-07",
+     "titre": "Kollegium Brig – Sanierung Internat / BKP 240 Heizungsanlagen (Südtrakt)",
+     "url": "https://www.simap.ch/fr/project-detail/571bafc1-887c-4e61-98b2-8e12f7b3caf8"
+    },
+    {
+     "id": "ent-1b28ee92b6",
+     "date": "2025-10-24",
+     "titre": "Kollegium Brig – Sanierung Internat / BKP 112+211 – Abbruch- und Baumeisterarbeiten (Südtrakt)",
+     "url": "https://www.simap.ch/fr/project-detail/52df3002-6456-48db-91b7-b9d4f30e1080"
+    },
+    {
+     "id": "ent-866876591f",
+     "date": "2025-09-09",
+     "titre": "ARA Briglina Realisierung BKP 211.13 Baumeister Auslaufleitung (Microtunneling)",
+     "url": "https://www.simap.ch/fr/project-detail/b95a2db1-f171-4436-81db-c182b64a26a4"
+    },
+    {
+     "id": "ent-571d0a02a0",
+     "date": "2025-06-13",
+     "titre": "Wärmeverbund Klostermatte, Brig-Glis: Anschluss Heizung KSS Haus A/C",
+     "url": "https://www.simap.ch/fr/project-detail/b74a4642-4399-419f-821b-ab58178d8777"
+    },
+    {
+     "id": "ent-571d0a02a0",
+     "date": "2025-06-13",
+     "titre": "Wärmeverbund Klostermatte, Brig-Glis: Anschluss Heizung Haus B",
+     "url": "https://www.simap.ch/fr/project-detail/492670c7-ee6b-4004-8c42-72dacfb580c1"
+    },
+    {
+     "id": "ent-571d0a02a0",
+     "date": "2025-06-13",
+     "titre": "Wärmeverbund Klostermatte, Brig-Glis: Anschluss Heizung BFO",
+     "url": "https://www.simap.ch/fr/project-detail/3f8f463b-7d5c-4be2-b1e8-2ed5097476e0"
+    }
+   ]
+  },
+  "6007": {
+   "siege": [
+    "ent-571d0a02a0"
+   ],
+   "marches": [
+    {
+     "id": "ent-866876591f",
+     "date": "2025-10-14",
+     "titre": "Hochwasserschutz Milchbach Naters",
+     "url": "https://www.simap.ch/fr/project-detail/5594231f-e9cb-4b8a-98d1-9f8405b598db"
+    },
+    {
+     "id": "ent-866876591f",
+     "date": "2025-05-02",
+     "titre": "Ersatz Trinkwasserleitung Sattle - Bäll",
+     "url": "https://www.simap.ch/fr/project-detail/1ac231fb-cc86-458c-9cfc-027b89519ef0"
+    }
+   ]
+  },
+  "6023": {
+   "siege": [
+    "ent-55bb6b3e49"
+   ],
+   "marches": [
+    {
+     "id": "ent-55bb6b3e49",
+     "date": "2026-08-20",
+     "titre": "Correction du trottoir sur la route cantonale T9 St-Maurice - Brig, à Conthey",
+     "url": "https://www.simap.ch/fr/project-detail/47751800-1fcf-4b38-83de-41cc590e4ab2"
+    },
+    {
+     "id": "ent-55bb6b3e49",
+     "date": "2026-06-08",
+     "titre": "Correction de la chaussée à l'aval du torrent d'Ortchu, sur la RC no 68 Pont-de-la-Morge - Erde - Derborence, sur le territoire de la commune de Conthey",
+     "url": "https://www.simap.ch/fr/project-detail/c006c5a2-b9dd-43ef-96bc-cda372a16dfa"
+    },
+    {
+     "id": "ent-55bb6b3e49",
+     "date": "2026-06-05",
+     "titre": "Route des Rottes Est - Conthey - TC 12 - Travaux GC et CAD",
+     "url": "https://www.simap.ch/fr/project-detail/762764a4-9510-491b-91c1-244e945ae12a"
+    },
+    {
+     "id": "ent-734d5f7d45",
+     "date": "2026-04-01",
+     "titre": "Route d'Antzère et Av. Gare - TC15 - Conthey - Travaux GC et CAD",
+     "url": "https://www.simap.ch/fr/project-detail/0f65d25a-e00d-41db-9759-70ed6c583674"
+    },
+    {
+     "id": "ent-42fbc21c38",
+     "date": "2025-11-01",
+     "titre": "Réaménagement de la Morge à Conthey - Travaux GC de protection contre les crues/renaturation",
+     "url": "https://www.simap.ch/fr/project-detail/d332e46b-ba4e-427d-9021-f0a90dd2e105"
+    },
+    {
+     "id": "ent-55bb6b3e49",
+     "date": "2025-04-26",
+     "titre": "Rue des Poujes (TC5) - Conthey - Travaux GC et CAD",
+     "url": "https://www.simap.ch/fr/project-detail/3a4c10ad-d6b2-4003-85f8-6b8942f37251"
+    }
+   ]
+  },
+  "6024": {
+   "siege": [],
+   "marches": [
+    {
+     "id": "ent-e0b3af4121",
+     "date": "2026-08-06",
+     "titre": "Projet de défense contre les chutes de pierres et les éboulements \"Fey - Condémines\" - construction d'une digue en terre armée",
+     "url": "https://www.simap.ch/fr/project-detail/00f1f4ed-a3f9-47ab-a9a5-e119d2df890d"
+    },
+    {
+     "id": "ent-e0b3af4121",
+     "date": "2026-07-01",
+     "titre": "Collecteur Baar-Aproz",
+     "url": "https://www.simap.ch/fr/project-detail/21ec71f3-e4f2-4bc4-ac21-8870013d29ce"
+    },
+    {
+     "id": "ent-1ef761b229",
+     "date": "2026-03-27",
+     "titre": "Réfection de la chaussée entre Basse-Nendaz et Sornard, sur la RC no 62 Sion - Nendaz, sur le territoire de la commune de Nendaz",
+     "url": "https://www.simap.ch/fr/project-detail/e228ee5d-aa6b-4c88-8793-4daf1ca48be3"
+    },
+    {
+     "id": "ent-6e874811ae",
+     "date": "2025-05-13",
+     "titre": "Réfection de la chaussée sur la route de Nendaz à Basse-Nendaz, PR 100+160 à 100+820, sur le territoire de la commune de Nendaz",
+     "url": "https://www.simap.ch/fr/project-detail/66ce33e9-43bd-42ca-a7a5-eb5744abad09"
+    }
+   ]
+  },
+  "6025": {
+   "siege": [
+    "ent-decac0f587"
+   ],
+   "marches": [
+    {
+     "id": "ent-266673a5c4",
+     "date": "2025-06-18",
+     "titre": "Torrents ouest lot 6 « Torrents ouest lot 6 – Plantys – Aven – Creusettaz",
+     "url": "https://www.simap.ch/fr/project-detail/de9a5178-855c-4539-97e1-5b625f4c4249"
+    }
+   ]
+  },
+  "6033": {
+   "siege": [],
+   "marches": [
+    {
+     "id": "ent-6e874811ae",
+     "date": "2026-08-28",
+     "titre": "Rénovation de l'aménagement des FGB, Lot GC",
+     "url": "https://www.simap.ch/fr/project-detail/ac819dfd-4d56-4d65-b634-e163d77173f6"
+    },
+    {
+     "id": "ent-630072dde9",
+     "date": "2026-07-31",
+     "titre": "424 La Genevrière : stabilisation de talus",
+     "url": "https://www.simap.ch/fr/project-detail/d6e7247f-1eb4-402a-b425-1b7c68628807"
+    }
+   ]
+  },
+  "6034": {
+   "siege": [
+    "ent-1f979b0082"
+   ],
+   "marches": []
+  },
+  "6037": {
+   "siege": [
+    "ent-1908a7b39a",
+    "ent-2be948bff6",
+    "ent-630072dde9",
+    "ent-642a8bc929",
+    "ent-70e9c09efd",
+    "ent-83cbb2fdd1",
+    "ent-e6f19984a6"
+   ],
+   "marches": [
+    {
+     "id": "ent-bd58f9a809",
+     "date": "2026-09-24",
+     "titre": "Construction d'une NCUAPE à Vollèges - CFC 214.2 Charpente",
+     "url": "https://www.simap.ch/fr/project-detail/c792bf5b-9f78-4627-8223-aeb133c59636"
+    },
+    {
+     "id": "ent-fca6df6039",
+     "date": "2026-09-17",
+     "titre": "Construction d'une NCUAPE à Vollèges - CFC 211 Maçonnerie",
+     "url": "https://www.simap.ch/fr/project-detail/4b874485-23f9-4f0d-82d6-33f47d8611f0"
+    },
+    {
+     "id": "ent-aa916d5995",
+     "date": "2026-09-17",
+     "titre": "Construction d'une NCUAPE à Vollèges - CFC 250 Installations sanitaires",
+     "url": "https://www.simap.ch/fr/project-detail/a04e3921-a178-4a6d-b22b-32cdef270f49"
+    },
+    {
+     "id": "ent-9ee20debe5",
+     "date": "2026-09-17",
+     "titre": "Construction d'une NCUAPE à Vollèges - CFC 244 Installations de ventilation",
+     "url": "https://www.simap.ch/fr/project-detail/5f290320-9274-4813-aa32-3575d5274fa9"
+    },
+    {
+     "id": "ent-8798cd7fa8",
+     "date": "2026-09-17",
+     "titre": "Construction d'une NCUAPE à Vollèges - CFC 230 Installations électriques",
+     "url": "https://www.simap.ch/fr/project-detail/367c148a-acb1-4a3e-9175-733b03e6c60f"
+    },
+    {
+     "id": "ent-42fbc21c38",
+     "date": "2026-09-17",
+     "titre": "Construction d'une NCUAPE à Vollèges - CFC 201.1 Terrassements",
+     "url": "https://www.simap.ch/fr/project-detail/a15cf2c2-5e02-4bc2-8777-c26e3e874a9a"
+    },
+    {
+     "id": "ent-04c51f7c9d",
+     "date": "2026-09-17",
+     "titre": "Construction d'une NCUAPE à Vollèges - CFC 242 Installations de chauffage",
+     "url": "https://www.simap.ch/fr/project-detail/11063b51-7b1b-4a3a-862e-39e123dcdb2c"
+    },
+    {
+     "id": "ent-1ef761b229",
+     "date": "2026-08-12",
+     "titre": "94 Merdenson - Le Châble : revêtements bitumineux - lot 26207",
+     "url": "https://www.simap.ch/fr/project-detail/84ae130f-6c7f-44c1-b63d-1f7597a3dcfb"
+    },
+    {
+     "id": "ent-1ef761b229",
+     "date": "2026-08-12",
+     "titre": "94 Le Cotterg - Les Chenevaires / Restructuration routière avec revêtement bitumineux",
+     "url": "https://www.simap.ch/fr/project-detail/7426f3df-c921-4314-bed7-a200718b5392"
+    },
+    {
+     "id": "ent-266673a5c4",
+     "date": "2026-08-05",
+     "titre": "GC - Dérivation du Comblonard & PGEE du Levron",
+     "url": "https://www.simap.ch/fr/project-detail/023ff2cc-0810-4b59-8b15-be7fc3d723e4"
+    },
+    {
+     "id": "ent-5398e1188f",
+     "date": "2026-05-07",
+     "titre": "Centre sportif de Verbier - CFC 272.12 Serrurerie caillebotis-escaliers",
+     "url": "https://www.simap.ch/fr/project-detail/dfcb22af-3a86-4568-96af-e0a0fe5b6d0e"
+    },
+    {
+     "id": "ent-5398e1188f",
+     "date": "2026-03-04",
+     "titre": "Centre sportif de Verbier - CFC 272.00 Portes métalliques vitrées + cloisons vitrées en métal",
+     "url": "https://www.simap.ch/fr/project-detail/b7aa62e3-cca1-464b-9f8b-8d4e456db761"
+    },
+    {
+     "id": "ent-2f20a67879",
+     "date": "2025-06-26",
+     "titre": "Centre sportif de Verbier - CFC 359 Traitement d'eau",
+     "url": "https://www.simap.ch/fr/project-detail/d18bdea4-7883-4142-a510-3b2e57890683"
+    },
+    {
+     "id": "ent-fad81506c0",
+     "date": "2025-06-25",
+     "titre": "Centre sportif de Verbier - CFC 222-224 Ferblanterie-étanchéité",
+     "url": "https://www.simap.ch/fr/project-detail/e9878168-5970-4ef9-954c-5186921b9a85"
+    },
+    {
+     "id": "ent-fad81506c0",
+     "date": "2025-06-25",
+     "titre": "Centre sportif de Verbier - CFC 224.1 Etanchéité souterraine",
+     "url": "https://www.simap.ch/fr/project-detail/42970bf4-f9a8-4a4f-a454-0dfb4dfce47e"
+    },
+    {
+     "id": "ent-2f20a67879",
+     "date": "2025-06-25",
+     "titre": "Centre sportif de Verbier - CFC 359 Traitement d'eau",
+     "url": "https://www.simap.ch/fr/project-detail/d18bdea4-7883-4142-a510-3b2e57890683"
+    },
+    {
+     "id": "ent-2f20a67879",
+     "date": "2025-06-25",
+     "titre": "Centre sportif de Verbier - CFC 356 Equipement SPA",
+     "url": "https://www.simap.ch/fr/project-detail/92431831-594b-416d-914a-b9915db946b5"
+    },
+    {
+     "id": "ent-2cd68f5b3a",
+     "date": "2025-05-23",
+     "titre": "Centre sportif de Verbier - CFC 250 Sanitaire",
+     "url": "https://www.simap.ch/fr/project-detail/2b146d71-cdac-471b-bf5b-c90f12c4bbb7"
+    },
+    {
+     "id": "ent-5398e1188f",
+     "date": "2025-05-01",
+     "titre": "Maison de Commune Châble - CFC 272 Serrurerie, portes fenêtres métaliques",
+     "url": "https://www.simap.ch/fr/project-detail/db18f4b8-80aa-4dfa-8143-8b313b9304f2"
+    },
+    {
+     "id": "ent-630072dde9",
+     "date": "2025-02-26",
+     "titre": "Centre sportif de Verbier - CFC 211 Maçonnerie, béton armé",
+     "url": "https://www.simap.ch/fr/project-detail/e621526c-ff2d-4a0f-8d0a-bb445cd7403c"
+    }
+   ]
+  },
+  "6077": {
+   "siege": [
+    "ent-1b28ee92b6"
+   ],
+   "marches": []
+  },
+  "6082": {
+   "siege": [],
+   "marches": [
+    {
+     "id": "ent-1ef761b229",
+     "date": "2025-03-12",
+     "titre": "Réfection du revêtement de la route du Rawyl, PR 10+140 à 20+600, sur la RC no 205 Fortunau - Tseuzier - Rawyl",
+     "url": "https://www.simap.ch/fr/project-detail/cea9ff5b-05ab-451b-bf84-11d9f2ca9f2c"
+    }
+   ]
+  },
+  "6083": {
+   "siege": [],
+   "marches": [
+    {
+     "id": "ent-734d5f7d45",
+     "date": "2024-12-06",
+     "titre": "Construction d'un centre médical, salle multi-usages, UAPE et crèche à Evolène - CFC 11, 17, 201 - Travaux spéciaux et terrassements",
+     "url": "https://www.simap.ch/fr/project-detail/a66e6dc4-e96a-4eb8-8714-fde203de44a8"
+    }
+   ]
+  },
+  "6084": {
+   "siege": [],
+   "marches": [
+    {
+     "id": "ent-6e874811ae",
+     "date": "2026-06-12",
+     "titre": "Remplacement de la couche de roulement à l'intérieur d'Euseigne, sur la RC no 54 Sion - Les Haudères - Arolla, sur le territoire de la commune d'Hérémence",
+     "url": "https://www.simap.ch/fr/project-detail/582ed2da-6eb2-447b-bb79-e562afaf5afb"
+    }
+   ]
+  },
+  "6087": {
+   "siege": [],
+   "marches": [
+    {
+     "id": "ent-e0b3af4121",
+     "date": "2026-06-08",
+     "titre": "Correction de la chaussée et construction de trottoirs à Suen et St-Martin, sur la RC no 53 Bramois - St-Martin - La Crête, sur le territoire de la commune de St-Martin",
+     "url": "https://www.simap.ch/fr/project-detail/56a5b5b1-fe0e-486a-914d-88607f9a8d96"
+    },
+    {
+     "id": "ent-1ef761b229",
+     "date": "2025-12-29",
+     "titre": "Réfection du revêtement entre Bella Plache et Prassan sur la RC no 209 Praz-Jean - St-Martin, sur le territoire de la commune de St-Martin",
+     "url": "https://www.simap.ch/fr/project-detail/26cfae60-9a78-4f02-888c-8ed6900f8bcf"
+    }
+   ]
+  },
+  "6090": {
+   "siege": [],
+   "marches": [
+    {
+     "id": "ent-55bb6b3e49",
+     "date": "2026-06-17",
+     "titre": "Restructuration de la route des Mayens de Vernamiège - Tronçon 1",
+     "url": "https://www.simap.ch/fr/project-detail/9d760cd8-a36f-4cbd-80e0-00aafc142e9e"
+    }
+   ]
+  },
+  "6111": {
+   "siege": [],
+   "marches": [
+    {
+     "id": "ent-571d0a02a0",
+     "date": "2026-05-27",
+     "titre": "Wärmezentrale WN Leukerbad - BKP 240 Heizungsanlage",
+     "url": "https://www.simap.ch/fr/project-detail/fcb68b32-dc7a-4357-8043-8a5abfc30b23"
+    },
+    {
+     "id": "ent-866876591f",
+     "date": "2026-04-13",
+     "titre": "Baumeisterarbeiten Fernwärmezentrale Leukerbad - Hochbau",
+     "url": "https://www.simap.ch/fr/project-detail/9cb9a163-a57a-4f12-8ee7-b55ba6a81b6e"
+    }
+   ]
+  },
+  "6118": {
+   "siege": [
+    "ent-e960aafbfb"
+   ],
+   "marches": []
+  },
+  "6133": {
+   "siege": [
+    "ent-2f20a67879",
+    "ent-b0e59bf8fb"
+   ],
+   "marches": [
+    {
+     "id": "ent-e0b3af4121",
+     "date": "2025-09-04",
+     "titre": "Projet d’aménagement du torrent du Métin contre les crues et laves torrentielles",
+     "url": "https://www.simap.ch/fr/project-detail/5f78d2f8-2b0e-48bd-968b-e7ee5dfc8772"
+    },
+    {
+     "id": "ent-1ef761b229",
+     "date": "2025-05-16",
+     "titre": "Commune de Fully – Equipements réseaux rue du Stade et raccord sur centrale de chauffe Charnot – Travaux de génie civil",
+     "url": "https://www.simap.ch/fr/project-detail/326e7f1e-42ee-40ec-babb-2ea1ab97858d"
+    }
+   ]
+  },
+  "6135": {
+   "siege": [],
+   "marches": [
+    {
+     "id": "ent-e0b3af4121",
+     "date": "2026-07-11",
+     "titre": "Travaux de génie civil pour la construction du dépotoir de Verfi - Montagnon",
+     "url": "https://www.simap.ch/fr/project-detail/7fbc00fc-4b41-4377-8ca7-0b9eada2f8f8"
+    }
+   ]
+  },
+  "6136": {
+   "siege": [
+    "ent-10b3d0eadc",
+    "ent-9493d5d8a5",
+    "ent-a0e707f24c",
+    "ent-f64c995d1b",
+    "ent-fca6df6039"
+   ],
+   "marches": [
+    {
+     "id": "ent-6e874811ae",
+     "date": "2026-05-25",
+     "titre": "VE 21.45 – Assainissement galerie du Bourgout",
+     "url": "https://www.simap.ch/fr/project-detail/1b96cd39-3098-4fb5-9251-e21bd5e11eee"
+    },
+    {
+     "id": "ent-1ef761b229",
+     "date": "2026-05-13",
+     "titre": "Réfection de la chaussée et adaptation des réseaux de canalisations Rue de Bonnes-Luites / Martigny",
+     "url": "https://www.simap.ch/fr/project-detail/dc6a90e9-3beb-4f71-895e-f537f224b346"
+    },
+    {
+     "id": "ent-8798cd7fa8",
+     "date": "2025-07-24",
+     "titre": "Aménagement Halle Catogne III - LOT 36 - Installations électriques basse tension",
+     "url": "https://www.simap.ch/fr/project-detail/39889ddd-4575-420f-b6e9-2291fd697e43"
+    },
+    {
+     "id": "ent-fca6df6039",
+     "date": "2025-07-17",
+     "titre": "Aménagement halle Catogne III - LOT 31 : Terrassement et Gros-oeuvre béton armé",
+     "url": "https://www.simap.ch/fr/project-detail/f1def0e5-5e32-4122-8a0c-42239f5c48e2"
+    },
+    {
+     "id": "ent-42fbc21c38",
+     "date": "2025-07-12",
+     "titre": "HUB Martigny-Croix – Travaux de génie civil",
+     "url": "https://www.simap.ch/fr/project-detail/61a2f120-66a0-49e1-ad95-19220b87fff6"
+    },
+    {
+     "id": "ent-55bb6b3e49",
+     "date": "2025-03-28",
+     "titre": "EMS Castel Notre-Dame Martigny - CFC 211.7 Façade en briques de parement",
+     "url": "https://www.simap.ch/fr/project-detail/08cfb1e8-0c82-4bbb-b1ed-93b25097856c"
+    },
+    {
+     "id": "ent-55bb6b3e49",
+     "date": "2025-03-27",
+     "titre": "Réaménagement du parking du Midi",
+     "url": "https://www.simap.ch/fr/project-detail/8f219e89-42d7-4b0a-b824-fe86cec42187"
+    },
+    {
+     "id": "ent-734d5f7d45",
+     "date": "2025-01-06",
+     "titre": "Sécurisation de la Dranse - Travaux de génie civil pour la zone amont Ville-Étape 1",
+     "url": "https://www.simap.ch/fr/project-detail/0a212697-411c-4609-a185-e1a2dfe6f93b"
+    }
+   ]
+  },
+  "6139": {
+   "siege": [
+    "ent-aa916d5995",
+    "ent-c17a02a0fe"
+   ],
+   "marches": [
+    {
+     "id": "ent-1ef761b229",
+     "date": "2026-04-06",
+     "titre": "La Tzoumaz - Assainissement Ancienne RC87 - LOT 2",
+     "url": "https://www.simap.ch/fr/project-detail/8404b3d8-ec3c-4767-82aa-a0f3a9500a5f"
+    }
+   ]
+  },
+  "6140": {
+   "siege": [
+    "ent-10f8eeeaf9",
+    "ent-23739352be"
+   ],
+   "marches": []
+  },
+  "6141": {
+   "siege": [
+    "ent-1526e3dfc6",
+    "ent-1ef761b229",
+    "ent-307c99b8c8",
+    "ent-bef4adb474"
+   ],
+   "marches": []
+  },
+  "6152": {
+   "siege": [
+    "ent-0b4b0d879f"
+   ],
+   "marches": [
+    {
+     "id": "ent-6e874811ae",
+     "date": "2025-03-22",
+     "titre": "satom_CAD_nord_lot_11bis_franchissement_anticipé_canal_bras-neuf",
+     "url": "https://www.simap.ch/fr/project-detail/d9ca165e-6487-44f0-8aa8-5507052898be"
+    }
+   ]
+  },
+  "6153": {
+   "siege": [
+    "ent-385853dafb",
+    "ent-42fbc21c38",
+    "ent-98a7f62836",
+    "ent-9bd423c761"
+   ],
+   "marches": [
+    {
+     "id": "ent-4ee4dbbfd0",
+     "date": "2026-09-18",
+     "titre": "Modernisation et extension des infrastructures du centre médico-éducatifs de La Castalie. - CFC 287 Nettoyage du bâtiment",
+     "url": "https://www.simap.ch/fr/project-detail/7f92b780-6341-462b-a65e-8b7ffc15bb2f"
+    },
+    {
+     "id": "ent-9bd423c761",
+     "date": "2026-05-27",
+     "titre": "Monthey_collecteur_EU_Sépey_2026",
+     "url": "https://www.simap.ch/fr/project-detail/2e3a2765-da68-4da5-aa81-97171e6d02dc"
+    },
+    {
+     "id": "ent-6e874811ae",
+     "date": "2025-10-22",
+     "titre": "Terminal Combiné de Monthey SA - Pont TCM sur la Vièze",
+     "url": "https://www.simap.ch/fr/project-detail/8bd9b370-d45b-4922-bf6c-fed680a8766d"
+    },
+    {
+     "id": "ent-42fbc21c38",
+     "date": "2025-03-26",
+     "titre": "Monthey_collecteur_EU_Sépey",
+     "url": "https://www.simap.ch/fr/project-detail/1585ecc3-9490-4dcb-a03f-22c5ccedebb6"
+    }
+   ]
+  },
+  "6156": {
+   "siege": [],
+   "marches": [
+    {
+     "id": "ent-385853dafb",
+     "date": "2026-05-01",
+     "titre": "Commune de Troistorrents - Route du Stade",
+     "url": "https://www.simap.ch/fr/project-detail/c036a451-b90a-478d-a1e9-599c5a1861fd"
+    }
+   ]
+  },
+  "6173": {
+   "siege": [],
+   "marches": [
+    {
+     "id": "ent-571d0a02a0",
+     "date": "2025-05-23",
+     "titre": "Schulhaus Bitsch, BKP 242 Heizungsanlagen",
+     "url": "https://www.simap.ch/fr/project-detail/a8e29b1d-baac-4276-bd85-1a1211d899f1"
+    },
+    {
+     "id": "ent-1b28ee92b6",
+     "date": "2025-05-23",
+     "titre": "Schulhaus Bitsch, BKP 211 Baumeisterarbeiten",
+     "url": "https://www.simap.ch/fr/project-detail/4a88d635-886a-474c-8d36-fdfeb717e8a0"
+    }
+   ]
+  },
+  "6197": {
+   "siege": [],
+   "marches": [
+    {
+     "id": "ent-9ee20debe5",
+     "date": "2026-01-15",
+     "titre": "Ausbau und Erweiterung Altersheim St. Barbara in 3917 Kippel - BKP 244 Lüftungsinstallationen",
+     "url": "https://www.simap.ch/fr/project-detail/615f975b-2f64-4deb-9203-5727697d0856"
+    },
+    {
+     "id": "ent-1b28ee92b6",
+     "date": "2026-01-15",
+     "titre": "Ausbau und Erweiterung Altersheim St. Barbara in 3917 Kippel - BKP 211 Baumeisterarbeiten",
+     "url": "https://www.simap.ch/fr/project-detail/ab84ddb9-387e-4927-ba60-f0f6eeb07c30"
+    }
+   ]
+  },
+  "6199": {
+   "siege": [
+    "ent-866876591f"
+   ],
+   "marches": [
+    {
+     "id": "ent-7a6a26b648",
+     "date": "2026-02-18",
+     "titre": "Neubau Turnhalle und Kindergarten in 3942 Raron - BKP 221.1 Fenster aus Holz und Holz-Metall",
+     "url": "https://www.simap.ch/fr/project-detail/c082813d-b9d9-4f50-8440-ae1294705b02"
+    },
+    {
+     "id": "ent-a18d53ad49",
+     "date": "2025-10-31",
+     "titre": "Neubau Turnhalle und Kindergarten in 3942 Raron - BKP 251 Sanitärinstallationen",
+     "url": "https://www.simap.ch/fr/project-detail/08629067-b82f-485d-88c6-9a307e885c68"
+    },
+    {
+     "id": "ent-0ff073ea76",
+     "date": "2025-10-31",
+     "titre": "Neubau Turnhalle und Kindergarten in 3942 Raron - BKP 211 Baumeisterarbeiten",
+     "url": "https://www.simap.ch/fr/project-detail/638cd632-b0a2-48f8-8fd1-7c2f68fcf133"
+    }
+   ]
+  },
+  "6213": {
+   "siege": [
+    "ent-2e95761ef8",
+    "ent-fad81506c0"
+   ],
+   "marches": []
+  },
+  "6215": {
+   "siege": [],
+   "marches": [
+    {
+     "id": "ent-6e874811ae",
+     "date": "2026-09-04",
+     "titre": "107 Charrières / Soutènement aval",
+     "url": "https://www.simap.ch/fr/project-detail/22cba097-a92e-4d80-b6f3-5162e05bfffb"
+    }
+   ]
+  },
+  "6217": {
+   "siege": [
+    "ent-2cd68f5b3a",
+    "ent-4ee4dbbfd0",
+    "ent-8b005bad35"
+   ],
+   "marches": [
+    {
+     "id": "ent-6e874811ae",
+     "date": "2026-09-04",
+     "titre": "104 La Chaux - Pissevache / Affaissement de bord de chaussée",
+     "url": "https://www.simap.ch/fr/project-detail/b0f2f077-061d-4d7c-a424-761f285bd32b"
+    },
+    {
+     "id": "ent-42fbc21c38",
+     "date": "2026-07-01",
+     "titre": "Réaménagement de la Rue de la Cime de l'Est à Saint-Maurice",
+     "url": "https://www.simap.ch/fr/project-detail/6e0d4b28-3bc7-489c-8018-71389e377784"
+    },
+    {
+     "id": "ent-fad81506c0",
+     "date": "2026-05-27",
+     "titre": "Extension et rénovation du Lycée-collège de St-Maurice : ZONE SPORTIVE - CFC 224",
+     "url": "https://www.simap.ch/fr/project-detail/98bcdd2d-cfff-44e4-8768-e708a1807381"
+    },
+    {
+     "id": "ent-c17a02a0fe",
+     "date": "2026-05-02",
+     "titre": "Construction d'un EMS & AEMS - St-Maurice - CFC 250 Installations sanitaires",
+     "url": "https://www.simap.ch/fr/project-detail/63cdf91b-0bbe-4372-87a6-2281a80010f8"
+    },
+    {
+     "id": "ent-8798cd7fa8",
+     "date": "2026-05-02",
+     "titre": "Construction d'un EMS & AEMS - St-Maurice - CFC 230 Installations électriques",
+     "url": "https://www.simap.ch/fr/project-detail/4ab479d7-00ef-4625-b969-6f8449ad926f"
+    },
+    {
+     "id": "ent-734d5f7d45",
+     "date": "2026-05-02",
+     "titre": "Construction d'un EMS & AEMS - St-Maurice - CFC 201 Terrassement + TS",
+     "url": "https://www.simap.ch/fr/project-detail/95465d92-7be7-46b7-862a-a376ca087134"
+    },
+    {
+     "id": "ent-23739352be",
+     "date": "2026-05-02",
+     "titre": "Construction d'un EMS & AEMS - St-Maurice - CFC 242 Installations chauffage",
+     "url": "https://www.simap.ch/fr/project-detail/60ac2c55-1289-456b-a9c2-832dab201b91"
+    },
+    {
+     "id": "ent-23739352be",
+     "date": "2026-05-02",
+     "titre": "Construction d'un EMS & AEMS - St-Maurice - CFC 244 Installations ventilation",
+     "url": "https://www.simap.ch/fr/project-detail/5a646fa7-1615-425d-87af-3539fcf66f8b"
+    },
+    {
+     "id": "ent-c17a02a0fe",
+     "date": "2026-04-21",
+     "titre": "Extension et rénovation du Lycée-collège de St-Maurice : ZONE SPORTIVE - CFC 250",
+     "url": "https://www.simap.ch/fr/project-detail/766cbd2d-df3e-49bb-b938-dc7b763cb65b"
+    },
+    {
+     "id": "ent-42fbc21c38",
+     "date": "2026-04-21",
+     "titre": "Extension et rénovation du Lycée-collège de St-Maurice - CFC 201",
+     "url": "https://www.simap.ch/fr/project-detail/96f20200-cced-4138-a661-d89294cfd823"
+    },
+    {
+     "id": "ent-f242cbd364",
+     "date": "2026-04-17",
+     "titre": "Extension et rénovation du Lycée-collège de St-Maurice - CFC 261",
+     "url": "https://www.simap.ch/fr/project-detail/31a0d7f3-73e4-4320-a181-a600177b5827"
+    },
+    {
+     "id": "ent-fca6df6039",
+     "date": "2026-04-09",
+     "titre": "Extension et rénovation du Lycée-collège de St-Maurice : ZONE SPORTIVE - CFC 211",
+     "url": "https://www.simap.ch/fr/project-detail/636ef547-7c63-494a-93b5-890b419470aa"
+    },
+    {
+     "id": "ent-bd58f9a809",
+     "date": "2026-04-09",
+     "titre": "Extension et rénovation du Lycée-collège de St-Maurice : ZONE SPORTIVE - CFC 214",
+     "url": "https://www.simap.ch/fr/project-detail/9d199cb3-31a8-4189-87f9-8ccea9fa6656"
+    },
+    {
+     "id": "ent-8798cd7fa8",
+     "date": "2026-04-09",
+     "titre": "Extension et rénovation du Lycée-collège de St-Maurice : ZONE SPORTIVE - CFC 230",
+     "url": "https://www.simap.ch/fr/project-detail/d075befb-0269-4272-a524-b68d6287ef48"
+    },
+    {
+     "id": "ent-42fbc21c38",
+     "date": "2026-04-09",
+     "titre": "Extension et rénovation du Lycée-collège de St-Maurice : ZONE SPORTIVE - CFC 201",
+     "url": "https://www.simap.ch/fr/project-detail/0570f7e8-6ee7-48fe-a8c1-0e31d23cba1b"
+    },
+    {
+     "id": "ent-8b005bad35",
+     "date": "2026-03-30",
+     "titre": "Extension et rénovation du Lycée-collège de St-Maurice : ZONE SPORTIVE - CFC 242",
+     "url": "https://www.simap.ch/fr/project-detail/58290410-b4f9-44bf-8ad5-17d22c6c3f93"
+    },
+    {
+     "id": "ent-8b005bad35",
+     "date": "2026-03-25",
+     "titre": "Extension et rénovation du Lycée-collège de St-Maurice - CFC 250",
+     "url": "https://www.simap.ch/fr/project-detail/c5b1b1d8-d979-4cfd-9207-bf93bf5bb00c"
+    },
+    {
+     "id": "ent-734d5f7d45",
+     "date": "2026-01-30",
+     "titre": "Extension et rénovation du Lycée-collège de St-Maurice - CFC 112",
+     "url": "https://www.simap.ch/fr/project-detail/15c7554e-7ad8-4509-a43e-5ebfec11b503"
+    }
+   ]
+  },
+  "6238": {
+   "siege": [],
+   "marches": [
+    {
+     "id": "ent-bd58f9a809",
+     "date": "2026-09-25",
+     "titre": "Ecole de Grône - Agrandissement du centre scolaire",
+     "url": "https://www.simap.ch/fr/project-detail/4e4f85ad-aaa0-4fa1-8a2a-4fbe60e26e2a"
+    },
+    {
+     "id": "ent-7a6a26b648",
+     "date": "2026-09-25",
+     "titre": "Ecole de Grône - Agrandissement du centre scolaires",
+     "url": "https://www.simap.ch/fr/project-detail/613673d1-84b3-4e4c-a2b9-69a0250c3f34"
+    },
+    {
+     "id": "ent-5398e1188f",
+     "date": "2026-09-24",
+     "titre": "Ecole de Grône - Agrandissement du centre scolaires",
+     "url": "https://www.simap.ch/fr/project-detail/54ca0b4a-1a34-48d1-a2b5-a8a163033f49"
+    },
+    {
+     "id": "ent-23739352be",
+     "date": "2026-06-30",
+     "titre": "Ecole de Grône - Agrandissement du centre scolaire",
+     "url": "https://www.simap.ch/fr/project-detail/f952bd51-7d30-47f7-a250-2d75cbdc6612"
+    },
+    {
+     "id": "ent-c17a02a0fe",
+     "date": "2026-06-17",
+     "titre": "Ecole de Grône - Agrandissement du centre scolaire",
+     "url": "https://www.simap.ch/fr/project-detail/dca96ab7-7d5f-4cca-bf92-7f4532e66563"
+    },
+    {
+     "id": "ent-ba126caa5b",
+     "date": "2026-06-17",
+     "titre": "Ecole de Grône - Agrandissement du centre scolaire",
+     "url": "https://www.simap.ch/fr/project-detail/9f7a8a75-f67a-4b87-8783-0dc683aa1030"
+    },
+    {
+     "id": "ent-8798cd7fa8",
+     "date": "2026-06-17",
+     "titre": "Ecole de Grône - Agrandissement du centre scolaire",
+     "url": "https://www.simap.ch/fr/project-detail/3715ea6e-c37a-42b9-a512-24be84a29cbe"
+    },
+    {
+     "id": "ent-266673a5c4",
+     "date": "2026-06-04",
+     "titre": "Ecole de Grône - Agrandissement du centre scolaire",
+     "url": "https://www.simap.ch/fr/project-detail/ab056a15-198c-45dc-a715-56981f91163a"
+    }
+   ]
+  },
+  "6246": {
+   "siege": [
+    "ent-a9007783f5"
+   ],
+   "marches": [
+    {
+     "id": "ent-734d5f7d45",
+     "date": "2025-10-30",
+     "titre": "Réfection Rue de la Grande Meunière à St-Léonard",
+     "url": "https://www.simap.ch/fr/project-detail/e6e9dacc-cd00-4660-97a6-8b26519289ca"
+    }
+   ]
+  },
+  "6248": {
+   "siege": [
+    "ent-266673a5c4",
+    "ent-e0b3af4121"
+   ],
+   "marches": [
+    {
+     "id": "ent-9493d5d8a5",
+     "date": "2026-09-25",
+     "titre": "Construction et transformation des ateliers de l'EPCL sur le site de Crêtelongue à Sierre - CFC 24",
+     "url": "https://www.simap.ch/fr/project-detail/674957b8-176c-4720-a20a-fb95a7587c24"
+    },
+    {
+     "id": "ent-9493d5d8a5",
+     "date": "2026-09-25",
+     "titre": "Construction et transformation des ateliers de l'EPCL sur le site de Crêtelongue à Sierre - CFC 25",
+     "url": "https://www.simap.ch/fr/project-detail/2fb3d80b-4774-4e25-97c1-9c2e7bad255f"
+    },
+    {
+     "id": "ent-bbb1d817ce",
+     "date": "2026-09-18",
+     "titre": "Construction du Campus EDHEA et Ecole de couture du Valais à Sierre - CFC 231.5",
+     "url": "https://www.simap.ch/fr/project-detail/e1de6498-0ec7-4573-b69e-d6ae4487cb6e"
+    },
+    {
+     "id": "ent-266673a5c4",
+     "date": "2026-08-27",
+     "titre": "Appel d'offres N° 26-504 Dépotoir de Viouc - Travaux de génie civil et béton armé",
+     "url": "https://www.simap.ch/fr/project-detail/da37f14b-b63f-4bde-a62e-6f2ac00f48c1"
+    },
+    {
+     "id": "ent-5398e1188f",
+     "date": "2026-05-20",
+     "titre": "Construction et transformation des ateliers de l'EPCL sur le site de Crêtelongue à Sierre - CFC 272.0 et CFC 272.3 Portes et vitrages intérieurs en aluminium",
+     "url": "https://www.simap.ch/fr/project-detail/c64dd0a3-c9d4-4a0b-9ee5-6b1e58c40beb"
+    },
+    {
+     "id": "ent-5398e1188f",
+     "date": "2026-05-06",
+     "titre": "Copie Construction et transformation des ateliers de l'EPCL sur le site de Crêtelongue à Sierre - CFC 221.4 - Fenêtres et portes extérieures en aluminium",
+     "url": "https://www.simap.ch/fr/project-detail/bf1ba7c8-b226-4bed-867a-25a43ec76057"
+    },
+    {
+     "id": "ent-fad81506c0",
+     "date": "2026-04-17",
+     "titre": "Construction et transformation des ateliers de l'EPCL sur le site de Crêtelongue à Sierre - CFC 224.1 - Étanchéité toiture plate enterrée",
+     "url": "https://www.simap.ch/fr/project-detail/b7f7debe-9c0d-40d9-aef7-eb8f54a3697d"
+    },
+    {
+     "id": "ent-c17a02a0fe",
+     "date": "2026-03-10",
+     "titre": "Construction et transformation des ateliers de l'EPCL sur le site de Crêtelongue à Sierre - CFC 25",
+     "url": "https://www.simap.ch/fr/project-detail/2fb3d80b-4774-4e25-97c1-9c2e7bad255f"
+    },
+    {
+     "id": "ent-0b4b0d879f",
+     "date": "2026-03-10",
+     "titre": "Construction et transformation des ateliers de l'EPCL sur le site de Crêtelongue à Sierre - CFC 24",
+     "url": "https://www.simap.ch/fr/project-detail/674957b8-176c-4720-a20a-fb95a7587c24"
+    },
+    {
+     "id": "ent-9493d5d8a5",
+     "date": "2026-03-06",
+     "titre": "Appel d'offres UAPE de Borzuat - installation de chauffage",
+     "url": "https://www.simap.ch/fr/project-detail/3a072967-7301-43b4-b151-5898f226da8a"
+    },
+    {
+     "id": "ent-8798cd7fa8",
+     "date": "2026-03-06",
+     "titre": "Appel d'offres UAPE de Borzuat - électricité + luminaires",
+     "url": "https://www.simap.ch/fr/project-detail/2cea8775-4586-411a-bc6c-3174851caf7f"
+    },
+    {
+     "id": "ent-7a6a26b648",
+     "date": "2026-03-06",
+     "titre": "Appel d'offres UAPE de Borzuat - Fenêtres bois-métal",
+     "url": "https://www.simap.ch/fr/project-detail/5d392192-bb28-4e39-9d16-43a294795d7c"
+    },
+    {
+     "id": "ent-66a104399b",
+     "date": "2026-03-03",
+     "titre": "Construction et transformation des ateliers de l'EPCL sur le site de Crêtelongue à Sierre - CFC 23",
+     "url": "https://www.simap.ch/fr/project-detail/d4de4346-bf1f-4c67-b13d-fda0a71961ca"
+    },
+    {
+     "id": "ent-734d5f7d45",
+     "date": "2026-02-16",
+     "titre": "CAD Sierre - Route de l'Hôpital - Secteur 2026",
+     "url": "https://www.simap.ch/fr/project-detail/07d7e2bc-c79b-413f-af7c-6661b157a762"
+    },
+    {
+     "id": "ent-23739352be",
+     "date": "2026-01-22",
+     "titre": "Construction et transformation des ateliers de l'EPCL sur le site de Crêtelongue à Sierre - CFC 215.5",
+     "url": "https://www.simap.ch/fr/project-detail/1633db1f-35e4-44ce-907d-fe182ec57e19"
+    },
+    {
+     "id": "ent-266673a5c4",
+     "date": "2025-10-20",
+     "titre": "Correction de la chaussée sur la route de Corin à Sierre, sur la RC no 46 Sierre - Chermignon - Crans",
+     "url": "https://www.simap.ch/fr/project-detail/150d6750-6ee3-4a92-82d7-45c122c6090e"
+    },
+    {
+     "id": "ent-bd58f9a809",
+     "date": "2025-10-10",
+     "titre": "Construction du Campus EDHEA et Ecole de couture du Valais à Sierre - CFC 214.3",
+     "url": "https://www.simap.ch/fr/project-detail/4f212def-c1ce-4f02-b351-55b4ed72f0fd"
+    },
+    {
+     "id": "ent-e0b3af4121",
+     "date": "2025-10-02",
+     "titre": "Aménagement d'un trottoir mixte sur la route d'Escala et des Laminoirs, à Sierre, sur la RC no T9 St-Maurice - Brig",
+     "url": "https://www.simap.ch/fr/project-detail/315be122-b557-4a1a-8690-5d630e307334"
+    },
+    {
+     "id": "ent-23739352be",
+     "date": "2025-08-22",
+     "titre": "Construction du Campus EDHEA et Ecole de couture du Valais à Sierre",
+     "url": "https://www.simap.ch/fr/project-detail/f170b614-397b-4d08-bc07-9d3207b80034"
+    },
+    {
+     "id": "ent-734d5f7d45",
+     "date": "2025-05-06",
+     "titre": "CAD Sierre - Route de l'Hôpital - Secteur 2025",
+     "url": "https://www.simap.ch/fr/project-detail/0024a60e-fe1b-4172-a514-cd5af4d88b3c"
+    },
+    {
+     "id": "ent-bd58f9a809",
+     "date": "2024-11-08",
+     "titre": "Construction du Campus EDHEA et Ecole de couture du Valais à Sierre",
+     "url": "https://www.simap.ch/fr/project-detail/9ea882af-d7b3-4c7d-8458-90396b037b30"
+    }
+   ]
+  },
+  "6252": {
+   "siege": [],
+   "marches": [
+    {
+     "id": "ent-e0b3af4121",
+     "date": "2026-09-22",
+     "titre": "Protection contre les crues de la Navizence. Aménagement du secteur Mission - LOT 1",
+     "url": "https://www.simap.ch/fr/project-detail/221ab6f5-bf61-44dd-acfe-eba82a837eac"
+    },
+    {
+     "id": "ent-266673a5c4",
+     "date": "2026-04-01",
+     "titre": "Réfection de la chaussée à l'aval de Chandolin, sur la RC no 42 Vissoie - St-Luc - Chandolin, sur le territoire de la commune d'Anniviers",
+     "url": "https://www.simap.ch/fr/project-detail/f0ac7d81-8e22-40df-bacb-fb2aa94c095b"
+    },
+    {
+     "id": "ent-e0b3af4121",
+     "date": "2026-03-24",
+     "titre": "Projet d’aménagement des mesures de protection contre les crues du Torrent de Prapane à Vissoie – Etapes 2 et 3",
+     "url": "https://www.simap.ch/fr/project-detail/d949e7d0-6ed2-46d4-98b7-da86dcdb7aff"
+    },
+    {
+     "id": "ent-266673a5c4",
+     "date": "2026-03-18",
+     "titre": "Réfection de la route d'Ayer et du pont sur le torrent du Moulin, à Vissoie, sur la RC no 40 Sierre - Vissoie - Ayer - Zinal, sur le territoire de la commune d'Anniviers",
+     "url": "https://www.simap.ch/fr/project-detail/7a287be1-4007-4a6c-bcb4-214ac92a9238"
+    },
+    {
+     "id": "ent-266673a5c4",
+     "date": "2026-02-27",
+     "titre": "Mini Centrale électrique de Nava à Ayer",
+     "url": "https://www.simap.ch/fr/project-detail/3c12ccb7-744d-4f47-a16d-18c428687ee1"
+    },
+    {
+     "id": "ent-266673a5c4",
+     "date": "2025-07-11",
+     "titre": "Réfection de la chaussée sur la RC no 40 Sierre - Vissoie - Ayer - Zinal, à Mission, sur le territoire de la commune d'Anniviers",
+     "url": "https://www.simap.ch/fr/project-detail/0ced9338-6b34-48ce-86fb-a493a0de6a0c"
+    },
+    {
+     "id": "ent-266673a5c4",
+     "date": "2025-04-29",
+     "titre": "Réfection de la chaussée sur la RC no 41 Vissoie - Grimentz - Barrage de Moiry, au lieu-dit \"Les Tsànèvèrettes\", sur le territoire de la commune d'Anniviers",
+     "url": "https://www.simap.ch/fr/project-detail/7359b37f-ddaf-45df-ba3c-4e765e49693c"
+    },
+    {
+     "id": "ent-266673a5c4",
+     "date": "2025-03-19",
+     "titre": "Travaux de confortation et de réfection de la chaussée sur la route de Zinal, au lieu-dit \"Les Grands Pras\", sur la RC no 40 Sierre - Vissoie - Ayer - Zinal, sur le territoire de la commune d'Anniviers",
+     "url": "https://www.simap.ch/fr/project-detail/261aeed3-132e-4976-b15c-799da30ed870"
+    }
+   ]
+  },
+  "6253": {
+   "siege": [
+    "ent-ba126caa5b"
+   ],
+   "marches": [
+    {
+     "id": "ent-8b005bad35",
+     "date": "2026-06-03",
+     "titre": "Centrale de chauffe du Guépard - Crans-Montana",
+     "url": "https://www.simap.ch/fr/project-detail/3bf86a1c-9a54-4427-8a12-690b166c328b"
+    },
+    {
+     "id": "ent-e0b3af4121",
+     "date": "2026-03-31",
+     "titre": "Réfection de la route de l'Astoria à Montana, sur la RC no 624 Mollens - Aminona - Crans, sur le territoire de la commune de Crans-Montana",
+     "url": "https://www.simap.ch/fr/project-detail/067d9c76-ca73-4c4d-965e-c36a0f5324b3"
+    },
+    {
+     "id": "ent-1ef761b229",
+     "date": "2026-03-18",
+     "titre": "Réfection de la chaussée sur le tronçon de route compris entre La Boverêche et Montana, sur la RC no 624 Mollens - Aminona - Crans, sur le territoire de la commune de Crans-Montana",
+     "url": "https://www.simap.ch/fr/project-detail/e2d43e98-01bd-46ba-b71c-f2e60fbbd0ea"
+    },
+    {
+     "id": "ent-66a104399b",
+     "date": "2025-11-25",
+     "titre": "Clinique bernoise 2028 - CFC 231 Installations à courant fort (distributions secondaires)",
+     "url": "https://www.simap.ch/fr/project-detail/fa3e7c43-977d-4012-a8c5-e79d34700617"
+    },
+    {
+     "id": "ent-734d5f7d45",
+     "date": "2025-11-14",
+     "titre": "Réfection de la route de Chermoran à Bluche, sur la RC no 47 Montana Village - Bluche, sur le territoire de la commune de Crans-Montana",
+     "url": "https://www.simap.ch/fr/project-detail/1f4634d5-1650-40ca-8cf5-9c8df8d32bc4"
+    },
+    {
+     "id": "ent-66a104399b",
+     "date": "2025-07-25",
+     "titre": "Copie Clinique bernoise 2028 - CFC 230 Installations éléctriques",
+     "url": "https://www.simap.ch/fr/project-detail/2677f312-d591-4af2-8bc9-f56065397269"
+    },
+    {
+     "id": "ent-ba126caa5b",
+     "date": "2025-05-23",
+     "titre": "Clinique bernoise 2028 - CFC 242 Installations de chauffage",
+     "url": "https://www.simap.ch/fr/project-detail/a9939a43-5587-41fd-87c2-6892659ac65b"
+    },
+    {
+     "id": "ent-ba126caa5b",
+     "date": "2025-05-23",
+     "titre": "Clinique bernoise 2028 - CFC 250 Installations sanitaires",
+     "url": "https://www.simap.ch/fr/project-detail/5c702d68-00f2-4aec-aab2-85a8df802b98"
+    },
+    {
+     "id": "ent-9ee20debe5",
+     "date": "2025-05-23",
+     "titre": "Clinique bernoise 2028 - CFC 244 Ventilation et climatisation",
+     "url": "https://www.simap.ch/fr/project-detail/c42fb23b-bcba-49b0-b63b-967f84c404ad"
+    },
+    {
+     "id": "ent-266673a5c4",
+     "date": "2025-05-23",
+     "titre": "Clinique bernoise 2028 - CFC 211 Travaux de construction",
+     "url": "https://www.simap.ch/fr/project-detail/b37dc6e4-b950-4df5-b69b-8b2be5d9f2b5"
+    },
+    {
+     "id": "ent-7a6a26b648",
+     "date": "2024-12-19",
+     "titre": "IBM - Construction de deux immeubles de logements à Montana-Village",
+     "url": "https://www.simap.ch/fr/project-detail/44201f99-17ab-4b16-9aec-bb448c1cb30d"
+    },
+    {
+     "id": "ent-66a104399b",
+     "date": "2024-12-19",
+     "titre": "IBM - Construction de deux immeubles de logements à Montana-Village",
+     "url": "https://www.simap.ch/fr/project-detail/7e97d1a3-e58e-42ae-928e-13c2470640c8"
+    },
+    {
+     "id": "ent-734d5f7d45",
+     "date": "2024-11-29",
+     "titre": "IBM - Construction de deux immeubles de logements à Montana-Village",
+     "url": "https://www.simap.ch/fr/project-detail/7f9ddc38-a897-4bf5-82f0-52e291f55591"
+    }
+   ]
+  },
+  "6265": {
+   "siege": [],
+   "marches": [
+    {
+     "id": "ent-ba126caa5b",
+     "date": "2026-09-03",
+     "titre": "SAV_AO_2240 - Ferblanterie et couverture",
+     "url": "https://www.simap.ch/fr/project-detail/bda26477-414e-4614-b9c5-1136b45afd39"
+    },
+    {
+     "id": "ent-bd58f9a809",
+     "date": "2026-07-01",
+     "titre": "SAV AO_2140",
+     "url": "https://www.simap.ch/fr/project-detail/71df5275-8b23-45b0-bff7-b2803a625f43"
+    },
+    {
+     "id": "ent-bd58f9a809",
+     "date": "2026-07-01",
+     "titre": "SAV_AO_2730 - Portes et vitrages intérieurs, armoires et meubles divers",
+     "url": "https://www.simap.ch/fr/project-detail/16c1c048-51cd-41d6-98ad-6c3c769720db"
+    },
+    {
+     "id": "ent-8798cd7fa8",
+     "date": "2026-07-01",
+     "titre": "SAV AO_2300",
+     "url": "https://www.simap.ch/fr/project-detail/1d07c224-0398-4dc2-a52f-b25c508651e7"
+    },
+    {
+     "id": "ent-55bb6b3e49",
+     "date": "2026-07-01",
+     "titre": "SAV AO_2010",
+     "url": "https://www.simap.ch/fr/project-detail/4d54eb52-0ca3-42c9-ba94-335dc46e14f8"
+    },
+    {
+     "id": "ent-04c51f7c9d",
+     "date": "2026-07-01",
+     "titre": "SAV AO_2420",
+     "url": "https://www.simap.ch/fr/project-detail/5190d671-bdba-4d4a-8444-e5676b8dcdbd"
+    },
+    {
+     "id": "ent-034c9b5b0e",
+     "date": "2026-07-01",
+     "titre": "SAV AO_2440",
+     "url": "https://www.simap.ch/fr/project-detail/b94ca204-50dd-4ee1-ad03-cf3fbf6ebf6b"
+    },
+    {
+     "id": "ent-04c51f7c9d",
+     "date": "2026-02-24",
+     "titre": "Fourniture et installation des équipements pour une central de chauffage à distance à St-Germain Savièse",
+     "url": "https://www.simap.ch/fr/project-detail/799b02de-e707-4bd8-b223-a535ac3ffd32"
+    },
+    {
+     "id": "ent-55bb6b3e49",
+     "date": "2025-02-26",
+     "titre": "Réaffectation ancien bâtiment des travaux publics - AO Gros œuvre",
+     "url": "https://www.simap.ch/fr/project-detail/4e48cb56-c8f2-4a7a-99fc-e0900fe4f738"
+    }
+   ]
+  },
+  "6266": {
+   "siege": [
+    "ent-034c9b5b0e",
+    "ent-04c51f7c9d",
+    "ent-2f4e3da9c4",
+    "ent-4ea9e1b470",
+    "ent-5398e1188f",
+    "ent-66a104399b",
+    "ent-6e874811ae",
+    "ent-734d5f7d45",
+    "ent-8798cd7fa8",
+    "ent-bbb1d817ce",
+    "ent-bd58f9a809",
+    "ent-e1d23a9ab3",
+    "ent-f242cbd364"
+   ],
+   "marches": [
+    {
+     "id": "ent-266673a5c4",
+     "date": "2026-09-18",
+     "titre": "Campus du Pôle Santé - CFC 859.1 - Travaux de génie civil pour puits de pompage",
+     "url": "https://www.simap.ch/fr/project-detail/47eb5c99-36e3-44cd-ae51-d907bd38e064"
+    },
+    {
+     "id": "ent-8798cd7fa8",
+     "date": "2026-09-16",
+     "titre": "Campus du Pôle Santé - CFC 853 - Electricité pour puits de pompage",
+     "url": "https://www.simap.ch/fr/project-detail/08d3ccfc-f116-4d86-82b4-3165f2beb26f"
+    },
+    {
+     "id": "ent-6e874811ae",
+     "date": "2026-06-25",
+     "titre": "Aménagement d'une piste cyclable bidirectionnelle sur la digue nord du Rhône entre Sion et Batassé, sur le territoire de la Ville de Sion",
+     "url": "https://www.simap.ch/fr/project-detail/dc748e91-fd31-4e3b-a415-ca18dacb6102"
+    },
+    {
+     "id": "ent-734d5f7d45",
+     "date": "2025-10-07",
+     "titre": "Réfection complète de la chaussée et création d'aménagements cyclables à la rue de l'Industrie à Sion sur la route du Rhône 1 (itinéraire cyclable cantonal) - Lot TP Sion 2025-12",
+     "url": "https://www.simap.ch/fr/project-detail/170f9c5b-a7cc-4a94-8044-a080d67abaaa"
+    },
+    {
+     "id": "ent-55bb6b3e49",
+     "date": "2025-06-05",
+     "titre": "Correction de la chaussée à l'amont de Sion, sur la RC no 62 Sion - Nendaz, sur le territoire de la commune de Sion",
+     "url": "https://www.simap.ch/fr/project-detail/f0194df8-95ef-4cff-b46f-ef7c920c4502"
+    },
+    {
+     "id": "ent-23739352be",
+     "date": "2024-11-08",
+     "titre": "Assainissement conduites sanitaires, 11 colonnes de 6 étages",
+     "url": "https://www.simap.ch/fr/project-detail/49370811-3a39-4ef5-8b36-c0fb4bbb76a1"
+    }
+   ]
+  },
+  "6287": {
+   "siege": [],
+   "marches": [
+    {
+     "id": "ent-1b28ee92b6",
+     "date": "2025-06-28",
+     "titre": "Copie Travaux de génie civil - FbE Station St. Niklaus-Josikurve",
+     "url": "https://www.simap.ch/fr/project-detail/cca8120d-7f53-45d2-b5a8-10d019445827"
+    }
+   ]
+  },
+  "6292": {
+   "siege": [],
+   "marches": [
+    {
+     "id": "ent-1b28ee92b6",
+     "date": "2025-03-17",
+     "titre": "Travaux de génie civil - FbE Station St. Niklaus-Josikurve",
+     "url": "https://www.simap.ch/fr/project-detail/bcc35203-8e7d-4328-af4e-93022dcf28ed"
+    },
+    {
+     "id": "ent-0ff073ea76",
+     "date": "2024-10-10",
+     "titre": "Baumeisterarbeiten Sofortmassnahmen Kipfen",
+     "url": "https://www.simap.ch/fr/project-detail/7a9930fe-dbdf-4a5e-ab79-4bb8a75eedd1"
+    }
+   ]
+  },
+  "6295": {
+   "siege": [],
+   "marches": [
+    {
+     "id": "ent-0ff073ea76",
+     "date": "2025-06-19",
+     "titre": "390117 - Travaux de construction - FbE Schali - Täsch",
+     "url": "https://www.simap.ch/fr/project-detail/bb1c5f9c-3620-4cd7-b6fb-ca09e9415465"
+    }
+   ]
+  },
+  "6297": {
+   "siege": [
+    "ent-0ff073ea76",
+    "ent-7a6a26b648",
+    "ent-9ee20debe5"
+   ],
+   "marches": [
+    {
+     "id": "ent-571d0a02a0",
+     "date": "2026-05-06",
+     "titre": "Sanierung Motorfahrzeugkontrolle Visp - Bkp 242 Heizungsanlagen",
+     "url": "https://www.simap.ch/fr/project-detail/584c7142-da33-4fb4-86d9-ee3a2c166a14"
+    },
+    {
+     "id": "ent-05fb182e20",
+     "date": "2025-11-28",
+     "titre": "Sanierung Motorfahrzeugkontrolle, Visp",
+     "url": "https://www.simap.ch/fr/project-detail/728eaecf-0e00-45fa-b04d-24a817a2575b"
+    },
+    {
+     "id": "ent-1b28ee92b6",
+     "date": "2025-08-29",
+     "titre": "Sanierung und Umbau Automobilkontrolle Visp / BKP 211 Baumeisterarbeiten",
+     "url": "https://www.simap.ch/fr/project-detail/1c0e67fb-b988-47bc-bd93-ab9f6405a08e"
+    },
+    {
+     "id": "ent-0ff073ea76",
+     "date": "2025-02-20",
+     "titre": "Sportanlage Mühleye Visp, Neubau Kunstrasen",
+     "url": "https://www.simap.ch/fr/project-detail/a2f7aaff-86dd-4b9a-b689-bca2cf070328"
+    }
+   ]
+  },
+  "6298": {
+   "siege": [],
+   "marches": [
+    {
+     "id": "ent-0ff073ea76",
+     "date": "2025-08-19",
+     "titre": "Erweiterung Löschwasserreservoir A9 Bächji, Visperterminen",
+     "url": "https://www.simap.ch/fr/project-detail/09645829-5049-4bd3-bfa7-2e1fb5829766"
+    }
+   ]
+  },
+  "6300": {
+   "siege": [],
+   "marches": [
+    {
+     "id": "ent-0ff073ea76",
+     "date": "2026-09-29",
+     "titre": "HWS Triftbach - Geschiebesperre",
+     "url": "https://www.simap.ch/fr/project-detail/202bef8a-c12f-460f-8680-15d06318a9c5"
+    }
+   ]
+  }
+ },
+ "entreprises": {
+  "ent-034c9b5b0e": {
+   "nom": "Sys-TechConcept Sàrl",
+   "ville": "Sion",
+   "commune_siege": 6266,
+   "guide": false,
+   "consortium": false
+  },
+  "ent-04c51f7c9d": {
+   "nom": "GD Climat SA Sion, VS",
+   "ville": "Sion",
+   "commune_siege": 6266,
+   "guide": false,
+   "consortium": false
+  },
+  "ent-05fb182e20": {
+   "nom": "Werner Electro AG",
+   "ville": "Glis",
+   "commune_siege": 6002,
+   "guide": false,
+   "consortium": false
+  },
+  "ent-0b4b0d879f": {
+   "nom": "Ecoeur frères SA",
+   "ville": "Collombey",
+   "commune_siege": 6152,
+   "guide": false,
+   "consortium": false
+  },
+  "ent-0ff073ea76": {
+   "nom": "Ulrich Imboden AG",
+   "ville": "Visp",
+   "commune_siege": 6297,
+   "guide": false,
+   "consortium": false
+  },
+  "ent-10b3d0eadc": {
+   "nom": "Schenker Stores SA, Martigny",
+   "ville": "Martigny",
+   "commune_siege": 6136,
+   "guide": false,
+   "consortium": false
+  },
+  "ent-10f8eeeaf9": {
+   "nom": "StéVal SA",
+   "ville": "Saillon",
+   "commune_siege": 6140,
+   "guide": false,
+   "consortium": false
+  },
+  "ent-1526e3dfc6": {
+   "nom": "Aquinox Sàrl",
+   "ville": "Saxon",
+   "commune_siege": 6141,
+   "guide": false,
+   "consortium": false
+  },
+  "ent-1908a7b39a": {
+   "nom": "ALTIS Groupe SA",
+   "ville": "Le Châble VS",
+   "commune_siege": 6037,
+   "guide": false,
+   "consortium": false
+  },
+  "ent-1b28ee92b6": {
+   "nom": "Walpen AG Hoch- und Tiefbau",
+   "ville": "Reckingen VS",
+   "commune_siege": 6077,
+   "guide": false,
+   "consortium": false
+  },
+  "ent-1ef761b229": {
+   "nom": "Société de Travaux Publics, Joseph Carron SA",
+   "ville": "Saxon",
+   "commune_siege": 6141,
+   "guide": true,
+   "consortium": false
+  },
+  "ent-1f979b0082": {
+   "nom": "Alpera SA",
+   "ville": "Orsières",
+   "commune_siege": 6034,
+   "guide": false,
+   "consortium": false
+  },
+  "ent-23739352be": {
+   "nom": "BUCHARD SA",
+   "ville": "Saillon",
+   "commune_siege": 6140,
+   "guide": false,
+   "consortium": false
+  },
+  "ent-266673a5c4": {
+   "nom": "MELLY CONSTRUCTIONS SA",
+   "ville": "Sierre",
+   "commune_siege": 6248,
+   "guide": false,
+   "consortium": false
+  },
+  "ent-2be948bff6": {
+   "nom": "Consortium Galerie du Fregnoley",
+   "ville": "Le Châble VS",
+   "commune_siege": 6037,
+   "guide": false,
+   "consortium": true
+  },
+  "ent-2cd68f5b3a": {
+   "nom": "Coutaz SA",
+   "ville": "St-Maurice",
+   "commune_siege": 6217,
+   "guide": false,
+   "consortium": false
+  },
+  "ent-2e95761ef8": {
+   "nom": "Menuiserie Pascal Monnay Sàrl",
+   "ville": "Evionnaz",
+   "commune_siege": 6213,
+   "guide": false,
+   "consortium": false
+  },
+  "ent-2f20a67879": {
+   "nom": "Nicollier Group SA",
+   "ville": "Fully",
+   "commune_siege": 6133,
+   "guide": false,
+   "consortium": false
+  },
+  "ent-2f4e3da9c4": {
+   "nom": "Ascenseurs Schindler SA succursale de Sion",
+   "ville": "Sion",
+   "commune_siege": 6266,
+   "guide": false,
+   "consortium": false
+  },
+  "ent-307c99b8c8": {
+   "nom": "VI Véhicules industriels SA",
+   "ville": "Saxon",
+   "commune_siege": 6141,
+   "guide": false,
+   "consortium": false
+  },
+  "ent-385853dafb": {
+   "nom": "Michaud et Mariaux SA",
+   "ville": "Monthey",
+   "commune_siege": 6153,
+   "guide": false,
+   "consortium": false
+  },
+  "ent-42fbc21c38": {
+   "nom": "RITHNER SA",
+   "ville": "Monthey",
+   "commune_siege": 6153,
+   "guide": false,
+   "consortium": false
+  },
+  "ent-4ea9e1b470": {
+   "nom": "Techconcept SA",
+   "ville": "Sion",
+   "commune_siege": 6266,
+   "guide": false,
+   "consortium": false
+  },
+  "ent-4ee4dbbfd0": {
+   "nom": "ABI-NETTOYAGES Sàrl",
+   "ville": "St-Maurice",
+   "commune_siege": 6217,
+   "guide": false,
+   "consortium": false
+  },
+  "ent-5398e1188f": {
+   "nom": "LUYET CONSTRUCTIONS METALLIQUES SA",
+   "ville": "Sion",
+   "commune_siege": 6266,
+   "guide": false,
+   "consortium": false
+  },
+  "ent-55bb6b3e49": {
+   "nom": "Evéquoz SA",
+   "ville": "Conthey",
+   "commune_siege": 6023,
+   "guide": false,
+   "consortium": false
+  },
+  "ent-571d0a02a0": {
+   "nom": "Lauber Iwisa AG",
+   "ville": "Naters",
+   "commune_siege": 6007,
+   "guide": false,
+   "consortium": false
+  },
+  "ent-630072dde9": {
+   "nom": "Entreprise Vaudan SA",
+   "ville": "Le Châble VS",
+   "commune_siege": 6037,
+   "guide": false,
+   "consortium": false
+  },
+  "ent-642a8bc929": {
+   "nom": "Gailland Fils SA",
+   "ville": "Verbier",
+   "commune_siege": 6037,
+   "guide": false,
+   "consortium": false
+  },
+  "ent-66a104399b": {
+   "nom": "swisspro SR SA, succursale de Sion",
+   "ville": "Sion",
+   "commune_siege": 6266,
+   "guide": false,
+   "consortium": false
+  },
+  "ent-6e874811ae": {
+   "nom": "PraderLosinger SA",
+   "ville": "Sion",
+   "commune_siege": 6266,
+   "guide": false,
+   "consortium": false
+  },
+  "ent-70e9c09efd": {
+   "nom": "B & G Construction SA",
+   "ville": "Versegères",
+   "commune_siege": 6037,
+   "guide": false,
+   "consortium": false
+  },
+  "ent-734d5f7d45": {
+   "nom": "Bitz travaux publics SA",
+   "ville": "Sion",
+   "commune_siege": 6266,
+   "guide": true,
+   "consortium": false
+  },
+  "ent-7a6a26b648": {
+   "nom": "Zurbriggen AG",
+   "ville": "Visp",
+   "commune_siege": 6297,
+   "guide": false,
+   "consortium": false
+  },
+  "ent-83cbb2fdd1": {
+   "nom": "Vaudan Atelier Bois SA",
+   "ville": "Bruson",
+   "commune_siege": 6037,
+   "guide": false,
+   "consortium": false
+  },
+  "ent-866876591f": {
+   "nom": "Theler AG, Bauunternehmung",
+   "ville": "Raron",
+   "commune_siege": 6199,
+   "guide": true,
+   "consortium": false
+  },
+  "ent-8798cd7fa8": {
+   "nom": "Grichting & Valterio Electro SA",
+   "ville": "Sion",
+   "commune_siege": 6266,
+   "guide": false,
+   "consortium": false
+  },
+  "ent-8b005bad35": {
+   "nom": "Coutaz CVS SA",
+   "ville": "St-Maurice",
+   "commune_siege": 6217,
+   "guide": false,
+   "consortium": false
+  },
+  "ent-9493d5d8a5": {
+   "nom": "JM ROSSA SA",
+   "ville": "Martigny",
+   "commune_siege": 6136,
+   "guide": false,
+   "consortium": false
+  },
+  "ent-98a7f62836": {
+   "nom": "Michellod SA",
+   "ville": "Monthey",
+   "commune_siege": 6153,
+   "guide": false,
+   "consortium": false
+  },
+  "ent-9bd423c761": {
+   "nom": "SABECO SA",
+   "ville": "Monthey",
+   "commune_siege": 6153,
+   "guide": false,
+   "consortium": false
+  },
+  "ent-9ee20debe5": {
+   "nom": "Imwinkelried Lüftung und Klima AG",
+   "ville": "Visp",
+   "commune_siege": 6297,
+   "guide": false,
+   "consortium": false
+  },
+  "ent-a0e707f24c": {
+   "nom": "DUAY SA",
+   "ville": "Martigny",
+   "commune_siege": 6136,
+   "guide": false,
+   "consortium": false
+  },
+  "ent-a18d53ad49": {
+   "nom": "Josef Zehnder AG",
+   "ville": "Gamsen",
+   "commune_siege": 6002,
+   "guide": false,
+   "consortium": false
+  },
+  "ent-a9007783f5": {
+   "nom": "Bitz Electricité SA",
+   "ville": "St-Léonard",
+   "commune_siege": 6246,
+   "guide": false,
+   "consortium": false
+  },
+  "ent-aa916d5995": {
+   "nom": "Fernand Favre SA",
+   "ville": "Riddes",
+   "commune_siege": 6139,
+   "guide": false,
+   "consortium": false
+  },
+  "ent-b0e59bf8fb": {
+   "nom": "Michel TARAMARCAZ Sàrl",
+   "ville": "Fully",
+   "commune_siege": 6133,
+   "guide": false,
+   "consortium": false
+  },
+  "ent-ba126caa5b": {
+   "nom": "Marcel Bonvin et Fils SA",
+   "ville": "Corin-de-la-Crête",
+   "commune_siege": 6253,
+   "guide": false,
+   "consortium": false
+  },
+  "ent-bbb1d817ce": {
+   "nom": "OIKEN Solutions SA",
+   "ville": "Sion",
+   "commune_siege": 6266,
+   "guide": false,
+   "consortium": false
+  },
+  "ent-bd58f9a809": {
+   "nom": "Astori SA",
+   "ville": "Sion",
+   "commune_siege": 6266,
+   "guide": false,
+   "consortium": false
+  },
+  "ent-bef4adb474": {
+   "nom": "City techniques Sàrl",
+   "ville": "Saxon",
+   "commune_siege": 6141,
+   "guide": false,
+   "consortium": false
+  },
+  "ent-c17a02a0fe": {
+   "nom": "Energi.eau Sàrl",
+   "ville": "Riddes",
+   "commune_siege": 6139,
+   "guide": false,
+   "consortium": false
+  },
+  "ent-decac0f587": {
+   "nom": "Citerna SA",
+   "ville": "Vétroz",
+   "commune_siege": 6025,
+   "guide": false,
+   "consortium": false
+  },
+  "ent-e0b3af4121": {
+   "nom": "Epiney Construction SA",
+   "ville": "Sierre",
+   "commune_siege": 6248,
+   "guide": false,
+   "consortium": false
+  },
+  "ent-e1d23a9ab3": {
+   "nom": "Valcalorie SA",
+   "ville": "Sion",
+   "commune_siege": 6266,
+   "guide": false,
+   "consortium": false
+  },
+  "ent-e6f19984a6": {
+   "nom": "Entreprise Manenti, Farquet et Cie SA",
+   "ville": "Vollèges",
+   "commune_siege": 6037,
+   "guide": false,
+   "consortium": false
+  },
+  "ent-e960aafbfb": {
+   "nom": "Opal Fels- und Steinschlagssicherungs AG",
+   "ville": "Gampel",
+   "commune_siege": 6118,
+   "guide": false,
+   "consortium": false
+  },
+  "ent-f242cbd364": {
+   "nom": "KONE (Suisse) SA",
+   "ville": "Sion",
+   "commune_siege": 6266,
+   "guide": false,
+   "consortium": false
+  },
+  "ent-f64c995d1b": {
+   "nom": "Les Fils de Léon Sarrasin SA",
+   "ville": "Martigny",
+   "commune_siege": 6136,
+   "guide": false,
+   "consortium": false
+  },
+  "ent-fad81506c0": {
+   "nom": "PHIDA Étanchéité (VS) SA",
+   "ville": "Evionnaz",
+   "commune_siege": 6213,
+   "guide": false,
+   "consortium": false
+  },
+  "ent-fca6df6039": {
+   "nom": "Conforti SA",
+   "ville": "Martigny",
+   "commune_siege": 6136,
+   "guide": false,
+   "consortium": false
+  }
+ },
+ "exclues": [
+  {
+   "id": "ent-11e5b1fce9",
+   "nom": "GC Energie SA",
+   "controles_echoues": [
+    "appel_prepare"
+   ]
+  },
+  {
+   "id": "ent-4055793cb3",
+   "nom": "tritec AG",
+   "controles_echoues": [
+    "siege_commune"
+   ]
+  },
+  {
+   "id": "ent-52722fd0c4",
+   "nom": "SETELEC SA",
+   "controles_echoues": [
+    "appel_prepare"
+   ]
+  },
+  {
+   "id": "ent-774216be2b",
+   "nom": "Aletsch Elektro AG",
+   "controles_echoues": [
+    "appel_prepare"
+   ]
+  },
+  {
+   "id": "ent-7d669a34df",
+   "nom": "Romande Energie Services SA, succursale de Martigny",
+   "controles_echoues": [
+    "appel_prepare"
+   ]
+  },
+  {
+   "id": "ent-a4be1d23ff",
+   "nom": "Krummenacher AG, Stahl- und Metallbau",
+   "controles_echoues": [
+    "siege_commune"
+   ]
+  },
+  {
+   "id": "ent-e86e51b031",
+   "nom": "TECHLIFT SA",
+   "controles_echoues": [
+    "appel_prepare"
+   ]
+  }
+ ]
+}

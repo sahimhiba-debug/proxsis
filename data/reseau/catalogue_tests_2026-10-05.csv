@@ -1,0 +1,129 @@
+id,url,http,type,octets,resultat
+simap_appels_offres,https://www.simap.ch/api/cantons/v1?lang=de,200,application/json,741,répond
+simap_appels_offres,https://www.simap.ch/api/publications/v2/project/project-search?lang=fr&orderAddressCantons=VD&projectSubTypes=construction,200,application/json,19718,répond
+simap_appels_offres,https://www.simap.ch/api/specifications/simap.yaml,200,application/octet-stream,809285,répond
+simap_appels_offres,https://www.simap.ch/robots.txt,200,text/plain; charset=UTF-8,2014,répond
+simap_appels_offres,https://www.simap.ch/api-doc,200,text/html,734,répond
+simap_adjudications,https://www.simap.ch/api/publications/v2/project/project-search?lang=fr&orderAddressCantons=VD&projectSubTypes=construction,200,application/json,19718,répond
+simap_referentiels,https://www.simap.ch/api/cantons/v1?lang=de,200,application/json,741,répond
+amtsblatt_fosc_hr,https://amtsblattportal.ch/api/v1/publications?publicationStates=PUBLISHED&rubrics=HR&pageRequest.size=1,,,0,robots.txt interdit
+amtsblatt_fosc_hr,https://amtsblattportal.ch/robots.txt,,,0,robots.txt interdit
+amtsblatt_fosc_hr,https://www.amtsblattportal.ch/,,,0,robots.txt interdit
+amtsblatt_fosc_hr,https://www.shab.ch/api/v1/publications?pageRequest.size=1,,,0,robots.txt interdit
+amtsblatt_rubriques_personnes_exclues,,,,,non appelé : verdict « non » (règle du projet)
+amtsblatt_fosc_up,https://amtsblattportal.ch/api/v1/publications?publicationStates=PUBLISHED&rubrics=HR&pageRequest.size=1,,,0,robots.txt interdit
+amtsblatt_fosc_up,https://amtsblattportal.ch/robots.txt,,,0,robots.txt interdit
+amtsblatt_fosc_up,https://www.amtsblattportal.ch/,,,0,robots.txt interdit
+amtsblatt_fosc_up,https://www.shab.ch/api/v1/publications?pageRequest.size=1,,,0,robots.txt interdit
+amtsblatt_vs_permis_construire,https://amtsblattportal.ch/api/v1/publications?publicationStates=PUBLISHED&rubrics=HR&pageRequest.size=1,,,0,robots.txt interdit
+amtsblatt_vs_permis_construire,https://amtsblattportal.ch/robots.txt,,,0,robots.txt interdit
+amtsblatt_vs_permis_construire,https://www.amtsblattportal.ch/,,,0,robots.txt interdit
+amtsblatt_vs_permis_construire,https://www.shab.ch/api/v1/publications?pageRequest.size=1,,,0,robots.txt interdit
+amtsblatt_vs_permis_construire,https://bulletin-officiel.vs.ch/,,,0,robots.txt interdit
+amtsblatt_vs_grands_projets,https://amtsblattportal.ch/api/v1/publications?publicationStates=PUBLISHED&rubrics=HR&pageRequest.size=1,,,0,robots.txt interdit
+amtsblatt_vs_grands_projets,https://amtsblattportal.ch/robots.txt,,,0,robots.txt interdit
+amtsblatt_vs_grands_projets,https://www.amtsblattportal.ch/,,,0,robots.txt interdit
+amtsblatt_vs_grands_projets,https://www.shab.ch/api/v1/publications?pageRequest.size=1,,,0,robots.txt interdit
+amtsblatt_marches_hors_simap,https://amtsblattportal.ch/api/v1/publications?publicationStates=PUBLISHED&rubrics=HR&pageRequest.size=1,,,0,robots.txt interdit
+amtsblatt_marches_hors_simap,https://amtsblattportal.ch/robots.txt,,,0,robots.txt interdit
+amtsblatt_marches_hors_simap,https://www.amtsblattportal.ch/,,,0,robots.txt interdit
+amtsblatt_marches_hors_simap,https://www.shab.ch/api/v1/publications?pageRequest.size=1,,,0,robots.txt interdit
+amtsblatt_vs_emplois_publics,https://amtsblattportal.ch/api/v1/publications?publicationStates=PUBLISHED&rubrics=HR&pageRequest.size=1,,,0,robots.txt interdit
+amtsblatt_vs_emplois_publics,https://amtsblattportal.ch/robots.txt,,,0,robots.txt interdit
+amtsblatt_vs_emplois_publics,https://www.amtsblattportal.ch/,,,0,robots.txt interdit
+amtsblatt_vs_emplois_publics,https://www.shab.ch/api/v1/publications?pageRequest.size=1,,,0,robots.txt interdit
+amtsblatt_permis_autres_cantons,https://amtsblattportal.ch/api/v1/publications?publicationStates=PUBLISHED&rubrics=HR&pageRequest.size=1,,,0,robots.txt interdit
+amtsblatt_permis_autres_cantons,https://amtsblattportal.ch/robots.txt,,,0,robots.txt interdit
+amtsblatt_permis_autres_cantons,https://www.amtsblattportal.ch/,,,0,robots.txt interdit
+amtsblatt_permis_autres_cantons,https://www.shab.ch/api/v1/publications?pageRequest.size=1,,,0,robots.txt interdit
+amtsblatt_amenagement,https://amtsblattportal.ch/api/v1/publications?publicationStates=PUBLISHED&rubrics=HR&pageRequest.size=1,,,0,robots.txt interdit
+amtsblatt_amenagement,https://amtsblattportal.ch/robots.txt,,,0,robots.txt interdit
+amtsblatt_amenagement,https://www.amtsblattportal.ch/,,,0,robots.txt interdit
+amtsblatt_amenagement,https://www.shab.ch/api/v1/publications?pageRequest.size=1,,,0,robots.txt interdit
+zefix_publicrest,,,,,non appelé : compte obligatoire (zefix@bj.admin.ch) et robots.txt « Disallow: / »
+zefix_rest_site_web,,,,,non appelé : verdict « non » (règle du projet)
+uid_register_ide,https://www.uid-wse.admin.ch/V5.0/PublicServices.svc?wsdl,200,text/xml; charset=UTF-8,4570,répond
+uid_register_ide,https://www.uid.admin.ch/,200,text/html; charset=utf-8,87993,répond
+regbl_geoadmin_api,https://api3.geo.admin.ch/rest/services/ech/MapServer/find?layer=ch.bfs.gebaeude_wohnungs_register&searchText=1&searchField=egid&returnGeometry=false,200,application/json,338095,répond
+regbl_geoadmin_api,https://api3.geo.admin.ch/rest/services/api/MapServer/ch.bfs.gebaeude_wohnungs_register,200,application/json,10110,répond
+regbl_geoadmin_api,https://data.geo.admin.ch/ch.bfs.gebaeude_wohnungs_register/,200,text/html,4072,répond
+regbl_madd_dump,https://public.madd.bfs.admin.ch/vs.zip,200,application/zip,58794843,répond
+regbl_madd_dump,https://www.housing-stat.ch/,200,text/html,1620,répond
+ofs_pxweb_api,https://www.pxweb.bfs.admin.ch/api/v1/fr/,200,application/json; charset=utf-8,38641,répond
+ofs_pxweb_api,https://www.bfs.admin.ch/,200,text/html;charset=utf-8,3455417,répond
+ofs_construction,https://www.pxweb.bfs.admin.ch/api/v1/fr/,200,application/json; charset=utf-8,38641,répond
+ofs_besta,https://www.pxweb.bfs.admin.ch/api/v1/fr/,200,application/json; charset=utf-8,38641,répond
+ofs_statent,https://www.pxweb.bfs.admin.ch/api/v1/fr/,200,application/json; charset=utf-8,38641,répond
+ofs_hesta,https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-1003020000_101,200,application/json; charset=utf-8,218,répond
+ofs_agvch_communes,https://www.agvchapp.bfs.admin.ch/de/home,200,text/html; charset=utf-8,44964,répond
+seco_amstat,https://www.amstat.ch/,200,text/html,655,répond
+seco_amstat,https://www.arbeit.swiss/,200,text/html;charset=utf-8,587000,répond
+seco_opendata_series,https://opendata.swiss/api/3/action/package_search?q=baubewilligung&rows=1,200,application/json;charset=utf-8,7209,répond
+seco_opendata_series,https://www.seco.admin.ch/,200,text/html;charset=utf-8,324939,répond
+seco_obligation_annonce,https://www.arbeit.swiss/secoalv/de/home/menue/unternehmen/stellenmeldepflicht.html,200,text/html;charset=utf-8,534100,répond
+jobroom_api,,,,,non appelé : accord écrit du SECO requis (règle du projet)
+cantons_marche_travail_ogd,https://opendata.fr.ch/api/explore/v2.1/catalog/datasets/03_03_places_vacantes_annoncees_mensuelles/exports/csv?use_labels=true,,,0,robots.txt interdit
+cantons_marche_travail_ogd,https://www.vd.ch/,200,text/html; charset=utf-8,88025,répond
+swissstaffing_index,https://www.swissstaffing.ch/,200,text/html; charset=UTF-8,46788,répond
+kof_datenservice,https://datenservice.kof.ethz.ch/api/v1/public/sets/baro_kofbarometer,,,0,serveur injoignable (ConnectError) : accès refusé par prudence (RFC 9309)
+kof_datenservice,https://datenservice.kof.ethz.ch/api/v1/public/collections/ogd_ch.kof.ie?mime=csv,,,0,serveur injoignable (ConnectError) : accès refusé par prudence (RFC 9309)
+kof_datenservice,https://kof.ethz.ch/,200,text/html;charset=utf-8,54476,répond
+kof_tsdb_job_tracker,https://tsdb-api.kof.ethz.ch/v2/docs,200,text/html; charset=utf-8,3106,répond
+kof_tsdb_job_tracker,https://tsdb-api.kof.ethz.ch/v2/ts?keys=ch.kof.jobtracker.total.total.clean.idx&mime=csv&access_type=public,200,text/csv; charset=utf-8,12763,répond
+kof_enquetes_construction,https://kof.ethz.ch/,200,text/html;charset=utf-8,54476,répond
+sbv_baukonjunktur,https://baumeister.swiss/,200,text/html; charset=UTF-8,193834,répond
+sbv_baukonjunktur,https://baumeister.swiss/baumeister-5-0/konjunktur-statistiken/baukonjunktur/,200,text/html; charset=UTF-8,279085,répond
+baublatt_docu,,,,,non appelé : contrat commercial requis
+opendata_swiss_ckan,https://opendata.swiss/api/3/action/package_search?q=baubewilligung&rows=1,200,application/json;charset=utf-8,7209,répond
+opendata_swiss_ckan,https://ckan.opendata.swiss/api/3/action/package_search?q=baubewilligung&rows=1,,,0,serveur injoignable (ReadTimeout) : accès refusé par prudence (RFC 9309)
+opendata_swiss_ckan,https://opendata.swiss/de/terms-of-use,200,text/html; charset=utf-8,24932,répond
+zh_baugesuche_ogd,https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002982_00006183.csv,200,text/csv; charset=utf-8,9726915,répond
+zh_zefix_neugruendungen,https://www.web.statistik.zh.ch/ogd/data/KANTON_ZUERICH_ZEFIX_Neugruendungen.csv,,,0,robots.txt interdit
+stadt_zh_ckan,https://data.stadt-zuerich.ch/api/3/action/package_search?q=baugesuch&rows=1,200,application/json;charset=utf-8,12472,répond
+stadt_zh_ckan,https://data.stadt-zuerich.ch/api/3/action/status_show,200,application/json;charset=utf-8,597,répond
+bl_baubewilligungen,https://data.bl.ch/api/v2/catalog/datasets/12880/exports/csv?use_labels=true,,,0,robots.txt interdit
+ge_sitg_autorisations,https://sitg.ge.ch/donnees/sit-autor-dossier,200,text/html; charset=utf-8,452111,répond
+ge_sitg_autorisations,https://ge.ch/sitg/,200,text/html; charset=utf-8,271050,répond
+ge_sitg_autorisations,https://ge.ch/sitgags2/rest/services,200,text/html; charset=UTF-8,121292,répond
+ge_sad_consult,,,,,non appelé : verdict « non » (règle du projet)
+vd_fao_camac,,,,,non appelé : accord de l'éditeur de la FAO requis
+fr_permis_construire,https://www.fr.ch/,200,text/html; charset=utf-8,115163,répond
+vs_econstruction,,,,,non appelé : verdict « non » (règle du projet)
+gebaeudeprogramm_stats,https://www.uvek-gis.admin.ch/BFE/ogd/18/ogd18_gebaeudeprogramm_auszahlungen.csv,200,text/csv,48297,répond
+gebaeudeprogramm_stats,https://www.dasgebaeudeprogramm.ch/,200,text/html; charset=utf-8,613264,répond
+meteosuisse_ogd,https://data.geo.admin.ch/api/stac/v1/collections/ch.meteoschweiz.ogd-smn,200,application/json,3581,répond
+meteosuisse_ogd,https://data.geo.admin.ch/api/stac/v1/collections,200,application/json,277822,répond
+meteosuisse_ogd,https://www.meteoschweiz.admin.ch/,200,text/html;charset=UTF-8,532926,répond
+open_meteo_previsions,https://api.open-meteo.com/v1/forecast?latitude=46.23&longitude=7.36&daily=precipitation_sum,,,0,robots.txt interdit
+openholidays_feries_vacances,https://openholidaysapi.org/PublicHolidays?countryIsoCode=CH&languageIsoCode=FR&validFrom=2026-01-01&validTo=2026-12-31,200,application/json; charset=utf-8,24078,répond
+openholidays_feries_vacances,https://openholidaysapi.org/SchoolHolidays?countryIsoCode=CH&subdivisionCode=CH-VD&validFrom=2026-01-01&validTo=2026-12-31,200,application/json; charset=utf-8,2281,répond
+openholidays_feries_vacances,https://www.openholidaysapi.org/,200,text/html,39005,répond
+openholidays_feries_vacances,https://raw.githubusercontent.com/openpotato/openholidaysapi.data/main/src/ch/holidays/holidays.public.csv,200,text/plain; charset=utf-8,86891,répond
+nager_date_feries,https://date.nager.at/api/v3/PublicHolidays/2026/CH,,,0,robots.txt interdit
+edk_vacances_scolaires,https://edudoc.ch/search?cc=idesferienliste&ln=de&c=idesferienliste,,,0,robots.txt interdit
+edk_vacances_scolaires,https://www.edk.ch/,200,text/html;charset=utf-8,233921,répond
+conges_batiment_cn,https://www.ave-wbv.ch/,200,text/html; charset=UTF-8,206207,répond
+conges_batiment_cn,https://baumeister.swiss/,200,text/html; charset=UTF-8,193837,répond
+swisstopo_geocodage,https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Rue%20du%20Rhone%201%20Geneve&type=locations,200,application/json,39508,répond
+swisstopo_geocodage,https://wmts.geo.admin.ch/1.0.0/WMTSCapabilities.xml,200,text/xml; charset=UTF-8,1828125,répond
+openplz_api,https://openplzapi.org/ch/Localities?name=Sion,200,application/json; charset=utf-8,2188,répond
+transport_opendata_ch,https://transport.opendata.ch/v1/connections?from=Lausanne&to=Sion&limit=1,,,0,robots.txt interdit
+ojp_opentransportdata,,,,,non appelé : clé d'API requise (inscription gratuite)
+osrm_routage,,,,,non appelé : serveur public réservé à un usage non commercial
+openrouteservice,,,,,non appelé : clé d'API requise (inscription)
+pages_carrieres_jobposting,https://schema.org/JobPosting,200,text/html,107216,répond
+pages_carrieres_jobposting,https://raw.githubusercontent.com/schemaorg/schemaorg/main/data/schema.ttl,200,text/plain; charset=utf-8,757073,répond
+adzuna_api,,,,,non appelé : clé d'API (inscription) et accord écrit d'usage commercial requis
+careerjet_api,,,,,non appelé : identifiant partenaire requis (inscription)
+jobcloud_jobs_ch_jobup,,,,,non appelé : verdict « non » (règle du projet)
+x28_donnees_emploi,,,,,non appelé : contrat commercial requis
+indeed_linkedin,,,,,non appelé : verdict « non » (règle du projet)
+fr_sitadel_dido,https://data.statistiques.developpement-durable.gouv.fr/dido/api/v1/datafiles,200,application/json; charset=utf-8,6689168,répond
+fr_sitadel_dido,https://www.statistiques.developpement-durable.gouv.fr/,200,text/html; charset=UTF-8,96768,répond
+fr_sitadel_dido,https://www.data.gouv.fr/api/1/datasets/?q=sitadel&page_size=1,200,application/json,22090,répond
+de_destatis_genesis,,,,,non appelé : compte GENESIS requis (inscription)
+uk_planning_data,https://www.planning.data.gov.uk/entity.json?dataset=planning-application&limit=1,200,application/json,844,répond
+uk_planning_data,https://www.planning.data.gov.uk/docs,200,text/html; charset=utf-8,84056,répond
+eu_ted,https://api.ted.europa.eu/v3/notices/search,405,application/json,64,HTTP 405
+eu_ted,https://docs.ted.europa.eu/api/latest/index.html,200,text/html; charset=utf-8,41694,répond
+i14y_catalogue,https://api.i14y.admin.ch/api/public/v1/catalog/datasets,404,application/problem+json; charset=utf-8,139,HTTP 404

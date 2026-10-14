@@ -1,0 +1,126 @@
+{
+ "agences": {
+  "martigny": {
+   "appels": {
+    "valeur": 37,
+    "type": "FICTIF",
+    "claim": "TAB-FICTIF-1"
+   },
+   "rendez_vous": {
+    "valeur": 6,
+    "type": "FICTIF",
+    "claim": "TAB-FICTIF-1"
+   },
+   "missions_pourvues": {
+    "valeur": 4,
+    "type": "FICTIF",
+    "claim": "TAB-FICTIF-1"
+   },
+   "delai_moyen_jours": {
+    "valeur": 5.3,
+    "type": "FICTIF",
+    "claim": "TAB-FICTIF-1"
+   },
+   "redeploiement": {
+    "valeur": 0.6153846153846154,
+    "n": 13,
+    "type": "FICTIF",
+    "claim": "REDEP-1"
+   }
+  },
+  "sion": {
+   "appels": {
+    "valeur": 54,
+    "type": "FICTIF",
+    "claim": "TAB-FICTIF-1"
+   },
+   "rendez_vous": {
+    "valeur": 6,
+    "type": "FICTIF",
+    "claim": "TAB-FICTIF-1"
+   },
+   "missions_pourvues": {
+    "valeur": 5,
+    "type": "FICTIF",
+    "claim": "TAB-FICTIF-1"
+   },
+   "delai_moyen_jours": {
+    "valeur": 5.5,
+    "type": "FICTIF",
+    "claim": "TAB-FICTIF-1"
+   },
+   "redeploiement": {
+    "valeur": 0.6923076923076923,
+    "n": 26,
+    "type": "FICTIF",
+    "claim": "REDEP-1"
+   }
+  },
+  "monthey": {
+   "appels": {
+    "valeur": 52,
+    "type": "FICTIF",
+    "claim": "TAB-FICTIF-1"
+   },
+   "rendez_vous": {
+    "valeur": 6,
+    "type": "FICTIF",
+    "claim": "TAB-FICTIF-1"
+   },
+   "missions_pourvues": {
+    "valeur": 3,
+    "type": "FICTIF",
+    "claim": "TAB-FICTIF-1"
+   },
+   "delai_moyen_jours": {
+    "valeur": 4.0,
+    "type": "FICTIF",
+    "claim": "TAB-FICTIF-1"
+   },
+   "redeploiement": {
+    "valeur": 0.0,
+    "n": 4,
+    "type": "FICTIF",
+    "claim": "REDEP-1"
+   }
+  }
+ },
+ "indicateurs": [
+  {
+   "code": "precision_liste_batiment",
+   "valeur": 66.8,
+   "unite": "%",
+   "type": "RÉEL",
+   "claim": "REEL-SPEC-BAT"
+  },
+  {
+   "code": "laureats_nouveaux",
+   "valeur": 35.0,
+   "unite": "%",
+   "type": "RÉEL",
+   "claim": "REEL-SPEC-NOUVEAUX"
+  },
+  {
+   "code": "redeploiement_global",
+   "valeur": 0.6046511627906976,
+   "unite": "part",
+   "type": "FICTIF",
+   "claim": "REDEP-1"
+  },
+  {
+   "code": "besoins_soumis_annonce",
+   "valeur": null,
+   "unite": "",
+   "type": "RÉEL",
+   "claim": "CONF-1"
+  },
+  {
+   "code": "maquette_agences",
+   "valeur": null,
+   "unite": "",
+   "type": "FICTIF",
+   "claim": "TAB-FICTIF-1"
+  }
+ ],
+ "note": "Les chiffres d'agence sont FICTIFS (maquette) tant que Flexsis n'a pas fourni son historique."
+}

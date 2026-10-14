@@ -1,0 +1,78 @@
+priority,usage,domain,url,reachable,status,error,elapsed_s,checked_at
+0,contrôle,api.github.com,https://api.github.com/robots.txt,True,404,,0.186,2026-10-05T17:37:14+00:00
+0,contrôle,pypi.org,https://pypi.org/robots.txt,True,200,,0.059,2026-10-05T17:37:15+00:00
+0,passerelle Public AI (Apertus),api.publicai.co,https://api.publicai.co/robots.txt,True,200,,0.255,2026-10-05T17:37:15+00:00
+0,documentation Public AI,publicai.co,https://publicai.co/robots.txt,True,404,,0.119,2026-10-05T17:37:15+00:00
+1,"API simap, conditions",www.simap.ch,https://www.simap.ch/robots.txt,True,200,,0.326,2026-10-05T17:37:15+00:00
+1,API FOSC et feuilles officielles,amtsblattportal.ch,https://amtsblattportal.ch/robots.txt,True,200,,0.167,2026-10-05T17:37:15+00:00
+1,API FOSC et feuilles officielles,www.amtsblattportal.ch,https://www.amtsblattportal.ch/robots.txt,True,200,,0.175,2026-10-05T17:37:16+00:00
+1,BO VS (contrôle visuel),bulletin-officiel.vs.ch,https://bulletin-officiel.vs.ch/robots.txt,True,200,,0.219,2026-10-05T17:37:16+00:00
+1,ZefixPublicREST,www.zefix.admin.ch,https://www.zefix.admin.ch/robots.txt,True,200,,0.207,2026-10-05T17:37:16+00:00
+1,Zefix,www.zefix.ch,https://www.zefix.ch/robots.txt,True,200,,0.264,2026-10-05T17:37:16+00:00
+1,webservice IDE,www.uid-wse.admin.ch,https://www.uid-wse.admin.ch/robots.txt,True,404,,0.176,2026-10-05T17:37:16+00:00
+1,registre IDE,www.uid.admin.ch,https://www.uid.admin.ch/robots.txt,True,404,,0.166,2026-10-05T17:37:17+00:00
+1,"RegBL, géocodage",api3.geo.admin.ch,https://api3.geo.admin.ch/robots.txt,True,200,,0.184,2026-10-05T17:37:17+00:00
+1,geo.admin,api.geo.admin.ch,https://api.geo.admin.ch/robots.txt,True,200,,0.064,2026-10-05T17:37:17+00:00
+1,STAC MétéoSuisse,data.geo.admin.ch,https://data.geo.admin.ch/robots.txt,True,404,,0.138,2026-10-05T17:37:17+00:00
+1,geo.admin,wmts.geo.admin.ch,https://wmts.geo.admin.ch/robots.txt,True,404,,0.14,2026-10-05T17:37:17+00:00
+1,"conditions, fair use",www.geo.admin.ch,https://www.geo.admin.ch/robots.txt,True,200,,0.196,2026-10-05T17:37:17+00:00
+1,documentation geo.admin,docs.geo.admin.ch,https://docs.geo.admin.ch/robots.txt,True,404,,0.173,2026-10-05T17:37:17+00:00
+1,extraits RegBL,public.madd.bfs.admin.ch,https://public.madd.bfs.admin.ch/robots.txt,True,403,,0.287,2026-10-05T17:37:18+00:00
+1,conditions RegBL,www.housing-stat.ch,https://www.housing-stat.ch/robots.txt,True,200,,0.177,2026-10-05T17:37:18+00:00
+1,STAT-TAB,www.pxweb.bfs.admin.ch,https://www.pxweb.bfs.admin.ch/robots.txt,True,404,,0.175,2026-10-05T17:37:18+00:00
+1,OFS,www.bfs.admin.ch,https://www.bfs.admin.ch/robots.txt,True,200,,0.826,2026-10-05T17:37:19+00:00
+1,fichiers OFS,dam-api.bfs.admin.ch,https://dam-api.bfs.admin.ch/robots.txt,True,404,,0.188,2026-10-05T17:37:19+00:00
+1,communes,www.agvchapp.bfs.admin.ch,https://www.agvchapp.bfs.admin.ch/robots.txt,True,200,,0.286,2026-10-05T17:37:19+00:00
+1,opendata.swiss,opendata.swiss,https://opendata.swiss/robots.txt,True,200,,0.272,2026-10-05T17:37:20+00:00
+1,API CKAN,ckan.opendata.swiss,https://ckan.opendata.swiss/robots.txt,True,200,,0.232,2026-10-05T17:37:20+00:00
+1,obligation d'annonce,www.arbeit.swiss,https://www.arbeit.swiss/robots.txt,True,200,,0.159,2026-10-05T17:37:20+00:00
+1,AMSTAT,www.amstat.ch,https://www.amstat.ch/robots.txt,True,404,,0.127,2026-10-05T17:37:20+00:00
+1,SECO,www.seco.admin.ch,https://www.seco.admin.ch/robots.txt,True,200,,0.247,2026-10-05T17:37:20+00:00
+1,KOF,datenservice.kof.ethz.ch,https://datenservice.kof.ethz.ch/robots.txt,False,,ConnectError: [Errno 61] Connection refused,0.095,2026-10-05T17:37:21+00:00
+1,KOF TSDB,tsdb-api.kof.ethz.ch,https://tsdb-api.kof.ethz.ch/robots.txt,True,404,,0.357,2026-10-05T17:37:21+00:00
+1,KOF,kof.ethz.ch,https://kof.ethz.ch/robots.txt,True,404,,0.133,2026-10-05T17:37:21+00:00
+1,jours fériés,openholidaysapi.org,https://openholidaysapi.org/robots.txt,True,404,,0.135,2026-10-05T17:37:21+00:00
+1,jours fériés,www.openholidaysapi.org,https://www.openholidaysapi.org/robots.txt,True,404,,0.304,2026-10-05T17:37:21+00:00
+1,jours fériés,date.nager.at,https://date.nager.at/robots.txt,True,200,,0.234,2026-10-05T17:37:22+00:00
+1,vacances scolaires,edudoc.ch,https://edudoc.ch/robots.txt,True,200,,0.15,2026-10-05T17:37:22+00:00
+1,vacances scolaires,www.edk.ch,https://www.edk.ch/robots.txt,True,200,,0.326,2026-10-05T17:37:22+00:00
+1,doc MétéoSuisse,opendatadocs.meteoswiss.ch,https://opendatadocs.meteoswiss.ch/robots.txt,True,404,,0.295,2026-10-05T17:37:23+00:00
+1,MétéoSuisse,www.meteoschweiz.admin.ch,https://www.meteoschweiz.admin.ch/robots.txt,True,200,,0.107,2026-10-05T17:37:23+00:00
+2,OGD ZH,daten.statistik.zh.ch,https://daten.statistik.zh.ch/robots.txt,True,404,,0.236,2026-10-05T17:37:23+00:00
+2,OGD ZH,www.web.statistik.zh.ch,https://www.web.statistik.zh.ch/robots.txt,True,200,,0.215,2026-10-05T17:37:23+00:00
+2,OGD ville de Zurich,data.stadt-zuerich.ch,https://data.stadt-zuerich.ch/robots.txt,True,404,,0.15,2026-10-05T17:37:23+00:00
+2,OGD BL,data.bl.ch,https://data.bl.ch/robots.txt,True,200,,0.182,2026-10-05T17:37:23+00:00
+2,OGD FR,opendata.fr.ch,https://opendata.fr.ch/robots.txt,True,200,,0.24,2026-10-05T17:37:24+00:00
+2,canton VD,www.vd.ch,https://www.vd.ch/robots.txt,True,200,,0.299,2026-10-05T17:37:24+00:00
+2,canton VS,www.vs.ch,https://www.vs.ch/robots.txt,True,200,,0.307,2026-10-05T17:37:24+00:00
+2,canton FR,www.fr.ch,https://www.fr.ch/robots.txt,True,200,,0.12,2026-10-05T17:37:24+00:00
+2,SITG GE,sitg.ge.ch,https://sitg.ge.ch/robots.txt,True,200,,0.131,2026-10-05T17:37:24+00:00
+2,canton GE,ge.ch,https://ge.ch/robots.txt,True,200,,0.374,2026-10-05T17:37:25+00:00
+2,Programme Bâtiments,www.uvek-gis.admin.ch,https://www.uvek-gis.admin.ch/robots.txt,True,404,,0.259,2026-10-05T17:37:25+00:00
+2,Programme Bâtiments,www.dasgebaeudeprogramm.ch,https://www.dasgebaeudeprogramm.ch/robots.txt,True,200,,0.23,2026-10-05T17:37:25+00:00
+2,indice swissstaffing,www.swissstaffing.ch,https://www.swissstaffing.ch/robots.txt,True,200,,0.134,2026-10-05T17:37:25+00:00
+2,SSE,baumeister.swiss,https://baumeister.swiss/robots.txt,True,200,,0.782,2026-10-05T17:37:26+00:00
+2,congés bâtiment,www.ave-wbv.ch,https://www.ave-wbv.ch/robots.txt,True,200,,0.715,2026-10-05T17:37:27+00:00
+2,catalogue I14Y,api.i14y.admin.ch,https://api.i14y.admin.ch/robots.txt,True,404,,0.297,2026-10-05T17:37:27+00:00
+2,NPA,openplzapi.org,https://openplzapi.org/robots.txt,True,404,,0.145,2026-10-05T17:37:27+00:00
+2,trajets,transport.opendata.ch,https://transport.opendata.ch/robots.txt,True,200,,0.099,2026-10-05T17:37:28+00:00
+2,OJP,api.opentransportdata.swiss,https://api.opentransportdata.swiss/robots.txt,True,404,,0.22,2026-10-05T17:37:28+00:00
+2,OJP clés,api-manager.opentransportdata.swiss,https://api-manager.opentransportdata.swiss/robots.txt,True,200,,0.127,2026-10-05T17:37:28+00:00
+2,OJP conditions,opentransportdata.swiss,https://opentransportdata.swiss/robots.txt,True,200,,0.132,2026-10-05T17:37:28+00:00
+2,trajets,api.openrouteservice.org,https://api.openrouteservice.org/robots.txt,True,404,,0.148,2026-10-05T17:37:28+00:00
+2,Adzuna,api.adzuna.com,https://api.adzuna.com/robots.txt,True,200,,0.745,2026-10-05T17:37:29+00:00
+2,Adzuna conditions,developer.adzuna.com,https://developer.adzuna.com/robots.txt,True,200,,0.542,2026-10-05T17:37:29+00:00
+2,météo,api.open-meteo.com,https://api.open-meteo.com/robots.txt,True,200,,0.152,2026-10-05T17:37:30+00:00
+2,météo conditions,open-meteo.com,https://open-meteo.com/robots.txt,True,200,,0.133,2026-10-05T17:37:30+00:00
+2,vocabulaire,schema.org,https://schema.org/robots.txt,True,200,,0.277,2026-10-05T17:37:30+00:00
+2,FAO VD (après accord de l'éditeur),www.faovd.ch,https://www.faovd.ch/robots.txt,True,404,,0.514,2026-10-05T17:37:31+00:00
+2,Job-Room (après accord écrit du SECO),api.job-room.ch,https://api.job-room.ch/robots.txt,True,200,,0.169,2026-10-05T17:37:31+00:00
+2,Job-Room (après accord écrit du SECO),www.job-room.ch,https://www.job-room.ch/robots.txt,True,200,,0.247,2026-10-05T17:37:31+00:00
+3,Sitadel,data.statistiques.developpement-durable.gouv.fr,https://data.statistiques.developpement-durable.gouv.fr/robots.txt,True,404,,0.177,2026-10-05T17:37:31+00:00
+3,data.gouv.fr,www.data.gouv.fr,https://www.data.gouv.fr/robots.txt,True,200,,0.095,2026-10-05T17:37:31+00:00
+3,Destatis,www-genesis.destatis.de,https://www-genesis.destatis.de/robots.txt,True,404,,0.455,2026-10-05T17:37:32+00:00
+3,Destatis,genesis.destatis.de,https://genesis.destatis.de/robots.txt,True,404,,0.032,2026-10-05T17:37:32+00:00
+3,Regionalstatistik,www.regionalstatistik.de,https://www.regionalstatistik.de/robots.txt,True,200,,0.286,2026-10-05T17:37:32+00:00
+3,UK planning,www.planning.data.gov.uk,https://www.planning.data.gov.uk/robots.txt,True,200,,0.123,2026-10-05T17:37:32+00:00
+3,TED,api.ted.europa.eu,https://api.ted.europa.eu/robots.txt,True,404,,0.182,2026-10-05T17:37:32+00:00
+3,TED doc,docs.ted.europa.eu,https://docs.ted.europa.eu/robots.txt,True,404,,0.183,2026-10-05T17:37:32+00:00

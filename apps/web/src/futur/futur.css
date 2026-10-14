@@ -1,0 +1,408 @@
+/* The consultant app (« Ma semaine » and the other pages) in the Flexsis identity (brief of 07.10.2026, § 2.4: the same
+   orange and Urbanist, the layout unchanged; docs/identite/IDENTITE.md). It stays dark: three blacks of the
+   identity for depth, white text, ONE orange #E6530F for action and selection; 1 px hairlines; documents on white
+   labels with a thin graphite shell. Urbanist for titles, text and data (figures in tabular numerals); no italic.
+   Contrast (WCAG 2.x, computed): white 18.7 / 18.1 / 17.4:1 on the three blacks; grey text 9 to 10:1; orange 5.0 /
+   4.8 / 4.6:1; black on orange 5.0:1 (the app's buttons are small: white on orange, 3.7:1, would fail); black 18.7:1 and
+   grey 6.7:1 on the white labels, where orange text is never used under 24 px. */
+.fx {
+  --fx-0: #121212; /* ground */
+  --fx-1: #171717; /* surface */
+  --fx-2: #1c1c1c; /* raised surface (orange 4.6:1 on it) */
+  --fx-ivory: #ffffff;
+  --fx-muted: #b5b5b5;
+  --fx-line: rgb(255 255 255 / 0.1);
+  --fx-line-strong: rgb(255 255 255 / 0.18);
+  --fx-copper: #e6530f;
+  --fx-copper-soft: rgb(230 83 15 / 0.16);
+  --fx-copper-hover: #f06424;
+  --fx-on-copper: #121212;
+  --fx-paper: #ffffff; /* a white label, its graphite shell drawn by .fx-paper */
+  --fx-ink: #121212;
+  --fx-ink-muted: #5c5c5c;
+  --fx-paper-line: #e3e3e3;
+  --fx-copper-ink: #121212; /* on a label, small text stays black: the orange is the edge or the diagonal */
+  --fx-glass: rgb(23 23 23 / 0.97); /* opaque enough for AA even over a white label, and no text can be read through the header or the tab bar (Q18: no text half-shown on a phone) */
+  --fx-tab: #c9c9c9;
+  --fx-ease: cubic-bezier(0.2, 0.7, 0.1, 1); /* the one curve (same as the presentation) */
+  --fx-sans: var(--font-urbanist);
+  --fx-serif: var(--font-urbanist); /* no serif any more */
+  --fx-mono: var(--font-urbanist); /* data: Urbanist in tabular numerals (.fx-mono) */
+  /* the shadcn/ui variables, re-themed: components shared with the other pages (feedback, role menu) follow */
+  --background: #171717;
+  --foreground: #ffffff;
+  --card: #171717;
+  --card-foreground: #ffffff;
+  --popover: #1c1c1c;
+  --popover-foreground: #ffffff;
+  --primary: #e6530f;
+  --primary-foreground: #121212;
+  --secondary: #1c1c1c;
+  --secondary-foreground: #ffffff;
+  --muted: #1c1c1c;
+  --muted-foreground: #b5b5b5;
+  --accent: #1c1c1c;
+  --accent-foreground: #ffffff;
+  --border: rgb(255 255 255 / 0.18);
+  --input: rgb(255 255 255 / 0.18);
+  --ring: #e6530f;
+  color-scheme: dark;
+  position: relative;
+  min-height: 100dvh;
+  background: var(--fx-0);
+  color: var(--fx-ivory);
+  font-family: var(--fx-sans);
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 500;
+  font-variant-numeric: lining-nums;
+  caret-color: var(--fx-copper);
+  overflow-wrap: break-word; /* a long German word breaks rather than pushing the page sideways on a narrow phone */
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+}
+/* grain: a static SVG noise, under everything, never animated */
+.fx::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.05;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.55 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+}
+.fx > header, .fx > main, .fx > footer { position: relative; z-index: 1; }
+body:has(.fx) { background: #121212; }
+/* the focused element is never hidden under the sticky header or the floating tab bar (WCAG 2.4.11) */
+html:has(.fx) { scroll-padding-top: 88px; scroll-padding-bottom: 104px; }
+@media (min-width: 640px) { html:has(.fx) { scroll-padding-top: 76px; } }
+.fx ::selection { background: var(--fx-copper); color: var(--fx-on-copper); }
+.fx :focus-visible { outline: 2px solid var(--fx-copper); outline-offset: 3px; border-radius: 6px; }
+
+/* ---------------------------------------------------------------- type */
+.fx .fx-display { font-weight: 300; letter-spacing: -0.035em; line-height: 1.04; }
+.fx .fx-em { font-family: inherit; font-style: normal; font-weight: 700; letter-spacing: -0.01em; } /* no italic: the word is strong */
+.fx .fx-mono { font-family: var(--fx-mono); font-variant-numeric: tabular-nums; letter-spacing: 0; }
+.fx .fx-caps { font-family: var(--fx-mono); font-size: 11px; line-height: 16px; letter-spacing: 0.12em;
+  text-transform: uppercase; font-variant-numeric: tabular-nums; }
+.fx .fx-muted { color: var(--fx-muted); }
+.fx .fx-copper { color: var(--fx-copper); }
+.fx .fx-num { font-variant-numeric: tabular-nums lining-nums; }
+
+/* ---------------------------------------------------------------- frame */
+.fx .fx-col { width: 100%; max-width: 720px; margin-inline: auto; padding-inline: 20px; }
+@media (min-width: 1024px) { .fx .fx-col { max-width: 1152px; padding-inline: 40px; } }
+/* wide screens: the cards side by side; the dossier keeps its head in view while the evidence scrolls */
+@media (min-width: 1024px) {
+  .fx .fx-cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+  .fx .fx-cards > * + * { margin-top: 0 !important; }
+  .fx .fx-dossier { display: grid; grid-template-columns: minmax(0, 420px) minmax(0, 1fr); column-gap: 56px; align-items: start; }
+  .fx .fx-dossier-body > section:first-child { margin-top: 44px; }
+}
+/* the head stays in view only where it fits whole under the page header (the tallest of the 272 heads measured, a
+   German dossier with the review line of its call sentence, is 720 px under a 82 px offset; e2e/focus.spec.ts checks
+   it): on a shorter screen it scrolls with the page instead of hiding its own bottom */
+@media (min-width: 1024px) and (min-height: 840px) {
+  .fx .fx-dossier-head { position: sticky; top: 82px; }
+}
+/* fixed height: tightening never moves the page (no layout shift, no oscillation near the threshold) */
+.fx .fx-head { position: sticky; top: 0; z-index: 30; height: 60px; border-bottom: 1px solid transparent;
+  transition: background-color 220ms var(--fx-ease), border-color 220ms var(--fx-ease); }
+.fx .fx-head > div { height: 60px; }
+@media (min-width: 640px) { .fx .fx-head, .fx .fx-head > div { height: 66px; } }
+/* phones: the name, its signature (two lines in German) and the prototype mention always fit whole */
+@media (max-width: 639px) { .fx .fx-head, .fx .fx-head > div { height: 80px; } }
+/* the narrowest phones (320 px): the German signature takes three lines */
+@media (max-width: 340px) { .fx .fx-head, .fx .fx-head > div { height: 88px; } html:has(.fx) { scroll-padding-top: 96px; } }
+.fx .fx-head .fx-tools { transition: transform 220ms var(--fx-ease); }
+.fx .fx-head .fx-brand { transform-origin: left center; transition: transform 220ms var(--fx-ease); }
+.fx .fx-head[data-compact="true"] .fx-brand { transform: scale(0.94); }
+/* the name: light, one copper detail; its signature and the prototype mention always under it */
+.fx .fx-brand { display: flex; flex-direction: column; justify-content: center; min-width: 0; }
+.fx .fx-brand .fx-wordmark { min-height: 44px; padding-top: 2px; }
+.fx .fx-brand-name { display: block; line-height: 0; }
+.fx .fx-brand-name .px-logo { display: block; width: auto; height: 20px; color: var(--fx-ivory); overflow: visible; } /* the logo, white and orange */
+.fx .fx-brand-signature { display: block; margin-top: 1px; font-size: 12px; line-height: 15px; color: var(--fx-muted); }
+/* the prototype mention: words, not capitals, at the smallest size of the interface (12 px; 14 px would push the
+   tools off a 360 px phone) */
+.fx .fx-brand-proto { font-size: 14px; line-height: 16px; color: var(--fx-muted); white-space: nowrap; } /* a mention: 14 px at least (DESIGN § 7.2) */
+.fx .fx-head .fx-wordmark { transform-origin: left center; }
+.fx .fx-head .fx-tools { transform-origin: right center; }
+.fx .fx-head[data-compact="true"] .fx-tools { transform: scale(0.94); }
+.fx .fx-head[data-compact="true"] { background: var(--fx-glass); border-bottom-color: var(--fx-line);
+  -webkit-backdrop-filter: blur(18px) saturate(140%); backdrop-filter: blur(18px) saturate(140%); }
+.fx .fx-tool { display: inline-flex; min-width: 44px; min-height: 44px; align-items: center; justify-content: center;
+  gap: 6px; padding-inline: 12px; border-radius: 999px; border: 1px solid var(--fx-line-strong); color: var(--fx-ivory);
+  font-family: var(--fx-mono); font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; background: transparent;
+  transition: border-color 220ms var(--fx-ease), background-color 220ms var(--fx-ease); }
+.fx .fx-tool:hover { border-color: var(--fx-copper); }
+/* a tool written in words (« Exporter mes retours »): the utilities of Tailwind sit in a layer and lose to .fx-tool */
+.fx .fx-tool.fx-tool-plain { font-family: var(--fx-sans); font-size: 14px; letter-spacing: 0; text-transform: none; }
+.fx .fx-link { color: var(--fx-ivory); text-decoration: underline; text-decoration-color: var(--fx-line-strong);
+  text-underline-offset: 4px; transition: text-decoration-color 220ms var(--fx-ease); }
+.fx .fx-link:hover { text-decoration-color: var(--fx-copper); }
+.fx .fx-rule { height: 1px; background: var(--fx-line); border: 0; }
+
+/* ---------------------------------------------------------------- cards */
+.fx .fx-card { position: relative; border-radius: 16px; background: var(--fx-1); border: 1px solid var(--fx-line);
+  transition: border-color 220ms var(--fx-ease), background-color 220ms var(--fx-ease); }
+.fx .fx-card:hover { border-color: var(--fx-line-strong); background: color-mix(in oklab, var(--fx-1), var(--fx-2) 50%); }
+.fx .fx-raised { border-radius: 16px; background: var(--fx-2); border: 1px solid var(--fx-line-strong); }
+.fx .fx-action { display: inline-flex; min-height: 44px; align-items: center; gap: 8px; padding: 0 16px; border-radius: 999px;
+  background: var(--fx-copper); color: var(--fx-on-copper); font-weight: 600; font-size: 15px; letter-spacing: -0.005em;
+  box-shadow: 0 0 0 0 transparent; transition: background-color 220ms var(--fx-ease); }
+.fx .fx-action:hover { background: var(--fx-copper-hover); }
+.fx .fx-call { display: inline-flex; min-height: 44px; align-items: center; gap: 8px; padding: 0 2px; color: var(--fx-copper);
+  font-weight: 600; font-size: 15px; transition: color 220ms var(--fx-ease); }
+.fx .fx-call:hover { color: var(--fx-copper-hover); }
+.fx .fx-call svg { transition: transform 220ms var(--fx-ease); }
+.fx .fx-call:hover svg { transform: translateX(3px); }
+.fx .fx-quiet { display: inline-flex; min-height: 44px; align-items: center; gap: 6px; padding: 0 4px;
+  color: var(--fx-muted); font-size: 15px; text-decoration: underline; text-decoration-color: var(--fx-line-strong);
+  text-underline-offset: 4px; transition: color 220ms var(--fx-ease); }
+.fx .fx-quiet:hover { color: var(--fx-ivory); }
+
+/* micro-timeline: one dot per public contract over 52 weeks */
+.fx .fx-track { position: relative; height: 12px; }
+.fx .fx-track::before { content: ""; position: absolute; left: 0; right: 0; top: 50%; height: 1px; background: var(--fx-line-strong); }
+.fx .fx-dot { position: absolute; top: 50%; width: 5px; height: 5px; margin: -2.5px 0 0 -2.5px; border-radius: 50%;
+  background: rgb(255 255 255 / 0.62); }
+.fx .fx-dot[data-recent="true"] { width: 7px; height: 7px; margin: -3.5px 0 0 -3.5px; background: var(--fx-copper); }
+.fx .fx-pulse { position: absolute; inset: -5px; border-radius: 50%; border: 1px solid var(--fx-copper); }
+
+/* paper: published documents, with their source */
+.fx .fx-paper { background: var(--fx-paper); color: var(--fx-ink); border-radius: 14px;
+  box-shadow: inset 0 0 0 2.5px #2a2a2a, 0 3px 0 0 #000000, 0 18px 36px -24px rgb(0 0 0 / 0.8); } /* a white label, its graphite shell */
+.fx .fx-paper a { color: var(--fx-ink); text-decoration: underline; text-decoration-color: var(--fx-paper-line);
+  text-underline-offset: 4px; }
+.fx .fx-paper a:hover { text-decoration-color: var(--fx-copper-ink); }
+.fx .fx-paper :focus-visible { outline-color: var(--fx-ink); }
+.fx .fx-paper-title { font-family: var(--fx-sans); font-weight: 600; font-size: 18px; line-height: 1.35; letter-spacing: -0.01em; }
+.fx .fx-paper .fx-caps { color: var(--fx-ink-muted); }
+
+/* vertical timeline */
+.fx .fx-tl { position: relative; padding-left: 28px; }
+.fx .fx-tl::before { content: ""; position: absolute; left: 7px; top: 8px; bottom: 8px; width: 1px; background: var(--fx-line-strong); }
+.fx .fx-tl-dot { position: absolute; left: -24px; top: 4px; width: 7px; height: 7px; border-radius: 50%;
+  background: var(--fx-muted); }
+.fx .fx-tl-dot[data-recent="true"] { background: var(--fx-copper); }
+
+/* frosted glass: tab bar and bottom sheet only */
+.fx .fx-tabbar { position: fixed; z-index: 40; left: 50%; bottom: max(12px, env(safe-area-inset-bottom));
+  transform: translateX(-50%); width: min(calc(100% - 24px), 560px); border-radius: 24px; background: var(--fx-glass);
+  border: 1px solid var(--fx-line-strong); -webkit-backdrop-filter: blur(20px) saturate(150%);
+  backdrop-filter: blur(20px) saturate(150%); }
+.fx .fx-tab { position: relative; display: flex; min-height: 56px; flex-direction: column; align-items: center;
+  justify-content: center; gap: 2px; padding: 6px 2px; color: var(--fx-tab); font-size: 12px; line-height: 1.2;
+  text-align: center; overflow-wrap: anywhere; hyphens: manual; transition: color 220ms var(--fx-ease); } /* « Fin de / mission », jamais « Fin de mis-sion » */
+.fx .fx-tab[aria-current="page"] { color: var(--fx-copper); }
+.fx .fx-tab svg { width: 20px; height: 20px; stroke-width: 1.5; }
+.fx .fx-tab-indicator { position: absolute; left: 22%; right: 22%; top: 0; height: 2px; border-radius: 2px; background: var(--fx-copper); }
+.fx dialog.fx-sheet { position: fixed; inset: auto 0 0 0; margin: 0 auto; width: min(100%, 640px); max-height: 85dvh;
+  padding: 0; border: 1px solid var(--fx-line-strong); border-bottom: 0; border-radius: 24px 24px 0 0;
+  background: var(--fx-glass); color: var(--fx-ivory); -webkit-backdrop-filter: blur(24px) saturate(150%);
+  backdrop-filter: blur(24px) saturate(150%); transform: translateY(0); opacity: 1;
+  transition: transform 420ms var(--fx-ease), opacity 220ms var(--fx-ease), overlay 420ms allow-discrete,
+    display 420ms allow-discrete; }
+.fx dialog.fx-sheet:not([open]) { transform: translateY(100%); opacity: 0; }
+@starting-style { .fx dialog.fx-sheet[open] { transform: translateY(100%); opacity: 0; } }
+.fx dialog.fx-sheet::backdrop { background: rgb(8 9 8 / 0.55); }
+.fx .fx-menu select { width: 100%; max-width: none; min-height: 44px; border-radius: 12px; padding: 0 12px;
+  background: var(--fx-1); color: var(--fx-ivory); font-size: 14px; border: 1px solid var(--fx-line-strong); }
+.fx .fx-menu { position: absolute; right: 0; top: calc(100% + 8px); z-index: 50; width: min(320px, 86vw); padding: 12px;
+  border-radius: 16px; background: var(--fx-glass); border: 1px solid var(--fx-line-strong);
+  -webkit-backdrop-filter: blur(20px) saturate(150%); backdrop-filter: blur(20px) saturate(150%); }
+
+/* « Préparer l'appel »: slots to fill in, source numbers, the type of a fact, the hypothesis set apart */
+.fx .fx-slot { display: inline-block; padding: 0 8px; margin: 0 1px; border: 1px dashed var(--fx-line-strong);
+  border-radius: 6px; font-family: var(--fx-mono); font-size: 0.82em; line-height: 1.5; color: var(--fx-muted); }
+.fx .fx-cite { margin-left: 4px; vertical-align: 0.28em; line-height: 0; font-family: var(--fx-mono); font-size: 11px;
+  letter-spacing: 0; white-space: nowrap; }
+.fx .fx-cite a { position: relative; display: inline-flex; min-width: 17px; height: 17px; align-items: center;
+  justify-content: center; padding: 0 4px; margin-right: 6px; border-radius: 5px; border: 1px solid var(--fx-line-strong);
+  line-height: 1; color: var(--fx-copper); text-decoration: none; }
+/* the drawing stays small, the finger gets a 23 × 41 px target (two numbers side by side never share one) */
+.fx .fx-cite a::after { content: ""; position: absolute; inset: -12px -3px; }
+.fx .fx-paper .fx-cite a { border-color: var(--fx-paper-line); color: var(--fx-copper-ink); }
+.fx .fx-paper .fx-slot { border-color: var(--fx-ink-muted); color: var(--fx-ink-muted); } /* 5.3:1 on paper */
+/* what a figure or a line is (real, fictional, estimated, Flexsis's own, a hypothesis): a word, not capitals, at 14 px
+   with a 2 px outline (DESIGN.md § 7.2; dashed for what is estimated) */
+.fx .fx-tag { display: inline-flex; align-items: center; padding: 0 10px; border-radius: 999px;
+  border: 2px solid rgb(255 255 255 / 0.34); font-family: var(--fx-sans); font-size: 14px; line-height: 20px; font-weight: 600;
+  letter-spacing: 0; text-transform: none; color: var(--fx-ivory); white-space: nowrap; }
+/* the outline carries the status (DESIGN.md § 7.1): solid for what is real or published, dots for what is to confirm
+   (an estimate), dashes for what is invented (fictional) or assumed (a hypothesis) */
+.fx .fx-tag[data-kind="estimation"] { border-style: dotted; }
+.fx .fx-tag[data-kind="fictif"], .fx .fx-tag[data-kind="hypothese"] { border-style: dashed; }
+.fx .fx-tag[data-kind="fictif"] { color: var(--fx-muted); }
+/* a mention in words for a whole scene (DESIGN.md § 7.2: ≥ 14 px, 2 px outline, wraps between words, 14 px radius) */
+.fx .fx-tag.fx-mention { padding: 4px 12px; border-width: 2px; border-radius: 14px; white-space: normal; font-family: var(--fx-sans);
+  font-size: 14px; line-height: 20px; letter-spacing: 0; text-transform: none; color: var(--fx-ivory); }
+.fx .fx-hypo { border-radius: 16px; border: 1px dashed var(--fx-line-strong); }
+.fx .fx-paper-button { display: inline-flex; min-height: 44px; align-items: center; padding: 0 14px; border-radius: 999px;
+  border: 1px solid var(--fx-paper-line); color: var(--fx-ink); font-size: 14px; font-weight: 600; }
+.fx .fx-paper-button:hover { border-color: var(--fx-copper-ink); }
+
+/* the region of the week (wide screens): boundaries as hairlines, the agency as a ring, the companies as dots, copper
+   where a contract is less than 14 days old (the only light on the map) */
+.fx .fx-map-frame { position: relative; aspect-ratio: 4 / 3; overflow: hidden; border-radius: 16px; background: var(--fx-0);
+  border: 1px solid var(--fx-line); }
+.fx .fx-map-frame svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+.fx .fx-map-canton { fill: var(--fx-1); stroke: rgb(255 255 255 / 0.26); stroke-width: 1px; vector-effect: non-scaling-stroke; }
+.fx .fx-map-commune { fill: none; stroke: rgb(255 255 255 / 0.09); stroke-width: 1px; vector-effect: non-scaling-stroke; }
+.fx .fx-map-dot { position: absolute; width: var(--s, 6px); height: var(--s, 6px); transform: translate(-50%, -50%);
+  border-radius: 50%; background: rgb(255 255 255 / 0.62); }
+.fx .fx-map-dot[data-recent="true"] { background: var(--fx-copper); }
+.fx .fx-map-home { position: absolute; width: 12px; height: 12px; transform: translate(-50%, -50%); border-radius: 50%;
+  border: 1px solid var(--fx-ivory); }
+.fx .fx-map-label { position: absolute; top: 50%; transform: translateY(-50%); white-space: nowrap; }
+.fx .fx-map-label[data-side="right"] { left: calc(100% + 8px); }
+.fx .fx-map-label[data-side="left"] { right: calc(100% + 8px); }
+.fx .fx-map-label[data-side="above"], .fx .fx-map-label[data-side="below"] { left: 50%; transform: translateX(-50%); }
+.fx .fx-map-label[data-side="above"] { top: auto; bottom: calc(100% + 6px); }
+.fx .fx-map-label[data-side="below"] { top: calc(100% + 6px); }
+.fx .fx-map-pulse { position: absolute; inset: -6px; border-radius: 50%; border: 1px solid var(--fx-copper);
+  animation: fx-breathe 2.4s var(--fx-ease) 2; } /* two breaths (4.8 s), then still: WCAG 2.2.2 */
+@keyframes fx-breathe { 0% { opacity: 0.7; transform: scale(0.6); } 75%, 100% { opacity: 0; transform: scale(2.2); } }
+.fx .fx-map-key { display: inline-block; width: 7px; height: 7px; border-radius: 50%; background: rgb(255 255 255 / 0.62); }
+.fx .fx-map-key[data-recent="true"] { background: var(--fx-copper); }
+
+/* « Carte »: on a wide and tall enough screen, the map stays in view while its list scrolls beside it */
+@media (min-width: 1024px) and (min-height: 800px) { .fx .fx-map-col { position: sticky; top: 82px; } }
+/* « Carte »: the week chooser (two 44 px buttons around a native slider) and the agency key */
+.fx .fx-week-control { display: flex; align-items: center; gap: 12px; }
+.fx .fx-week-control .fx-tool[aria-disabled="true"] { opacity: 0.35; cursor: default; border-color: var(--fx-line); }
+/* the slider: an ivory hairline and a copper thumb (the copper marks the chosen week, not the whole track); 44 px tall */
+/* 6 px of room on each side: the focus ring of the thumb is never cut at the ends */
+.fx .fx-range { -webkit-appearance: none; appearance: none; height: 44px; padding-inline: 6px; background: transparent; cursor: pointer; }
+.fx .fx-range::-webkit-slider-runnable-track { height: 1px; background: var(--fx-line-strong); }
+.fx .fx-range::-moz-range-track { height: 1px; background: var(--fx-line-strong); }
+.fx .fx-range::-webkit-slider-thumb { -webkit-appearance: none; width: 18px; height: 18px; margin-top: -9px;
+  border-radius: 50%; background: var(--fx-copper); border: 3px solid var(--fx-0); }
+.fx .fx-range::-moz-range-thumb { width: 14px; height: 14px; border-radius: 50%; background: var(--fx-copper);
+  border: 3px solid var(--fx-0); }
+.fx .fx-range:focus-visible { outline: none; }
+.fx .fx-range:focus-visible::-webkit-slider-thumb { box-shadow: 0 0 0 2px var(--fx-copper); }
+.fx .fx-range:focus-visible::-moz-range-thumb { box-shadow: 0 0 0 2px var(--fx-copper); }
+.fx .fx-map-key-ring { background: transparent; border: 1px solid var(--fx-ivory); }
+
+/* « Fin de mission »: one calendar lane per worker (mission, the empty day, the dotted possibility, the need's week) */
+.fx .fx-lane { position: relative; height: 24px; }
+.fx .fx-lane > span { position: absolute; }
+.fx .fx-lane-tick { top: 0; bottom: 0; width: 1px; background: var(--fx-line); }
+.fx .fx-lane-weekend { top: 0; bottom: 0; background: rgb(255 255 255 / 0.06); }
+.fx .fx-lane-mission { top: 11px; height: 2px; border-radius: 2px; background: rgb(255 255 255 / 0.7); }
+.fx .fx-lane-end { top: 12px; width: 8px; height: 8px; margin: -4px 0 0 -4px; border-radius: 50%; background: var(--fx-ivory); }
+/* the empty day: at least 16 px wide whatever the screen, drawn over the need's week when they meet */
+.fx .fx-lane-free { top: 3px; width: max(16px, 2.2%); height: 18px; transform: translateX(-50%); border: 2px solid var(--fx-ivory);
+  border-radius: 4px; background: var(--fx-1); }
+.fx .fx-lane-maybe { top: 11px; height: 0; border-top: 2px dotted var(--fx-copper); }
+.fx .fx-lane-need { top: 3px; height: 18px; border: 2px dashed var(--fx-copper); border-radius: 4px; background: var(--fx-copper-soft); }
+.fx .fx-lane-none { top: 11px; height: 0; border-top: 2px dotted var(--fx-line-strong); }
+.fx .fx-lane-axis { position: relative; height: 16px; font-size: 12px; color: var(--fx-muted); }
+@media (min-width: 1024px) {
+  .fx .fx-fin-row { display: grid; grid-template-columns: minmax(0, 280px) minmax(0, 1fr); column-gap: 28px; align-items: center; }
+}
+.fx .fx-lane-axis > span { position: absolute; top: 0; transform: translateX(-2px); }
+.fx [class^="fx-key-"] { display: inline-block; width: 22px; height: 12px; position: relative; }
+.fx .fx-key-mission::before { content: ""; position: absolute; left: 0; right: 0; top: 5px; height: 2px; background: rgb(255 255 255 / 0.7); }
+.fx .fx-key-free { width: 14px; border: 2px solid var(--fx-ivory); border-radius: 4px; }
+.fx .fx-key-maybe::before { content: ""; position: absolute; left: 0; right: 0; top: 5px; border-top: 2px dotted var(--fx-copper); }
+.fx .fx-key-need { border: 2px dashed var(--fx-copper); border-radius: 4px; background: var(--fx-copper-soft); }
+.fx .fx-key-weekend { width: 14px; background: rgb(255 255 255 / 0.1); }
+
+/* « Conformité »: status rings (copper arc = working days of restriction left), the date field, the folded ad text */
+.fx .fx-ring { flex: none; overflow: visible; }
+.fx .fx-ring-base { fill: none; stroke: var(--fx-line-strong); stroke-width: 1.5; }
+.fx .fx-ring-arc { fill: none; stroke: var(--fx-copper); stroke-width: 2.5; stroke-linecap: round; }
+.fx .fx-ring-n { fill: var(--fx-ivory); font-family: var(--fx-mono); font-size: 12px; }
+.fx .fx-ring[data-status="free"] .fx-ring-base { stroke: rgb(255 255 255 / 0.7); }
+.fx .fx-ring[data-status="unknown"] .fx-ring-base { stroke-dasharray: 3 3; }
+.fx .fx-date { padding: 0 10px; border-radius: 12px; border: 1px solid var(--fx-line-strong);
+  background: var(--fx-1); color: var(--fx-ivory); font-family: var(--fx-mono); font-size: 14px; color-scheme: dark; }
+.fx details > summary.fx-quiet { list-style: none; }
+.fx .fx-date { min-height: 44px; }
+/* companies in two columns on wide screens, read row by row (alphabetical order left to right, then down) */
+.fx .fx-conf-grid { display: grid; grid-template-columns: minmax(0, 1fr); gap: 16px; align-items: start; }
+@media (min-width: 1024px) { .fx .fx-conf-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+
+/* choices (the call's outcome): 44 px pills; the one chosen in copper, written back in words under them */
+.fx .fx-choice { display: inline-flex; min-height: 44px; align-items: center; padding: 0 16px; border-radius: 999px;
+  border: 1px solid var(--fx-line-strong); color: var(--fx-ivory); font-size: 15px; background: transparent;
+  transition: border-color 220ms var(--fx-ease), background-color 220ms var(--fx-ease), color 220ms var(--fx-ease); }
+.fx .fx-choice:hover { border-color: var(--fx-copper); }
+.fx .fx-choice[aria-pressed="true"] { border-color: var(--fx-copper); background: var(--fx-copper); color: var(--fx-on-copper);
+  font-weight: 600; }
+
+/* pills (agency choice): 44 px, the current one in ivory */
+.fx .fx-pill { display: inline-flex; min-height: 44px; align-items: center; padding: 0 16px; border-radius: 999px;
+  border: 1px solid var(--fx-line-strong); color: var(--fx-muted); font-size: 15px; transition: border-color 220ms var(--fx-ease); }
+.fx .fx-pill:hover { border-color: var(--fx-ivory); color: var(--fx-ivory); }
+.fx .fx-pill[aria-current="page"] { border-color: var(--fx-ivory); color: var(--fx-ivory); }
+
+/* the sentence to say on the phone: the published fact, in the consultant's words, set on a thin ivory rule */
+.fx .fx-phone { padding-left: 12px; border-left: 1px solid var(--fx-line-strong); font-size: 15px; line-height: 1.45; }
+/* the title of the award, exact and whole, as a quotation under the simple sentence (questionnaire of 07.10.2026, B8) */
+.fx q.fx-citation { display: block; margin-top: 4px; font-weight: 600; quotes: "«\00a0" "\00a0»"; }
+.fx q.fx-citation:lang(de) { quotes: "«" "»"; }
+
+/* number fields (the director's hypotheses): 44 px, mono figures */
+.fx .fx-input { display: block; width: 100%; min-height: 44px; padding: 0 12px; border-radius: 12px;
+  border: 1px solid var(--fx-line-strong); background: var(--fx-0); color: var(--fx-ivory); font-family: var(--fx-mono);
+  font-size: 16px; color-scheme: dark; }
+.fx .fx-input:focus-visible { border-color: var(--fx-copper); }
+
+/* the strict criteria, in order: how many fictional temps remain after each (a row of figures with thin arrows) */
+.fx .fx-funnel { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 8px; }
+.fx .fx-funnel > li { position: relative; padding: 10px 12px; border-radius: 12px; border: 1px solid var(--fx-line); }
+.fx .fx-funnel > li[data-last="true"] { border-color: var(--fx-line-strong); }
+@media (max-width: 639px) { .fx .fx-funnel { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+
+/* the card that opens and becomes the dossier (React ViewTransition, browser View Transitions API) */
+::view-transition-group(.fx-morph) { animation-duration: 420ms; animation-timing-function: cubic-bezier(0.2, 0.7, 0.1, 1); }
+::view-transition-old(.fx-morph), ::view-transition-new(.fx-morph) { animation-duration: 260ms; }
+
+/* entrance of the cards: CSS, from the first paint, visible without JavaScript */
+@keyframes fx-in { from { opacity: 0; transform: translateY(12px); } }
+.fx .fx-in { animation: fx-in 420ms cubic-bezier(0.2, 0.7, 0.1, 1) both; animation-delay: calc(var(--i, 0) * 45ms); }
+@media (min-width: 1024px) { .fx .fx-featured { grid-column: 1 / -1; } }
+/* numbers that build up (registered integer, animated from 0; the final value if @property is unsupported) */
+@property --fx-n { syntax: "<integer>"; inherits: false; initial-value: 0; }
+@keyframes fx-count { from { --fx-n: 0; } to { --fx-n: var(--to); } }
+.fx .fx-count { display: inline-block; min-width: calc(var(--digits, 1) * 0.62em); --fx-n: var(--to); counter-reset: fx-n var(--fx-n);
+  font-variant-numeric: tabular-nums; animation: fx-count 700ms cubic-bezier(0.2, 0.7, 0.1, 1) both; }
+.fx .fx-count::after { content: counter(fx-n); }
+/* the dossier timeline: the 52-week boundary and the contracts of another specialty, quieter */
+.fx .fx-tl-mark { position: relative; margin: 8px 0 16px; }
+.fx .fx-tl-mark::before { content: ""; position: absolute; left: -28px; right: 0; top: 50%; height: 1px; background: var(--fx-line-strong); }
+.fx .fx-tl-mark span { position: relative; padding-right: 8px; background: var(--fx-0); }
+.fx .fx-tl li[data-other="true"] .fx-paper { opacity: 0.72; }
+.fx details > summary { list-style: none; cursor: pointer; }
+.fx details > summary::-webkit-details-marker { display: none; }
+::view-transition-old(root), ::view-transition-new(root) { animation-duration: 200ms; }
+
+@media (prefers-reduced-motion: reduce) {
+  .fx .fx-in, .fx .fx-count { animation: none !important; }
+  .fx *, .fx *::before, .fx *::after { transition-duration: 0ms !important; }
+  ::view-transition-group(*), ::view-transition-old(*), ::view-transition-new(*) { animation: none !important; }
+  .fx .fx-pulse, .fx .fx-map-pulse { display: none; }
+}
+
+/* the returns from the field in the carnet: dated, apart from the published facts (a dashed box, never the paper) */
+.fx .fx-field-notes { padding: 12px 14px; border: 1px dashed var(--fx-line); border-radius: 12px; }
+
+/* « Chaque matin, en direct de simap » (suite 10, § 2): the small Iris beside the title (the same pieces as in the visit,
+   src/iris/IrisPetite.tsx; one head strike for the toc, nothing when the motion is reduced), and our own mark « dans
+   votre liste », apart from what simap published: the one orange of the identity, for what belongs to the consultant */
+.fx .v-iris { position: relative; flex: none; display: block; }
+.fx .v-iris-corps { position: absolute; inset: 0; transform-origin: 50% 100%; }
+.fx .v-iris-corps > img:first-child { position: absolute; inset: 0; width: 100%; height: 100%; }
+.fx .v-iris-oeil { position: absolute; transition: transform 0.18s var(--fx-ease), opacity 0.2s var(--fx-ease); }
+.fx .v-iris-humeurs { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; }
+.fx .v-iris-humeurs path { transition: opacity 0.2s var(--fx-ease); }
+.fx .v-iris-corps[data-frappe] { animation: fx-iris-frappe 0.5s var(--fx-ease) both; }
+@keyframes fx-iris-frappe { 0% { transform: rotate(0); } 35% { transform: rotate(-9deg); } 55% { transform: rotate(3deg); } 75% { transform: rotate(-1deg); } 100% { transform: rotate(0); } }
+.fx .v-iris[data-immobile] .v-iris-corps { animation: none; }
+.fx .v-iris[data-immobile] .v-iris-oeil, .fx .v-iris[data-immobile] .v-iris-humeurs path { transition: none; }
+@media (prefers-reduced-motion: reduce) { .fx .v-iris-corps { animation: none; } }
+.fx .fx-tag[data-kind="liste"] { border-color: var(--fx-copper); }

@@ -1,0 +1,158 @@
+name: Chaque matin en direct (simap)
+# « Chaque matin, en direct de simap » (suite 10 du 13.10.2026, § 2 ; d'abord « Lundi en direct », décision de Hiba du
+# 07.10.2026). Chaque jour ouvrable, à partir de 6 h, heure suisse : les marchés de construction attribués en Valais et
+# publiés sur simap.ch sont lus par l'API simap — le lundi la semaine écoulée (du lundi au dimanche), du mardi au
+# vendredi la veille —, filtrés des données personnelles AVANT toute écriture, contrôlés
+# (python/src/proxsis/live_week.py), puis les tests Python et web et la construction tournent. Le fichier de la
+# section, et lui seul, est commité sur la branche par défaut si TOUT passe ; Vercel publie alors la section. Au moindre
+# échec, rien n'est commité (la section garde sa dernière version valide, avec sa date) et une issue GitHub prévient
+# Hiba.
+# MISE EN ROUTE : les lectures planifiées ne partent que si la variable du dépôt CHAQUE_MATIN_EN_DIRECT vaut « actif »
+# (Settings → Secrets and variables → Actions → Variables). Hiba la pose elle-même, après l'audit (suite 10, § 2 : « sa
+# mise en route en production attendra mon accord ») ; sans elle, la fusion de ce fichier ne lit rien et ne publie rien.
+# Trois travaux aux droits séparés : « matin » lit, construit et teste sans aucun droit d'écriture (le jeton n'est pas
+# gardé après le checkout : les scripts d'installation des paquets ne peuvent rien pousser) ; « publier » ne fait que
+# vérifier et commiter les seuls fichiers de la section ; « alerte » ouvre l'issue.
+# Conditions de l'API simap (ch. 5 al. 2, relues le 07.10.2026, docs/DONNEES.md) : les publications d'un jour ne sont
+# transmises à des tiers qu'à partir de 8 h ce jour-là : la lecture ne prend jamais le jour même (au plus la veille), et
+# le contrôle refuse toute publication datée du jour de la lecture ou après ; les rectifications, révocations et
+# interruptions de la période sont transmises elles aussi (dans la section, et pour les avis des données figées dans
+# corrections.json, à côté de l'avis, sans toucher aux données figées ni à CLAIMS).
+# Les tâches planifiées de GitHub ne tournent que depuis la branche par défaut, et souvent avec des heures de retard
+# (la mise à jour quotidienne prévue à 7 h 17 a démarré entre 13 h 47 et 15 h 10, du 06.10 au 13.10.2026) : trois
+# départs par jour, le premier dès 6 h ; la lecture part au premier qui arrive, jamais deux fois le même jour. Le
+# contrôle quotidien de la production signale une section qui n'aurait pas été renouvelée le jour ouvrable même.
+on:
+  schedule:
+    - cron: "0 4 * * 1-5" # 6 h à Zurich en heure d'été (5 h en hiver : attend le suivant)
+    - cron: "0 5 * * 1-5" # 6 h à Zurich en heure d'hiver (7 h en été : déjà lu, rien à refaire)
+    - cron: "0 7 * * 1-5" # rattrapage, si le planificateur a sauté les deux premiers
+  workflow_dispatch:
+    inputs:
+      jour:
+        description: "Jour de lecture à rejouer (AAAA-MM-JJ, du lundi au vendredi) ; vide : aujourd'hui"
+        required: false
+      publier:
+        description: "Commiter le fichier si tout passe"
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: chaque-matin-en-direct
+  cancel-in-progress: false
+
+jobs:
+  matin:
+    # planifié : seulement une fois la mise en route décidée par Hiba (variable du dépôt) ; à la main : toujours
+    if: github.event_name != 'schedule' || vars.CHAQUE_MATIN_EN_DIRECT == 'actif'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: read
+    outputs:
+      publier: ${{ steps.change.outputs.commit }}
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+        with: { persist-credentials: false }
+
+      - name: Lire maintenant ? (jour ouvrable, dès 6 h à Zurich, même en retard ; jamais deux fois le même jour)
+        id: heure
+        shell: bash
+        run: |
+          if [ "${{ github.event_name }}" != "schedule" ]; then echo "go=true" >> "$GITHUB_OUTPUT"; exit 0; fi
+          python3 python/src/proxsis/morning_gate.py apps/web/src/data/direct/matin.json >> "$GITHUB_OUTPUT"
+
+      - uses: astral-sh/setup-uv@caf0cab7a618c569241d31dcd442f54681755d39 # v3.2.4
+        if: steps.heure.outputs.go == 'true'
+        with: { version: "0.11.17" }
+
+      - name: Moteur Python
+        if: steps.heure.outputs.go == 'true'
+        working-directory: python
+        run: uv sync --frozen --extra dev # the locked environment, as tested (uv.lock, .python-version)
+
+      - name: Marchés publiés la veille, ou la semaine écoulée le lundi (filtrés avant écriture, contrôlés, écrits seulement si tout passe)
+        if: steps.heure.outputs.go == 'true'
+        working-directory: python
+        env:
+          JOUR: ${{ inputs.jour }}
+        run: . .venv/bin/activate && proxsis matin-en-direct ${JOUR:+--jour "$JOUR"}
+
+      - name: Tests Python
+        if: steps.heure.outputs.go == 'true'
+        working-directory: python
+        run: . .venv/bin/activate && ruff check src tests && mypy && pytest -q -m "not network"
+
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        if: steps.heure.outputs.go == 'true'
+        with: { node-version-file: apps/web/.nvmrc, cache: npm, cache-dependency-path: apps/web/package-lock.json }
+
+      - name: Tests et construction de l'application
+        if: steps.heure.outputs.go == 'true'
+        working-directory: apps/web
+        run: npm ci && npm run lint && npm run typecheck && npm test && npm run build
+
+      - name: Seuls les fichiers de la section ont changé
+        if: steps.heure.outputs.go == 'true'
+        id: change
+        shell: bash
+        run: |
+          changed="$(git status --porcelain --untracked-files=all | awk '{print $2}' | sort -u)"
+          if [ -z "$changed" ]; then echo "rien de nouveau"; echo "commit=false" >> "$GITHUB_OUTPUT"; exit 0; fi
+          unexpected="$(echo "$changed" | grep -v -x -e apps/web/src/data/direct/matin.json -e apps/web/src/data/direct/corrections.json || true)"
+          if [ -n "$unexpected" ]; then
+            echo "Fichiers inattendus, rien n'est publié :"; echo "$unexpected"; exit 1
+          fi
+          echo "commit=true" >> "$GITHUB_OUTPUT"
+
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        if: steps.change.outputs.commit == 'true'
+        with:
+          name: matin
+          path: |
+            apps/web/src/data/direct/matin.json
+            apps/web/src/data/direct/corrections.json
+          retention-days: 7
+
+  publier:
+    needs: matin
+    if: needs.matin.outputs.publier == 'true' && (github.event_name == 'schedule' || inputs.publier)
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4.3.0
+        with: { name: matin, path: apps/web/src/data/direct }
+      - name: Vérifier puis publier les seuls fichiers de la section
+        shell: bash
+        run: |
+          changed="$(git status --porcelain --untracked-files=all | awk '{print $2}' | sort -u)"
+          unexpected="$(echo "$changed" | grep -v -x -e apps/web/src/data/direct/matin.json -e apps/web/src/data/direct/corrections.json || true)"
+          if [ -z "$changed" ] || [ -n "$unexpected" ]; then echo "Contenu inattendu : $changed"; exit 1; fi
+          lecture="$(python3 -c "import json; d=json.load(open('apps/web/src/data/direct/matin.json', encoding='utf-8')); assert d['etat'] == 'a_jour' and d['mis_a_jour_le']; print(d['mis_a_jour_le'], '(' + d['mode'] + ', du', d['periode']['du'], 'au', d['periode']['au'] + ') :', d['total'], 'adjudications')")"
+          git config user.name "proxsis-chaque-matin-en-direct"
+          git config user.email "proxsis-chaque-matin-en-direct@users.noreply.github.com"
+          git add apps/web/src/data/direct/matin.json apps/web/src/data/direct/corrections.json
+          git commit -m "Chaque matin, en direct de simap : lecture du ${lecture} (mise à jour automatique, tous les contrôles verts)"
+          git push
+
+  alerte:
+    needs: [matin, publier]
+    if: failure()
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      issues: write
+    steps:
+      - name: Prévenir Hiba (issue GitHub)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh issue create --repo "${{ github.repository }}" \
+            --title "Chaque matin en direct : échec du $(TZ=Europe/Zurich date +%d.%m.%Y)" \
+            --body "La mise à jour de « Chaque matin, en direct de simap » a échoué : rien n'a été publié, la section garde sa dernière version valide (avec sa date). Journal : ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"

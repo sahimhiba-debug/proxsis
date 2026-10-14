@@ -1,0 +1,232 @@
+{
+ "n_adjudications": 2508,
+ "sans_canton_des_travaux": 713,
+ "periode": [
+  "2024-07-19",
+  "2026-09-30"
+ ],
+ "valais": {
+  "par_canton_des_travaux": 474,
+  "par_adjudicateur_valaisan": 1075,
+  "par_lieu_cite": 1051,
+  "au_moins_un_critere": 1223,
+  "part": 0.4876395534290271
+ },
+ "par_trimestre": {
+  "2024-T3": 52,
+  "2024-T4": 127,
+  "2025-T1": 241,
+  "2025-T2": 389,
+  "2025-T3": 279,
+  "2025-T4": 271,
+  "2026-T1": 372,
+  "2026-T2": 432,
+  "2026-T3": 345
+ },
+ "par_metier": {
+  "sans_code_cfc": 912,
+  "sans_metier_de_la_taxonomie": 513,
+  "manoeuvre_construction": 470,
+  "macon": 241,
+  "coffreur": 241,
+  "grutier": 241,
+  "machiniste": 229,
+  "platrier": 215,
+  "electricien": 178,
+  "peintre": 128,
+  "installateur_sanitaire": 92
+ },
+ "metiers_par_trimestre": {
+  "2024-T3": {
+   "sans_code_cfc": 34,
+   "manoeuvre_construction": 8,
+   "machiniste": 4,
+   "macon": 4,
+   "coffreur": 4,
+   "grutier": 4,
+   "sans_metier_de_la_taxonomie": 4,
+   "electricien": 2,
+   "peintre": 2,
+   "platrier": 2
+  },
+  "2024-T4": {
+   "sans_code_cfc": 40,
+   "sans_metier_de_la_taxonomie": 33,
+   "manoeuvre_construction": 25,
+   "machiniste": 13,
+   "macon": 12,
+   "coffreur": 12,
+   "grutier": 12,
+   "platrier": 11,
+   "electricien": 11,
+   "installateur_sanitaire": 4,
+   "peintre": 3
+  },
+  "2025-T1": {
+   "sans_code_cfc": 90,
+   "sans_metier_de_la_taxonomie": 52,
+   "manoeuvre_construction": 41,
+   "macon": 25,
+   "coffreur": 25,
+   "grutier": 25,
+   "platrier": 22,
+   "electricien": 17,
+   "machiniste": 16,
+   "peintre": 13,
+   "installateur_sanitaire": 6
+  },
+  "2025-T2": {
+   "sans_code_cfc": 122,
+   "manoeuvre_construction": 83,
+   "sans_metier_de_la_taxonomie": 80,
+   "machiniste": 42,
+   "macon": 41,
+   "coffreur": 41,
+   "grutier": 41,
+   "electricien": 34,
+   "platrier": 29,
+   "peintre": 22,
+   "installateur_sanitaire": 19
+  },
+  "2025-T3": {
+   "sans_code_cfc": 116,
+   "manoeuvre_construction": 50,
+   "sans_metier_de_la_taxonomie": 45,
+   "platrier": 28,
+   "macon": 26,
+   "coffreur": 26,
+   "grutier": 26,
+   "machiniste": 24,
+   "electricien": 19,
+   "peintre": 13,
+   "installateur_sanitaire": 8
+  },
+  "2025-T4": {
+   "sans_code_cfc": 83,
+   "sans_metier_de_la_taxonomie": 62,
+   "manoeuvre_construction": 51,
+   "platrier": 31,
+   "macon": 26,
+   "coffreur": 26,
+   "grutier": 26,
+   "machiniste": 25,
+   "electricien": 19,
+   "peintre": 15,
+   "installateur_sanitaire": 10
+  },
+  "2026-T1": {
+   "sans_code_cfc": 122,
+   "sans_metier_de_la_taxonomie": 72,
+   "manoeuvre_construction": 70,
+   "platrier": 42,
+   "macon": 37,
+   "coffreur": 37,
+   "grutier": 37,
+   "machiniste": 33,
+   "peintre": 28,
+   "electricien": 21,
+   "installateur_sanitaire": 17
+  },
+  "2026-T2": {
+   "sans_code_cfc": 164,
+   "sans_metier_de_la_taxonomie": 94,
+   "manoeuvre_construction": 88,
+   "machiniste": 45,
+   "macon": 43,
+   "coffreur": 43,
+   "grutier": 43,
+   "electricien": 30,
+   "platrier": 25,
+   "installateur_sanitaire": 19,
+   "peintre": 12
+  },
+  "2026-T3": {
+   "sans_code_cfc": 141,
+   "sans_metier_de_la_taxonomie": 71,
+   "manoeuvre_construction": 54,
+   "machiniste": 27,
+   "macon": 27,
+   "coffreur": 27,
+   "grutier": 27,
+   "platrier": 25,
+   "electricien": 25,
+   "peintre": 20,
+   "installateur_sanitaire": 9
+  }
+ },
+ "masquage": {
+  "laureats_total": 2536,
+  "laureats_masques": 9,
+  "adjudicateurs_masques": 55,
+  "echantillon_a_verifier": [
+   {
+    "publication": "3dc278e3-dedd-4481-bab6-340a479b645f",
+    "date": "2026-07-11",
+    "titre": "Commune d'Arbaz / Réaménagement de la route du village",
+    "adjudicateur": null,
+    "lien_simap": "https://www.simap.ch/fr/project-detail/eb554017-6110-4e2e-9ae9-a2f2feec2112"
+   },
+   {
+    "publication": "85cd4a50-f581-47b8-8109-e0e7c468afbc",
+    "date": "2026-04-21",
+    "titre": "Renovierung des Daches der Turnhalle der Mittelschule, Brig",
+    "adjudicateur": null,
+    "lien_simap": "https://www.simap.ch/fr/project-detail/697ea3fd-7ad3-4458-bcdf-a9aec0ab8546"
+   },
+   {
+    "publication": "3b168fc4-9f48-4a93-943b-f67cb1eaeef1",
+    "date": "2025-04-08",
+    "titre": "Correction et réfection de la chaussée à la sortie de Luc sur la RC no 79 Botyre - Icogne - Lens - Crans",
+    "adjudicateur": "DMTE, Service de la mobilité, arrondissement 2, Valais central",
+    "lien_simap": "https://www.simap.ch/fr/project-detail/408ecc99-de76-4fc4-92d1-94a3b3d7ad1a"
+   },
+   {
+    "publication": "a496c36d-03bc-4e24-9662-ced136dfddf8",
+    "date": "2026-07-10",
+    "titre": "Commune d'Arbaz / Réaménagement de la route du village",
+    "adjudicateur": "Commune d'Arbaz Service technique",
+    "lien_simap": "https://www.simap.ch/fr/project-detail/eb554017-6110-4e2e-9ae9-a2f2feec2112"
+   },
+   {
+    "publication": "0ec49cb3-525c-4d03-a997-3d3ec069184d",
+    "date": "2026-03-25",
+    "titre": "Restauration du Château de Valère (5ème étape), Sion",
+    "adjudicateur": "Service immobilier et patrimoine",
+    "lien_simap": "https://www.simap.ch/fr/project-detail/735c9b35-df54-4419-a729-40d6528e2465"
+   },
+   {
+    "publication": "698aad05-7e83-4c6e-9561-359a4d07ff05",
+    "date": "2025-11-06",
+    "titre": "Réfection du Chemin des Marais Neufs",
+    "adjudicateur": "Commune de Saxon - Service Technique",
+    "lien_simap": "https://www.simap.ch/fr/project-detail/51cc141d-3708-4289-be12-b3b8975180fd"
+   },
+   {
+    "publication": "48766b05-1f17-4317-88b7-9733a25b04cd",
+    "date": "2025-10-30",
+    "titre": "Correction de la chaussée et construction d'un trottoir à la route de Rougenan à Botyre, PR 0 à 3, sur la commune d'Ayent",
+    "adjudicateur": "Service de la mobilité, arrondissement 2, Valais central",
+    "lien_simap": "https://www.simap.ch/fr/project-detail/76a58b63-8cee-41ea-b60e-0ae2e79b2eea"
+   },
+   {
+    "publication": "e221397a-9f19-4304-a4f4-57ed7466b7c7",
+    "date": "2025-07-11",
+    "titre": "Kollegium Spiritus Sanctus, Gebäude D, Brig",
+    "adjudicateur": "Service immobilier et patrimoine",
+    "lien_simap": "https://www.simap.ch/fr/project-detail/f6463527-8a06-488e-bde1-8f8f4dcf5173"
+   },
+   {
+    "publication": "c647a5fd-f1eb-4de9-9030-78a40aca344d",
+    "date": "2024-07-19",
+    "titre": "Kollegium Spiritus Sanctus, Brig",
+    "adjudicateur": "Service immobilier et patrimoine",
+    "lien_simap": "https://www.simap.ch/fr/project-detail/495a6960-42e2-4a43-8b9b-ecd27492a6d0"
+   }
+  ]
+ },
+ "sources": {
+  "romandie": "../data/reel/simap/adjudications_romandie_construction_2024-07_2026-09.jsonl",
+  "emetteur_vs": "../data/reel/simap/adjudications_emetteur_vs_construction_2024-07_2026-09.jsonl",
+  "lieux": "../data/reel/referentiels/lieux_vs.csv"
+ }
+}

@@ -1,0 +1,127 @@
+[build-system]
+requires = ["hatchling>=1.25"]
+build-backend = "hatchling.build"
+
+[project]
+name = "proxsis"
+version = "0.1.0"
+description = "Proxsis — le moteur : sources officielles, filtre des données personnelles, modèles, backtests, exports"
+readme = "README.md"
+requires-python = ">=3.12"
+license = { text = "Proprietary — tous droits réservés (prototype Proxsis)" }
+dependencies = [
+  "numpy>=1.26",
+  "pandas>=2.2",
+  "scikit-learn>=1.5",
+  "lightgbm>=4.3",
+  "lifelines>=0.29",
+  "rapidfuzz>=3.9",
+  "pydantic>=2.7",
+  "httpx>=0.27",
+  "pypdf>=6",  # page count of the one-page validation sheet (validation_sheet.py)
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8",
+  "ruff>=0.6",
+  "mypy>=1.10",
+  "pandas-stubs>=2.2",  # types of pandas for mypy --strict (without them, pandas returns Any)
+  "types-pytz",
+]
+
+[project.scripts]
+proxsis = "proxsis.cli:main"
+
+# Exact versions: the environment that passed every check on 07.10.2026 (Python 3.12.13, .python-version). uv.lock is
+# resolved under these constraints, and CI installs it as is (`uv sync --frozen`). Nothing updates by itself: to move a
+# version, change it here, run `uv lock`, then the whole check (make check) before committing both files.
+[tool.uv]
+constraint-dependencies = [
+  "annotated-types==0.8.0",
+  "anyio==4.15.1",
+  "ast-serialize==0.12.1",
+  "autograd==1.9.1",
+  "autograd-gamma==0.5.0",
+  "certifi==2026.7.22",
+  "cloudpickle==3.1.2",
+  "contourpy==1.4.0",
+  "cycler==0.12.1",
+  "fonttools==4.66.1",
+  "formulaic==1.2.2",
+  "h11==0.16.0",
+  "httpcore==1.0.9",
+  "httpx==0.28.1",
+  "idna==3.20",
+  "iniconfig==2.3.0",
+  "interface-meta==2.0.1",
+  "joblib==1.6.0",
+  "kiwisolver==1.5.1",
+  "librt==0.16.0",
+  "lifelines==0.30.3",
+  "lightgbm==4.7.0",
+  "matplotlib==3.11.2",
+  "mypy==2.4.0",
+  "mypy-extensions==1.1.0",
+  "narwhals==2.26.0",
+  "numpy==2.5.3",
+  "packaging==26.3",
+  "pandas==2.3.3",
+  "pandas-stubs==2.3.3.260113",
+  "pathspec==1.1.1",
+  "pillow==12.3.0",
+  "pluggy==1.6.0",
+  "pydantic==2.13.5",
+  "pydantic-core==2.46.5",
+  "pygments==2.21.0",
+  "pyparsing==3.3.3",
+  "pypdf==6.19.0",
+  "pytest==9.1.1",
+  "python-dateutil==2.9.0.post0",
+  "pytz==2026.5",
+  "rapidfuzz==3.14.6",
+  "ruff==0.16.10",
+  "scikit-learn==1.9.1",
+  "scipy==1.18.1",
+  "six==1.17.0",
+  "threadpoolctl==3.7.0",
+  "types-pytz==2026.4.0.20260926",
+  "typing-extensions==4.16.0",
+  "typing-inspection==0.4.4",
+  "tzdata==2026.5",
+  "wrapt==2.5.0",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/proxsis"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+markers = [
+  "slow: tests longs (backtest complet)",
+  "network: nécessite un accès réseau réel (désactivé par défaut)",
+]
+
+[tool.ruff]
+line-length = 120
+target-version = "py312"
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP", "SIM", "RUF"]
+ignore = ["RUF001", "RUF002", "RUF003"]  # caractères français/allemands dans les chaînes et commentaires
+
+[tool.ruff.lint.per-file-ignores]
+"src/proxsis/*_page.py" = ["E501"]  # gabarits HTML/CSS/JS dans une chaîne
+"src/proxsis/docs_week1.py" = ["E501"]  # gabarits Markdown (tableaux) dans une chaîne
+
+[tool.mypy]
+python_version = "3.12"
+strict = true # phase 2 of the mission (07.10.2026): no untyped generic, no untyped return
+mypy_path = "src"
+packages = ["proxsis"]
+ignore_missing_imports = true
+warn_unused_ignores = true
+check_untyped_defs = true
+no_implicit_optional = true

@@ -1,0 +1,7 @@
+{
+  "_": "Budget de performance au téléphone (Lighthouse 12.8.2, profil mobile ralenti par défaut), sur la version de production. Mesures du 07.10.2026 : performance 89 à 96, LCP 2,7 à 3,8 s, TBT 0 ms, CLS 0, 447 à 610 Kio. Vérifié par scripts/budget.mjs.",
+  "lighthouse": "12.8.2",
+  "pages": ["/fr/", "/de/", "/fr/semaine/M1/", "/de/semaine/M1/", "/fr/entreprise/ent-1ef761b229/", "/fr/entreprise/ent-1ef761b229/appel/", "/fr/conformite/", "/fr/presentation/"],
+  "minimum": { "performance": 85, "accessibility": 100, "best-practices": 100 },
+  "maximum": { "largest-contentful-paint-ms": 4000, "total-blocking-time-ms": 200, "cumulative-layout-shift": 0.05, "total-byte-weight-kib": 750 }
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Échantillon SYNTHÉTIQUE et FICTIF d'une rubrique EXCLUE (faillites) : le connecteur doit le rejeter. -->
+<publication>
+  <meta><id>FICTIF-KK-0001</id><rubric>KK</rubric><subRubric>KK01</subRubric><publicationDate>2026-09-29</publicationDate></meta>
+  <content><title>Faillite</title><publicationText>Débiteur : Jean Dupont…</publicationText></content>
+</publication>

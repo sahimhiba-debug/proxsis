@@ -1,0 +1,741 @@
+{
+ "schema": 1,
+ "prepare_le": "2026-10-06",
+ "validation": "a_valider",
+ "source": {
+  "nom": "simap.ch",
+  "mention": "Ceci n'est pas une publication officielle. Les données publiées sur la plateforme www.simap.ch font foi.",
+  "fin_des_donnees": "2026-09-30",
+  "perimetre": {
+   "fr": "Adjudications de construction publiées sur simap.ch (Suisse romande et adjudicateurs valaisans), du 19.07.2024 au 30.09.2026.",
+   "de": "Auf simap.ch publizierte Bauzuschläge (Westschweiz und Walliser Vergabestellen), vom 19.07.2024 bis 30.09.2026."
+  },
+  "appels_offres": {
+   "fr": "Dates des appels d'offres : simap.ch, lues par son accès officiel.",
+   "de": "Daten der Ausschreibungen: simap.ch, über den offiziellen Zugang gelesen."
+  }
+ },
+ "regle": {
+  "fr": "Rejeu à une date passée (un lundi) : aux deux premiers arrêts, seules les publications parues avant cette date sont montrées.",
+  "de": "Rückblick auf ein vergangenes Datum (einen Montag): An den ersten beiden Halten werden nur Publikationen gezeigt, die vor diesem Datum erschienen sind."
+ },
+ "choix": {
+  "fr": "Trois histoires choisies pour illustrer, dont une limite. Elles ne mesurent rien : la mesure générale suit.",
+  "de": "Drei zur Veranschaulichung gewählte Geschichten, darunter eine Grenze. Sie messen nichts: Die allgemeine Messung folgt."
+ },
+ "histoires": [
+  {
+   "id": "carron-martigny-2026-05",
+   "type": "reussite",
+   "claims": "PRES-HIST-1",
+   "entreprise": {
+    "id": "ent-1ef761b229",
+    "nom": "Société de Travaux Publics, Joseph Carron SA",
+    "ville": "Saxon"
+   },
+   "region": {
+    "fr": "Région de Martigny",
+    "de": "Region Martigny"
+   },
+   "date_T": "2026-05-18",
+   "arrets": {
+    "connu": {
+     "date": "2026-05-18",
+     "pieces": [
+      {
+       "type": "appel_offres",
+       "numero": "34068-01",
+       "projet_de": "34068-02",
+       "date": "2026-03-24",
+       "titre": "Réfection de la chaussée et adaptation des réseaux de canalisations Rue de Bonnes-Luites / Martigny",
+       "langue": "fr",
+       "objet": {
+        "fr": "la réfection d'une rue et de ses canalisations à Martigny (Commune de Martigny)",
+        "de": "die Sanierung einer Strasse und ihrer Leitungen in Martigny (Gemeinde Martigny)"
+       },
+       "adjudicateur": "Commune de Martigny - Services Techniques",
+       "delai_offres": "2026-04-15",
+       "execution": {
+        "type": "date_time",
+        "debut": "2026-05-01",
+        "fin": "2026-11-30",
+        "jours": null
+       },
+       "ouvert_a_T": false,
+       "url": "https://www.simap.ch/fr/project-detail/dc6a90e9-3beb-4f71-895e-f537f224b346",
+       "source": "simap.ch"
+      },
+      {
+       "type": "adjudication",
+       "numero": "34068-02",
+       "date": "2026-05-13",
+       "decision": "2026-05-05",
+       "titre": "Réfection de la chaussée et adaptation des réseaux de canalisations Rue de Bonnes-Luites / Martigny",
+       "langue": "fr",
+       "objet": {
+        "fr": "la réfection d'une rue et de ses canalisations à Martigny (Commune de Martigny)",
+        "de": "die Sanierung einer Strasse und ihrer Leitungen in Martigny (Gemeinde Martigny)"
+       },
+       "adjudicateur": "Commune de Martigny - Services Techniques",
+       "montant_chf": 1065427.65,
+       "offres": 9,
+       "procedure": "open",
+       "url": "https://www.simap.ch/fr/project-detail/dc6a90e9-3beb-4f71-895e-f537f224b346",
+       "source": "simap.ch"
+      }
+     ],
+     "texte": {
+      "fr": "Publié avant le lundi 18.05.2026 : adjudication à Société de Travaux Publics, Joseph Carron SA, publiée le 13.05.2026, pour la réfection d'une rue et de ses canalisations à Martigny (Commune de Martigny) ; appel d'offres publié le 24.03.2026. Travaux prévus par l'appel d'offres : du 01.05.2026 au 30.11.2026.",
+      "de": "Vor Montag, 18.05.2026, publiziert: Zuschlag an Société de Travaux Publics, Joseph Carron SA für die Sanierung einer Strasse und ihrer Leitungen in Martigny (Gemeinde Martigny), publiziert am 13.05.2026; Ausschreibung vom 24.03.2026. Laut Ausschreibung geplante Arbeiten: 01.05.2026 bis 30.11.2026."
+     },
+     "contexte": {
+      "n_52s": 11,
+      "dernier": "2026-05-13",
+      "texte": {
+       "fr": "11 marchés publics de construction remportés en 52 semaines, le dernier le 13.05.2026.",
+       "de": "11 öffentliche Bauaufträge in 52 Wochen gewonnen, der letzte am 13.05.2026."
+      }
+     }
+    },
+    "signalement": {
+     "texte": {
+      "fr": "Entreprise à examiner : Société de Travaux Publics, Joseph Carron SA. Raison : adjudication publiée le 13.05.2026 pour la réfection d'une rue et de ses canalisations à Martigny (Commune de Martigny). Des travaux sont probables ; leurs dates réelles restent à confirmer. Le besoin de personnel reste à confirmer.",
+      "de": "Zu prüfendes Unternehmen: Société de Travaux Publics, Joseph Carron SA. Grund: Zuschlag für die Sanierung einer Strasse und ihrer Leitungen in Martigny (Gemeinde Martigny), publiziert am 13.05.2026. Arbeiten sind wahrscheinlich; ihre tatsächlichen Daten sind noch zu bestätigen. Der Personalbedarf ist noch zu bestätigen."
+     }
+    },
+    "ensuite": {
+     "evenements": [
+      {
+       "type": "adjudication",
+       "numero": "38218-01",
+       "date": "2026-06-30",
+       "decision": "2026-06-09",
+       "titre": "Chemin-Dessus : chemin des Frênes",
+       "langue": "fr",
+       "objet": {
+        "fr": "un chemin à Chemin-Dessus (Commune de Val de Bagnes, procédure sur invitation)",
+        "de": "ein Weg in Chemin-Dessus (Gemeinde Val de Bagnes, Einladungsverfahren)"
+       },
+       "adjudicateur": "Commune de Val de Bagnes - TP",
+       "montant_chf": 342559.0,
+       "offres": 5,
+       "procedure": "invitation",
+       "url": "https://www.simap.ch/fr/project-detail/fa3c43de-95f3-4cef-9b54-75a97181c46d",
+       "source": "simap.ch"
+      },
+      {
+       "type": "adjudication",
+       "numero": "37301-02",
+       "date": "2026-08-12",
+       "decision": "2026-07-22",
+       "titre": "94 Le Cotterg - Les Chenevaires / Restructuration routière avec revêtement bitumineux",
+       "langue": "fr",
+       "objet": {
+        "fr": "une restructuration routière au Cotterg (Service de la mobilité)",
+        "de": "ein Strassenumbau in Le Cotterg (Dienststelle für Mobilität)"
+       },
+       "adjudicateur": "Service de la mobilité / Dienststelle für Mobilität - Arrondissement 3 Bas-Valais / Kreis 3 Unterwallis",
+       "montant_chf": 750969.3,
+       "offres": 5,
+       "procedure": "open",
+       "url": "https://www.simap.ch/fr/project-detail/7426f3df-c921-4314-bed7-a200718b5392",
+       "source": "simap.ch"
+      },
+      {
+       "type": "adjudication",
+       "numero": "39123-02",
+       "date": "2026-08-12",
+       "decision": "2026-07-30",
+       "titre": "94 Merdenson - Le Châble : revêtements bitumineux - lot 26207",
+       "langue": "fr",
+       "objet": {
+        "fr": "des revêtements entre Merdenson et Le Châble (Service de la mobilité)",
+        "de": "Beläge zwischen Merdenson und Le Châble (Dienststelle für Mobilität)"
+       },
+       "adjudicateur": "Service de la mobilité / Dienststelle für Mobilität - Arrondissement 3 Bas-Valais / Kreis 3 Unterwallis",
+       "montant_chf": 263487.3,
+       "offres": 5,
+       "procedure": "invitation",
+       "url": "https://www.simap.ch/fr/project-detail/84ae130f-6c7f-44c1-b63d-1f7597a3dcfb",
+       "source": "simap.ch"
+      }
+     ],
+     "texte": {
+      "fr": "Le 30.06.2026, une nouvelle adjudication à Société de Travaux Publics, Joseph Carron SA est publiée : un chemin à Chemin-Dessus (Commune de Val de Bagnes, procédure sur invitation), 43 jours après le lundi de la liste. Puis 2 autres adjudications publiées jusqu'au 30.09.2026. Le besoin de personnel reste à confirmer.",
+      "de": "Am 30.06.2026 wird ein neuer Zuschlag an Société de Travaux Publics, Joseph Carron SA publiziert: ein Weg in Chemin-Dessus (Gemeinde Val de Bagnes, Einladungsverfahren), 43 Tage nach dem Montag der Liste. Danach 2 weitere publizierte Zuschläge bis 30.09.2026. Der Personalbedarf ist noch zu bestätigen."
+     },
+     "dans_les_8_semaines": true
+    }
+   },
+   "intervalles": [
+    {
+     "code": "appel_offres_adjudication",
+     "nom": {
+      "fr": "entre la publication de l'appel d'offres et celle de l'adjudication",
+      "de": "zwischen Publikation der Ausschreibung und des Zuschlags"
+     },
+     "debut": "2026-03-24",
+     "fin": "2026-05-13",
+     "jours": 50,
+     "arret": "connu",
+     "numero": "34068-02"
+    },
+    {
+     "code": "decision_publication",
+     "nom": {
+      "fr": "entre la décision d'adjudication et sa publication",
+      "de": "zwischen Zuschlagsentscheid und Publikation"
+     },
+     "debut": "2026-05-05",
+     "fin": "2026-05-13",
+     "jours": 8,
+     "arret": "connu",
+     "numero": "34068-02"
+    },
+    {
+     "code": "travaux_prevus",
+     "nom": {
+      "fr": "entre le début et la fin des travaux prévus par l'appel d'offres",
+      "de": "zwischen geplantem Beginn und Ende der Arbeiten (Ausschreibung)"
+     },
+     "debut": "2026-05-01",
+     "fin": "2026-11-30",
+     "jours": 213,
+     "arret": "connu",
+     "numero": "34068-02",
+     "prevu": true
+    },
+    {
+     "code": "signalement_adjudication_suivante",
+     "nom": {
+      "fr": "entre le lundi de la liste et la publication de l'adjudication suivante",
+      "de": "zwischen dem Montag der Liste und der Publikation des nächsten Zuschlags"
+     },
+     "debut": "2026-05-18",
+     "fin": "2026-06-30",
+     "jours": 43,
+     "arret": "ensuite",
+     "numero": "38218-01"
+    }
+   ],
+   "besoin_personnel": {
+    "fr": "Le besoin de personnel reste à confirmer.",
+    "de": "Der Personalbedarf ist noch zu bestätigen."
+   }
+  },
+  {
+   "id": "theler-ng24-2026-06",
+   "type": "reussite",
+   "claims": "PRES-HIST-2",
+   "entreprise": {
+    "id": "ent-866876591f",
+    "nom": "Theler AG, Bauunternehmung",
+    "ville": "Raron"
+   },
+   "region": {
+    "fr": "Haut-Valais",
+    "de": "Oberwallis"
+   },
+   "date_T": "2026-06-29",
+   "arrets": {
+    "connu": {
+     "date": "2026-06-29",
+     "pieces": [
+      {
+       "type": "appel_offres",
+       "numero": "35573-01",
+       "projet_de": "35573-02",
+       "date": "2026-04-17",
+       "titre": "NG24 neue Kantonsstrasse, Abschnitt 2 Brücke Tännbach",
+       "langue": "de",
+       "objet": {
+        "fr": "le tronçon 2 de la NG24, un pont",
+        "de": "Abschnitt 2 der NG24, eine Brücke"
+       },
+       "adjudicateur": "Dienststelle für Mobilität - Kreis 1 Oberwallis",
+       "delai_offres": "2026-05-07",
+       "execution": {
+        "type": "date_time",
+        "debut": "2026-05-26",
+        "fin": "2026-11-27",
+        "jours": null
+       },
+       "ouvert_a_T": true,
+       "url": "https://www.simap.ch/fr/project-detail/e4e1d84d-6695-497c-b4ff-9ac9821664b7",
+       "source": "simap.ch"
+      },
+      {
+       "type": "appel_offres",
+       "numero": "36814-01",
+       "projet_de": "36814-02",
+       "date": "2026-05-12",
+       "titre": "NG24 neue Kantonsstrasse, Abschnitt 3 Tännbach - Oberried",
+       "langue": "de",
+       "objet": {
+        "fr": "le tronçon 3 de la NG24",
+        "de": "Abschnitt 3 der NG24"
+       },
+       "adjudicateur": "Dienststelle für Mobilität - Kreis 1 Oberwallis",
+       "delai_offres": "2026-05-28",
+       "execution": {
+        "type": "date_time",
+        "debut": "2026-06-15",
+        "fin": "2026-11-27",
+        "jours": null
+       },
+       "ouvert_a_T": true,
+       "url": "https://www.simap.ch/fr/project-detail/df069193-47e8-4b8a-8aad-aadb9c44ae62",
+       "source": "simap.ch"
+      },
+      {
+       "type": "adjudication",
+       "numero": "39433-01",
+       "date": "2026-06-26",
+       "decision": "2026-06-17",
+       "titre": "NG24 Neue Kantonsstrasse Blatten, Abschnitt 1 Wiler - Tännbach",
+       "langue": "de",
+       "objet": {
+        "fr": "le tronçon 1 de la nouvelle route cantonale NG24 (procédure de gré à gré)",
+        "de": "Abschnitt 1 der neuen Kantonsstrasse NG24 (freihändiges Verfahren)"
+       },
+       "adjudicateur": "Service de la mobilité / Dienststelle für Mobilität - Arrondissement 1 Haut-Valais / Kreis 1 Oberwallis",
+       "montant_chf": 1791207.35,
+       "offres": null,
+       "procedure": "direct",
+       "url": "https://www.simap.ch/fr/project-detail/d433a826-4586-4b49-8858-66345cc7d9c2",
+       "source": "simap.ch"
+      }
+     ],
+     "texte": {
+      "fr": "Publié avant le lundi 29.06.2026 : adjudication à Theler AG, Bauunternehmung, publiée le 26.06.2026, pour le tronçon 1 de la nouvelle route cantonale NG24 (procédure de gré à gré). En appel d'offres depuis le 17.04.2026, sans adjudication publiée : le tronçon 2 de la NG24, un pont. Travaux prévus par l'appel d'offres : du 26.05.2026 au 27.11.2026. En appel d'offres depuis le 12.05.2026, sans adjudication publiée : le tronçon 3 de la NG24. Travaux prévus par l'appel d'offres : du 15.06.2026 au 27.11.2026.",
+      "de": "Vor Montag, 29.06.2026, publiziert: Zuschlag an Theler AG, Bauunternehmung für Abschnitt 1 der neuen Kantonsstrasse NG24 (freihändiges Verfahren), publiziert am 26.06.2026. Seit 17.04.2026 ausgeschrieben, noch ohne publizierten Zuschlag: Abschnitt 2 der NG24, eine Brücke. Laut Ausschreibung geplante Arbeiten: 26.05.2026 bis 27.11.2026. Seit 12.05.2026 ausgeschrieben, noch ohne publizierten Zuschlag: Abschnitt 3 der NG24. Laut Ausschreibung geplante Arbeiten: 15.06.2026 bis 27.11.2026."
+     },
+     "contexte": {
+      "n_52s": 7,
+      "dernier": "2026-06-26",
+      "texte": {
+       "fr": "7 marchés publics de construction remportés en 52 semaines, le dernier le 26.06.2026.",
+       "de": "7 öffentliche Bauaufträge in 52 Wochen gewonnen, der letzte am 26.06.2026."
+      }
+     }
+    },
+    "signalement": {
+     "texte": {
+      "fr": "Entreprise à examiner : Theler AG, Bauunternehmung. Raison : adjudication publiée le 26.06.2026 pour le tronçon 1 de la nouvelle route cantonale NG24 (procédure de gré à gré). Deux autres tronçons du même axe sont en appel d'offres : aucune adjudication n'est publiée à cette date. Des travaux sont probables ; leurs dates réelles restent à confirmer. Le besoin de personnel reste à confirmer.",
+      "de": "Zu prüfendes Unternehmen: Theler AG, Bauunternehmung. Grund: Zuschlag für Abschnitt 1 der neuen Kantonsstrasse NG24 (freihändiges Verfahren), publiziert am 26.06.2026. Zwei weitere Abschnitte derselben Strasse sind ausgeschrieben: Zu diesem Zeitpunkt ist kein Zuschlag publiziert. Arbeiten sind wahrscheinlich; ihre tatsächlichen Daten sind noch zu bestätigen. Der Personalbedarf ist noch zu bestätigen."
+     }
+    },
+    "ensuite": {
+     "evenements": [
+      {
+       "type": "adjudication",
+       "numero": "35573-02",
+       "date": "2026-07-03",
+       "decision": "2026-06-24",
+       "titre": "NG24 neue Kantonsstrasse, Abschnitt 2 Brücke Tännbach",
+       "langue": "de",
+       "objet": {
+        "fr": "le tronçon 2 de la NG24, un pont",
+        "de": "Abschnitt 2 der NG24, eine Brücke"
+       },
+       "adjudicateur": "Dienststelle für Mobilität - Kreis 1 Oberwallis",
+       "montant_chf": 1692885.55,
+       "offres": 4,
+       "procedure": "open",
+       "url": "https://www.simap.ch/fr/project-detail/e4e1d84d-6695-497c-b4ff-9ac9821664b7",
+       "source": "simap.ch"
+      },
+      {
+       "type": "adjudication",
+       "numero": "41669-01",
+       "date": "2026-07-25",
+       "decision": "2026-07-24",
+       "titre": "NG 702 Vergabe Seilbahn (Baumeister Talstation) zwischen Wiler und Weissenried",
+       "langue": "de",
+       "objet": {
+        "fr": "une station de téléphérique (NG 702, procédure de gré à gré)",
+        "de": "eine Seilbahnstation (NG 702, freihändiges Verfahren)"
+       },
+       "adjudicateur": "Departement für Mobilität, Raumentwicklung und Umwelt",
+       "montant_chf": 946156.05,
+       "offres": null,
+       "procedure": "direct",
+       "url": "https://www.simap.ch/fr/project-detail/4db5a4d7-8c9d-467f-924a-d4150db4671f",
+       "source": "simap.ch"
+      },
+      {
+       "type": "adjudication",
+       "numero": "36814-02",
+       "date": "2026-09-21",
+       "decision": "2026-08-05",
+       "titre": "NG24 neue Kantonsstrasse, Abschnitt 3 Tännbach - Oberried",
+       "langue": "de",
+       "objet": {
+        "fr": "le tronçon 3 de la NG24",
+        "de": "Abschnitt 3 der NG24"
+       },
+       "adjudicateur": "Dienststelle für Mobilität - Kreis 1 Oberwallis",
+       "montant_chf": 3994845.7,
+       "offres": 2,
+       "procedure": "open",
+       "url": "https://www.simap.ch/fr/project-detail/df069193-47e8-4b8a-8aad-aadb9c44ae62",
+       "source": "simap.ch"
+      }
+     ],
+     "texte": {
+      "fr": "Le 03.07.2026, une nouvelle adjudication à Theler AG, Bauunternehmung est publiée : le tronçon 2 de la NG24, un pont, 4 jours après le lundi de la liste. Puis 2 autres adjudications publiées jusqu'au 30.09.2026. Pour le tronçon 3 de la NG24 : adjudication publiée le 21.09.2026, 132 jours après l'appel d'offres. Le besoin de personnel reste à confirmer.",
+      "de": "Am 03.07.2026 wird ein neuer Zuschlag an Theler AG, Bauunternehmung publiziert: Abschnitt 2 der NG24, eine Brücke, 4 Tage nach dem Montag der Liste. Danach 2 weitere publizierte Zuschläge bis 30.09.2026. Für Abschnitt 3 der NG24: Zuschlag publiziert am 21.09.2026, 132 Tage nach der Ausschreibung. Der Personalbedarf ist noch zu bestätigen."
+     },
+     "dans_les_8_semaines": true
+    }
+   },
+   "intervalles": [
+    {
+     "code": "decision_publication",
+     "nom": {
+      "fr": "entre la décision d'adjudication et sa publication",
+      "de": "zwischen Zuschlagsentscheid und Publikation"
+     },
+     "debut": "2026-06-17",
+     "fin": "2026-06-26",
+     "jours": 9,
+     "arret": "connu",
+     "numero": "39433-01"
+    },
+    {
+     "code": "travaux_prevus",
+     "nom": {
+      "fr": "entre le début et la fin des travaux prévus par l'appel d'offres",
+      "de": "zwischen geplantem Beginn und Ende der Arbeiten (Ausschreibung)"
+     },
+     "debut": "2026-05-26",
+     "fin": "2026-11-27",
+     "jours": 185,
+     "arret": "connu",
+     "numero": "35573-02",
+     "prevu": true
+    },
+    {
+     "code": "travaux_prevus",
+     "nom": {
+      "fr": "entre le début et la fin des travaux prévus par l'appel d'offres",
+      "de": "zwischen geplantem Beginn und Ende der Arbeiten (Ausschreibung)"
+     },
+     "debut": "2026-06-15",
+     "fin": "2026-11-27",
+     "jours": 165,
+     "arret": "connu",
+     "numero": "36814-02",
+     "prevu": true
+    },
+    {
+     "code": "signalement_adjudication_suivante",
+     "nom": {
+      "fr": "entre le lundi de la liste et la publication de l'adjudication suivante",
+      "de": "zwischen dem Montag der Liste und der Publikation des nächsten Zuschlags"
+     },
+     "debut": "2026-06-29",
+     "fin": "2026-07-03",
+     "jours": 4,
+     "arret": "ensuite",
+     "numero": "35573-02"
+    },
+    {
+     "code": "appel_offres_adjudication_ouvert",
+     "nom": {
+      "fr": "entre la publication de l'appel d'offres et celle de l'adjudication",
+      "de": "zwischen Publikation der Ausschreibung und des Zuschlags"
+     },
+     "debut": "2026-04-17",
+     "fin": "2026-07-03",
+     "jours": 77,
+     "arret": "ensuite",
+     "numero": "35573-02"
+    },
+    {
+     "code": "appel_offres_adjudication_ouvert",
+     "nom": {
+      "fr": "entre la publication de l'appel d'offres et celle de l'adjudication",
+      "de": "zwischen Publikation der Ausschreibung und des Zuschlags"
+     },
+     "debut": "2026-05-12",
+     "fin": "2026-09-21",
+     "jours": 132,
+     "arret": "ensuite",
+     "numero": "36814-02"
+    }
+   ],
+   "besoin_personnel": {
+    "fr": "Le besoin de personnel reste à confirmer.",
+    "de": "Der Personalbedarf ist noch zu bestätigen."
+   }
+  },
+  {
+   "id": "bitz-st-maurice-2026-05",
+   "type": "limite",
+   "claims": "PRES-HIST-3",
+   "entreprise": {
+    "id": "ent-734d5f7d45",
+    "nom": "Bitz travaux publics SA",
+    "ville": "Sion"
+   },
+   "region": {
+    "fr": "Sion et Saint-Maurice",
+    "de": "Sitten und Saint-Maurice"
+   },
+   "date_T": "2026-05-04",
+   "arrets": {
+    "connu": {
+     "date": "2026-05-04",
+     "pieces": [
+      {
+       "type": "appel_offres",
+       "numero": "28041-01",
+       "projet_de": "28041-02",
+       "date": "2025-12-02",
+       "titre": "Construction d'un EMS & AEMS - St-Maurice - CFC 201 Terrassement + TS",
+       "langue": "fr",
+       "objet": {
+        "fr": "le terrassement d'un EMS à Saint-Maurice",
+        "de": "die Erdarbeiten für ein Alters- und Pflegeheim (EMS) in Saint-Maurice"
+       },
+       "adjudicateur": "Foyer Saint-Jacques p.a Quartal Sàrl",
+       "delai_offres": "2026-02-06",
+       "execution": {
+        "type": "not_specified",
+        "debut": null,
+        "fin": null,
+        "jours": null
+       },
+       "ouvert_a_T": false,
+       "url": "https://www.simap.ch/fr/project-detail/95465d92-7be7-46b7-862a-a376ca087134",
+       "source": "simap.ch"
+      },
+      {
+       "type": "adjudication",
+       "numero": "28041-02",
+       "date": "2026-05-02",
+       "decision": "2026-03-20",
+       "titre": "Construction d'un EMS & AEMS - St-Maurice - CFC 201 Terrassement + TS",
+       "langue": "fr",
+       "objet": {
+        "fr": "le terrassement d'un EMS à Saint-Maurice",
+        "de": "die Erdarbeiten für ein Alters- und Pflegeheim (EMS) in Saint-Maurice"
+       },
+       "adjudicateur": "Foyer Saint-Jacques p.a Quartal Sàrl",
+       "montant_chf": 1574663.35,
+       "offres": 4,
+       "procedure": "open",
+       "url": "https://www.simap.ch/fr/project-detail/95465d92-7be7-46b7-862a-a376ca087134",
+       "source": "simap.ch"
+      }
+     ],
+     "texte": {
+      "fr": "Publié avant le lundi 04.05.2026 : adjudication à Bitz travaux publics SA, publiée le 02.05.2026, pour le terrassement d'un EMS à Saint-Maurice ; appel d'offres publié le 02.12.2025.",
+      "de": "Vor Montag, 04.05.2026, publiziert: Zuschlag an Bitz travaux publics SA für die Erdarbeiten für ein Alters- und Pflegeheim (EMS) in Saint-Maurice, publiziert am 02.05.2026; Ausschreibung vom 02.12.2025."
+     },
+     "contexte": {
+      "n_52s": 15,
+      "dernier": "2026-05-02",
+      "texte": {
+       "fr": "15 marchés publics de construction remportés en 52 semaines, le dernier le 02.05.2026.",
+       "de": "15 öffentliche Bauaufträge in 52 Wochen gewonnen, der letzte am 02.05.2026."
+      }
+     }
+    },
+    "signalement": {
+     "texte": {
+      "fr": "Entreprise à examiner : Bitz travaux publics SA. Raison : adjudication publiée le 02.05.2026 pour le terrassement d'un EMS à Saint-Maurice. Des travaux sont probables ; leurs dates réelles restent à confirmer. Le besoin de personnel reste à confirmer.",
+      "de": "Zu prüfendes Unternehmen: Bitz travaux publics SA. Grund: Zuschlag für die Erdarbeiten für ein Alters- und Pflegeheim (EMS) in Saint-Maurice, publiziert am 02.05.2026. Arbeiten sind wahrscheinlich; ihre tatsächlichen Daten sind noch zu bestätigen. Der Personalbedarf ist noch zu bestätigen."
+     }
+    },
+    "ensuite": {
+     "evenements": [],
+     "texte": {
+      "fr": "Dans les 8 semaines suivantes, aucune nouvelle adjudication publiée pour Bitz travaux publics SA, ni jusqu'au 30.09.2026 (fin des données). Après le lundi de la liste, aucun nouveau marché public publié. Le besoin de personnel reste à confirmer.",
+      "de": "In den folgenden 8 Wochen kein neuer publizierter Zuschlag für Bitz travaux publics SA, auch nicht bis 30.09.2026 (Ende der Daten). Nach dem Montag der Liste kein neuer publizierter öffentlicher Auftrag. Der Personalbedarf ist noch zu bestätigen."
+     },
+     "dans_les_8_semaines": false,
+     "autres_traces": {
+      "source": {
+       "fr": "Bulletin officiel du Valais",
+       "de": "Amtsblatt des Kantons Wallis"
+      },
+      "publications": [
+       {
+        "id": "2af61a49-def0-464e-a64b-78c24fea6098",
+        "date": "2026-08-21",
+        "commune": "Ardon",
+        "role": "auteur_plans_entreprise",
+        "url": "https://bulletin-officiel.vs.ch/api/v1/publications/2af61a49-def0-464e-a64b-78c24fea6098/pdf"
+       },
+       {
+        "id": "11cb9aba-1cbf-4a35-b2e0-32ca5fded2ea",
+        "date": "2026-08-28",
+        "commune": "Saint-Maurice",
+        "role": "auteur_plans_entreprise",
+        "url": "https://bulletin-officiel.vs.ch/api/v1/publications/11cb9aba-1cbf-4a35-b2e0-32ca5fded2ea/pdf"
+       },
+       {
+        "id": "3b1f8104-5778-43ef-9fe7-f3775610b263",
+        "date": "2026-08-28",
+        "commune": "Saint-Maurice",
+        "role": "auteur_plans_entreprise",
+        "url": "https://bulletin-officiel.vs.ch/api/v1/publications/3b1f8104-5778-43ef-9fe7-f3775610b263/pdf"
+       }
+      ],
+      "texte": {
+       "fr": "Autre trace publiée ensuite : Bitz travaux publics SA est citée comme auteure des plans dans 3 demandes d'autorisation de construire (Bulletin officiel du Valais, 21.08.2026 et 28.08.2026). Cela ne dit ni qui réalisera les travaux, ni s'il faut du personnel.",
+       "de": "Weitere spätere Spur: Bitz travaux publics SA wird in 3 Baugesuchen als Planverfasserin genannt (Amtsblatt des Kantons Wallis, 21.08.2026 und 28.08.2026). Das sagt weder, wer die Arbeiten ausführt, noch ob Personal nötig ist."
+      }
+     }
+    }
+   },
+   "intervalles": [
+    {
+     "code": "appel_offres_adjudication",
+     "nom": {
+      "fr": "entre la publication de l'appel d'offres et celle de l'adjudication",
+      "de": "zwischen Publikation der Ausschreibung und des Zuschlags"
+     },
+     "debut": "2025-12-02",
+     "fin": "2026-05-02",
+     "jours": 151,
+     "arret": "connu",
+     "numero": "28041-02"
+    },
+    {
+     "code": "decision_publication",
+     "nom": {
+      "fr": "entre la décision d'adjudication et sa publication",
+      "de": "zwischen Zuschlagsentscheid und Publikation"
+     },
+     "debut": "2026-03-20",
+     "fin": "2026-05-02",
+     "jours": 43,
+     "arret": "connu",
+     "numero": "28041-02"
+    },
+    {
+     "code": "signalement_sans_adjudication",
+     "nom": {
+      "fr": "entre le lundi de la liste et la fin des données, sans nouvelle adjudication",
+      "de": "zwischen dem Montag der Liste und dem Datenende, ohne neuen Zuschlag"
+     },
+     "debut": "2026-05-04",
+     "fin": "2026-09-30",
+     "jours": 149,
+     "arret": "ensuite"
+    }
+   ],
+   "besoin_personnel": {
+    "fr": "Le besoin de personnel reste à confirmer.",
+    "de": "Der Personalbedarf ist noch zu bestätigen."
+   }
+  }
+ ],
+ "mesure": {
+  "claims": "REEL-T0",
+  "phrase": {
+   "fr": "Sur notre premier examen des marchés publics, la sélection proposée n'a pas fait mieux qu'une règle simple.",
+   "de": "Bei unserer ersten Prüfung der öffentlichen Aufträge hat die vorgeschlagene Auswahl nicht besser abgeschnitten als eine einfache Regel."
+  },
+  "definition": {
+   "fr": "Sur 20 entreprises proposées chaque semaine, part qui a obtenu un nouveau marché public dans les 8 semaines.",
+   "de": "Von 20 jede Woche vorgeschlagenen Unternehmen: Anteil, der in den folgenden 8 Wochen einen neuen öffentlichen Auftrag erhalten hat."
+  },
+  "portee": {
+   "fr": "Ces valeurs portent sur de futurs marchés publics, pas sur des embauches ni sur des commandes passées à Flexsis.",
+   "de": "Diese Werte betreffen künftige öffentliche Aufträge, nicht Einstellungen und nicht Aufträge an Flexsis."
+  },
+  "perimetre": {
+   "adjudications": 1892,
+   "entreprises": 731,
+   "semaines": 44,
+   "premiere_semaine": "2025-10-06",
+   "derniere_semaine": "2026-08-03",
+   "fin_des_donnees": "2026-09-30",
+   "texte": {
+    "fr": "1 892 adjudications de construction en Suisse romande, 731 entreprises, 44 semaines (du 06.10.2025 au 03.08.2026).",
+    "de": "1'892 Bauzuschläge in der Westschweiz, 731 Unternehmen, 44 Wochen (06.10.2025 bis 03.08.2026)."
+   }
+  },
+  "valeurs": [
+   {
+    "code": "hasard",
+    "nom": {
+     "fr": "20 entreprises tirées au hasard",
+     "de": "20 zufällig gezogene Unternehmen"
+    },
+    "pct": 16.0,
+    "affiche": {
+     "fr": "16,0 %",
+     "de": "16,0 %"
+    }
+   },
+   {
+    "code": "recence",
+    "nom": {
+     "fr": "les 20 dont le dernier marché est le plus récent",
+     "de": "die 20 mit dem jüngsten letzten Auftrag"
+    },
+    "pct": 31.0,
+    "affiche": {
+     "fr": "31,0 %",
+     "de": "31,0 %"
+    }
+   },
+   {
+    "code": "frequence_52s",
+    "nom": {
+     "fr": "les 20 qui ont obtenu le plus de marchés en 52 semaines (règle simple)",
+     "de": "die 20 mit den meisten Aufträgen in 52 Wochen (einfache Regel)"
+    },
+    "pct": 55.0,
+    "affiche": {
+     "fr": "55,0 %",
+     "de": "55,0 %"
+    },
+    "ic95": [
+     48.4,
+     68.5
+    ],
+    "affiche_ic": {
+     "fr": "48,4–68,5 %",
+     "de": "48,4–68,5 %"
+    }
+   },
+   {
+    "code": "m0_marches",
+    "nom": {
+     "fr": "la liste de Proxsis, limitée aux marchés publics",
+     "de": "die Liste von Proxsis, beschränkt auf öffentliche Aufträge"
+    },
+    "pct": 52.7,
+    "affiche": {
+     "fr": "52,7 %",
+     "de": "52,7 %"
+    }
+   }
+  ],
+  "ecart": {
+   "nom": {
+    "fr": "Écart entre la liste de Proxsis et la règle simple",
+    "de": "Abstand zwischen der Liste von Proxsis und der einfachen Regel"
+   },
+   "points": -2.3,
+   "ic95": [
+    -8.9,
+    1.4
+   ],
+   "affiche": {
+    "fr": "−2,3 points (marge à 95 % : −8,9 à +1,4)",
+    "de": "−2,3 Prozentpunkte (95-%-Bereich: −8,9 bis +1,4)"
+   },
+   "lecture": {
+    "fr": "La marge va de −8,9 à +1,4 point et contient zéro : la différence entre 55,0 % et 52,7 % n'est pas établie, ni dans un sens ni dans l'autre.",
+    "de": "Der Bereich reicht von −8,9 bis +1,4 Punkten und enthält null: Der Unterschied zwischen 55,0 % und 52,7 % ist nicht belegt, weder in die eine noch in die andere Richtung."
+   }
+  }
+ }
+}

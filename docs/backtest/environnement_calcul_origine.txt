@@ -1,0 +1,70 @@
+# Environnement du calcul d'origine de REEL-T0 (05.10.2026) et de docs/backtest/specialites_v1.json (06.10.2026),
+# reconstitué le 07.10.2026 (docs/backtest/reproductibilite.md). Python 3.12.13 (uv 0.11.17), macOS arm64.
+# Source : le .venv créé le 05.10.2026 à 19:34 (pyvenv.cfg) ; les paquets modifiés le 06.10.2026 à 22:02 (pandas,
+# lifelines, pytz, tzdata) sont repris du cache de uv, où seules ces roues cp312 arm64 avaient été téléchargées le
+# 05.10.2026 à 19:34 (pandas 3.0.6, lifelines 0.30.0 ; ni pytz ni tzdata, dont pandas 3 n'a pas besoin sur macOS).
+# Différences avec le verrou actuel (python/uv.lock) : pandas 3.0.6 au lieu de 2.3.3, lifelines 0.30.0 au lieu de
+# 0.30.3, sans pytz ni tzdata. Le paquet proxsis lui-même n'est pas installé (PYTHONPATH=python/src).
+# Installation, hors du dépôt et sans réseau :
+#   uv venv <dossier> --python 3.12.13
+#   uv pip install --offline --no-deps --python <dossier>/bin/python -r docs/backtest/environnement_calcul_origine.txt
+annotated-doc==0.0.5
+annotated-types==0.8.0
+anyio==4.15.1
+ast-serialize==0.12.1
+autograd-gamma==0.5.0
+autograd==1.9.1
+certifi==2026.7.22
+click==8.5.0
+cloudpickle==3.1.2
+contourpy==1.4.0
+coverage==7.16.2
+cycler==0.12.1
+fastapi==0.142.2
+fonttools==4.66.1
+formulaic==1.2.2
+h11==0.16.0
+httpcore==1.0.9
+httpx==0.28.1
+hypothesis==6.168.4
+idna==3.20
+iniconfig==2.3.0
+interface-meta==2.0.1
+joblib==1.6.0
+kiwisolver==1.5.1
+librt==0.16.0
+lifelines==0.30.0
+lightgbm==4.7.0
+matplotlib==3.11.2
+mypy-extensions==1.1.0
+mypy==2.4.0
+narwhals==2.26.0
+numpy==2.5.3
+opentelemetry-api==1.45.0
+packaging==26.3
+pandas-stubs==2.3.3.260113
+pandas==3.0.6
+pathspec==1.1.1
+pillow==12.3.0
+pluggy==1.6.0
+pydantic-core==2.46.5
+pydantic==2.13.5
+pygments==2.21.0
+pyparsing==3.3.3
+pypdf==6.19.0
+pytest-cov==7.1.0
+pytest==9.1.1
+python-dateutil==2.9.0.post0
+rapidfuzz==3.14.6
+ruff==0.16.10
+scikit-learn==1.9.1
+scipy==1.18.1
+six==1.17.0
+sortedcontainers==2.4.0
+starlette==1.7.0
+threadpoolctl==3.7.0
+types-pytz==2026.4.0.20260926
+typing-extensions==4.16.0
+typing-inspection==0.4.4
+uvicorn==0.54.0
+wrapt==2.5.0

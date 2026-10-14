@@ -1,0 +1,88 @@
+{
+ "schema": 1,
+ "rejeu": "2026-10-05",
+ "liste_gelee": "data/terrain/liste_2026-10-05_batiment.json",
+ "validation": "a_valider",
+ "dix": ["ent-e0b3af4121", "ent-734d5f7d45", "ent-266673a5c4", "ent-6e874811ae", "ent-1ef761b229", "ent-0ff073ea76", "ent-866876591f", "ent-1b28ee92b6", "ent-bd58f9a809", "ent-42fbc21c38"],
+ "guides": ["ent-1ef761b229", "ent-734d5f7d45", "ent-866876591f"],
+ "en_preparation": [],
+ "dossiers": {
+  "ent-1ef761b229": {
+   "annonce_url": "https://www.simap.ch/fr/project-detail/7426f3df-c921-4314-bed7-a200718b5392",
+   "annonce_langue": "fr",
+   "activite": {"fr": "Travaux publics : routes, revêtements, canalisations", "de": "Tiefbau: Strassen, Beläge, Kanalisationen"},
+   "activite_source": "titres des marchés publics remportés (simap.ch)",
+   "envisager": {
+    "fr": "Un chantier routier dans le Bas-Valais, dont l'attribution a été publiée en août : des travaux de génie civil et de revêtement sont à prévoir, à une date encore inconnue.",
+    "de": "Ein Strassenbau im Unterwallis, dessen Zuschlag im August publiziert wurde: Tiefbau- und Belagsarbeiten sind zu erwarten, zu einem noch unbekannten Zeitpunkt."
+   },
+   "verifier": {
+    "fr": ["Les dates réelles du chantier", "Si les équipes de l'entreprise sont déjà complètes", "Les métiers et les semaines où un renfort serait utile"],
+    "de": ["Die tatsächlichen Daten der Baustelle", "Ob die Teams des Unternehmens bereits vollständig sind", "Die Berufe und Wochen, in denen eine Verstärkung helfen würde"]
+   },
+   "appel": {
+    "intro": {
+     "fr": "Bonjour, ici [consultant·e] de Flexsis à Martigny. J'ai vu sur simap, dans un avis publié en août, que le Service de la mobilité vous a attribué la restructuration routière Le Cotterg – Les Chenevaires.",
+     "de": "Guten Tag, hier [Beraterin/Berater] von Flexsis in Martigny. Ich habe auf simap in einer im August publizierten Mitteilung gesehen, dass Ihnen die Dienststelle für Mobilität die Strassensanierung Le Cotterg – Les Chenevaires vergeben hat."
+    },
+    "question": {
+     "fr": "Pour ce chantier, y a-t-il des semaines ou des métiers pour lesquels un renfort vous serait utile ?",
+     "de": "Gibt es für diese Baustelle Wochen oder Berufe, für die Ihnen eine Verstärkung helfen würde?"
+    }
+   },
+   "metier_mission": "manoeuvre_construction",
+   "travailleur_fictif": "cand-161"
+  },
+  "ent-734d5f7d45": {
+   "annonce_url": "https://www.simap.ch/fr/project-detail/95465d92-7be7-46b7-862a-a376ca087134",
+   "annonce_langue": "fr",
+   "activite": {"fr": "Travaux publics : terrassements, routes, réseaux souterrains", "de": "Tiefbau: Erdarbeiten, Strassen, Werkleitungen"},
+   "activite_source": "titres des marchés publics remportés (simap.ch) ; rôle d'auteure des plans : demandes d'autorisation du Bulletin officiel du Valais (import filtré)",
+   "envisager": {
+    "fr": "Un terrassement d'EMS à Saint-Maurice, dont l'attribution a été publiée en mai (décidée en mars) : le chantier est peut-être en cours, à confirmer. L'entreprise est aussi auteure des plans de trois demandes d'autorisation publiées en août : qui réalisera ces travaux reste à confirmer.",
+    "de": "Erdarbeiten für ein Pflegeheim (EMS) in Saint-Maurice, deren Zuschlag im Mai publiziert wurde (Entscheid im März): Die Baustelle läuft vielleicht, das ist noch zu bestätigen. Das Unternehmen ist zudem Planverfasserin von drei im August publizierten Baugesuchen: Wer diese Arbeiten ausführt, ist noch zu bestätigen."
+   },
+   "verifier": {
+    "fr": ["Où en est le chantier de l'EMS à Saint-Maurice", "Si l'entreprise réalisera aussi les travaux des trois demandes d'autorisation", "Les métiers et les semaines où un renfort serait utile"],
+    "de": ["Wie weit die Baustelle des Pflegeheims in Saint-Maurice ist", "Ob das Unternehmen die Arbeiten der drei Baugesuche auch ausführt", "Die Berufe und Wochen, in denen eine Verstärkung helfen würde"]
+   },
+   "appel": {
+    "intro": {
+     "fr": "Bonjour, ici [consultant·e] de Flexsis à Sion. J'ai vu sur simap, dans un avis publié début mai, que le Foyer Saint-Jacques vous a attribué le terrassement de l'EMS de Saint-Maurice.",
+     "de": "Guten Tag, hier [Beraterin/Berater] von Flexsis in Sitten. Ich habe auf simap in einer Anfang Mai publizierten Mitteilung gesehen, dass Ihnen das Foyer Saint-Jacques die Erdarbeiten für das Pflegeheim (EMS) in Saint-Maurice vergeben hat."
+    },
+    "question": {
+     "fr": "Pour ce chantier ou vos prochains travaux, y a-t-il des semaines ou des métiers pour lesquels un renfort vous serait utile ?",
+     "de": "Gibt es für diese Baustelle oder Ihre nächsten Arbeiten Wochen oder Berufe, für die Ihnen eine Verstärkung helfen würde?"
+    }
+   },
+   "metier_mission": "manoeuvre_construction",
+   "travailleur_fictif": "cand-140"
+  },
+  "ent-866876591f": {
+   "annonce_url": "https://www.simap.ch/fr/project-detail/df069193-47e8-4b8a-8aad-aadb9c44ae62",
+   "annonce_langue": "de",
+   "activite": {"fr": "Génie civil et bâtiment : routes, ponts, conduites, ouvrages de protection", "de": "Tief- und Hochbau: Strassen, Brücken, Leitungen, Schutzbauten"},
+   "activite_source": "titres des marchés publics remportés (simap.ch)",
+   "envisager": {
+    "fr": "Trois tronçons de la nouvelle route cantonale NG24, dont les attributions ont été publiées entre fin juin et septembre, la dernière le 21.09 : des travaux de génie civil sur cet axe sont probables, leurs dates restent à confirmer.",
+    "de": "Drei Abschnitte der neuen Kantonsstrasse NG24, deren Zuschläge zwischen Ende Juni und September publiziert wurden, der letzte am 21.09.: Tiefbauarbeiten auf dieser Strecke sind wahrscheinlich, ihre Daten sind noch zu bestätigen."
+   },
+   "verifier": {
+    "fr": ["Les dates réelles des travaux sur ces tronçons", "Si les équipes de l'entreprise sont déjà complètes", "Les métiers, les semaines et la langue de travail pour un éventuel renfort"],
+    "de": ["Die tatsächlichen Daten der Arbeiten auf diesen Abschnitten", "Ob die Teams des Unternehmens bereits vollständig sind", "Berufe, Wochen und Arbeitssprache für eine allfällige Verstärkung"]
+   },
+   "appel": {
+    "intro": {
+     "fr": "Bonjour, ici [consultant·e] de Flexsis à Sion. J'ai vu sur simap, dans un avis publié en septembre, que le Service de la mobilité, arrondissement 1 Haut-Valais, vous a attribué un tronçon de la nouvelle route cantonale NG24. Titre original : « NG24 neue Kantonsstrasse, Abschnitt 3 Tännbach - Oberried ».",
+     "de": "Guten Tag, hier [Beraterin/Berater] von Flexsis in Sitten. Ich habe auf simap in einer im September publizierten Mitteilung gesehen, dass Ihnen die Dienststelle für Mobilität, Kreis 1 Oberwallis, einen Abschnitt der neuen Kantonsstrasse NG24 vergeben hat. Originaltitel: «NG24 neue Kantonsstrasse, Abschnitt 3 Tännbach - Oberried»."
+    },
+    "question": {
+     "fr": "Après les tronçons 1 et 2, dont l'attribution a été publiée fin juin et début juillet, y a-t-il pour ce troisième tronçon des semaines ou des métiers pour lesquels un renfort vous serait utile ?",
+     "de": "Gibt es nach den Abschnitten 1 und 2, deren Zuschlag Ende Juni und Anfang Juli publiziert wurde, für diesen dritten Abschnitt Wochen oder Berufe, für die Ihnen eine Verstärkung helfen würde?"
+    }
+   },
+   "metier_mission": "machiniste"
+  }
+ }
+}

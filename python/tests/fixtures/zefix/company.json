@@ -1,0 +1,11 @@
+{
+  "_fixture_note": "Échantillon SYNTHÉTIQUE et FICTIF au format supposé (docs/recherche/donnees.md § 4.3) — PAS une réponse réelle de Zefix.",
+  "name": "Abrel Construction Sàrl",
+  "uid": "CHE346292984",
+  "legalForm": {"shortName": {"fr": "Sàrl", "de": "GmbH"}},
+  "legalSeat": "Sion",
+  "canton": "VS",
+  "status": "ACTIVE",
+  "purpose": "Travaux de maçonnerie (FICTIF)",
+  "persons": [{"name": "Dupont", "firstName": "Jean", "role": "gérant"}]
+}

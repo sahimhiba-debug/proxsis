@@ -1,0 +1,16 @@
+{
+ "avertissement": "monde fictif : prouve que le code fonctionne, pas sa performance réelle",
+ "wape": {
+  "saisonnier_naif": 0.44214876033057854,
+  "moyenne_4s": 0.36805357651752635,
+  "lightgbm_global": 0.3395425055118614
+ },
+ "mase": {
+  "saisonnier_naif": 0.941540206460794,
+  "moyenne_4s": 0.7837571231995587,
+  "lightgbm_global": 0.7230438020516681
+ },
+ "n_origins": 28,
+ "horizons": 8,
+ "protocole": "monde FICTIF seed=42 ; séries hebdomadaires d'offres par famille de métiers x région linguistique (8 séries) ; origines glissantes toutes les 4 semaines dès 2024-07-01 ; horizons 1-8 semaines"
+}

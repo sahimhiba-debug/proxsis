@@ -1,0 +1,1045 @@
+{
+ "donnees": "RÉEL (simap, adjudications de construction)",
+ "chantiers": 542,
+ "chantiers_2_lots_ou_plus": 213,
+ "delais": {
+  "_ancre": "gros_oeuvre",
+  "_chantiers_avec_ancre": 145,
+  "preparatoire": {
+   "n": 44,
+   "presence": 0.30344827586206896,
+   "mediane_jours": 0.0,
+   "p10_jours": -112.7,
+   "p90_jours": 16.10000000000001,
+   "ic95_mediane": [
+    0.0,
+    0.0
+   ],
+   "rapport_montant_median": 0.7820732446229849
+  },
+  "terrassement": {
+   "n": 10,
+   "presence": 0.06896551724137931,
+   "mediane_jours": 0.0,
+   "p10_jours": -79.7,
+   "p90_jours": 54.89999999999995,
+   "ic95_mediane": [
+    -36.0,
+    20.5
+   ],
+   "rapport_montant_median": 1.117573440888909
+  },
+  "enveloppe": {
+   "n": 79,
+   "presence": 0.5448275862068965,
+   "mediane_jours": 14.0,
+   "p10_jours": -17.399999999999952,
+   "p90_jours": 156.40000000000003,
+   "ic95_mediane": [
+    0.0,
+    34.0
+   ],
+   "rapport_montant_median": 0.5555649612792303
+  },
+  "electricite": {
+   "n": 57,
+   "presence": 0.3931034482758621,
+   "mediane_jours": 0.0,
+   "p10_jours": -3.1999999999999957,
+   "p90_jours": 174.3999999999999,
+   "ic95_mediane": [
+    0.0,
+    9.0
+   ],
+   "rapport_montant_median": 0.7156227041303646
+  },
+  "cvc": {
+   "n": 58,
+   "presence": 0.4,
+   "mediane_jours": 0.0,
+   "p10_jours": -74.2,
+   "p90_jours": 77.00000000000009,
+   "ic95_mediane": [
+    0.0,
+    0.0
+   ],
+   "rapport_montant_median": 0.33300923372922653
+  },
+  "sanitaire": {
+   "n": 47,
+   "presence": 0.32413793103448274,
+   "mediane_jours": 0.0,
+   "p10_jours": -25.799999999999994,
+   "p90_jours": 76.99999999999997,
+   "ic95_mediane": [
+    0.0,
+    0.0
+   ],
+   "rapport_montant_median": 0.3652930683484287
+  },
+  "transport": {
+   "n": 16,
+   "presence": 0.1103448275862069,
+   "mediane_jours": 10.0,
+   "p10_jours": 0.0,
+   "p90_jours": 175.5,
+   "ic95_mediane": [
+    0.0,
+    49.0
+   ],
+   "rapport_montant_median": 0.10578229166666667
+  },
+  "amenagement_int": {
+   "n": 37,
+   "presence": 0.25517241379310346,
+   "mediane_jours": 74.0,
+   "p10_jours": -113.8,
+   "p90_jours": 327.0,
+   "ic95_mediane": [
+    28.0,
+    112.0
+   ],
+   "rapport_montant_median": 0.33265682459877627
+  },
+  "finitions": {
+   "n": 30,
+   "presence": 0.20689655172413793,
+   "mediane_jours": 71.0,
+   "p10_jours": -59.09999999999997,
+   "p90_jours": 316.7,
+   "ic95_mediane": [
+    15.0,
+    160.0
+   ],
+   "rapport_montant_median": 0.17818352384102865
+  },
+  "equipement": {
+   "n": 10,
+   "presence": 0.06896551724137931,
+   "mediane_jours": 93.0,
+   "p10_jours": -9.799999999999997,
+   "p90_jours": 387.7,
+   "ic95_mediane": [
+    0.0,
+    355.0
+   ],
+   "rapport_montant_median": 0.2593352774631936
+  },
+  "exterieur": {
+   "n": 10,
+   "presence": 0.06896551724137931,
+   "mediane_jours": 3.5,
+   "p10_jours": -31.4,
+   "p90_jours": 487.7,
+   "ic95_mediane": [
+    -11.5,
+    396.0
+   ],
+   "rapport_montant_median": 0.2736237248331912
+  }
+ },
+ "validation": [
+  {
+   "coupure": "2025-10-01",
+   "n_chantiers_apprentissage": 85,
+   "n_chantiers_test": 60,
+   "n_lots_test": 160,
+   "couverture_p10_p90": 0.85,
+   "mae_mediane_jours": 54.228125,
+   "mae_reference_jours": 44.18125,
+   "reference": "un seul délai (médiane de toutes les phases)",
+   "par_phase": {
+    "preparatoire": {
+     "n_test": 17,
+     "couverture": 0.9411764705882353,
+     "mae_jours": 24.705882352941178
+    },
+    "terrassement": {
+     "n_test": 6,
+     "couverture": 1.0,
+     "mae_jours": 38.166666666666664
+    },
+    "enveloppe": {
+     "n_test": 36,
+     "couverture": 0.7777777777777778,
+     "mae_jours": 45.44444444444444
+    },
+    "electricite": {
+     "n_test": 23,
+     "couverture": 0.8695652173913043,
+     "mae_jours": 40.71739130434783
+    },
+    "cvc": {
+     "n_test": 25,
+     "couverture": 0.84,
+     "mae_jours": 42.16
+    },
+    "sanitaire": {
+     "n_test": 22,
+     "couverture": 0.8636363636363636,
+     "mae_jours": 22.818181818181817
+    },
+    "transport": {
+     "n_test": 6,
+     "couverture": 0.8333333333333334,
+     "mae_jours": 38.333333333333336
+    },
+    "amenagement_int": {
+     "n_test": 12,
+     "couverture": 0.8333333333333334,
+     "mae_jours": 98.33333333333333
+    },
+    "finitions": {
+     "n_test": 6,
+     "couverture": 0.6666666666666666,
+     "mae_jours": 200.16666666666666
+    },
+    "equipement": {
+     "n_test": 3,
+     "couverture": 1.0,
+     "mae_jours": 102.66666666666667
+    },
+    "exterieur": {
+     "n_test": 4,
+     "couverture": 1.0,
+     "mae_jours": 245.0
+    }
+   }
+  },
+  {
+   "coupure": "2026-01-01",
+   "n_chantiers_apprentissage": 96,
+   "n_chantiers_test": 49,
+   "n_lots_test": 138,
+   "couverture_p10_p90": 0.8260869565217391,
+   "mae_mediane_jours": 56.97463768115942,
+   "mae_reference_jours": 43.30434782608695,
+   "reference": "un seul délai (médiane de toutes les phases)",
+   "par_phase": {
+    "preparatoire": {
+     "n_test": 15,
+     "couverture": 0.9333333333333333,
+     "mae_jours": 27.066666666666666
+    },
+    "terrassement": {
+     "n_test": 6,
+     "couverture": 1.0,
+     "mae_jours": 38.166666666666664
+    },
+    "enveloppe": {
+     "n_test": 31,
+     "couverture": 0.7419354838709677,
+     "mae_jours": 45.95161290322581
+    },
+    "electricite": {
+     "n_test": 19,
+     "couverture": 0.8947368421052632,
+     "mae_jours": 37.21052631578947
+    },
+    "cvc": {
+     "n_test": 22,
+     "couverture": 0.7727272727272727,
+     "mae_jours": 42.59090909090909
+    },
+    "sanitaire": {
+     "n_test": 18,
+     "couverture": 0.8333333333333334,
+     "mae_jours": 26.444444444444443
+    },
+    "transport": {
+     "n_test": 5,
+     "couverture": 0.8,
+     "mae_jours": 31.2
+    },
+    "amenagement_int": {
+     "n_test": 9,
+     "couverture": 0.7777777777777778,
+     "mae_jours": 115.33333333333333
+    },
+    "finitions": {
+     "n_test": 6,
+     "couverture": 0.6666666666666666,
+     "mae_jours": 200.16666666666666
+    },
+    "equipement": {
+     "n_test": 3,
+     "couverture": 1.0,
+     "mae_jours": 102.66666666666667
+    },
+    "exterieur": {
+     "n_test": 4,
+     "couverture": 1.0,
+     "mae_jours": 245.0
+    }
+   }
+  }
+ ],
+ "hypotheses": [
+  "mesuré : délai entre l'adjudication de l'ancre (gros_oeuvre) et celle de chaque phase (quantiles 10/50/90)",
+  "mesuré : probabilité qu'une phase soit adjugée séparément dans le même chantier",
+  "mesuré : montant de chaque phase rapporté au montant de l'ancre (médiane)",
+  "hypothèse : début des travaux 4 semaines après l'adjudication",
+  "hypothèse : durées des phases en semaines {'preparatoire': 4, 'terrassement': 6, 'gros_oeuvre': 16, 'enveloppe': 8, 'electricite': 12, 'cvc': 12, 'sanitaire': 12, 'transport': 6, 'amenagement_int': 8, 'finitions': 6, 'equipement': 6, 'exterieur': 6}",
+  "hypothèse : part de main-d'œuvre dans le prix (0.25, 0.35, 0.45) (bas, milieu, haut)",
+  "hypothèse : coût hebdomadaire d'une personne en CHF (2600.0, 2300.0, 2000.0)",
+  "hypothèse : répartition de la main-d'œuvre d'une phase entre ses métiers (égale, sauf gros œuvre)"
+ ],
+ "exemple_besoins_sans_montant": [
+  {
+   "semaine": "2026-11-02",
+   "metier": "coffreur",
+   "personnes_bas": 0.59,
+   "personnes_milieu": 1.86,
+   "personnes_haut": 5.51
+  },
+  {
+   "semaine": "2026-11-02",
+   "metier": "electricien",
+   "personnes_bas": 1.1,
+   "personnes_milieu": 3.5,
+   "personnes_haut": 26.3
+  },
+  {
+   "semaine": "2026-11-02",
+   "metier": "grutier",
+   "personnes_bas": 0.29,
+   "personnes_milieu": 0.93,
+   "personnes_haut": 2.76
+  },
+  {
+   "semaine": "2026-11-02",
+   "metier": "installateur_sanitaire",
+   "personnes_bas": 0.46,
+   "personnes_milieu": 1.47,
+   "personnes_haut": 13.43
+  },
+  {
+   "semaine": "2026-11-02",
+   "metier": "machiniste",
+   "personnes_bas": 1.77,
+   "personnes_milieu": 5.62,
+   "personnes_haut": 94.25
+  },
+  {
+   "semaine": "2026-11-02",
+   "metier": "macon",
+   "personnes_bas": 1.18,
+   "personnes_milieu": 3.73,
+   "personnes_haut": 11.03
+  },
+  {
+   "semaine": "2026-11-02",
+   "metier": "manoeuvre_construction",
+   "personnes_bas": 2.66,
+   "personnes_milieu": 8.41,
+   "personnes_haut": 102.52
+  },
+  {
+   "semaine": "2026-11-09",
+   "metier": "coffreur",
+   "personnes_bas": 0.59,
+   "personnes_milieu": 1.86,
+   "personnes_haut": 5.51
+  },
+  {
+   "semaine": "2026-11-09",
+   "metier": "electricien",
+   "personnes_bas": 1.1,
+   "personnes_milieu": 3.5,
+   "personnes_haut": 26.3
+  },
+  {
+   "semaine": "2026-11-09",
+   "metier": "grutier",
+   "personnes_bas": 0.29,
+   "personnes_milieu": 0.93,
+   "personnes_haut": 2.76
+  },
+  {
+   "semaine": "2026-11-09",
+   "metier": "installateur_sanitaire",
+   "personnes_bas": 0.46,
+   "personnes_milieu": 1.47,
+   "personnes_haut": 13.43
+  },
+  {
+   "semaine": "2026-11-09",
+   "metier": "machiniste",
+   "personnes_bas": 1.77,
+   "personnes_milieu": 5.62,
+   "personnes_haut": 94.25
+  },
+  {
+   "semaine": "2026-11-09",
+   "metier": "macon",
+   "personnes_bas": 1.18,
+   "personnes_milieu": 3.73,
+   "personnes_haut": 11.03
+  },
+  {
+   "semaine": "2026-11-09",
+   "metier": "manoeuvre_construction",
+   "personnes_bas": 2.66,
+   "personnes_milieu": 8.41,
+   "personnes_haut": 102.52
+  },
+  {
+   "semaine": "2026-11-16",
+   "metier": "coffreur",
+   "personnes_bas": 0.59,
+   "personnes_milieu": 1.86,
+   "personnes_haut": 5.51
+  },
+  {
+   "semaine": "2026-11-16",
+   "metier": "electricien",
+   "personnes_bas": 1.1,
+   "personnes_milieu": 3.5,
+   "personnes_haut": 26.3
+  },
+  {
+   "semaine": "2026-11-16",
+   "metier": "grutier",
+   "personnes_bas": 0.29,
+   "personnes_milieu": 0.93,
+   "personnes_haut": 2.76
+  },
+  {
+   "semaine": "2026-11-16",
+   "metier": "installateur_sanitaire",
+   "personnes_bas": 0.46,
+   "personnes_milieu": 1.47,
+   "personnes_haut": 13.43
+  },
+  {
+   "semaine": "2026-11-16",
+   "metier": "machiniste",
+   "personnes_bas": 1.77,
+   "personnes_milieu": 5.62,
+   "personnes_haut": 94.25
+  },
+  {
+   "semaine": "2026-11-16",
+   "metier": "macon",
+   "personnes_bas": 1.18,
+   "personnes_milieu": 3.73,
+   "personnes_haut": 11.03
+  },
+  {
+   "semaine": "2026-11-16",
+   "metier": "manoeuvre_construction",
+   "personnes_bas": 2.66,
+   "personnes_milieu": 8.41,
+   "personnes_haut": 102.52
+  },
+  {
+   "semaine": "2026-11-23",
+   "metier": "coffreur",
+   "personnes_bas": 0.59,
+   "personnes_milieu": 1.86,
+   "personnes_haut": 5.51
+  },
+  {
+   "semaine": "2026-11-23",
+   "metier": "electricien",
+   "personnes_bas": 1.1,
+   "personnes_milieu": 3.5,
+   "personnes_haut": 26.3
+  },
+  {
+   "semaine": "2026-11-23",
+   "metier": "grutier",
+   "personnes_bas": 0.29,
+   "personnes_milieu": 0.93,
+   "personnes_haut": 2.76
+  },
+  {
+   "semaine": "2026-11-23",
+   "metier": "installateur_sanitaire",
+   "personnes_bas": 0.46,
+   "personnes_milieu": 1.47,
+   "personnes_haut": 13.43
+  },
+  {
+   "semaine": "2026-11-23",
+   "metier": "machiniste",
+   "personnes_bas": 1.77,
+   "personnes_milieu": 5.62,
+   "personnes_haut": 94.25
+  },
+  {
+   "semaine": "2026-11-23",
+   "metier": "macon",
+   "personnes_bas": 1.18,
+   "personnes_milieu": 3.73,
+   "personnes_haut": 11.03
+  },
+  {
+   "semaine": "2026-11-23",
+   "metier": "manoeuvre_construction",
+   "personnes_bas": 2.66,
+   "personnes_milieu": 8.41,
+   "personnes_haut": 102.52
+  },
+  {
+   "semaine": "2026-11-30",
+   "metier": "coffreur",
+   "personnes_bas": 0.59,
+   "personnes_milieu": 1.86,
+   "personnes_haut": 5.51
+  },
+  {
+   "semaine": "2026-11-30",
+   "metier": "electricien",
+   "personnes_bas": 1.1,
+   "personnes_milieu": 3.5,
+   "personnes_haut": 26.3
+  },
+  {
+   "semaine": "2026-11-30",
+   "metier": "grutier",
+   "personnes_bas": 0.29,
+   "personnes_milieu": 0.93,
+   "personnes_haut": 2.76
+  },
+  {
+   "semaine": "2026-11-30",
+   "metier": "installateur_sanitaire",
+   "personnes_bas": 0.46,
+   "personnes_milieu": 1.47,
+   "personnes_haut": 13.43
+  },
+  {
+   "semaine": "2026-11-30",
+   "metier": "machiniste",
+   "personnes_bas": 0.38,
+   "personnes_milieu": 1.19,
+   "personnes_haut": 51.13
+  },
+  {
+   "semaine": "2026-11-30",
+   "metier": "macon",
+   "personnes_bas": 1.18,
+   "personnes_milieu": 3.73,
+   "personnes_haut": 11.03
+  },
+  {
+   "semaine": "2026-11-30",
+   "metier": "manoeuvre_construction",
+   "personnes_bas": 1.26,
+   "personnes_milieu": 3.99,
+   "personnes_haut": 59.4
+  },
+  {
+   "semaine": "2026-12-07",
+   "metier": "coffreur",
+   "personnes_bas": 0.59,
+   "personnes_milieu": 1.86,
+   "personnes_haut": 5.51
+  },
+  {
+   "semaine": "2026-12-07",
+   "metier": "electricien",
+   "personnes_bas": 1.1,
+   "personnes_milieu": 3.5,
+   "personnes_haut": 26.3
+  },
+  {
+   "semaine": "2026-12-07",
+   "metier": "grutier",
+   "personnes_bas": 0.29,
+   "personnes_milieu": 0.93,
+   "personnes_haut": 2.76
+  },
+  {
+   "semaine": "2026-12-07",
+   "metier": "installateur_sanitaire",
+   "personnes_bas": 0.46,
+   "personnes_milieu": 1.47,
+   "personnes_haut": 13.43
+  },
+  {
+   "semaine": "2026-12-07",
+   "metier": "machiniste",
+   "personnes_bas": 0.38,
+   "personnes_milieu": 1.19,
+   "personnes_haut": 51.13
+  },
+  {
+   "semaine": "2026-12-07",
+   "metier": "macon",
+   "personnes_bas": 1.18,
+   "personnes_milieu": 3.73,
+   "personnes_haut": 11.03
+  },
+  {
+   "semaine": "2026-12-07",
+   "metier": "manoeuvre_construction",
+   "personnes_bas": 1.26,
+   "personnes_milieu": 3.99,
+   "personnes_haut": 59.4
+  },
+  {
+   "semaine": "2026-12-14",
+   "metier": "coffreur",
+   "personnes_bas": 0.59,
+   "personnes_milieu": 1.86,
+   "personnes_haut": 5.51
+  },
+  {
+   "semaine": "2026-12-14",
+   "metier": "electricien",
+   "personnes_bas": 1.1,
+   "personnes_milieu": 3.5,
+   "personnes_haut": 26.3
+  },
+  {
+   "semaine": "2026-12-14",
+   "metier": "grutier",
+   "personnes_bas": 0.29,
+   "personnes_milieu": 0.93,
+   "personnes_haut": 2.76
+  },
+  {
+   "semaine": "2026-12-14",
+   "metier": "installateur_sanitaire",
+   "personnes_bas": 0.46,
+   "personnes_milieu": 1.47,
+   "personnes_haut": 13.43
+  },
+  {
+   "semaine": "2026-12-14",
+   "metier": "macon",
+   "personnes_bas": 1.18,
+   "personnes_milieu": 3.73,
+   "personnes_haut": 11.03
+  },
+  {
+   "semaine": "2026-12-14",
+   "metier": "manoeuvre_construction",
+   "personnes_bas": 0.88,
+   "personnes_milieu": 2.8,
+   "personnes_haut": 8.27
+  },
+  {
+   "semaine": "2026-12-21",
+   "metier": "coffreur",
+   "personnes_bas": 0.59,
+   "personnes_milieu": 1.86,
+   "personnes_haut": 5.51
+  },
+  {
+   "semaine": "2026-12-21",
+   "metier": "electricien",
+   "personnes_bas": 1.1,
+   "personnes_milieu": 3.5,
+   "personnes_haut": 26.3
+  },
+  {
+   "semaine": "2026-12-21",
+   "metier": "grutier",
+   "personnes_bas": 0.29,
+   "personnes_milieu": 0.93,
+   "personnes_haut": 2.76
+  },
+  {
+   "semaine": "2026-12-21",
+   "metier": "installateur_sanitaire",
+   "personnes_bas": 0.46,
+   "personnes_milieu": 1.47,
+   "personnes_haut": 13.43
+  },
+  {
+   "semaine": "2026-12-21",
+   "metier": "macon",
+   "personnes_bas": 1.18,
+   "personnes_milieu": 3.73,
+   "personnes_haut": 11.03
+  },
+  {
+   "semaine": "2026-12-21",
+   "metier": "manoeuvre_construction",
+   "personnes_bas": 0.88,
+   "personnes_milieu": 2.8,
+   "personnes_haut": 8.27
+  },
+  {
+   "semaine": "2026-12-28",
+   "metier": "coffreur",
+   "personnes_bas": 0.59,
+   "personnes_milieu": 1.86,
+   "personnes_haut": 5.51
+  },
+  {
+   "semaine": "2026-12-28",
+   "metier": "electricien",
+   "personnes_bas": 1.1,
+   "personnes_milieu": 3.5,
+   "personnes_haut": 26.3
+  },
+  {
+   "semaine": "2026-12-28",
+   "metier": "grutier",
+   "personnes_bas": 0.29,
+   "personnes_milieu": 0.93,
+   "personnes_haut": 2.76
+  },
+  {
+   "semaine": "2026-12-28",
+   "metier": "installateur_sanitaire",
+   "personnes_bas": 0.46,
+   "personnes_milieu": 1.47,
+   "personnes_haut": 13.43
+  },
+  {
+   "semaine": "2026-12-28",
+   "metier": "macon",
+   "personnes_bas": 1.18,
+   "personnes_milieu": 3.73,
+   "personnes_haut": 11.03
+  },
+  {
+   "semaine": "2026-12-28",
+   "metier": "manoeuvre_construction",
+   "personnes_bas": 0.88,
+   "personnes_milieu": 2.8,
+   "personnes_haut": 8.27
+  },
+  {
+   "semaine": "2027-01-04",
+   "metier": "coffreur",
+   "personnes_bas": 0.59,
+   "personnes_milieu": 1.86,
+   "personnes_haut": 5.51
+  },
+  {
+   "semaine": "2027-01-04",
+   "metier": "electricien",
+   "personnes_bas": 1.1,
+   "personnes_milieu": 3.5,
+   "personnes_haut": 26.3
+  },
+  {
+   "semaine": "2027-01-04",
+   "metier": "grutier",
+   "personnes_bas": 0.29,
+   "personnes_milieu": 0.93,
+   "personnes_haut": 2.76
+  },
+  {
+   "semaine": "2027-01-04",
+   "metier": "installateur_sanitaire",
+   "personnes_bas": 0.46,
+   "personnes_milieu": 1.47,
+   "personnes_haut": 13.43
+  },
+  {
+   "semaine": "2027-01-04",
+   "metier": "macon",
+   "personnes_bas": 1.18,
+   "personnes_milieu": 3.73,
+   "personnes_haut": 11.03
+  },
+  {
+   "semaine": "2027-01-04",
+   "metier": "manoeuvre_construction",
+   "personnes_bas": 0.88,
+   "personnes_milieu": 2.8,
+   "personnes_haut": 8.27
+  },
+  {
+   "semaine": "2027-01-11",
+   "metier": "coffreur",
+   "personnes_bas": 0.59,
+   "personnes_milieu": 1.86,
+   "personnes_haut": 5.51
+  },
+  {
+   "semaine": "2027-01-11",
+   "metier": "electricien",
+   "personnes_bas": 1.1,
+   "personnes_milieu": 3.5,
+   "personnes_haut": 26.3
+  },
+  {
+   "semaine": "2027-01-11",
+   "metier": "grutier",
+   "personnes_bas": 0.29,
+   "personnes_milieu": 0.93,
+   "personnes_haut": 2.76
+  },
+  {
+   "semaine": "2027-01-11",
+   "metier": "installateur_sanitaire",
+   "personnes_bas": 0.46,
+   "personnes_milieu": 1.47,
+   "personnes_haut": 13.43
+  },
+  {
+   "semaine": "2027-01-11",
+   "metier": "macon",
+   "personnes_bas": 1.18,
+   "personnes_milieu": 3.73,
+   "personnes_haut": 11.03
+  },
+  {
+   "semaine": "2027-01-11",
+   "metier": "manoeuvre_construction",
+   "personnes_bas": 0.88,
+   "personnes_milieu": 2.8,
+   "personnes_haut": 8.27
+  },
+  {
+   "semaine": "2027-01-11",
+   "metier": "peintre",
+   "personnes_bas": 0.29,
+   "personnes_milieu": 0.92,
+   "personnes_haut": 13.1
+  },
+  {
+   "semaine": "2027-01-11",
+   "metier": "platrier",
+   "personnes_bas": 0.5,
+   "personnes_milieu": 1.58,
+   "personnes_haut": 18.34
+  },
+  {
+   "semaine": "2027-01-18",
+   "metier": "coffreur",
+   "personnes_bas": 0.59,
+   "personnes_milieu": 1.86,
+   "personnes_haut": 5.51
+  },
+  {
+   "semaine": "2027-01-18",
+   "metier": "electricien",
+   "personnes_bas": 1.1,
+   "personnes_milieu": 3.5,
+   "personnes_haut": 26.3
+  },
+  {
+   "semaine": "2027-01-18",
+   "metier": "grutier",
+   "personnes_bas": 0.29,
+   "personnes_milieu": 0.93,
+   "personnes_haut": 2.76
+  },
+  {
+   "semaine": "2027-01-18",
+   "metier": "installateur_sanitaire",
+   "personnes_bas": 0.46,
+   "personnes_milieu": 1.47,
+   "personnes_haut": 13.43
+  },
+  {
+   "semaine": "2027-01-18",
+   "metier": "macon",
+   "personnes_bas": 1.18,
+   "personnes_milieu": 3.73,
+   "personnes_haut": 11.03
+  },
+  {
+   "semaine": "2027-01-18",
+   "metier": "manoeuvre_construction",
+   "personnes_bas": 0.88,
+   "personnes_milieu": 2.8,
+   "personnes_haut": 8.27
+  },
+  {
+   "semaine": "2027-01-18",
+   "metier": "peintre",
+   "personnes_bas": 0.29,
+   "personnes_milieu": 0.92,
+   "personnes_haut": 13.1
+  },
+  {
+   "semaine": "2027-01-18",
+   "metier": "platrier",
+   "personnes_bas": 0.5,
+   "personnes_milieu": 1.58,
+   "personnes_haut": 18.34
+  },
+  {
+   "semaine": "2027-01-25",
+   "metier": "coffreur",
+   "personnes_bas": 0.59,
+   "personnes_milieu": 1.86,
+   "personnes_haut": 5.51
+  },
+  {
+   "semaine": "2027-01-25",
+   "metier": "grutier",
+   "personnes_bas": 0.29,
+   "personnes_milieu": 0.93,
+   "personnes_haut": 2.76
+  },
+  {
+   "semaine": "2027-01-25",
+   "metier": "macon",
+   "personnes_bas": 1.18,
+   "personnes_milieu": 3.73,
+   "personnes_haut": 11.03
+  },
+  {
+   "semaine": "2027-01-25",
+   "metier": "manoeuvre_construction",
+   "personnes_bas": 0.88,
+   "personnes_milieu": 2.8,
+   "personnes_haut": 8.27
+  },
+  {
+   "semaine": "2027-01-25",
+   "metier": "peintre",
+   "personnes_bas": 0.29,
+   "personnes_milieu": 0.92,
+   "personnes_haut": 13.1
+  },
+  {
+   "semaine": "2027-01-25",
+   "metier": "platrier",
+   "personnes_bas": 0.5,
+   "personnes_milieu": 1.58,
+   "personnes_haut": 18.34
+  },
+  {
+   "semaine": "2027-02-01",
+   "metier": "coffreur",
+   "personnes_bas": 0.59,
+   "personnes_milieu": 1.86,
+   "personnes_haut": 5.51
+  },
+  {
+   "semaine": "2027-02-01",
+   "metier": "grutier",
+   "personnes_bas": 0.29,
+   "personnes_milieu": 0.93,
+   "personnes_haut": 2.76
+  },
+  {
+   "semaine": "2027-02-01",
+   "metier": "macon",
+   "personnes_bas": 1.18,
+   "personnes_milieu": 3.73,
+   "personnes_haut": 11.03
+  },
+  {
+   "semaine": "2027-02-01",
+   "metier": "manoeuvre_construction",
+   "personnes_bas": 0.88,
+   "personnes_milieu": 2.8,
+   "personnes_haut": 8.27
+  },
+  {
+   "semaine": "2027-02-01",
+   "metier": "peintre",
+   "personnes_bas": 0.29,
+   "personnes_milieu": 0.92,
+   "personnes_haut": 13.1
+  },
+  {
+   "semaine": "2027-02-01",
+   "metier": "platrier",
+   "personnes_bas": 0.5,
+   "personnes_milieu": 1.58,
+   "personnes_haut": 18.34
+  },
+  {
+   "semaine": "2027-02-08",
+   "metier": "coffreur",
+   "personnes_bas": 0.59,
+   "personnes_milieu": 1.86,
+   "personnes_haut": 5.51
+  },
+  {
+   "semaine": "2027-02-08",
+   "metier": "grutier",
+   "personnes_bas": 0.29,
+   "personnes_milieu": 0.93,
+   "personnes_haut": 2.76
+  },
+  {
+   "semaine": "2027-02-08",
+   "metier": "macon",
+   "personnes_bas": 1.18,
+   "personnes_milieu": 3.73,
+   "personnes_haut": 11.03
+  },
+  {
+   "semaine": "2027-02-08",
+   "metier": "manoeuvre_construction",
+   "personnes_bas": 0.88,
+   "personnes_milieu": 2.8,
+   "personnes_haut": 8.27
+  },
+  {
+   "semaine": "2027-02-08",
+   "metier": "peintre",
+   "personnes_bas": 0.29,
+   "personnes_milieu": 0.92,
+   "personnes_haut": 13.1
+  },
+  {
+   "semaine": "2027-02-08",
+   "metier": "platrier",
+   "personnes_bas": 0.5,
+   "personnes_milieu": 1.58,
+   "personnes_haut": 18.34
+  },
+  {
+   "semaine": "2027-02-15",
+   "metier": "coffreur",
+   "personnes_bas": 0.59,
+   "personnes_milieu": 1.86,
+   "personnes_haut": 5.51
+  },
+  {
+   "semaine": "2027-02-15",
+   "metier": "grutier",
+   "personnes_bas": 0.29,
+   "personnes_milieu": 0.93,
+   "personnes_haut": 2.76
+  },
+  {
+   "semaine": "2027-02-15",
+   "metier": "macon",
+   "personnes_bas": 1.18,
+   "personnes_milieu": 3.73,
+   "personnes_haut": 11.03
+  },
+  {
+   "semaine": "2027-02-15",
+   "metier": "manoeuvre_construction",
+   "personnes_bas": 0.88,
+   "personnes_milieu": 2.8,
+   "personnes_haut": 8.27
+  },
+  {
+   "semaine": "2027-02-15",
+   "metier": "peintre",
+   "personnes_bas": 0.29,
+   "personnes_milieu": 0.92,
+   "personnes_haut": 13.1
+  },
+  {
+   "semaine": "2027-02-15",
+   "metier": "platrier",
+   "personnes_bas": 0.5,
+   "personnes_milieu": 1.58,
+   "personnes_haut": 18.34
+  },
+  {
+   "semaine": "2027-02-22",
+   "metier": "platrier",
+   "personnes_bas": 0.5,
+   "personnes_milieu": 1.58,
+   "personnes_haut": 18.34
+  },
+  {
+   "semaine": "2027-03-01",
+   "metier": "platrier",
+   "personnes_bas": 0.5,
+   "personnes_milieu": 1.58,
+   "personnes_haut": 18.34
+  }
+ ]
+}

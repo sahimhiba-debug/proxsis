@@ -1,0 +1,48 @@
+{
+ "avertissement": "monde fictif : prouve que le code fonctionne, pas sa performance réelle",
+ "n_needs": 300,
+ "k": 5,
+ "selection": {
+  "audit_gender": {
+   "M": 0.7077393075356415,
+   "F": 0.7335766423357665
+  },
+  "audit_age_band": {
+   "30-44": 0.7746212121212122,
+   "55+": 0.6746987951807228,
+   "18-29": 0.6369294605809128,
+   "45-54": 0.7598870056497176
+  },
+  "audit_nationality_group": {
+   "CH": 0.6938775510204082,
+   "UE/AELE": 0.720863309352518,
+   "autre": 0.8053691275167785
+  }
+ },
+ "di_ratio": {
+  "audit_gender": 0.9647789565411232,
+  "audit_age_band": 0.8222463451998092,
+  "audit_nationality_group": 0.8615646258503402
+ },
+ "flags": [],
+ "counterfactual_invariant": true,
+ "proxies": {
+  "experience_years": {
+   "audit_gender": 0.004829589088788938,
+   "audit_age_band": 0.5892643773359626,
+   "audit_nationality_group": 0.011453224392812357
+  },
+  "max_travel_km": {
+   "audit_gender": 0.002113502448897496,
+   "audit_age_band": 0.05239606567951061,
+   "audit_nationality_group": 0.035024686260223384
+  },
+  "driving_licence": {
+   "audit_gender": 0.06179468684860829,
+   "audit_age_band": 0.07150811294019632,
+   "audit_nationality_group": 0.02862590138608007
+  }
+ },
+ "protocole": "monde FICTIF seed=42, 700 candidats fictifs, 300 besoins tirés au hasard, top-5",
+ "reproductibilite": "NON reproductible depuis le dépôt : la graine du tirage des 300 besoins n'a pas été consignée (constaté le 2026-10-05 : deux tirages donnent 0,874 et 0,830 pour l'âge au lieu de 0,822). Remplacé par m5_audit_equite_v2.json (20 tirages, graines consignées). Conservé pour l'historique."
+}

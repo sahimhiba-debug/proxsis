@@ -1,0 +1,38 @@
+name: Mise à jour quotidienne des sources publiques
+# Tourne chaque jour ouvrable à 05:17 UTC (ADR-0011) : les adjudications simap des deux derniers jours, par l'API, filtrées
+# des données personnelles avant toute écriture, gardées 30 jours comme artefact. Le Bulletin officiel et la FOSC restent
+# en consultation humaine (aucun appel automatique). Si la source n'a pas pu être lue, le travail échoue (rien d'écrit).
+# MISE EN ROUTE : les lectures planifiées ne partent que si la variable du dépôt MISE_A_JOUR_QUOTIDIENNE vaut « actif »
+# (Settings → Secrets and variables → Actions → Variables) ; à la main (Run workflow), toujours.
+on:
+  schedule:
+    - cron: "17 5 * * 1-5"
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  update:
+    if: github.event_name != 'schedule' || vars.MISE_A_JOUR_QUOTIDIENNE == 'actif'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    defaults: { run: { working-directory: python } }
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+        with: { persist-credentials: false }
+      - uses: astral-sh/setup-uv@caf0cab7a618c569241d31dcd442f54681755d39 # v3.2.4
+        with: { version: "0.11.17" }
+      - run: uv sync --frozen # the locked environment, as tested (uv.lock, .python-version)
+      - name: Mise à jour (2 derniers jours, Valais)
+        env:
+          PROXSIS_USER_AGENT: "Proxsis/0.1 (+https://github.com/sahimhiba-debug/proxsis)"
+        run: . .venv/bin/activate && proxsis update --days 2 --cantons VS --out ../data/reel
+      # Seules les tables FILTRÉES sont conservées : le cache HTTP brut n'est pas téléversé (il pouvait contenir des noms
+      # de personnes avant filtrage).
+      - name: Conserver les tables filtrées
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: proxsis-update-${{ github.run_id }}
+          path: data/reel
+          retention-days: 30

@@ -1,0 +1,429 @@
+localite,npa,commune,bfs,canton,lat,lon,langue,source,retrieved_at
+Collombey,1868,Collombey-Muraz,6152,VS,46.27335396624252,6.947792619586523,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Massongex,1869,Massongex,6215,VS,46.241527610925694,6.986703128076743,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Monthey,1870,Monthey,6153,VS,46.253870007741725,6.95215746581405,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Choëx,1871,Monthey,6153,VS,46.241211105468565,6.949651976183634,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Les Giettes,1871,Monthey,6153,VS,46.22727449763415,6.959628304137655,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Les Giettes,1871,Massongex,6215,VS,46.2255316466037,6.970894001373722,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Les Giettes,1871,Troistorrents,6156,VS,46.224361670856204,6.934307143456987,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Troistorrents,1872,Troistorrents,6156,VS,46.23438724634324,6.922282994526264,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Troistorrents,1872,Collombey-Muraz,6152,VS,46.256606382165856,6.92217538463094,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Val-d'Illiez,1873,Val-d'Illiez,6157,VS,46.20111891131084,6.891376497261922,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Champoussin,1873,Val-d'Illiez,6157,VS,46.20821011428227,6.862980689355826,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Les Crosets,1873,Val-d'Illiez,6157,VS,46.18715092319043,6.838840617096589,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Champéry,1874,Champéry,6151,VS,46.17573536300796,6.868323005613048,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Morgins,1875,Troistorrents,6156,VS,46.23968310983465,6.860546802824668,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+St-Maurice,1890,Saint-Maurice,6217,VS,46.206179417855154,7.006341380905787,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Mex VS,1890,Saint-Maurice,6217,VS,46.18631850699648,6.997484928698598,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Vérossaz,1891,Vérossaz,6220,VS,46.21230191146159,6.984834158710787,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Vérossaz,1891,Massongex,6215,VS,46.22447236182119,6.9891262013015,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Muraz (Collombey),1893,Collombey-Muraz,6152,VS,46.28021510659204,6.928930828464279,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Muraz (Collombey),1893,Monthey,6153,VS,46.280968459512835,6.882708633923993,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Vionnaz,1895,Vionnaz,6158,VS,46.31067834742765,6.902473645561697,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Vouvry,1896,Vouvry,6159,VS,46.33717611342805,6.888548249886097,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Miex,1896,Vouvry,6159,VS,46.339152462916836,6.862720196843736,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Bouveret,1897,Port-Valais,6154,VS,46.38325052896916,6.861016426858782,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Les Evouettes,1897,Port-Valais,6154,VS,46.36241107295698,6.876077712534486,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Les Evouettes,1897,Vouvry,6159,VS,46.3546189280427,6.879354661892656,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+St-Gingolph,1898,Saint-Gingolph,6155,VS,46.38841025563823,6.812925423073181,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+St-Gingolph,1898,Port-Valais,6154,VS,46.38022008144382,6.840472456735276,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Torgon,1899,Vionnaz,6158,VS,46.31694800181232,6.872875101507351,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Torgon,1899,Vouvry,6159,VS,46.3253803391234,6.8753192183373235,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Evionnaz,1902,Evionnaz,6213,VS,46.174387588494845,7.022806406105616,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Evionnaz,1902,Saint-Maurice,6217,VS,46.184979434767726,7.023865068058556,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Collonges,1903,Collonges,6211,VS,46.17252382686102,7.034707417163098,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Vernayaz,1904,Vernayaz,6219,VS,46.1359869573902,7.040762949430611,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Vernayaz,1904,Martigny,6136,VS,46.129844218715554,7.046254951699265,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Dorénaz,1905,Dorénaz,6212,VS,46.148946370750835,7.044926312595653,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Charrat,1906,Martigny,6136,VS,46.123637204268015,7.133222550311734,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Saxon,1907,Saxon,6141,VS,46.14789963871082,7.176482620880859,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Saxon,1907,Martigny,6136,VS,46.13147470064762,7.151261272644245,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Riddes,1908,Riddes,6139,VS,46.17144812007542,7.221985219662084,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Riddes,1908,Chamoson,6022,VS,46.1778770378238,7.22993652992379,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Ovronnaz,1911,Leytron,6135,VS,46.19831232728481,7.173168753828078,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Ovronnaz,1911,Saillon,6140,VS,46.192249586117406,7.137564369449213,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Leytron,1912,Leytron,6135,VS,46.186173975509995,7.208430756197429,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Produit (Leytron),1912,Leytron,6135,VS,46.18675472456833,7.19377981237539,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Montagnon (Leytron),1912,Leytron,6135,VS,46.19004147666541,7.191200363843666,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Dugny (Leytron),1912,Leytron,6135,VS,46.189110572516974,7.181244244179084,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Saillon,1913,Saillon,6140,VS,46.16978108290023,7.186139543108395,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Isérables,1914,Isérables,6134,VS,46.16062945820407,7.24850211452904,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Auddes-sur-Riddes,1914,Riddes,6139,VS,46.15219193487514,7.243457829956263,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+La Tzoumaz,1918,Riddes,6139,VS,46.14475009950289,7.236961950328036,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Martigny,1920,Martigny,6136,VS,46.10293569092361,7.074925248235645,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Martigny,1920,Vernayaz,6219,VS,46.126041138416404,7.039179719594319,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Martigny,1920,Martigny-Combe,6137,VS,46.09379517779894,7.0037430000376535,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Martigny,1920,Salvan,6218,VS,46.11104667456931,7.0221782443995755,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Martigny-Croix,1921,Martigny-Combe,6137,VS,46.08297450585191,7.04814415158208,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Salvan,1922,Salvan,6218,VS,46.12011670592573,7.020401235997352,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Les Granges (Salvan),1922,Salvan,6218,VS,46.12743391649736,7.021405867305595,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Les Marécottes,1923,Salvan,6218,VS,46.111856608063725,7.005590483785183,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Le Trétien,1923,Salvan,6218,VS,46.10165521147758,6.998559218696478,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Finhaut,1925,Finhaut,6214,VS,46.08238158433407,6.9749548904072585,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Le Châtelard VS,1925,Finhaut,6214,VS,46.0590616102203,6.957076008169052,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Fully,1926,Fully,6133,VS,46.14096304757023,7.120352428733333,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Chemin,1927,Val de Bagnes,6037,VS,46.08938188608346,7.098740104590368,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Chemin,1927,Martigny,6136,VS,46.09118097072041,7.084170619692781,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Chemin,1927,Bovernier,6131,VS,46.08765123700379,7.088809033184976,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Ravoire,1928,Martigny-Combe,6137,VS,46.09913308213019,7.0488428319812595,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Ravoire,1928,Martigny,6136,VS,46.10647254172228,7.065822685742647,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Trient,1929,Trient,6142,VS,46.05571489846893,6.9851051217084,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Bovernier,1932,Bovernier,6131,VS,46.07608036068863,7.082278445498174,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Les Valettes (Bovernier),1932,Bovernier,6131,VS,46.07533233837644,7.073442355329883,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Sembrancher,1933,Sembrancher,6035,VS,46.07797639610189,7.150554196755059,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Vens (Sembrancher),1933,Val de Bagnes,6037,VS,46.087189420443025,7.127531990504011,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Chamoille (Sembrancher),1933,Sembrancher,6035,VS,46.06057993780841,7.154458280293317,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+La Garde (Sembrancher),1933,Sembrancher,6035,VS,46.065434590188225,7.146304331189514,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Le Châble VS,1934,Val de Bagnes,6037,VS,46.08082940247212,7.214215790016901,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Bruson,1934,Val de Bagnes,6037,VS,46.06538138739461,7.21288390420038,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Verbier,1936,Val de Bagnes,6037,VS,46.09997043377497,7.227339421166637,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Orsières,1937,Orsières,6034,VS,46.02928512662301,7.144251361627649,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Champex-Lac,1938,Orsières,6034,VS,46.0303241400384,7.113314959383511,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Vollèges,1941,Val de Bagnes,6037,VS,46.0859080511195,7.167641603376617,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Cries (Vollèges),1941,Val de Bagnes,6037,VS,46.09128312718645,7.177221155722946,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Levron,1942,Val de Bagnes,6037,VS,46.09852650948136,7.162988229557445,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Praz-de-Fort,1943,Orsières,6034,VS,45.98812770737991,7.123309990260317,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+La Fouly VS,1944,Orsières,6034,VS,45.941804685541804,7.102896146342006,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Liddes,1945,Liddes,6033,VS,45.99206432983232,7.185866812761634,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Fontaine Dessus (Liddes),1945,Liddes,6033,VS,46.00559183306966,7.173450214378966,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Fontaine Dessous (Liddes),1945,Liddes,6033,VS,46.0102835904309,7.168056809779519,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Dranse (Liddes),1945,Liddes,6033,VS,45.988914781813875,7.181416336124762,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Chandonne (Liddes),1945,Liddes,6033,VS,46.00440278398959,7.180452454072099,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Rive Haute (Liddes),1945,Liddes,6033,VS,46.00697021470828,7.170538932989792,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Fornex (Liddes),1945,Liddes,6033,VS,46.00856416765541,7.16383101923672,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Les Moulins VS (Liddes),1945,Liddes,6033,VS,46.004526385530234,7.168020881070309,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Vichères (Liddes),1945,Liddes,6033,VS,45.99642666687257,7.16646070733682,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Palasuit (Liddes),1945,Liddes,6033,VS,45.98229138946912,7.192209014022858,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Chez Petit (Liddes),1945,Liddes,6033,VS,45.986326497021444,7.178563808192679,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Petit Vichères (Liddes),1945,Liddes,6033,VS,45.987895523785426,7.157779779139854,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Bourg-St-Pierre,1946,Bourg-Saint-Pierre,6032,VS,45.94973650376373,7.208952989467157,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Bourg-St-Pierre,1946,Liddes,6033,VS,45.965900743043626,7.200087361056069,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Versegères,1947,Val de Bagnes,6037,VS,46.06608155992166,7.230727855034545,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Champsec,1947,Val de Bagnes,6037,VS,46.05682756909803,7.2420303294731205,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Lourtier,1948,Val de Bagnes,6037,VS,46.051826057508684,7.263727777362978,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Fionnay,1948,Val de Bagnes,6037,VS,46.03064917661577,7.308881301018357,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Sarreyer,1948,Val de Bagnes,6037,VS,46.06559708657965,7.251897614197708,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Sion,1950,Sion,6266,VS,46.231422405695966,7.358420821997395,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Sion,1950,Savièse,6265,VS,46.24863497118975,7.364152254729403,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Sion,1950,Grimisuat,6263,VS,46.24969605495794,7.366197815814906,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Chamoson,1955,Chamoson,6022,VS,46.2016401511421,7.2234191746973355,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Mayens-de-Chamoson,1955,Chamoson,6022,VS,46.205420884868865,7.185753346397366,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Les Vérines (Chamoson),1955,Chamoson,6022,VS,46.21107244953479,7.20340113414272,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Némiaz (Chamoson),1955,Chamoson,6022,VS,46.21140112001406,7.223795053115639,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Grugnay (Chamoson),1955,Chamoson,6022,VS,46.20804892876015,7.216176757047563,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+St-Pierre-de-Clages,1955,Chamoson,6022,VS,46.192256025406564,7.237057174124354,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Ardon,1957,Ardon,6021,VS,46.209637424193275,7.259395529140615,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+St-Léonard,1958,Saint-Léonard,6246,VS,46.25366033916452,7.422058899043907,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+St-Léonard,1958,Ayent,6082,VS,46.26264561767396,7.414909639275163,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+St-Léonard,1958,Sierre,6248,VS,46.260974978770136,7.44532366791455,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Uvrier,1958,Sion,6266,VS,46.249098090913414,7.414267453543051,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Uvrier,1958,Ayent,6082,VS,46.254774663743945,7.415859867979159,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Vernamiège,1961,Mont-Noble,6090,VS,46.21084252233361,7.434252694688949,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Pont-de-la-Morge (Sion),1962,Sion,6266,VS,46.22379064861749,7.31506616981147,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Pont-de-la-Morge (Sion),1962,Savièse,6265,VS,46.23847038476686,7.314073230473856,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Vétroz,1963,Vétroz,6025,VS,46.221646883809676,7.277409140422431,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Vétroz,1963,Conthey,6023,VS,46.22240656692062,7.26073291265318,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Conthey,1964,Conthey,6023,VS,46.226585055511784,7.304431564980198,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Savièse,1965,Savièse,6265,VS,46.25378590589091,7.347248192104269,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Fortunau (Ayent),1966,Ayent,6082,VS,46.29125216934255,7.417323288407072,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Luc (Ayent),1966,Ayent,6082,VS,46.28401109286811,7.419428187793026,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+St-Romain (Ayent),1966,Ayent,6082,VS,46.283289959731356,7.412344248733105,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Saxonne (Ayent),1966,Ayent,6082,VS,46.280607901736225,7.4071689275351185,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Villa (Ayent),1966,Ayent,6082,VS,46.276408867938066,7.414747717872533,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+La Place (Ayent),1966,Ayent,6082,VS,46.27484272960783,7.410934453112136,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Botyre (Ayent),1966,Ayent,6082,VS,46.27616379365005,7.406224544930622,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Blignou (Ayent),1966,Ayent,6082,VS,46.27265304018671,7.398715795207071,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Argnou (Ayent),1966,Ayent,6082,VS,46.26245221475237,7.399268190195248,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Signèse (Ayent),1966,Ayent,6082,VS,46.257829917672126,7.403551274937076,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Signèse (Ayent),1966,Grimisuat,6263,VS,46.25194451963044,7.397019674100763,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Bramois,1967,Sion,6266,VS,46.232200940234826,7.402012737256621,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Bramois,1967,Vex,6089,VS,46.22577916244901,7.405412958381212,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Mase,1968,Mont-Noble,6090,VS,46.19616178792298,7.435808605613705,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+St-Martin VS,1969,Saint-Martin (VS),6087,VS,46.173429981621624,7.442776503875977,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Liez (St-Martin),1969,Saint-Martin (VS),6087,VS,46.16264370600182,7.451540311635095,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Trogne (St-Martin),1969,Saint-Martin (VS),6087,VS,46.169219066844136,7.454843385319596,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Suen (St-Martin),1969,Saint-Martin (VS),6087,VS,46.18201179630057,7.438231346579946,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Eison (St-Martin),1969,Saint-Martin (VS),6087,VS,46.153041976315514,7.469983002652881,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Grimisuat,1971,Grimisuat,6263,VS,46.259018775679294,7.384745513784455,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Champlan (Grimisuat),1971,Grimisuat,6263,VS,46.24720998913452,7.372595184405108,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Champlan (Grimisuat),1971,Sion,6266,VS,46.24336475519594,7.365987658023479,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Anzère,1972,Ayent,6082,VS,46.29776114734524,7.4026163311777795,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Anzère,1972,Arbaz,6261,VS,46.30468381645877,7.392020067291194,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Nax,1973,Mont-Noble,6090,VS,46.228149855698796,7.431153183264881,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Arbaz,1974,Arbaz,6261,VS,46.27716304354713,7.384986679186932,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Arbaz,1974,Ayent,6082,VS,46.288484366110744,7.396147626243421,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+St-Séverin,1975,Conthey,6023,VS,46.239513301642944,7.305734771386993,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Erde,1976,Conthey,6023,VS,46.25054396752021,7.292883317803255,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Aven,1976,Conthey,6023,VS,46.241226626172065,7.268781081545773,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Aven,1976,Vétroz,6025,VS,46.26546000276338,7.240753494310004,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Daillon,1976,Conthey,6023,VS,46.255498451630885,7.3056824624784005,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Icogne,1977,Icogne,6239,VS,46.292585707517716,7.4389293738324165,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Icogne,1977,Saint-Léonard,6246,VS,46.26900708321432,7.42364942872539,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Lens,1978,Lens,6240,VS,46.28177264464983,7.44827105126452,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Lens,1978,Icogne,6239,VS,46.28861837853207,7.447298946226294,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Vex,1981,Vex,6089,VS,46.21119470324443,7.397686454173677,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Euseigne,1982,Hérémence,6084,VS,46.17038759531436,7.418706287761066,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Euseigne,1982,Saint-Martin (VS),6087,VS,46.156986091999876,7.442555477217726,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Evolène,1983,Evolène,6083,VS,46.113902082834564,7.494458978857868,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Lanna,1983,Evolène,6083,VS,46.12010046765722,7.469253151234077,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Les Haudères,1984,Evolène,6083,VS,46.08526367088731,7.505043755040699,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+La Tour VS,1984,Evolène,6083,VS,46.09849571020453,7.505680318212135,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+La Sage,1985,Evolène,6083,VS,46.0992817971518,7.514500189189023,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+La Forclaz VS,1985,Evolène,6083,VS,46.08530476401732,7.524357716991721,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Villa (Evolène),1985,Evolène,6083,VS,46.10835909806038,7.513271083835482,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Arolla,1986,Evolène,6083,VS,46.033100674998714,7.4824698549068085,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Hérémence,1987,Hérémence,6084,VS,46.16615293717743,7.395338871344131,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Thyon,1988,Vex,6089,VS,46.179859542017105,7.371862162952275,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Les Collons,1988,Vex,6089,VS,46.18357365834607,7.386725270161407,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Salins,1991,Sion,6266,VS,46.21020000596005,7.355977617025104,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Salins,1991,Veysonnaz,6267,VS,46.20313439932981,7.339884607957105,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Arvillard (Salins),1991,Sion,6266,VS,46.21201187317944,7.349172014361729,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Pravidondaz (Salins),1991,Sion,6266,VS,46.211907416342804,7.353642603732735,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Turin (Salins),1991,Sion,6266,VS,46.2163180127213,7.357341849537163,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Misériez (Salins),1991,Sion,6266,VS,46.207980013942674,7.346911272090293,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Les Agettes,1992,Sion,6266,VS,46.20758479824675,7.373317692580095,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Les Agettes,1992,Vex,6089,VS,46.209388142093985,7.380960200113684,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Les Mayens-de-Sion,1992,Vex,6089,VS,46.2014214210549,7.387860958348502,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Les Mayens-de-Sion,1992,Sion,6266,VS,46.201852958572445,7.370565183602715,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+La Vernaz (Les Agettes),1992,Sion,6266,VS,46.21024731633667,7.373016432896709,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Crête-à-l'Oeil (Les Agettes),1992,Sion,6266,VS,46.21155058476663,7.371187812082876,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Veysonnaz,1993,Veysonnaz,6267,VS,46.19541394742413,7.33738570691699,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Veysonnaz,1993,Nendaz,6024,VS,46.19081899716794,7.339389048406847,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Veysonnaz,1993,Sion,6266,VS,46.19849912840953,7.347484454848496,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Clèbes (Nendaz),1993,Nendaz,6024,VS,46.187206906655845,7.344161975522235,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Aproz (Nendaz),1994,Nendaz,6024,VS,46.20560622993972,7.311220894183294,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Aproz (Nendaz),1994,Sion,6266,VS,46.207880223397865,7.317629136262522,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Basse-Nendaz,1996,Nendaz,6024,VS,46.190988086626334,7.310957441886865,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Fey (Nendaz),1996,Nendaz,6024,VS,46.186481754418764,7.270390435488259,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Bieudron (Nendaz),1996,Nendaz,6024,VS,46.19493041459258,7.277747793668419,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Condémines (Nendaz),1996,Nendaz,6024,VS,46.176896155306004,7.255515429433896,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Saclentse,1996,Nendaz,6024,VS,46.176368769890104,7.317725592822729,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Baar (Nendaz),1996,Nendaz,6024,VS,46.2042291506181,7.327406068455859,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Beuson (Nendaz),1996,Nendaz,6024,VS,46.180469321858034,7.324942658948308,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Brignon (Nendaz),1996,Nendaz,6024,VS,46.19089612856241,7.325853303125953,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Haute-Nendaz,1997,Nendaz,6024,VS,46.1793682844844,7.291015990028115,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Siviez (Nendaz),1997,Nendaz,6024,VS,46.133456338724045,7.322867770242674,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Sornard (Nendaz),1997,Nendaz,6024,VS,46.187578530873395,7.303103663371384,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Jungfraujoch,3801,Fieschertal,6058,VS,46.54700477781106,7.982980074922463,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Brig,3900,Brig-Glis,6002,VS,46.316492914291835,7.992800285836696,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Brig,3900,Termen,6010,VS,46.320871982447386,8.00411504120381,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Brig,3900,Ried-Brig,6008,VS,46.31833598573542,8.002141167390114,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Brig,3900,Naters,6007,VS,46.322953094511846,7.999877739819291,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Gamsen,3900,Brig-Glis,6002,VS,46.304524409413155,7.953608283348203,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Brigerbad,3900,Brig-Glis,6002,VS,46.30006391194058,7.920560472658258,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Rothwald,3901,Ried-Brig,6008,VS,46.27945536332943,8.045760193079019,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Glis,3902,Brig-Glis,6002,VS,46.310808940555226,7.981357514976526,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Mund,3903,Naters,6007,VS,46.315670032525595,7.935511945554089,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Birgisch,3903,Naters,6007,VS,46.320150502404495,7.963338227699852,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Naters,3904,Naters,6007,VS,46.326900593638435,7.992906301939553,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Saas-Almagell,3905,Saas-Almagell,6288,VS,46.0950747742309,7.957750269882901,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Saas-Fee,3906,Saas-Fee,6290,VS,46.109816004816714,7.92815572159321,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Saas-Fee,3906,Saas-Balen,6289,VS,46.12481139376784,7.930334218014258,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Simplon Dorf,3907,Simplon,6009,VS,46.19844028041911,8.053758082887414,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Simplon Dorf,3907,Zwischbergen,6011,VS,46.21136706153725,8.110711978027576,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Simplon Hospiz,3907,Simplon,6009,VS,46.24529845291065,8.023466888803586,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Gabi (Simplon),3907,Simplon,6009,VS,46.183865706313895,8.073513039448727,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Gabi (Simplon),3907,Zwischbergen,6011,VS,46.181936885322365,8.075769963686113,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Gondo,3907,Zwischbergen,6011,VS,46.17986752509682,8.122018140163052,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Saas-Balen,3908,Saas-Balen,6289,VS,46.14976372544283,7.928682206827656,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Saas-Balen,3908,Eisten,6282,VS,46.169335968647964,7.9145247086282655,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Saas-Grund,3910,Saas-Grund,6291,VS,46.12657658303075,7.938073915673067,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Saas-Grund,3910,Saas-Fee,6290,VS,46.11648159171407,7.937283869101625,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Saas-Grund,3910,Saas-Balen,6289,VS,46.125261454092744,7.934387670723417,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Ried-Brig,3911,Ried-Brig,6008,VS,46.313877178277075,8.015817377587501,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Termen,3912,Termen,6010,VS,46.32722005809451,8.022451743758813,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Termen,3912,Ried-Brig,6008,VS,46.3226327368828,8.025684851213562,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Rosswald,3913,Termen,6010,VS,46.30482728546922,8.043421253549838,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Blatten b. Naters,3914,Naters,6007,VS,46.36060946762548,7.981451814487065,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Blatten b. Naters,3914,Bitsch,6173,VS,46.36238949200459,7.998348752328612,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Belalp,3914,Naters,6007,VS,46.372444323909484,7.974655927916839,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Ferden,3916,Ferden,6195,VS,46.39279395841051,7.75669774744329,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Kippel,3917,Kippel,6197,VS,46.399508000541154,7.771273965919465,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Goppenstein,3917,Ferden,6195,VS,46.367287935242004,7.7546254590688015,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Goppenstein,3917,Gampel-Bratsch,6118,VS,46.36247230835745,7.75567598923101,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Wiler (Lötschen),3918,Wiler (Lötschen),6202,VS,46.40833162756942,7.780756396957081,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Blatten (Lötschen),3919,Blatten,6192,VS,46.42179005995871,7.817367609268934,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Blatten (Lötschen),3919,Wiler (Lötschen),6202,VS,46.42247872965,7.790627571724044,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Zermatt,3920,Zermatt,6300,VS,46.0187772631938,7.748689862320983,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Stalden VS,3922,Stalden (VS),6293,VS,46.234148752335436,7.87003034284109,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Stalden VS,3922,Visperterminen,6298,VS,46.25280966271058,7.87841251551402,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Kalpetran,3922,Embd,6283,VS,46.214431086770375,7.8378927958456375,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Kalpetran,3922,Törbel,6296,VS,46.218300443184376,7.8426253851633065,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Kalpetran,3922,Grächen,6285,VS,46.212877015717666,7.837272390114638,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Eisten,3922,Eisten,6282,VS,46.197216415843016,7.898665564738033,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Eisten,3922,Staldenried,6294,VS,46.20727744120112,7.895511216726078,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Törbel,3923,Törbel,6296,VS,46.238240589225036,7.851044267560492,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Törbel,3923,Stalden (VS),6293,VS,46.248676896998404,7.867655724891125,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+St. Niklaus VS,3924,St. Niklaus,6292,VS,46.17914595337116,7.810012180814156,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Grächen,3925,Grächen,6285,VS,46.195908676629806,7.837964539145662,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Embd,3926,Embd,6283,VS,46.21700821431204,7.8289050846850134,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Herbriggen,3927,St. Niklaus,6292,VS,46.13515921951075,7.792542335987513,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Randa,3928,Randa,6287,VS,46.09901732662182,7.7829851448026925,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Täsch,3929,Täsch,6295,VS,46.06820124274476,7.779082094178016,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Visp,3930,Visp,6297,VS,46.293134748980954,7.881463381118275,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Visp,3930,Visperterminen,6298,VS,46.270176525370736,7.881730792486883,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Visp,3930,Baltschieder,6281,VS,46.3024738366488,7.845040951776344,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Visp,3930,Raron,6199,VS,46.291291278922685,7.829943344262347,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Eyholz,3930,Visp,6297,VS,46.294359867046296,7.910037045788403,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Lalden,3931,Lalden,6286,VS,46.29961370583867,7.901230947095146,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Lalden,3931,Baltschieder,6281,VS,46.303910647135375,7.877098925953185,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Visperterminen,3932,Visperterminen,6298,VS,46.26178951425307,7.898276936359371,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Staldenried,3933,Staldenried,6294,VS,46.22751850318256,7.888616731611994,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Zeneggen,3934,Zeneggen,6299,VS,46.27222771037245,7.865285628958774,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Bürchen,3935,Bürchen,6193,VS,46.27709251374637,7.82308222999526,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Baltschieder,3937,Baltschieder,6281,VS,46.30692005966576,7.86402575714581,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Baltschieder,3937,Eggerberg,6004,VS,46.304886877745794,7.873738138274664,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Ausserberg,3938,Ausserberg,6191,VS,46.31428926694217,7.851399601911145,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Eggerberg,3939,Eggerberg,6004,VS,46.30818001960035,7.882650185531582,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Steg VS,3940,Steg-Hohtenn,6204,VS,46.314164678691014,7.749436058018442,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Steg VS,3940,Gampel-Bratsch,6118,VS,46.34657883163642,7.754985914269234,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Steg VS,3940,Turtmann-Unterems,6119,VS,46.305723135626415,7.744130935960356,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Steg VS,3940,Niedergesteln,6198,VS,46.307359529677065,7.755258988692431,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Raron,3942,Raron,6199,VS,46.30794776715224,7.801258681382429,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Raron,3942,Niedergesteln,6198,VS,46.3022924906975,7.79174606715996,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Raron,3942,Bürchen,6193,VS,46.30088665326046,7.801094868326567,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Raron,3942,Unterbäch,6201,VS,46.30136813702085,7.793920579496616,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Niedergesteln,3942,Niedergesteln,6198,VS,46.31282463496734,7.783570824719578,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Niedergesteln,3942,Raron,6199,VS,46.3576789053039,7.826219470527581,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+St. German,3942,Raron,6199,VS,46.312722946848226,7.82090614557796,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+St. German,3942,Ausserberg,6191,VS,46.31778541670508,7.825971934184589,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Eischoll,3943,Eischoll,6194,VS,46.29171281594788,7.777234246964536,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Eischoll,3943,Turtmann-Unterems,6119,VS,46.293489015927534,7.74076614651446,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Eischoll,3943,Niedergesteln,6198,VS,46.30217295284165,7.752872096472091,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Unterbäch VS,3944,Unterbäch,6201,VS,46.28319583808871,7.797084747345367,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Gampel,3945,Gampel-Bratsch,6118,VS,46.317896458258446,7.736552143021529,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Niedergampel,3945,Gampel-Bratsch,6118,VS,46.312886823163076,7.7111062124970635,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Niedergampel,3945,Leuk,6110,VS,46.31128054940412,7.693923665479056,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Turtmann,3946,Turtmann-Unterems,6119,VS,46.302057287000586,7.702965993372294,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Turtmann,3946,Agarn,6101,VS,46.29533846022992,7.6795773848757,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Turtmann,3946,Gampel-Bratsch,6118,VS,46.30954190353356,7.710492364685853,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Gruben,3946,Oberems,6112,VS,46.213501226507326,7.7002956460182865,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Gruben,3946,Turtmann-Unterems,6119,VS,46.20640236257662,7.704718672025229,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Gruben,3946,Ergisch,6104,VS,46.2248000597516,7.715319587234699,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Ergisch,3947,Ergisch,6104,VS,46.29086516296955,7.718600488689593,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Unterems,3948,Turtmann-Unterems,6119,VS,46.29112768921635,7.695062131341792,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Unterems,3948,Agarn,6101,VS,46.289718548306354,7.67709625747522,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Oberems,3948,Oberems,6112,VS,46.28155872649688,7.689957141608918,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Oberems,3948,Ergisch,6104,VS,46.25629038255198,7.715584113943992,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Hohtenn,3949,Steg-Hohtenn,6204,VS,46.31981488432987,7.758816458442276,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Hohtenn,3949,Niedergesteln,6198,VS,46.326309297823244,7.786486994412064,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Agarn,3951,Agarn,6101,VS,46.29539040083988,7.666090017644474,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Agarn,3951,Leuk,6110,VS,46.2988459933014,7.669920103616304,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Susten,3952,Leuk,6110,VS,46.304012060785965,7.645254547468094,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Leuk Stadt,3953,Leuk,6110,VS,46.318664677166666,7.6358582389543574,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Leuk Stadt,3953,Varen,6116,VS,46.31761822035755,7.6214823050137825,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Inden,3953,Inden,6109,VS,46.343558793172555,7.617633496745229,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Inden,3953,Leukerbad,6111,VS,46.35437894632197,7.6128750286456155,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Inden,3953,Leuk,6110,VS,46.33129109198699,7.621800815410593,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Varen,3953,Varen,6116,VS,46.31902533234043,7.6073871479399395,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Leukerbad,3954,Leukerbad,6111,VS,46.37968616312683,7.6282283006539835,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Albinen,3955,Albinen,6102,VS,46.34084411853787,7.632860135967509,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Guttet-Feschel,3956,Guttet-Feschel,6117,VS,46.325122856261586,7.66965498803392,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Guttet-Feschel,3956,Leuk,6110,VS,46.318993048325275,7.660668885498349,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Erschmatt,3957,Leuk,6110,VS,46.32198955859055,7.692065158240919,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Erschmatt,3957,Gampel-Bratsch,6118,VS,46.34401242267414,7.710632682557445,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Bratsch,3957,Gampel-Bratsch,6118,VS,46.322338835593456,7.708361874052232,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Sierre,3960,Sierre,6248,VS,46.292251128677364,7.531947645300452,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Sierre,3960,Crans-Montana,6253,VS,46.28689443349231,7.513305573276172,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Sierre,3960,Noble-Contrée,6254,VS,46.302498095011835,7.550875956070803,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Corin-de-la-Crête,3960,Crans-Montana,6253,VS,46.28526272265167,7.504337487932271,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Loc,3960,Crans-Montana,6253,VS,46.29275195309434,7.511172315286282,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Niouc,3960,Anniviers,6252,VS,46.27154318609557,7.551850338238592,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Muraz (Sierre),3960,Sierre,6248,VS,46.29761478861442,7.529127523049289,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Vissoie,3961,Anniviers,6252,VS,46.21461105235752,7.582703411787789,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+St-Luc,3961,Anniviers,6252,VS,46.22084334214145,7.597455178456604,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Chandolin,3961,Anniviers,6252,VS,46.251632548021405,7.592954168548605,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Ayer,3961,Anniviers,6252,VS,46.17983510246306,7.601881775516446,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Zinal,3961,Anniviers,6252,VS,46.13615710054295,7.627889972393042,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Grimentz,3961,Anniviers,6252,VS,46.18121963458929,7.575220944695586,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Mission,3961,Anniviers,6252,VS,46.19108330124804,7.592796544320541,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+St-Jean VS,3961,Anniviers,6252,VS,46.1972305352461,7.583499741066832,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Crans-Montana,3963,Crans-Montana,6253,VS,46.31090089806039,7.484415741590931,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Crans-Montana,3963,Icogne,6239,VS,46.37065244761244,7.486577115119415,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Montana,3963,Crans-Montana,6253,VS,46.29772031240356,7.48920679293041,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Aminona,3963,Crans-Montana,6253,VS,46.33357720505776,7.531745220863999,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Crans VS,3963,Lens,6240,VS,46.30248844118167,7.457645437147736,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Crans VS,3963,Icogne,6239,VS,46.3055747181445,7.451831397610632,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Chippis,3965,Chippis,6235,VS,46.27952464190063,7.53978816992841,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Chippis,3965,Sierre,6248,VS,46.28081482642545,7.535392309728857,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Chalais,3966,Chalais,6232,VS,46.265818225973966,7.512498757747879,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Chalais,3966,Sierre,6248,VS,46.270586048093165,7.5122716623759676,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Réchy,3966,Chalais,6232,VS,46.261762183599465,7.494919504506971,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Réchy,3966,Sierre,6248,VS,46.26775319469177,7.495055313516778,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Vercorin,3967,Chalais,6232,VS,46.255928099821745,7.5303686640417205,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Vercorin,3967,Mont-Noble,6090,VS,46.20084817353215,7.518176735374987,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Vercorin,3967,Grône,6238,VS,46.24157848994189,7.506969188414806,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Veyras,3968,Noble-Contrée,6254,VS,46.302816635471075,7.537131412385621,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Salgesch,3970,Salgesch,6113,VS,46.31104063030338,7.570754968877911,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Salgesch,3970,Varen,6116,VS,46.310847660298066,7.588564900089596,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Salgesch,3970,Leuk,6110,VS,46.30873586919942,7.5868975616173,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Salgesch,3970,Crans-Montana,6253,VS,46.32480694463048,7.551194351031242,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Salgesch,3970,Noble-Contrée,6254,VS,46.30853543227394,7.558469099899836,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Chermignon,3971,Crans-Montana,6253,VS,46.28866713099993,7.474795140787189,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Chermignon-d'en-Bas,3971,Crans-Montana,6253,VS,46.28284400710863,7.483276776437522,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Chermignon-d'en-Bas,3971,Lens,6240,VS,46.277782748766924,7.47377616130082,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Ollon VS,3971,Crans-Montana,6253,VS,46.27420993236051,7.478586737149808,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Ollon VS,3971,Lens,6240,VS,46.27434676070531,7.472645383033054,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Ollon VS,3971,Sierre,6248,VS,46.27196110101427,7.478377570789398,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Miège,3972,Noble-Contrée,6254,VS,46.311659268757126,7.547130083150272,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Miège,3972,Crans-Montana,6253,VS,46.33072434202461,7.5529336623566925,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Miège,3972,Salgesch,6113,VS,46.3383824355012,7.582263381511135,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Venthône,3973,Noble-Contrée,6254,VS,46.306647252578124,7.528039083846717,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Venthône,3973,Crans-Montana,6253,VS,46.29991947702271,7.514244735940048,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Mollens VS,3974,Crans-Montana,6253,VS,46.31319310025759,7.519962028496085,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Randogne,3975,Crans-Montana,6253,VS,46.31015452904259,7.502705573548747,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Noës,3976,Sierre,6248,VS,46.28026959664592,7.505304590329129,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Noës,3976,Crans-Montana,6253,VS,46.28407296608765,7.508293423354348,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Champzabé,3976,Crans-Montana,6253,VS,46.27927498669134,7.49820672874737,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Champzabé,3976,Sierre,6248,VS,46.27822292769983,7.497375288002278,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Granges VS,3977,Sierre,6248,VS,46.261520546234216,7.4669309829660735,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Flanthey,3978,Lens,6240,VS,46.26902550514669,7.452069612266794,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Flanthey,3978,Saint-Léonard,6246,VS,46.25988630979735,7.430720287509419,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Grône,3979,Grône,6238,VS,46.25027627837861,7.46591391155037,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Grône,3979,Chalais,6232,VS,46.2571167422848,7.482789234350972,fr,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Bitsch,3982,Bitsch,6173,VS,46.3378093647389,8.013421776385293,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Bitsch,3982,Riederalp,6181,VS,46.34513128292515,8.024111892809676,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Bitsch,3982,Termen,6010,VS,46.33184320532446,8.015566469542797,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Mörel,3983,Mörel-Filet,6203,VS,46.35723762369901,8.04505671508864,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Mörel,3983,Riederalp,6181,VS,46.36275517544801,8.045225815264171,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Bister,3983,Bister,6172,VS,46.36266029540454,8.066882354867126,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Filet,3983,Mörel-Filet,6203,VS,46.36052000930061,8.053617129998324,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Filet,3983,Riederalp,6181,VS,46.366948432440374,8.049297507212883,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Goppisberg,3983,Riederalp,6181,VS,46.371578591767694,8.049804399017482,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Goppisberg,3983,Bettmeralp,6205,VS,46.37252055085832,8.055273510352432,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Greich,3983,Riederalp,6181,VS,46.366518517041065,8.038831682180096,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Fiesch,3984,Fiesch,6057,VS,46.4030646201885,8.132655061563245,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Fiesch,3984,Fieschertal,6058,VS,46.421657840825766,8.131422804054507,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Fiesch,3984,Lax,6061,VS,46.409485121786,8.098402814585084,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Fieschertal,3984,Fieschertal,6058,VS,46.425057157962,8.143304544178557,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Münster VS,3985,Goms,6077,VS,46.48677323524021,8.26434522894484,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Geschinen,3985,Goms,6077,VS,46.49632167974528,8.283444288775943,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Ried-Mörel,3986,Riederalp,6181,VS,46.35715047934894,8.030906611643964,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Riederalp,3987,Riederalp,6181,VS,46.37857754602794,8.034558576345281,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Ulrichen,3988,Obergoms,6076,VS,46.50587225712539,8.307748696144706,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Obergesteln,3988,Obergoms,6076,VS,46.514599577245484,8.325089618246793,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Biel VS,3989,Goms,6077,VS,46.45562867849604,8.217219324274264,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Ritzingen,3989,Goms,6077,VS,46.457669227019956,8.222676761966689,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Selkingen,3989,Goms,6077,VS,46.45312273000887,8.212692824029512,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Niederwald,3989,Goms,6077,VS,46.4354222010355,8.190723703418879,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Niederwald,3989,Ernen,6056,VS,46.411265340789626,8.20321296999311,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Blitzingen,3989,Goms,6077,VS,46.44408519195735,8.201541155716578,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Betten,3991,Bettmeralp,6205,VS,46.37752871274581,8.068834933515593,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Betten,3991,Riederalp,6181,VS,46.369661484766766,8.05484651185322,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Bettmeralp,3992,Bettmeralp,6205,VS,46.38942905874583,8.062550704861769,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Grengiols,3993,Grengiols,6177,VS,46.372641833698566,8.099242165915557,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Grengiols,3993,Lax,6061,VS,46.38097188172415,8.105426773046476,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Lax,3994,Lax,6061,VS,46.388897641502325,8.116002437627195,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Martisberg,3994,Bettmeralp,6205,VS,46.38674504309476,8.099660652811675,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Martisberg,3994,Grengiols,6177,VS,46.382069829014526,8.0976539499633,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Ernen,3995,Ernen,6056,VS,46.396113941215965,8.142356939282838,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Ausserbinn,3995,Ernen,6056,VS,46.38195327540375,8.149725855265654,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Mühlebach (Goms),3995,Ernen,6056,VS,46.40871426490518,8.158620776068963,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Steinhaus,3995,Ernen,6056,VS,46.422763448957724,8.178606323419077,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Binn,3996,Binn,6054,VS,46.3653271928877,8.191754790677399,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Binn,3996,Grengiols,6177,VS,46.34067652368755,8.174176845517492,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Bellwald,3997,Bellwald,6052,VS,46.42756945520588,8.160106803123856,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Bellwald,3997,Fieschertal,6058,VS,46.43249569662738,8.144936411153989,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Reckingen VS,3998,Goms,6077,VS,46.46997043891213,8.244025321560967,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Gluringen,3998,Goms,6077,VS,46.46386968119713,8.23272565735834,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00
+Oberwald,3999,Obergoms,6076,VS,46.53289606232879,8.353702082633973,de,"Office fédéral de topographie swisstopo, répertoire officiel des localités (OGD)",2026-10-06T07:50:59+00:00

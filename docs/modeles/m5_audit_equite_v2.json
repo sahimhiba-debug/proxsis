@@ -1,0 +1,853 @@
+{
+ "avertissement": "monde fictif : prouve que le code fonctionne, pas sa performance réelle",
+ "protocole": "monde FICTIF seed=42, 700 candidats fictifs ; audit répété sur 20 tirages indépendants de 300 besoins (graines 0..19), top-5 ; qualité visible mesurée sur un tirage séparé de 300 besoins (graine 1000)",
+ "limite": "aucune vérité terrain : on ne sait pas si un candidat plus expérimenté réussit mieux sa mission. Le coût réel du plafond ne se mesure qu'avec l'historique des missions (pilote).",
+ "variantes": {
+  "plafond 15 ans (v1)": {
+   "parametres": {
+    "exp_cap_years": 15.0
+   },
+   "audit": {
+    "n_samples": 20,
+    "n_needs": 300,
+    "k": 5,
+    "di_ratio": {
+     "audit_gender": {
+      "moyenne": 0.9797697220533225,
+      "min": 0.9563212154096581,
+      "max": 0.9988169909951073,
+      "valeurs": [
+       0.976,
+       0.9648,
+       0.9599,
+       0.9668,
+       0.9926,
+       0.9817,
+       0.9969,
+       0.9859,
+       0.9955,
+       0.9614,
+       0.9905,
+       0.9988,
+       0.989,
+       0.9823,
+       0.9563,
+       0.9807,
+       0.9827,
+       0.9704,
+       0.9758,
+       0.9873
+      ]
+     },
+     "audit_age_band": {
+      "moyenne": 0.8400335836106765,
+      "min": 0.7707550218563434,
+      "max": 0.8840241776650896,
+      "valeurs": [
+       0.8743,
+       0.8222,
+       0.8173,
+       0.884,
+       0.865,
+       0.8235,
+       0.7992,
+       0.8494,
+       0.8816,
+       0.8529,
+       0.8364,
+       0.8154,
+       0.8731,
+       0.8485,
+       0.8037,
+       0.8494,
+       0.7708,
+       0.8661,
+       0.8571,
+       0.8107
+      ]
+     },
+     "audit_nationality_group": {
+      "moyenne": 0.8961018229327722,
+      "min": 0.8376171956768429,
+      "max": 0.9814367450731087,
+      "valeurs": [
+       0.8904,
+       0.8616,
+       0.8383,
+       0.9128,
+       0.9288,
+       0.8802,
+       0.9655,
+       0.862,
+       0.8725,
+       0.8639,
+       0.9338,
+       0.9047,
+       0.9814,
+       0.9046,
+       0.9221,
+       0.861,
+       0.8822,
+       0.9328,
+       0.8376,
+       0.8859
+      ]
+     }
+    },
+    "taux_selection_moyen": {
+     "audit_gender": {
+      "F": 0.7087535980409062,
+      "M": 0.7105695774180139
+     },
+     "audit_age_band": {
+      "18-29": 0.6540977601218863,
+      "30-44": 0.7603076898006311,
+      "45-54": 0.733805257723094,
+      "55+": 0.6670480682177992
+     },
+     "audit_nationality_group": {
+      "CH": 0.7047504927823807,
+      "UE/AELE": 0.7008169834251163,
+      "autre": 0.7735925487249569
+     }
+    },
+    "part_tirages_sous_0_8": {
+     "audit_gender": 0.0,
+     "audit_age_band": 0.1,
+     "audit_nationality_group": 0.0
+    },
+    "tirages_avec_alerte": 2,
+    "counterfactual_invariant": true,
+    "proxies": {
+     "experience_years": {
+      "audit_gender": 0.004829589088788938,
+      "audit_age_band": 0.5892643773359626,
+      "audit_nationality_group": 0.011453224392812357
+     },
+     "max_travel_km": {
+      "audit_gender": 0.002113502448897496,
+      "audit_age_band": 0.05239606567951061,
+      "audit_nationality_group": 0.035024686260223384
+     },
+     "driving_licence": {
+      "audit_gender": 0.06179468684860829,
+      "audit_age_band": 0.07150811294019632,
+      "audit_nationality_group": 0.02862590138608007
+     }
+    }
+   },
+   "qualite_visible": {
+    "proximite_metier_moyenne": 0.8587975243147656,
+    "distance_km_moyenne": 19.085906451733734,
+    "experience_ans_moyenne": 9.979664014146772,
+    "part_metier_exact": 0.6419098143236074,
+    "recouvrement_top5_avec_v1": 1.0
+   }
+  },
+  "plafond 10 ans": {
+   "parametres": {
+    "exp_cap_years": 10.0
+   },
+   "audit": {
+    "n_samples": 20,
+    "n_needs": 300,
+    "k": 5,
+    "di_ratio": {
+     "audit_gender": {
+      "moyenne": 0.9752135528398946,
+      "min": 0.9402521837796063,
+      "max": 0.9996527831760492,
+      "valeurs": [
+       0.9682,
+       0.9997,
+       0.9599,
+       0.9403,
+       0.9771,
+       0.9976,
+       0.9992,
+       0.9909,
+       0.9741,
+       0.9574,
+       0.9865,
+       0.9682,
+       0.993,
+       0.9591,
+       0.964,
+       0.9653,
+       0.9677,
+       0.9964,
+       0.9486,
+       0.9911
+      ]
+     },
+     "audit_age_band": {
+      "moyenne": 0.8564562591874301,
+      "min": 0.808816120906801,
+      "max": 0.9023651138435282,
+      "valeurs": [
+       0.8708,
+       0.8437,
+       0.8306,
+       0.8858,
+       0.865,
+       0.8494,
+       0.8255,
+       0.8634,
+       0.8901,
+       0.8694,
+       0.8499,
+       0.8351,
+       0.8952,
+       0.8744,
+       0.8088,
+       0.8778,
+       0.8093,
+       0.9024,
+       0.8706,
+       0.8123
+      ]
+     },
+     "audit_nationality_group": {
+      "moyenne": 0.8938593849972039,
+      "min": 0.8275390179531458,
+      "max": 0.9706419706419707,
+      "valeurs": [
+       0.8772,
+       0.8779,
+       0.8286,
+       0.9053,
+       0.9401,
+       0.8804,
+       0.9461,
+       0.8602,
+       0.8901,
+       0.8559,
+       0.9544,
+       0.8937,
+       0.9706,
+       0.8833,
+       0.9357,
+       0.8588,
+       0.8646,
+       0.9336,
+       0.8275,
+       0.8932
+      ]
+     }
+    },
+    "taux_selection_moyen": {
+     "audit_gender": {
+      "F": 0.7010516676487705,
+      "M": 0.7149719844427481
+     },
+     "audit_age_band": {
+      "18-29": 0.6644257893246495,
+      "30-44": 0.7564840423550387,
+      "45-54": 0.7237465312078706,
+      "55+": 0.6694296270872306
+     },
+     "audit_nationality_group": {
+      "CH": 0.7074977020104997,
+      "UE/AELE": 0.6975442422792655,
+      "autre": 0.7764249475609084
+     }
+    },
+    "part_tirages_sous_0_8": {
+     "audit_gender": 0.0,
+     "audit_age_band": 0.0,
+     "audit_nationality_group": 0.0
+    },
+    "tirages_avec_alerte": 0,
+    "counterfactual_invariant": true,
+    "proxies": {
+     "experience_years": {
+      "audit_gender": 0.004829589088788938,
+      "audit_age_band": 0.5892643773359626,
+      "audit_nationality_group": 0.011453224392812357
+     },
+     "max_travel_km": {
+      "audit_gender": 0.002113502448897496,
+      "audit_age_band": 0.05239606567951061,
+      "audit_nationality_group": 0.035024686260223384
+     },
+     "driving_licence": {
+      "audit_gender": 0.06179468684860829,
+      "audit_age_band": 0.07150811294019632,
+      "audit_nationality_group": 0.02862590138608007
+     }
+    }
+   },
+   "qualite_visible": {
+    "proximite_metier_moyenne": 0.8583554376657825,
+    "distance_km_moyenne": 19.00971941603312,
+    "experience_ans_moyenne": 9.838196286472149,
+    "part_metier_exact": 0.6410256410256411,
+    "recouvrement_top5_avec_v1": 0.9866197183098593
+   }
+  },
+  "plafond 5 ans": {
+   "parametres": {
+    "exp_cap_years": 5.0
+   },
+   "audit": {
+    "n_samples": 20,
+    "n_needs": 300,
+    "k": 5,
+    "di_ratio": {
+     "audit_gender": {
+      "moyenne": 0.9765258083598113,
+      "min": 0.9409204373104145,
+      "max": 0.99864096861873,
+      "valeurs": [
+       0.976,
+       0.984,
+       0.9524,
+       0.9478,
+       0.9887,
+       0.9899,
+       0.9874,
+       0.9986,
+       0.9817,
+       0.9614,
+       0.9905,
+       0.9755,
+       0.993,
+       0.9668,
+       0.9679,
+       0.9653,
+       0.9752,
+       0.9964,
+       0.9409,
+       0.9911
+      ]
+     },
+     "audit_age_band": {
+      "moyenne": 0.8670824097307062,
+      "min": 0.7937467157120337,
+      "max": 0.9202073750682155,
+      "valeurs": [
+       0.8556,
+       0.8827,
+       0.8265,
+       0.8829,
+       0.8572,
+       0.8765,
+       0.8707,
+       0.8438,
+       0.8944,
+       0.9004,
+       0.8728,
+       0.8234,
+       0.8896,
+       0.9187,
+       0.8048,
+       0.906,
+       0.7937,
+       0.9202,
+       0.9092,
+       0.8125
+      ]
+     },
+     "audit_nationality_group": {
+      "moyenne": 0.8946440927318964,
+      "min": 0.8349849849849849,
+      "max": 0.9927442077755229,
+      "valeurs": [
+       0.8735,
+       0.9022,
+       0.8532,
+       0.8924,
+       0.9266,
+       0.8953,
+       0.9195,
+       0.8431,
+       0.9173,
+       0.8628,
+       0.9657,
+       0.8867,
+       0.9927,
+       0.8694,
+       0.9279,
+       0.8467,
+       0.8648,
+       0.9463,
+       0.835,
+       0.8717
+      ]
+     }
+    },
+    "taux_selection_moyen": {
+     "audit_gender": {
+      "F": 0.7026634899343114,
+      "M": 0.7140497280837544
+     },
+     "audit_age_band": {
+      "18-29": 0.6817308715622115,
+      "30-44": 0.7486066389627762,
+      "45-54": 0.7170249453909764,
+      "55+": 0.6580835931421045
+     },
+     "audit_nationality_group": {
+      "CH": 0.7100853481369993,
+      "UE/AELE": 0.695581526771025,
+      "autre": 0.7740247481100238
+     }
+    },
+    "part_tirages_sous_0_8": {
+     "audit_gender": 0.0,
+     "audit_age_band": 0.05,
+     "audit_nationality_group": 0.0
+    },
+    "tirages_avec_alerte": 1,
+    "counterfactual_invariant": true,
+    "proxies": {
+     "experience_years": {
+      "audit_gender": 0.004829589088788938,
+      "audit_age_band": 0.5892643773359626,
+      "audit_nationality_group": 0.011453224392812357
+     },
+     "max_travel_km": {
+      "audit_gender": 0.002113502448897496,
+      "audit_age_band": 0.05239606567951061,
+      "audit_nationality_group": 0.035024686260223384
+     },
+     "driving_licence": {
+      "audit_gender": 0.06179468684860829,
+      "audit_age_band": 0.07150811294019632,
+      "audit_nationality_group": 0.02862590138608007
+     }
+    }
+   },
+   "qualite_visible": {
+    "proximite_metier_moyenne": 0.8586206896551724,
+    "distance_km_moyenne": 19.042541015494646,
+    "experience_ans_moyenne": 9.743589743589743,
+    "part_metier_exact": 0.6419098143236074,
+    "recouvrement_top5_avec_v1": 0.9781690140845071
+   }
+  },
+  "plafond 3 ans": {
+   "parametres": {
+    "exp_cap_years": 3.0
+   },
+   "audit": {
+    "n_samples": 20,
+    "n_needs": 300,
+    "k": 5,
+    "di_ratio": {
+     "audit_gender": {
+      "moyenne": 0.979771436069873,
+      "min": 0.9472914812864328,
+      "max": 0.9998833955223881,
+      "valeurs": [
+       0.9687,
+       0.961,
+       0.9713,
+       0.986,
+       0.9841,
+       0.9498,
+       0.9853,
+       0.9783,
+       0.9968,
+       0.9938,
+       0.9774,
+       0.9938,
+       0.989,
+       0.9902,
+       0.964,
+       0.9999,
+       0.9907,
+       0.9924,
+       0.9758,
+       0.9473
+      ]
+     },
+     "audit_age_band": {
+      "moyenne": 0.8603525441376785,
+      "min": 0.778358169380071,
+      "max": 0.9370083963533671,
+      "valeurs": [
+       0.8551,
+       0.8827,
+       0.7943,
+       0.8562,
+       0.8579,
+       0.88,
+       0.8878,
+       0.8176,
+       0.9031,
+       0.893,
+       0.8513,
+       0.8181,
+       0.8815,
+       0.937,
+       0.7832,
+       0.9089,
+       0.7784,
+       0.9249,
+       0.8863,
+       0.8097
+      ]
+     },
+     "audit_nationality_group": {
+      "moyenne": 0.9034030720657895,
+      "min": 0.8427852312744399,
+      "max": 0.9828964194373401,
+      "valeurs": [
+       0.8882,
+       0.8967,
+       0.8633,
+       0.9071,
+       0.9384,
+       0.895,
+       0.9234,
+       0.8642,
+       0.9155,
+       0.8854,
+       0.9558,
+       0.9195,
+       0.9829,
+       0.8868,
+       0.9435,
+       0.843,
+       0.9015,
+       0.9436,
+       0.8428,
+       0.8717
+      ]
+     }
+    },
+    "taux_selection_moyen": {
+     "audit_gender": {
+      "F": 0.7151880830447932,
+      "M": 0.7069711766243489
+     },
+     "audit_age_band": {
+      "18-29": 0.6935663042830431,
+      "30-44": 0.7439004492407043,
+      "45-54": 0.7147754886207345,
+      "55+": 0.6438336022818033
+     },
+     "audit_nationality_group": {
+      "CH": 0.7014909618477821,
+      "UE/AELE": 0.7050526088290768,
+      "autre": 0.7683719240248423
+     }
+    },
+    "part_tirages_sous_0_8": {
+     "audit_gender": 0.0,
+     "audit_age_band": 0.15,
+     "audit_nationality_group": 0.0
+    },
+    "tirages_avec_alerte": 3,
+    "counterfactual_invariant": true,
+    "proxies": {
+     "experience_years": {
+      "audit_gender": 0.004829589088788938,
+      "audit_age_band": 0.5892643773359626,
+      "audit_nationality_group": 0.011453224392812357
+     },
+     "max_travel_km": {
+      "audit_gender": 0.002113502448897496,
+      "audit_age_band": 0.05239606567951061,
+      "audit_nationality_group": 0.035024686260223384
+     },
+     "driving_licence": {
+      "audit_gender": 0.06179468684860829,
+      "audit_age_band": 0.07150811294019632,
+      "audit_nationality_group": 0.02862590138608007
+     }
+    }
+   },
+   "qualite_visible": {
+    "proximite_metier_moyenne": 0.8584438549955792,
+    "distance_km_moyenne": 19.054056248686038,
+    "experience_ans_moyenne": 9.675508399646331,
+    "part_metier_exact": 0.6419098143236074,
+    "recouvrement_top5_avec_v1": 0.9732394366197182
+   }
+  },
+  "plafond 1 an (expérience quasi binaire)": {
+   "parametres": {
+    "exp_cap_years": 1.0
+   },
+   "audit": {
+    "n_samples": 20,
+    "n_needs": 300,
+    "k": 5,
+    "di_ratio": {
+     "audit_gender": {
+      "moyenne": 0.9707369500970466,
+      "min": 0.9266861925384468,
+      "max": 0.9995639253181731,
+      "valeurs": [
+       0.9497,
+       0.9572,
+       0.9864,
+       0.9706,
+       0.9764,
+       0.9267,
+       0.97,
+       0.967,
+       0.9968,
+       0.9777,
+       0.9735,
+       0.9698,
+       0.989,
+       0.9825,
+       0.93,
+       0.9729,
+       0.9795,
+       0.985,
+       0.9996,
+       0.9544
+      ]
+     },
+     "audit_age_band": {
+      "moyenne": 0.8400254028677148,
+      "min": 0.7674940496429786,
+      "max": 0.927373271889401,
+      "valeurs": [
+       0.8487,
+       0.8786,
+       0.7804,
+       0.8051,
+       0.8441,
+       0.881,
+       0.8934,
+       0.7856,
+       0.8864,
+       0.8485,
+       0.854,
+       0.7904,
+       0.8482,
+       0.9274,
+       0.7755,
+       0.8615,
+       0.7675,
+       0.8957,
+       0.826,
+       0.8025
+      ]
+     },
+     "audit_nationality_group": {
+      "moyenne": 0.9442003486105127,
+      "min": 0.8981318171269436,
+      "max": 0.9788678462593934,
+      "valeurs": [
+       0.9732,
+       0.9495,
+       0.9204,
+       0.9433,
+       0.9696,
+       0.9549,
+       0.9634,
+       0.8981,
+       0.9444,
+       0.9748,
+       0.9304,
+       0.9644,
+       0.9532,
+       0.946,
+       0.954,
+       0.9096,
+       0.9789,
+       0.9158,
+       0.9255,
+       0.9146
+      ]
+     }
+    },
+    "taux_selection_moyen": {
+     "audit_gender": {
+      "F": 0.7221233459301412,
+      "M": 0.703062845086989
+     },
+     "audit_age_band": {
+      "18-29": 0.7066875478700744,
+      "30-44": 0.7335309465505231,
+      "45-54": 0.7219823355722759,
+      "55+": 0.624624939048872
+     },
+     "audit_nationality_group": {
+      "CH": 0.700267445340982,
+      "UE/AELE": 0.7176397395093769,
+      "autre": 0.716774500912489
+     }
+    },
+    "part_tirages_sous_0_8": {
+     "audit_gender": 0.0,
+     "audit_age_band": 0.25,
+     "audit_nationality_group": 0.0
+    },
+    "tirages_avec_alerte": 5,
+    "counterfactual_invariant": true,
+    "proxies": {
+     "experience_years": {
+      "audit_gender": 0.004829589088788938,
+      "audit_age_band": 0.5892643773359626,
+      "audit_nationality_group": 0.011453224392812357
+     },
+     "max_travel_km": {
+      "audit_gender": 0.002113502448897496,
+      "audit_age_band": 0.05239606567951061,
+      "audit_nationality_group": 0.035024686260223384
+     },
+     "driving_licence": {
+      "audit_gender": 0.06179468684860829,
+      "audit_age_band": 0.07150811294019632,
+      "audit_nationality_group": 0.02862590138608007
+     }
+    }
+   },
+   "qualite_visible": {
+    "proximite_metier_moyenne": 0.8587091069849689,
+    "distance_km_moyenne": 19.203386415621093,
+    "experience_ans_moyenne": 9.415561450044208,
+    "part_metier_exact": 0.6436781609195402,
+    "recouvrement_top5_avec_v1": 0.9549295774647887
+   }
+  },
+  "sans expérience (poids 0)": {
+   "parametres": {
+    "exp_weight": 0.0
+   },
+   "audit": {
+    "n_samples": 20,
+    "n_needs": 300,
+    "k": 5,
+    "di_ratio": {
+     "audit_gender": {
+      "moyenne": 0.9437401327251129,
+      "min": 0.9079875222424814,
+      "max": 0.9860154727750694,
+      "valeurs": [
+       0.9274,
+       0.9278,
+       0.942,
+       0.986,
+       0.9356,
+       0.908,
+       0.955,
+       0.9164,
+       0.962,
+       0.9737,
+       0.9618,
+       0.9248,
+       0.9466,
+       0.9449,
+       0.9227,
+       0.9469,
+       0.9575,
+       0.9489,
+       0.9501,
+       0.9367
+      ]
+     },
+     "audit_age_band": {
+      "moyenne": 0.8101924611402112,
+      "min": 0.7195646056637078,
+      "max": 0.879104991394148,
+      "valeurs": [
+       0.8179,
+       0.8667,
+       0.7196,
+       0.8114,
+       0.79,
+       0.8449,
+       0.8488,
+       0.7887,
+       0.8269,
+       0.8357,
+       0.8229,
+       0.7588,
+       0.8024,
+       0.8791,
+       0.7656,
+       0.8565,
+       0.7516,
+       0.8296,
+       0.8198,
+       0.767
+      ]
+     },
+     "audit_nationality_group": {
+      "moyenne": 0.9392895460137277,
+      "min": 0.9010712035286704,
+      "max": 0.996288550116663,
+      "valeurs": [
+       0.9594,
+       0.931,
+       0.9399,
+       0.9172,
+       0.9299,
+       0.9092,
+       0.9498,
+       0.9283,
+       0.9541,
+       0.9963,
+       0.9011,
+       0.9711,
+       0.928,
+       0.9837,
+       0.9261,
+       0.9309,
+       0.9323,
+       0.9101,
+       0.9648,
+       0.9226
+      ]
+     }
+    },
+    "taux_selection_moyen": {
+     "audit_gender": {
+      "F": 0.7358710079898523,
+      "M": 0.695193119065707
+     },
+     "audit_age_band": {
+      "18-29": 0.7008230096352075,
+      "30-44": 0.751218791403881,
+      "45-54": 0.7094055459923553,
+      "55+": 0.6124922773882453
+     },
+     "audit_nationality_group": {
+      "CH": 0.7035480545392805,
+      "UE/AELE": 0.7194956355049383,
+      "autre": 0.6941226398352309
+     }
+    },
+    "part_tirages_sous_0_8": {
+     "audit_gender": 0.0,
+     "audit_age_band": 0.35,
+     "audit_nationality_group": 0.0
+    },
+    "tirages_avec_alerte": 7,
+    "counterfactual_invariant": true,
+    "proxies": {
+     "experience_years": {
+      "audit_gender": 0.004829589088788938,
+      "audit_age_band": 0.5892643773359626,
+      "audit_nationality_group": 0.011453224392812357
+     },
+     "max_travel_km": {
+      "audit_gender": 0.002113502448897496,
+      "audit_age_band": 0.05239606567951061,
+      "audit_nationality_group": 0.035024686260223384
+     },
+     "driving_licence": {
+      "audit_gender": 0.06179468684860829,
+      "audit_age_band": 0.07150811294019632,
+      "audit_nationality_group": 0.02862590138608007
+     }
+    }
+   },
+   "qualite_visible": {
+    "proximite_metier_moyenne": 0.8605658709106985,
+    "distance_km_moyenne": 19.040362777180597,
+    "experience_ans_moyenne": 9.21396993810787,
+    "part_metier_exact": 0.6463306808134395,
+    "recouvrement_top5_avec_v1": 0.9492957746478874
+   }
+  }
+ }
+}

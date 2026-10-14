@@ -1,0 +1,100 @@
+{
+ "schema": 1,
+ "premier": "2026-10-05",
+ "lundi": "2026-10-12",
+ "fin_des_donnees": "2026-09-30",
+ "regle": "nombre de marchés de la spécialité en 52 semaines, puis le plus récent (la règle de la liste)",
+ "classement": [
+  {
+   "id": "ent-e0b3af4121",
+   "nom": "Epiney Construction SA",
+   "ville": "Sierre",
+   "rang": 1
+  },
+  {
+   "id": "ent-266673a5c4",
+   "nom": "MELLY CONSTRUCTIONS SA",
+   "ville": "Sierre",
+   "rang": 2
+  },
+  {
+   "id": "ent-6e874811ae",
+   "nom": "PraderLosinger SA",
+   "ville": "Sion",
+   "rang": 3
+  },
+  {
+   "id": "ent-734d5f7d45",
+   "nom": "Bitz travaux publics SA",
+   "ville": "Sion",
+   "rang": 4
+  },
+  {
+   "id": "ent-1ef761b229",
+   "nom": "Société de Travaux Publics, Joseph Carron SA",
+   "ville": "Saxon",
+   "rang": 5
+  },
+  {
+   "id": "ent-0ff073ea76",
+   "nom": "Ulrich Imboden AG",
+   "ville": "Visp",
+   "rang": 6
+  },
+  {
+   "id": "ent-866876591f",
+   "nom": "Theler AG, Bauunternehmung",
+   "ville": "Raron",
+   "rang": 7
+  },
+  {
+   "id": "ent-1b28ee92b6",
+   "nom": "Walpen AG Hoch- und Tiefbau",
+   "ville": "Reckingen VS",
+   "rang": 8
+  },
+  {
+   "id": "ent-42fbc21c38",
+   "nom": "RITHNER SA",
+   "ville": "Monthey",
+   "rang": 9
+  },
+  {
+   "id": "ent-bd58f9a809",
+   "nom": "Astori SA",
+   "ville": "Sion",
+   "rang": 10
+  },
+  {
+   "id": "ent-7a6a26b648",
+   "nom": "Zurbriggen AG",
+   "ville": "Visp",
+   "rang": 11
+  },
+  {
+   "id": "ent-55bb6b3e49",
+   "nom": "Evéquoz SA",
+   "ville": "Conthey",
+   "rang": 12
+  },
+  {
+   "id": "ent-6d4c53c8ec",
+   "nom": "Dénériaz Bâtiment et Infrastructures SA",
+   "ville": "Sion",
+   "rang": 13
+  },
+  {
+   "id": "ent-5398e1188f",
+   "nom": "LUYET CONSTRUCTIONS METALLIQUES SA",
+   "ville": "Sion",
+   "rang": 14
+  },
+  {
+   "id": "ent-642a8bc929",
+   "nom": "Gailland Fils SA",
+   "ville": "Verbier",
+   "rang": 15
+  }
+ ],
+ "nouvelles_publications": []
+}

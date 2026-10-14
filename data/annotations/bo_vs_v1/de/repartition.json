@@ -1,0 +1,211 @@
+{
+ "graine": 20261006,
+ "double_annotation": 6,
+ "annotateurs": [
+  "A1",
+  "A2"
+ ],
+ "profil": "bo_de_structure",
+ "items": {
+  "bo_vs:0439ec51-a9bc-44b1-90c9-c0517ffe0a49": {
+   "primaire": "A2",
+   "second": null
+  },
+  "bo_vs:04b0d90a-a159-4858-9c8c-e315d23f5ed3": {
+   "primaire": "A2",
+   "second": null
+  },
+  "bo_vs:0cc16e20-5f5d-4df4-aecf-c7662130ab80": {
+   "primaire": "A1",
+   "second": null
+  },
+  "bo_vs:17a6cc2f-0fad-4178-b256-0a2eeae7d2cb": {
+   "primaire": "A1",
+   "second": "A2"
+  },
+  "bo_vs:2815c481-224c-4a53-815e-605c1e2562c2": {
+   "primaire": "A1",
+   "second": null
+  },
+  "bo_vs:283d6d10-a89a-47eb-b06e-9a8e8eb27fd9": {
+   "primaire": "A1",
+   "second": null
+  },
+  "bo_vs:2cb2afc3-8648-408e-a293-3c1cb7c482f1": {
+   "primaire": "A2",
+   "second": null
+  },
+  "bo_vs:2d0a0d7e-99c0-4bf3-b630-dc4bcfe22f72": {
+   "primaire": "A1",
+   "second": "A2"
+  },
+  "bo_vs:2fccb48b-4dcf-452e-b1c6-fa0a9e008b54": {
+   "primaire": "A2",
+   "second": "A1"
+  },
+  "bo_vs:3ad258d1-4534-423f-b2e5-20a2fd4e58ee": {
+   "primaire": "A2",
+   "second": null
+  },
+  "bo_vs:3bb76644-181a-4bf4-87ee-67e2e7edd301": {
+   "primaire": "A1",
+   "second": null
+  },
+  "bo_vs:41ae2d9b-f47f-4c21-a748-1679fc0fa21d": {
+   "primaire": "A1",
+   "second": null
+  },
+  "bo_vs:436e7b84-a9e3-4858-bcea-90aef941ce44": {
+   "primaire": "A1",
+   "second": null
+  },
+  "bo_vs:47e02efa-a118-4573-8e19-5218232adf3a": {
+   "primaire": "A1",
+   "second": null
+  },
+  "bo_vs:48a42513-d110-44ff-95ab-f4d83b7020f8": {
+   "primaire": "A2",
+   "second": null
+  },
+  "bo_vs:492a6fad-fedb-4e1f-91d8-db0e6dd6c356": {
+   "primaire": "A1",
+   "second": null
+  },
+  "bo_vs:4ca782a5-a970-4cca-a816-16766816a2ce": {
+   "primaire": "A1",
+   "second": null
+  },
+  "bo_vs:4cf7b6b0-8465-48fe-a75f-c91b6d69d6d5": {
+   "primaire": "A1",
+   "second": null
+  },
+  "bo_vs:5682af42-5706-4cbc-8151-740ec1bd1f86": {
+   "primaire": "A2",
+   "second": null
+  },
+  "bo_vs:73e2fa02-1a4b-43f0-b53b-87ae10c30630": {
+   "primaire": "A1",
+   "second": null
+  },
+  "bo_vs:74a32e65-b0f4-425b-a3e3-0273d672fcaa": {
+   "primaire": "A2",
+   "second": null
+  },
+  "bo_vs:78ce7ded-df26-458a-a18a-c515e22a58c1": {
+   "primaire": "A2",
+   "second": null
+  },
+  "bo_vs:7e305b42-a821-4925-bfad-915f81e18105": {
+   "primaire": "A1",
+   "second": null
+  },
+  "bo_vs:8d3c083c-9a15-45c1-a803-f97571cc961b": {
+   "primaire": "A2",
+   "second": null
+  },
+  "bo_vs:8dd4e221-25ec-43fc-b2db-29489a1ad234": {
+   "primaire": "A2",
+   "second": null
+  },
+  "bo_vs:90a866e4-da6b-4b1f-9491-2c2f8c43f21f": {
+   "primaire": "A1",
+   "second": "A2"
+  },
+  "bo_vs:9602414a-3d73-4029-894b-407ef4404f55": {
+   "primaire": "A1",
+   "second": null
+  },
+  "bo_vs:9a4b1abb-fb57-4c99-ad9d-3c11c6e6e56d": {
+   "primaire": "A2",
+   "second": "A1"
+  },
+  "bo_vs:a3884278-4ca4-4099-9349-83400ad7c076": {
+   "primaire": "A2",
+   "second": null
+  },
+  "bo_vs:a447c703-7961-4fe4-8317-f26ee4d70804": {
+   "primaire": "A2",
+   "second": null
+  },
+  "bo_vs:a9375b4f-00fa-4ee6-be04-9526b2b88f5e": {
+   "primaire": "A2",
+   "second": null
+  },
+  "bo_vs:ab2dc328-eff1-4e9b-8f56-b1a2c93ff862": {
+   "primaire": "A1",
+   "second": null
+  },
+  "bo_vs:b5ad93e9-7e38-48d6-bec8-e699ac638244": {
+   "primaire": "A2",
+   "second": null
+  },
+  "bo_vs:bfb0fb7a-a903-4c05-b482-10279ca15e0a": {
+   "primaire": "A2",
+   "second": null
+  },
+  "bo_vs:c376a509-ca51-4d81-a903-652ad514ace8": {
+   "primaire": "A2",
+   "second": "A1"
+  },
+  "bo_vs:c7e0d322-8734-4f46-8507-e0ddb4432609": {
+   "primaire": "A1",
+   "second": null
+  },
+  "bo_vs:ce6c47df-543f-4a75-bf70-0230a7f21e7b": {
+   "primaire": "A2",
+   "second": null
+  },
+  "bo_vs:d2ac2ee0-fa71-48ba-9a7e-18cfbde774c9": {
+   "primaire": "A1",
+   "second": null
+  },
+  "bo_vs:d3861b68-d407-4ec5-ab49-fab02bf94e6f": {
+   "primaire": "A1",
+   "second": null
+  },
+  "bo_vs:d3a56478-4117-47e7-b732-74ccd1877426": {
+   "primaire": "A1",
+   "second": null
+  },
+  "bo_vs:d48930a4-380e-4a37-9f6e-241a27b67b60": {
+   "primaire": "A1",
+   "second": null
+  },
+  "bo_vs:d69ef886-9ef2-495e-a105-a2502b83efe7": {
+   "primaire": "A1",
+   "second": null
+  },
+  "bo_vs:dca876b9-a850-43c2-8a73-290425d53040": {
+   "primaire": "A2",
+   "second": null
+  },
+  "bo_vs:dfd84e19-44fe-4117-98d5-67916fd2494d": {
+   "primaire": "A2",
+   "second": null
+  },
+  "bo_vs:eb3cbd62-7b13-4813-9d1f-9840715a784c": {
+   "primaire": "A2",
+   "second": null
+  },
+  "bo_vs:ecb74eac-2178-481b-9427-c8ef4dd372c1": {
+   "primaire": "A1",
+   "second": null
+  },
+  "bo_vs:f40d5da8-d0b5-49f4-b0e7-103ad108a464": {
+   "primaire": "A2",
+   "second": null
+  },
+  "bo_vs:f53970ba-72c8-4b70-99f7-a22a63ce48e4": {
+   "primaire": "A2",
+   "second": null
+  },
+  "bo_vs:fd8d4303-f13d-4fe2-86bd-2bab2945d751": {
+   "primaire": "A2",
+   "second": null
+  },
+  "bo_vs:fe1e6ffe-b99a-489b-943a-4d9b03bb078b": {
+   "primaire": "A1",
+   "second": null
+  }
+ }
+}

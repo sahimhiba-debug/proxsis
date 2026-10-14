@@ -1,0 +1,65 @@
+# secrets
+.env
+.env.*
+!.env.example
+
+# python
+python/.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+python/.cache/
+
+# node
+node_modules/
+apps/web/.next/
+apps/web/out/
+apps/web/test-results/
+apps/web/playwright-report/
+*.tsbuildinfo
+next-env.d.ts
+
+# misc
+.DS_Store
+*.log
+
+# the fictional world written by `proxsis world` (only the 300 fictional candidates are versioned)
+data/fictif/*
+!data/fictif/candidats_300.csv
+
+# données réelles ingérées (publiques mais filtrées ; hors dépôt, stockées dans Supabase/stockage)
+data/reel/
+
+# collecte manuelle (BO VS, FOSC) : textes filtrés et pages qui les contiennent, jamais dans git
+data/manuel/textes/
+
+# agent tooling, installed per machine (Impeccable: npx impeccable install), never in the repository
+/.claude/skills/
+/.claude/agents/
+/.impeccable/
+.claude/settings.local.json
+
+# offline copies made by scripts/copie-hors-ligne.sh (each one is rebuilt from its commit)
+/copies-hors-ligne/
+
+# screenshots made by scripts/captures/captures.mjs (rebuilt on demand)
+/captures/
+
+# exports of the carnet (semaine témoin): they stay on the device, never in the repository (docs/essai/semaine-temoin.md)
+proxsis-essai-*.json
+proxsis-carnet-*.json
+
+# video renders and generated PDFs: never committed nor pushed (the films live outside the repository)
+video/rendus/
+
+# compiled tools and intermediate masks of the mascot's images (scripts/mascotte/)
+scripts/mascotte/build/
+
+# written by `next dev` when an AI coding agent launches it: kept out of the repository
+apps/web/AGENTS.md
+apps/web/CLAUDE.md

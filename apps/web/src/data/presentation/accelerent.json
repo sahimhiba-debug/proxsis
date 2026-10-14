@@ -1,0 +1,50 @@
+{
+ "schema": 1,
+ "claims": "REEL-SURPRISE",
+ "perimetre": {
+  "specialite": "batiment",
+  "region": [
+   "VS"
+  ],
+  "dix": 10,
+  "semaines": 57,
+  "premiere": "2025-07-07",
+  "derniere": "2026-08-03",
+  "horizon_semaines": 8
+ },
+ "regle": {
+  "fr": "au moins 2 marchés publics en 8 semaines, et au moins deux fois son rythme habituel des 44 semaines précédentes",
+  "de": "mindestens 2 öffentliche Aufträge in 8 Wochen und mindestens doppelt so viele wie üblich in den 44 Wochen davor"
+ },
+ "accelerent": {
+  "cas": 298,
+  "taux": 0.3825503355704698,
+  "affiche": {
+   "fr": "38,3 %",
+   "de": "38,3 %"
+  }
+ },
+ "hors_des_dix": {
+  "taux": 0.17269588050666615,
+  "affiche": {
+   "fr": "17,3 %",
+   "de": "17,3 %"
+  }
+ },
+ "nuance": {
+  "fr": "Des taux observés sur le passé, pas une prévision : une même entreprise peut compter plusieurs semaines de suite.",
+  "de": "Auf der Vergangenheit beobachtete Anteile, keine Vorhersage: Dasselbe Unternehmen kann mehrere Wochen nacheinander zählen."
+ },
+ "de_a_relire": true,
+ "source": {
+  "nom": "simap.ch",
+  "mention": "Ceci n'est pas une publication officielle. Les données publiées sur la plateforme www.simap.ch font foi.",
+  "mesure": "docs/backtest/specialites_v1.json",
+  "mesure_le": "2026-10-06"
+ },
+ "provenance": {
+  "commande": "proxsis moments-presentation",
+  "calcule_le": "2026-10-07",
+  "claims": "REEL-SURPRISE"
+ }
+}

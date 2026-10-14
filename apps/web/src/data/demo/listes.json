@@ -1,0 +1,206 @@
+{
+ "batiment": {
+  "libelle": {
+   "fr": "Bâtiment",
+   "de": "Bau"
+  },
+  "ordre": "nombre de marchés de la spécialité en 52 semaines, puis le plus récent",
+  "par_agence": {
+   "martigny": {
+    "entreprises": [
+     "ent-1ef761b229",
+     "ent-42fbc21c38",
+     "ent-734d5f7d45",
+     "ent-6e874811ae",
+     "ent-bd58f9a809",
+     "ent-e0b3af4121",
+     "ent-266673a5c4",
+     "ent-866876591f",
+     "ent-0ff073ea76",
+     "ent-1b28ee92b6"
+    ],
+    "surprises": [
+     "ent-f64c995d1b",
+     "ent-10b3d0eadc"
+    ]
+   },
+   "sion": {
+    "entreprises": [
+     "ent-734d5f7d45",
+     "ent-6e874811ae",
+     "ent-bd58f9a809",
+     "ent-e0b3af4121",
+     "ent-266673a5c4",
+     "ent-1ef761b229",
+     "ent-42fbc21c38",
+     "ent-866876591f",
+     "ent-0ff073ea76",
+     "ent-1b28ee92b6"
+    ],
+    "surprises": [
+     "ent-e960aafbfb",
+     "ent-a4be1d23ff",
+     "ent-ba126caa5b"
+    ]
+   },
+   "monthey": {
+    "entreprises": [
+     "ent-42fbc21c38",
+     "ent-1ef761b229",
+     "ent-734d5f7d45",
+     "ent-6e874811ae",
+     "ent-bd58f9a809",
+     "ent-e0b3af4121",
+     "ent-266673a5c4",
+     "ent-866876591f",
+     "ent-0ff073ea76",
+     "ent-1b28ee92b6"
+    ],
+    "surprises": [
+     "ent-4ee4dbbfd0"
+    ]
+   }
+  },
+  "hypotheses": [
+   "mesuré : délai entre l'adjudication de l'ancre (gros_oeuvre) et celle de chaque phase (quantiles 10/50/90)",
+   "mesuré : probabilité qu'une phase soit adjugée séparément dans le même chantier",
+   "mesuré : montant de chaque phase rapporté au montant de l'ancre (médiane)",
+   "hypothèse : début des travaux 4 semaines après l'adjudication",
+   "hypothèse : durées des phases en semaines {'preparatoire': 4, 'terrassement': 6, 'gros_oeuvre': 16, 'enveloppe': 8, 'electricite': 12, 'cvc': 12, 'sanitaire': 12, 'transport': 6, 'amenagement_int': 8, 'finitions': 6, 'equipement': 6, 'exterieur': 6}",
+   "hypothèse : part de main-d'œuvre dans le prix (0.25, 0.35, 0.45) (bas, milieu, haut)",
+   "hypothèse : coût hebdomadaire d'une personne en CHF (2600.0, 2300.0, 2000.0)",
+   "hypothèse : répartition de la main-d'œuvre d'une phase entre ses métiers (égale, sauf gros œuvre)",
+   "hypothèse : le besoin chiffré est la main-d'œuvre mobilisée par le lot ; la part confiée à des temporaires est inconnue sans l'historique des commandes de Flexsis",
+   "règle : confiance élevée sans faiblesse, moyenne avec une, faible avec deux ou plus (dernier marché > 13 semaines, montant estimé ou non publié, code CPV générique, pas de lot récent)",
+   "le score mesure une activité (nouveau marché public), pas une commande à Flexsis"
+  ],
+  "backtest": {
+   "p_at_10": 66.8,
+   "taux_de_base": 20.7,
+   "semaines": 57,
+   "claim": "REEL-SPEC-BAT"
+  }
+ },
+ "electricite": {
+  "libelle": {
+   "fr": "Électricité",
+   "de": "Elektro"
+  },
+  "ordre": "nombre de marchés de la spécialité en 52 semaines, puis le plus récent",
+  "par_agence": {
+   "martigny": {
+    "entreprises": [
+     "ent-bef4adb474",
+     "ent-307c99b8c8",
+     "ent-1f979b0082",
+     "ent-52722fd0c4",
+     "ent-7d669a34df"
+    ],
+    "surprises": []
+   },
+   "sion": {
+    "entreprises": [
+     "ent-8798cd7fa8",
+     "ent-66a104399b",
+     "ent-a9007783f5",
+     "ent-bbb1d817ce",
+     "ent-4055793cb3",
+     "ent-decac0f587",
+     "ent-05fb182e20",
+     "ent-4ea9e1b470",
+     "ent-11e5b1fce9",
+     "ent-774216be2b"
+    ],
+    "surprises": []
+   },
+   "monthey": {
+    "entreprises": [],
+    "surprises": []
+   }
+  },
+  "hypotheses": [
+   "mesuré : délai entre l'adjudication de l'ancre (gros_oeuvre) et celle de chaque phase (quantiles 10/50/90)",
+   "mesuré : probabilité qu'une phase soit adjugée séparément dans le même chantier",
+   "mesuré : montant de chaque phase rapporté au montant de l'ancre (médiane)",
+   "hypothèse : début des travaux 4 semaines après l'adjudication",
+   "hypothèse : durées des phases en semaines {'preparatoire': 4, 'terrassement': 6, 'gros_oeuvre': 16, 'enveloppe': 8, 'electricite': 12, 'cvc': 12, 'sanitaire': 12, 'transport': 6, 'amenagement_int': 8, 'finitions': 6, 'equipement': 6, 'exterieur': 6}",
+   "hypothèse : part de main-d'œuvre dans le prix (0.25, 0.35, 0.45) (bas, milieu, haut)",
+   "hypothèse : coût hebdomadaire d'une personne en CHF (2600.0, 2300.0, 2000.0)",
+   "hypothèse : répartition de la main-d'œuvre d'une phase entre ses métiers (égale, sauf gros œuvre)",
+   "hypothèse : le besoin chiffré est la main-d'œuvre mobilisée par le lot ; la part confiée à des temporaires est inconnue sans l'historique des commandes de Flexsis",
+   "règle : confiance élevée sans faiblesse, moyenne avec une, faible avec deux ou plus (dernier marché > 13 semaines, montant estimé ou non publié, code CPV générique, pas de lot récent)",
+   "le score mesure une activité (nouveau marché public), pas une commande à Flexsis"
+  ],
+  "backtest": {
+   "p_at_10": 19.6,
+   "taux_de_base": 18.3,
+   "semaines": 57,
+   "claim": "REEL-SPEC-AUTRES"
+  }
+ },
+ "technique": {
+  "libelle": {
+   "fr": "Technique du bâtiment",
+   "de": "Gebäudetechnik"
+  },
+  "ordre": "nombre de marchés de la spécialité en 52 semaines, puis le plus récent",
+  "par_agence": {
+   "martigny": {
+    "entreprises": [
+     "ent-9493d5d8a5",
+     "ent-23739352be",
+     "ent-1908a7b39a",
+     "ent-1526e3dfc6",
+     "ent-83cbb2fdd1",
+     "ent-10f8eeeaf9",
+     "ent-2f20a67879",
+     "ent-a0e707f24c",
+     "ent-e86e51b031"
+    ],
+    "surprises": []
+   },
+   "sion": {
+    "entreprises": [
+     "ent-9ee20debe5",
+     "ent-04c51f7c9d",
+     "ent-c17a02a0fe",
+     "ent-571d0a02a0",
+     "ent-f242cbd364",
+     "ent-034c9b5b0e",
+     "ent-a18d53ad49",
+     "ent-e1d23a9ab3",
+     "ent-2f4e3da9c4",
+     "ent-aa916d5995"
+    ],
+    "surprises": []
+   },
+   "monthey": {
+    "entreprises": [
+     "ent-8b005bad35",
+     "ent-0b4b0d879f",
+     "ent-2cd68f5b3a"
+    ],
+    "surprises": []
+   }
+  },
+  "hypotheses": [
+   "mesuré : délai entre l'adjudication de l'ancre (gros_oeuvre) et celle de chaque phase (quantiles 10/50/90)",
+   "mesuré : probabilité qu'une phase soit adjugée séparément dans le même chantier",
+   "mesuré : montant de chaque phase rapporté au montant de l'ancre (médiane)",
+   "hypothèse : début des travaux 4 semaines après l'adjudication",
+   "hypothèse : durées des phases en semaines {'preparatoire': 4, 'terrassement': 6, 'gros_oeuvre': 16, 'enveloppe': 8, 'electricite': 12, 'cvc': 12, 'sanitaire': 12, 'transport': 6, 'amenagement_int': 8, 'finitions': 6, 'equipement': 6, 'exterieur': 6}",
+   "hypothèse : part de main-d'œuvre dans le prix (0.25, 0.35, 0.45) (bas, milieu, haut)",
+   "hypothèse : coût hebdomadaire d'une personne en CHF (2600.0, 2300.0, 2000.0)",
+   "hypothèse : répartition de la main-d'œuvre d'une phase entre ses métiers (égale, sauf gros œuvre)",
+   "hypothèse : le besoin chiffré est la main-d'œuvre mobilisée par le lot ; la part confiée à des temporaires est inconnue sans l'historique des commandes de Flexsis",
+   "règle : confiance élevée sans faiblesse, moyenne avec une, faible avec deux ou plus (dernier marché > 13 semaines, montant estimé ou non publié, code CPV générique, pas de lot récent)",
+   "le score mesure une activité (nouveau marché public), pas une commande à Flexsis"
+  ],
+  "backtest": {
+   "p_at_10": 22.8,
+   "taux_de_base": 13.9,
+   "semaines": 57,
+   "claim": "REEL-SPEC-AUTRES"
+  }
+ }
+}

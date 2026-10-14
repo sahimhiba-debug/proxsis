@@ -1,0 +1,1424 @@
+{
+ "schema": 1,
+ "prepare_le": "2026-10-06",
+ "territoire": {
+  "source": {
+   "fr": "Bulletin officiel du Valais — seule la publication officielle fait foi.",
+   "de": "Amtsblatt des Kantons Wallis — massgebend ist allein die amtliche Publikation."
+  },
+  "total_publications": 818,
+  "n_communes": 103,
+  "periode": {
+   "debut": "2026-08-07",
+   "fin": "2026-09-29"
+  },
+  "semaines": [
+   "2026-S32",
+   "2026-S33",
+   "2026-S34",
+   "2026-S35",
+   "2026-S36",
+   "2026-S37",
+   "2026-S38",
+   "2026-S39",
+   "2026-S40"
+  ],
+  "communes": [
+   {
+    "commune": "Agarn",
+    "lat": 46.2954,
+    "lon": 7.6661,
+    "total": 1,
+    "semaines": {
+     "2026-S38": 1
+    }
+   },
+   {
+    "commune": "Anniviers",
+    "lat": 46.2049,
+    "lon": 7.5896,
+    "total": 15,
+    "semaines": {
+     "2026-S33": 3,
+     "2026-S34": 1,
+     "2026-S35": 2,
+     "2026-S37": 3,
+     "2026-S38": 2,
+     "2026-S39": 4
+    }
+   },
+   {
+    "commune": "Arbaz",
+    "lat": 46.2772,
+    "lon": 7.385,
+    "total": 2,
+    "semaines": {
+     "2026-S33": 1,
+     "2026-S35": 1
+    }
+   },
+   {
+    "commune": "Ardon",
+    "lat": 46.2096,
+    "lon": 7.2594,
+    "total": 8,
+    "semaines": {
+     "2026-S33": 1,
+     "2026-S34": 2,
+     "2026-S36": 2,
+     "2026-S37": 1,
+     "2026-S38": 1,
+     "2026-S39": 1
+    }
+   },
+   {
+    "commune": "Ausserberg",
+    "lat": 46.3143,
+    "lon": 7.8514,
+    "total": 1,
+    "semaines": {
+     "2026-S34": 1
+    }
+   },
+   {
+    "commune": "Ayent",
+    "lat": 46.2759,
+    "lon": 7.4085,
+    "total": 6,
+    "semaines": {
+     "2026-S32": 2,
+     "2026-S34": 1,
+     "2026-S36": 2,
+     "2026-S39": 1
+    }
+   },
+   {
+    "commune": "Baltschieder",
+    "lat": 46.3069,
+    "lon": 7.864,
+    "total": 5,
+    "semaines": {
+     "2026-S36": 1,
+     "2026-S37": 2,
+     "2026-S38": 1,
+     "2026-S39": 1
+    }
+   },
+   {
+    "commune": "Bellwald",
+    "lat": 46.4276,
+    "lon": 8.1601,
+    "total": 14,
+    "semaines": {
+     "2026-S34": 8,
+     "2026-S35": 4,
+     "2026-S37": 1,
+     "2026-S39": 1
+    }
+   },
+   {
+    "commune": "Bettmeralp",
+    "lat": 46.3894,
+    "lon": 8.0626,
+    "total": 5,
+    "semaines": {
+     "2026-S32": 2,
+     "2026-S34": 1,
+     "2026-S36": 1,
+     "2026-S37": 1
+    }
+   },
+   {
+    "commune": "Binn",
+    "lat": 46.3653,
+    "lon": 8.1918,
+    "total": 4,
+    "semaines": {
+     "2026-S33": 1,
+     "2026-S35": 2,
+     "2026-S39": 1
+    }
+   },
+   {
+    "commune": "Bitsch",
+    "lat": 46.3378,
+    "lon": 8.0134,
+    "total": 2,
+    "semaines": {
+     "2026-S35": 1,
+     "2026-S38": 1
+    }
+   },
+   {
+    "commune": "Blatten",
+    "lat": 46.4218,
+    "lon": 7.8174,
+    "total": 2,
+    "semaines": {
+     "2026-S39": 2
+    }
+   },
+   {
+    "commune": "Bourg-Saint-Pierre",
+    "lat": 45.9497,
+    "lon": 7.209,
+    "total": 1,
+    "semaines": {
+     "2026-S32": 1
+    }
+   },
+   {
+    "commune": "Bovernier",
+    "lat": 46.0761,
+    "lon": 7.0823,
+    "total": 5,
+    "semaines": {
+     "2026-S34": 1,
+     "2026-S36": 2,
+     "2026-S37": 1,
+     "2026-S38": 1
+    }
+   },
+   {
+    "commune": "Brig-Glis",
+    "lat": 46.308,
+    "lon": 7.9621,
+    "total": 15,
+    "semaines": {
+     "2026-S32": 2,
+     "2026-S33": 2,
+     "2026-S34": 2,
+     "2026-S35": 4,
+     "2026-S36": 2,
+     "2026-S37": 2,
+     "2026-S38": 1
+    }
+   },
+   {
+    "commune": "Bürchen",
+    "lat": 46.2771,
+    "lon": 7.8231,
+    "total": 7,
+    "semaines": {
+     "2026-S32": 4,
+     "2026-S38": 2,
+     "2026-S39": 1
+    }
+   },
+   {
+    "commune": "Chalais",
+    "lat": 46.2658,
+    "lon": 7.5125,
+    "total": 6,
+    "semaines": {
+     "2026-S33": 1,
+     "2026-S34": 2,
+     "2026-S36": 1,
+     "2026-S38": 1,
+     "2026-S39": 1
+    }
+   },
+   {
+    "commune": "Chamoson",
+    "lat": 46.2016,
+    "lon": 7.2234,
+    "total": 9,
+    "semaines": {
+     "2026-S32": 1,
+     "2026-S35": 1,
+     "2026-S36": 2,
+     "2026-S37": 2,
+     "2026-S38": 1,
+     "2026-S39": 2
+    }
+   },
+   {
+    "commune": "Champéry",
+    "lat": 46.1757,
+    "lon": 6.8683,
+    "total": 4,
+    "semaines": {
+     "2026-S36": 2,
+     "2026-S38": 2
+    }
+   },
+   {
+    "commune": "Chippis",
+    "lat": 46.2795,
+    "lon": 7.5398,
+    "total": 5,
+    "semaines": {
+     "2026-S33": 1,
+     "2026-S34": 1,
+     "2026-S35": 1,
+     "2026-S36": 1,
+     "2026-S39": 1
+    }
+   },
+   {
+    "commune": "Collombey-Muraz",
+    "lat": 46.2701,
+    "lon": 6.933,
+    "total": 11,
+    "semaines": {
+     "2026-S32": 1,
+     "2026-S34": 2,
+     "2026-S35": 3,
+     "2026-S37": 3,
+     "2026-S38": 2
+    }
+   },
+   {
+    "commune": "Collonges",
+    "lat": 46.1725,
+    "lon": 7.0347,
+    "total": 2,
+    "semaines": {
+     "2026-S33": 2
+    }
+   },
+   {
+    "commune": "Conthey",
+    "lat": 46.2266,
+    "lon": 7.3044,
+    "total": 6,
+    "semaines": {
+     "2026-S33": 1,
+     "2026-S35": 1,
+     "2026-S36": 1,
+     "2026-S38": 2,
+     "2026-S39": 1
+    }
+   },
+   {
+    "commune": "Crans-Montana",
+    "lat": 46.3109,
+    "lon": 7.4844,
+    "total": 26,
+    "semaines": {
+     "2026-S32": 6,
+     "2026-S33": 2,
+     "2026-S34": 1,
+     "2026-S35": 6,
+     "2026-S36": 4,
+     "2026-S37": 4,
+     "2026-S39": 3
+    }
+   },
+   {
+    "commune": "Dorénaz",
+    "lat": 46.1489,
+    "lon": 7.0449,
+    "total": 1,
+    "semaines": {
+     "2026-S39": 1
+    }
+   },
+   {
+    "commune": "Eggerberg",
+    "lat": 46.3082,
+    "lon": 7.8827,
+    "total": 2,
+    "semaines": {
+     "2026-S37": 2
+    }
+   },
+   {
+    "commune": "Eischoll",
+    "lat": 46.2917,
+    "lon": 7.7772,
+    "total": 2,
+    "semaines": {
+     "2026-S32": 1,
+     "2026-S37": 1
+    }
+   },
+   {
+    "commune": "Embd",
+    "lat": 46.217,
+    "lon": 7.8289,
+    "total": 1,
+    "semaines": {
+     "2026-S40": 1
+    }
+   },
+   {
+    "commune": "Ergisch",
+    "lat": 46.2909,
+    "lon": 7.7186,
+    "total": 2,
+    "semaines": {
+     "2026-S32": 2
+    }
+   },
+   {
+    "commune": "Ernen",
+    "lat": 46.3961,
+    "lon": 8.1424,
+    "total": 3,
+    "semaines": {
+     "2026-S33": 1,
+     "2026-S34": 1,
+     "2026-S38": 1
+    }
+   },
+   {
+    "commune": "Evionnaz",
+    "lat": 46.1744,
+    "lon": 7.0228,
+    "total": 4,
+    "semaines": {
+     "2026-S33": 2,
+     "2026-S34": 1,
+     "2026-S39": 1
+    }
+   },
+   {
+    "commune": "Evolène",
+    "lat": 46.1139,
+    "lon": 7.4945,
+    "total": 2,
+    "semaines": {
+     "2026-S37": 2
+    }
+   },
+   {
+    "commune": "Ferden",
+    "lat": 46.3928,
+    "lon": 7.7567,
+    "total": 2,
+    "semaines": {
+     "2026-S35": 1,
+     "2026-S38": 1
+    }
+   },
+   {
+    "commune": "Fiesch",
+    "lat": 46.4031,
+    "lon": 8.1327,
+    "total": 6,
+    "semaines": {
+     "2026-S32": 1,
+     "2026-S33": 2,
+     "2026-S35": 1,
+     "2026-S36": 1,
+     "2026-S38": 1
+    }
+   },
+   {
+    "commune": "Fieschertal",
+    "lat": 46.4251,
+    "lon": 8.1433,
+    "total": 2,
+    "semaines": {
+     "2026-S35": 1,
+     "2026-S37": 1
+    }
+   },
+   {
+    "commune": "Fully",
+    "lat": 46.141,
+    "lon": 7.1204,
+    "total": 19,
+    "semaines": {
+     "2026-S34": 4,
+     "2026-S35": 3,
+     "2026-S36": 2,
+     "2026-S37": 4,
+     "2026-S38": 3,
+     "2026-S39": 3
+    }
+   },
+   {
+    "commune": "Gampel-Bratsch",
+    "lat": 46.3308,
+    "lon": 7.7268,
+    "total": 9,
+    "semaines": {
+     "2026-S32": 2,
+     "2026-S33": 3,
+     "2026-S34": 1,
+     "2026-S36": 2,
+     "2026-S39": 1
+    }
+   },
+   {
+    "commune": "Goms",
+    "lat": 46.4625,
+    "lon": 8.2299,
+    "total": 1,
+    "semaines": {
+     "2026-S39": 1
+    }
+   },
+   {
+    "commune": "Grächen",
+    "lat": 46.1959,
+    "lon": 7.838,
+    "total": 6,
+    "semaines": {
+     "2026-S36": 4,
+     "2026-S38": 1,
+     "2026-S40": 1
+    }
+   },
+   {
+    "commune": "Grimisuat",
+    "lat": 46.259,
+    "lon": 7.3847,
+    "total": 5,
+    "semaines": {
+     "2026-S38": 5
+    }
+   },
+   {
+    "commune": "Grône",
+    "lat": 46.2503,
+    "lon": 7.4659,
+    "total": 5,
+    "semaines": {
+     "2026-S33": 2,
+     "2026-S34": 1,
+     "2026-S37": 1,
+     "2026-S38": 1
+    }
+   },
+   {
+    "commune": "Guttet-Feschel",
+    "lat": 46.3251,
+    "lon": 7.6697,
+    "total": 5,
+    "semaines": {
+     "2026-S32": 1,
+     "2026-S36": 1,
+     "2026-S37": 1,
+     "2026-S38": 1,
+     "2026-S39": 1
+    }
+   },
+   {
+    "commune": "Hérémence",
+    "lat": 46.1662,
+    "lon": 7.3953,
+    "total": 7,
+    "semaines": {
+     "2026-S34": 2,
+     "2026-S35": 2,
+     "2026-S36": 2,
+     "2026-S39": 1
+    }
+   },
+   {
+    "commune": "Icogne",
+    "lat": 46.2926,
+    "lon": 7.4389,
+    "total": 3,
+    "semaines": {
+     "2026-S32": 1,
+     "2026-S37": 1,
+     "2026-S38": 1
+    }
+   },
+   {
+    "commune": "Inden",
+    "lat": 46.3436,
+    "lon": 7.6176,
+    "total": 1,
+    "semaines": {
+     "2026-S39": 1
+    }
+   },
+   {
+    "commune": "Lalden",
+    "lat": 46.2996,
+    "lon": 7.9012,
+    "total": 2,
+    "semaines": {
+     "2026-S35": 1,
+     "2026-S38": 1
+    }
+   },
+   {
+    "commune": "Lax",
+    "lat": 46.3889,
+    "lon": 8.116,
+    "total": 1,
+    "semaines": {
+     "2026-S35": 1
+    }
+   },
+   {
+    "commune": "Lens",
+    "lat": 46.2818,
+    "lon": 7.4483,
+    "total": 18,
+    "semaines": {
+     "2026-S32": 6,
+     "2026-S33": 3,
+     "2026-S34": 2,
+     "2026-S36": 2,
+     "2026-S37": 2,
+     "2026-S38": 2,
+     "2026-S39": 1
+    }
+   },
+   {
+    "commune": "Leuk",
+    "lat": 46.3142,
+    "lon": 7.6508,
+    "total": 9,
+    "semaines": {
+     "2026-S32": 1,
+     "2026-S33": 2,
+     "2026-S34": 2,
+     "2026-S35": 1,
+     "2026-S38": 2,
+     "2026-S39": 1
+    }
+   },
+   {
+    "commune": "Leukerbad",
+    "lat": 46.3797,
+    "lon": 7.6282,
+    "total": 5,
+    "semaines": {
+     "2026-S32": 2,
+     "2026-S35": 2,
+     "2026-S39": 1
+    }
+   },
+   {
+    "commune": "Leytron",
+    "lat": 46.1862,
+    "lon": 7.2084,
+    "total": 4,
+    "semaines": {
+     "2026-S38": 4
+    }
+   },
+   {
+    "commune": "Liddes",
+    "lat": 45.9921,
+    "lon": 7.1859,
+    "total": 6,
+    "semaines": {
+     "2026-S34": 5,
+     "2026-S39": 1
+    }
+   },
+   {
+    "commune": "Martigny",
+    "lat": 46.1029,
+    "lon": 7.0749,
+    "total": 17,
+    "semaines": {
+     "2026-S32": 6,
+     "2026-S33": 1,
+     "2026-S34": 2,
+     "2026-S35": 6,
+     "2026-S37": 1,
+     "2026-S38": 1
+    }
+   },
+   {
+    "commune": "Martigny-Combe",
+    "lat": 46.092,
+    "lon": 7.0336,
+    "total": 3,
+    "semaines": {
+     "2026-S33": 1,
+     "2026-S35": 2
+    }
+   },
+   {
+    "commune": "Massongex",
+    "lat": 46.2415,
+    "lon": 6.9867,
+    "total": 1,
+    "semaines": {
+     "2026-S37": 1
+    }
+   },
+   {
+    "commune": "Mont-Noble",
+    "lat": 46.209,
+    "lon": 7.4548,
+    "total": 7,
+    "semaines": {
+     "2026-S34": 1,
+     "2026-S37": 2,
+     "2026-S38": 1,
+     "2026-S39": 3
+    }
+   },
+   {
+    "commune": "Monthey",
+    "lat": 46.2539,
+    "lon": 6.9522,
+    "total": 19,
+    "semaines": {
+     "2026-S32": 4,
+     "2026-S33": 4,
+     "2026-S34": 4,
+     "2026-S35": 3,
+     "2026-S36": 3,
+     "2026-S39": 1
+    }
+   },
+   {
+    "commune": "Naters",
+    "lat": 46.3269,
+    "lon": 7.9929,
+    "total": 23,
+    "semaines": {
+     "2026-S32": 3,
+     "2026-S34": 4,
+     "2026-S35": 3,
+     "2026-S36": 4,
+     "2026-S37": 3,
+     "2026-S38": 2,
+     "2026-S39": 4
+    }
+   },
+   {
+    "commune": "Nendaz",
+    "lat": 46.1847,
+    "lon": 7.3087,
+    "total": 18,
+    "semaines": {
+     "2026-S32": 3,
+     "2026-S33": 3,
+     "2026-S35": 1,
+     "2026-S36": 4,
+     "2026-S37": 3,
+     "2026-S38": 1,
+     "2026-S39": 3
+    }
+   },
+   {
+    "commune": "Niedergesteln",
+    "lat": 46.3128,
+    "lon": 7.7836,
+    "total": 4,
+    "semaines": {
+     "2026-S32": 1,
+     "2026-S33": 1,
+     "2026-S34": 1,
+     "2026-S36": 1
+    }
+   },
+   {
+    "commune": "Noble-Contrée",
+    "lat": 46.3064,
+    "lon": 7.5443,
+    "total": 11,
+    "semaines": {
+     "2026-S35": 1,
+     "2026-S36": 1,
+     "2026-S37": 7,
+     "2026-S39": 2
+    }
+   },
+   {
+    "commune": "Obergoms",
+    "lat": 46.5178,
+    "lon": 8.3288,
+    "total": 9,
+    "semaines": {
+     "2026-S34": 3,
+     "2026-S35": 1,
+     "2026-S37": 2,
+     "2026-S38": 2,
+     "2026-S39": 1
+    }
+   },
+   {
+    "commune": "Orsières",
+    "lat": 46.0293,
+    "lon": 7.1443,
+    "total": 4,
+    "semaines": {
+     "2026-S36": 4
+    }
+   },
+   {
+    "commune": "Port-Valais",
+    "lat": 46.3753,
+    "lon": 6.8592,
+    "total": 6,
+    "semaines": {
+     "2026-S33": 1,
+     "2026-S34": 2,
+     "2026-S36": 1,
+     "2026-S38": 2
+    }
+   },
+   {
+    "commune": "Randa",
+    "lat": 46.099,
+    "lon": 7.783,
+    "total": 6,
+    "semaines": {
+     "2026-S33": 1,
+     "2026-S36": 2,
+     "2026-S39": 3
+    }
+   },
+   {
+    "commune": "Raron",
+    "lat": 46.3079,
+    "lon": 7.8013,
+    "total": 4,
+    "semaines": {
+     "2026-S32": 3,
+     "2026-S36": 1
+    }
+   },
+   {
+    "commune": "Riddes",
+    "lat": 46.1714,
+    "lon": 7.222,
+    "total": 7,
+    "semaines": {
+     "2026-S33": 3,
+     "2026-S35": 1,
+     "2026-S38": 2,
+     "2026-S39": 1
+    }
+   },
+   {
+    "commune": "Ried-Brig",
+    "lat": 46.3139,
+    "lon": 8.0158,
+    "total": 7,
+    "semaines": {
+     "2026-S32": 1,
+     "2026-S35": 1,
+     "2026-S36": 2,
+     "2026-S37": 1,
+     "2026-S38": 1,
+     "2026-S39": 1
+    }
+   },
+   {
+    "commune": "Riederalp",
+    "lat": 46.3786,
+    "lon": 8.0346,
+    "total": 7,
+    "semaines": {
+     "2026-S33": 4,
+     "2026-S37": 3
+    }
+   },
+   {
+    "commune": "Saas-Fee",
+    "lat": 46.1098,
+    "lon": 7.9282,
+    "total": 7,
+    "semaines": {
+     "2026-S33": 4,
+     "2026-S35": 1,
+     "2026-S38": 2
+    }
+   },
+   {
+    "commune": "Saas-Grund",
+    "lat": 46.1266,
+    "lon": 7.9381,
+    "total": 1,
+    "semaines": {
+     "2026-S34": 1
+    }
+   },
+   {
+    "commune": "Saillon",
+    "lat": 46.1698,
+    "lon": 7.1861,
+    "total": 5,
+    "semaines": {
+     "2026-S36": 1,
+     "2026-S37": 1,
+     "2026-S38": 2,
+     "2026-S39": 1
+    }
+   },
+   {
+    "commune": "Saint-Léonard",
+    "lat": 46.2609,
+    "lon": 7.4255,
+    "total": 2,
+    "semaines": {
+     "2026-S33": 1,
+     "2026-S37": 1
+    }
+   },
+   {
+    "commune": "Saint-Martin (VS)",
+    "lat": 46.1662,
+    "lon": 7.45,
+    "total": 1,
+    "semaines": {
+     "2026-S34": 1
+    }
+   },
+   {
+    "commune": "Saint-Maurice",
+    "lat": 46.1925,
+    "lon": 7.0092,
+    "total": 6,
+    "semaines": {
+     "2026-S32": 1,
+     "2026-S33": 2,
+     "2026-S35": 2,
+     "2026-S39": 1
+    }
+   },
+   {
+    "commune": "Salgesch",
+    "lat": 46.311,
+    "lon": 7.5708,
+    "total": 4,
+    "semaines": {
+     "2026-S34": 1,
+     "2026-S35": 1,
+     "2026-S36": 1,
+     "2026-S39": 1
+    }
+   },
+   {
+    "commune": "Salvan",
+    "lat": 46.1201,
+    "lon": 7.0204,
+    "total": 12,
+    "semaines": {
+     "2026-S32": 2,
+     "2026-S34": 1,
+     "2026-S36": 1,
+     "2026-S37": 1,
+     "2026-S38": 7
+    }
+   },
+   {
+    "commune": "Savièse",
+    "lat": 46.2538,
+    "lon": 7.3472,
+    "total": 22,
+    "semaines": {
+     "2026-S33": 4,
+     "2026-S34": 3,
+     "2026-S35": 2,
+     "2026-S36": 3,
+     "2026-S37": 6,
+     "2026-S38": 1,
+     "2026-S39": 3
+    }
+   },
+   {
+    "commune": "Saxon",
+    "lat": 46.1479,
+    "lon": 7.1765,
+    "total": 14,
+    "semaines": {
+     "2026-S32": 1,
+     "2026-S35": 4,
+     "2026-S36": 4,
+     "2026-S38": 3,
+     "2026-S39": 2
+    }
+   },
+   {
+    "commune": "Sembrancher",
+    "lat": 46.078,
+    "lon": 7.1506,
+    "total": 1,
+    "semaines": {
+     "2026-S35": 1
+    }
+   },
+   {
+    "commune": "Sierre",
+    "lat": 46.2923,
+    "lon": 7.5319,
+    "total": 20,
+    "semaines": {
+     "2026-S32": 3,
+     "2026-S33": 7,
+     "2026-S34": 1,
+     "2026-S35": 3,
+     "2026-S36": 1,
+     "2026-S37": 2,
+     "2026-S38": 2,
+     "2026-S39": 1
+    }
+   },
+   {
+    "commune": "Simplon",
+    "lat": 46.2092,
+    "lon": 8.0502,
+    "total": 2,
+    "semaines": {
+     "2026-S38": 2
+    }
+   },
+   {
+    "commune": "Sion",
+    "lat": 46.2314,
+    "lon": 7.3584,
+    "total": 31,
+    "semaines": {
+     "2026-S32": 3,
+     "2026-S33": 1,
+     "2026-S34": 8,
+     "2026-S35": 2,
+     "2026-S36": 5,
+     "2026-S37": 5,
+     "2026-S38": 3,
+     "2026-S39": 4
+    }
+   },
+   {
+    "commune": "St. Niklaus",
+    "lat": 46.1791,
+    "lon": 7.81,
+    "total": 6,
+    "semaines": {
+     "2026-S32": 1,
+     "2026-S34": 1,
+     "2026-S36": 3,
+     "2026-S37": 1
+    }
+   },
+   {
+    "commune": "Stalden (VS)",
+    "lat": 46.2341,
+    "lon": 7.87,
+    "total": 6,
+    "semaines": {
+     "2026-S34": 1,
+     "2026-S37": 3,
+     "2026-S39": 2
+    }
+   },
+   {
+    "commune": "Staldenried",
+    "lat": 46.2275,
+    "lon": 7.8886,
+    "total": 2,
+    "semaines": {
+     "2026-S33": 1,
+     "2026-S38": 1
+    }
+   },
+   {
+    "commune": "Steg-Hohtenn",
+    "lat": 46.317,
+    "lon": 7.7541,
+    "total": 3,
+    "semaines": {
+     "2026-S32": 1,
+     "2026-S33": 2
+    }
+   },
+   {
+    "commune": "Törbel",
+    "lat": 46.2382,
+    "lon": 7.851,
+    "total": 5,
+    "semaines": {
+     "2026-S35": 2,
+     "2026-S36": 1,
+     "2026-S39": 1,
+     "2026-S40": 1
+    }
+   },
+   {
+    "commune": "Troistorrents",
+    "lat": 46.2344,
+    "lon": 6.9223,
+    "total": 7,
+    "semaines": {
+     "2026-S32": 1,
+     "2026-S33": 1,
+     "2026-S34": 1,
+     "2026-S35": 1,
+     "2026-S36": 1,
+     "2026-S39": 2
+    }
+   },
+   {
+    "commune": "Turtmann-Unterems",
+    "lat": 46.2798,
+    "lon": 7.7175,
+    "total": 7,
+    "semaines": {
+     "2026-S32": 3,
+     "2026-S34": 1,
+     "2026-S36": 1,
+     "2026-S37": 1,
+     "2026-S39": 1
+    }
+   },
+   {
+    "commune": "Unterbäch",
+    "lat": 46.2832,
+    "lon": 7.7971,
+    "total": 4,
+    "semaines": {
+     "2026-S33": 1,
+     "2026-S34": 2,
+     "2026-S38": 1
+    }
+   },
+   {
+    "commune": "Val de Bagnes",
+    "lat": 46.0746,
+    "lon": 7.2066,
+    "total": 39,
+    "semaines": {
+     "2026-S32": 5,
+     "2026-S33": 1,
+     "2026-S34": 6,
+     "2026-S35": 7,
+     "2026-S36": 7,
+     "2026-S37": 4,
+     "2026-S38": 4,
+     "2026-S39": 5
+    }
+   },
+   {
+    "commune": "Val-d'Illiez",
+    "lat": 46.2011,
+    "lon": 6.8914,
+    "total": 3,
+    "semaines": {
+     "2026-S36": 2,
+     "2026-S37": 1
+    }
+   },
+   {
+    "commune": "Varen",
+    "lat": 46.319,
+    "lon": 7.6074,
+    "total": 3,
+    "semaines": {
+     "2026-S35": 2,
+     "2026-S36": 1
+    }
+   },
+   {
+    "commune": "Vernayaz",
+    "lat": 46.136,
+    "lon": 7.0408,
+    "total": 2,
+    "semaines": {
+     "2026-S36": 1,
+     "2026-S37": 1
+    }
+   },
+   {
+    "commune": "Vétroz",
+    "lat": 46.2216,
+    "lon": 7.2774,
+    "total": 16,
+    "semaines": {
+     "2026-S32": 1,
+     "2026-S33": 3,
+     "2026-S34": 1,
+     "2026-S35": 3,
+     "2026-S36": 3,
+     "2026-S37": 2,
+     "2026-S38": 2,
+     "2026-S39": 1
+    }
+   },
+   {
+    "commune": "Vex",
+    "lat": 46.2112,
+    "lon": 7.3977,
+    "total": 6,
+    "semaines": {
+     "2026-S33": 1,
+     "2026-S35": 2,
+     "2026-S38": 3
+    }
+   },
+   {
+    "commune": "Veysonnaz",
+    "lat": 46.1954,
+    "lon": 7.3374,
+    "total": 4,
+    "semaines": {
+     "2026-S34": 2,
+     "2026-S37": 2
+    }
+   },
+   {
+    "commune": "Vionnaz",
+    "lat": 46.3107,
+    "lon": 6.9025,
+    "total": 4,
+    "semaines": {
+     "2026-S32": 2,
+     "2026-S33": 1,
+     "2026-S35": 1
+    }
+   },
+   {
+    "commune": "Visp",
+    "lat": 46.2931,
+    "lon": 7.8815,
+    "total": 12,
+    "semaines": {
+     "2026-S32": 1,
+     "2026-S33": 3,
+     "2026-S34": 1,
+     "2026-S36": 2,
+     "2026-S37": 3,
+     "2026-S39": 2
+    }
+   },
+   {
+    "commune": "Vouvry",
+    "lat": 46.3372,
+    "lon": 6.8885,
+    "total": 8,
+    "semaines": {
+     "2026-S32": 2,
+     "2026-S34": 1,
+     "2026-S35": 1,
+     "2026-S36": 2,
+     "2026-S38": 1,
+     "2026-S39": 1
+    }
+   },
+   {
+    "commune": "Wiler (Lötschen)",
+    "lat": 46.4083,
+    "lon": 7.7808,
+    "total": 6,
+    "semaines": {
+     "2026-S33": 1,
+     "2026-S35": 2,
+     "2026-S37": 3
+    }
+   },
+   {
+    "commune": "Zermatt",
+    "lat": 46.0188,
+    "lon": 7.7487,
+    "total": 16,
+    "semaines": {
+     "2026-S32": 3,
+     "2026-S33": 2,
+     "2026-S34": 2,
+     "2026-S36": 4,
+     "2026-S37": 2,
+     "2026-S38": 1,
+     "2026-S39": 2
+    }
+   }
+  ],
+  "hors_carte": {
+   "sans_commune": 83,
+   "commune_non_localisee": 0
+  }
+ },
+ "marches": {
+  "source": "Ceci n'est pas une publication officielle. Les données publiées sur la plateforme www.simap.ch font foi.",
+  "total": 91,
+  "communes": [
+   {
+    "commune": "Anniviers",
+    "lat": 46.2049,
+    "lon": 7.5896,
+    "total": 1,
+    "semaines": {
+     "2026-S39": 1
+    }
+   },
+   {
+    "commune": "Brig-Glis",
+    "lat": 46.308,
+    "lon": 7.9621,
+    "total": 5,
+    "semaines": {
+     "2026-S34": 1,
+     "2026-S37": 1,
+     "2026-S38": 2,
+     "2026-S39": 1
+    }
+   },
+   {
+    "commune": "Chalais",
+    "lat": 46.2658,
+    "lon": 7.5125,
+    "total": 3,
+    "semaines": {
+     "2026-S39": 3
+    }
+   },
+   {
+    "commune": "Collombey-Muraz",
+    "lat": 46.2701,
+    "lon": 6.933,
+    "total": 1,
+    "semaines": {
+     "2026-S33": 1
+    }
+   },
+   {
+    "commune": "Conthey",
+    "lat": 46.2266,
+    "lon": 7.3044,
+    "total": 1,
+    "semaines": {
+     "2026-S34": 1
+    }
+   },
+   {
+    "commune": "Crans-Montana",
+    "lat": 46.3109,
+    "lon": 7.4844,
+    "total": 3,
+    "semaines": {
+     "2026-S35": 1,
+     "2026-S37": 1,
+     "2026-S38": 1
+    }
+   },
+   {
+    "commune": "Grimisuat",
+    "lat": 46.259,
+    "lon": 7.3847,
+    "total": 6,
+    "semaines": {
+     "2026-S34": 2,
+     "2026-S35": 1,
+     "2026-S38": 3
+    }
+   },
+   {
+    "commune": "Hérémence",
+    "lat": 46.1662,
+    "lon": 7.3953,
+    "total": 1,
+    "semaines": {
+     "2026-S39": 1
+    }
+   },
+   {
+    "commune": "Liddes",
+    "lat": 45.9921,
+    "lon": 7.1859,
+    "total": 1,
+    "semaines": {
+     "2026-S35": 1
+    }
+   },
+   {
+    "commune": "Massongex",
+    "lat": 46.2415,
+    "lon": 6.9867,
+    "total": 1,
+    "semaines": {
+     "2026-S36": 1
+    }
+   },
+   {
+    "commune": "Monthey",
+    "lat": 46.2539,
+    "lon": 6.9522,
+    "total": 1,
+    "semaines": {
+     "2026-S38": 1
+    }
+   },
+   {
+    "commune": "Raron",
+    "lat": 46.3079,
+    "lon": 7.8013,
+    "total": 1,
+    "semaines": {
+     "2026-S35": 1
+    }
+   },
+   {
+    "commune": "Saint-Maurice",
+    "lat": 46.1925,
+    "lon": 7.0092,
+    "total": 2,
+    "semaines": {
+     "2026-S33": 1,
+     "2026-S36": 1
+    }
+   },
+   {
+    "commune": "Savièse",
+    "lat": 46.2538,
+    "lon": 7.3472,
+    "total": 1,
+    "semaines": {
+     "2026-S36": 1
+    }
+   },
+   {
+    "commune": "Sierre",
+    "lat": 46.2923,
+    "lon": 7.5319,
+    "total": 3,
+    "semaines": {
+     "2026-S38": 1,
+     "2026-S39": 2
+    }
+   },
+   {
+    "commune": "Val de Bagnes",
+    "lat": 46.0746,
+    "lon": 7.2066,
+    "total": 13,
+    "semaines": {
+     "2026-S33": 2,
+     "2026-S38": 9,
+     "2026-S39": 2
+    }
+   },
+   {
+    "commune": "Visperterminen",
+    "lat": 46.2618,
+    "lon": 7.8983,
+    "total": 1,
+    "semaines": {
+     "2026-S35": 1
+    }
+   },
+   {
+    "commune": "Zermatt",
+    "lat": 46.0188,
+    "lon": 7.7487,
+    "total": 1,
+    "semaines": {
+     "2026-S40": 1
+    }
+   }
+  ],
+  "hors_carte": {
+   "sans_lieu": 45
+  }
+ },
+ "exemples": [
+  {
+   "url": "https://www.simap.ch/fr/project-detail/7426f3df-c921-4314-bed7-a200718b5392",
+   "commune": "Val de Bagnes",
+   "lat": 46.0746,
+   "lon": 7.2066,
+   "date": "2026-08-12"
+  },
+  {
+   "url": "https://www.simap.ch/fr/project-detail/95465d92-7be7-46b7-862a-a376ca087134",
+   "commune": "Saint-Maurice",
+   "lat": 46.1925,
+   "lon": 7.0092,
+   "date": "2026-05-02"
+  }
+ ]
+}

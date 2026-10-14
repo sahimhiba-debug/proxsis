@@ -1,0 +1,122 @@
+{
+ "source": "simap.ch (API, CG du 30.09.2023)",
+ "mention_obligatoire": "Ceci n'est pas une publication officielle. Les données publiées sur la plateforme www.simap.ch font foi.",
+ "consulte_le": "2026-10-06",
+ "requetes_api": [
+  "https://www.simap.ch/api/publications/v1/publication/6ae65802-ae69-46e8-b6bf-4a1394da6a55/past-publications",
+  "https://www.simap.ch/api/publications/v1/publication/cac3b708-8505-4c7f-a64b-8f096b60b05c/past-publications",
+  "https://www.simap.ch/api/publications/v1/publication/13eef521-c12d-49a6-b0f3-ec06af54c796/past-publications",
+  "https://www.simap.ch/api/publications/v1/publication/9cd8c6d5-2dec-4edb-a988-b0667eb51a31/past-publications",
+  "https://www.simap.ch/api/publications/v1/project/95465d92-7be7-46b7-862a-a376ca087134/publication-details/319d8dea-bff6-4332-baaf-7cecb88e322f",
+  "https://www.simap.ch/api/publications/v1/project/dc6a90e9-3beb-4f71-895e-f537f224b346/publication-details/73c57c92-d380-49b9-9eeb-9bb59dbeb7ab",
+  "https://www.simap.ch/api/publications/v1/project/e4e1d84d-6695-497c-b4ff-9ac9821664b7/publication-details/d5fe7694-003c-484e-9b0f-2ad81550b28e",
+  "https://www.simap.ch/api/publications/v1/project/df069193-47e8-4b8a-8aad-aadb9c44ae62/publication-details/c986292c-6804-46ff-82e1-21d02613825a"
+ ],
+ "robots_txt": "https://www.simap.ch/robots.txt",
+ "appels_offres": {
+  "28041-02": {
+   "publication_id": "319d8dea-bff6-4332-baaf-7cecb88e322f",
+   "numero": "28041-01",
+   "date": "2025-12-02",
+   "titre": {
+    "fr": "Construction d'un EMS & AEMS - St-Maurice - CFC 201 Terrassement + TS"
+   },
+   "langue": "fr",
+   "adjudicateur": "Foyer Saint-Jacques p.a Quartal Sàrl",
+   "delai_offres": "2026-02-06",
+   "execution": {
+    "type": "not_specified",
+    "debut": null,
+    "fin": null,
+    "jours": null
+   },
+   "url": "https://www.simap.ch/fr/project-detail/95465d92-7be7-46b7-862a-a376ca087134",
+   "url_api": "https://www.simap.ch/api/publications/v1/project/95465d92-7be7-46b7-862a-a376ca087134/publication-details/319d8dea-bff6-4332-baaf-7cecb88e322f",
+   "provenance": {
+    "source": "simap.ch",
+    "url": "https://www.simap.ch/api/publications/v1/project/95465d92-7be7-46b7-862a-a376ca087134/publication-details/319d8dea-bff6-4332-baaf-7cecb88e322f",
+    "retrieved_at": "2026-10-06T18:39:02.877275+00:00",
+    "sha256": "59db73a2954477c015c8790d5420fe874307ed63761aaf65c3ac2425ea06d318",
+    "licence": "CG API simap.ch (version du 30.09.2023) : usage commercial autorisé ; contenu non modifié ; mention obligatoire : « Ceci n'est pas une publication officielle. Les données publiées sur la plateforme www.simap.ch font foi. »"
+   }
+  },
+  "34068-02": {
+   "publication_id": "73c57c92-d380-49b9-9eeb-9bb59dbeb7ab",
+   "numero": "34068-01",
+   "date": "2026-03-24",
+   "titre": {
+    "fr": "Réfection de la chaussée et adaptation des réseaux de canalisations Rue de Bonnes-Luites / Martigny"
+   },
+   "langue": "fr",
+   "adjudicateur": "Commune de Martigny - Services Techniques",
+   "delai_offres": "2026-04-15",
+   "execution": {
+    "type": "date_time",
+    "debut": "2026-05-01",
+    "fin": "2026-11-30",
+    "jours": null
+   },
+   "url": "https://www.simap.ch/fr/project-detail/dc6a90e9-3beb-4f71-895e-f537f224b346",
+   "url_api": "https://www.simap.ch/api/publications/v1/project/dc6a90e9-3beb-4f71-895e-f537f224b346/publication-details/73c57c92-d380-49b9-9eeb-9bb59dbeb7ab",
+   "provenance": {
+    "source": "simap.ch",
+    "url": "https://www.simap.ch/api/publications/v1/project/dc6a90e9-3beb-4f71-895e-f537f224b346/publication-details/73c57c92-d380-49b9-9eeb-9bb59dbeb7ab",
+    "retrieved_at": "2026-10-06T18:39:06.870912+00:00",
+    "sha256": "d1ea1506be0354d9c23f7bab8031f6bc43602cdc2fb227641df6dc5405bb80c8",
+    "licence": "CG API simap.ch (version du 30.09.2023) : usage commercial autorisé ; contenu non modifié ; mention obligatoire : « Ceci n'est pas une publication officielle. Les données publiées sur la plateforme www.simap.ch font foi. »"
+   }
+  },
+  "35573-02": {
+   "publication_id": "d5fe7694-003c-484e-9b0f-2ad81550b28e",
+   "numero": "35573-01",
+   "date": "2026-04-17",
+   "titre": {
+    "de": "NG24 neue Kantonsstrasse, Abschnitt 2 Brücke Tännbach"
+   },
+   "langue": "de",
+   "adjudicateur": "Dienststelle für Mobilität - Kreis 1 Oberwallis",
+   "delai_offres": "2026-05-07",
+   "execution": {
+    "type": "date_time",
+    "debut": "2026-05-26",
+    "fin": "2026-11-27",
+    "jours": null
+   },
+   "url": "https://www.simap.ch/fr/project-detail/e4e1d84d-6695-497c-b4ff-9ac9821664b7",
+   "url_api": "https://www.simap.ch/api/publications/v1/project/e4e1d84d-6695-497c-b4ff-9ac9821664b7/publication-details/d5fe7694-003c-484e-9b0f-2ad81550b28e",
+   "provenance": {
+    "source": "simap.ch",
+    "url": "https://www.simap.ch/api/publications/v1/project/e4e1d84d-6695-497c-b4ff-9ac9821664b7/publication-details/d5fe7694-003c-484e-9b0f-2ad81550b28e",
+    "retrieved_at": "2026-10-06T18:39:10.960970+00:00",
+    "sha256": "6d15e0a2161c8de56294c3ea1ce971a1dfd0da4ad75e5cd308a72236c05e0020",
+    "licence": "CG API simap.ch (version du 30.09.2023) : usage commercial autorisé ; contenu non modifié ; mention obligatoire : « Ceci n'est pas une publication officielle. Les données publiées sur la plateforme www.simap.ch font foi. »"
+   }
+  },
+  "36814-02": {
+   "publication_id": "c986292c-6804-46ff-82e1-21d02613825a",
+   "numero": "36814-01",
+   "date": "2026-05-12",
+   "titre": {
+    "de": "NG24 neue Kantonsstrasse, Abschnitt 3 Tännbach - Oberried"
+   },
+   "langue": "de",
+   "adjudicateur": "Dienststelle für Mobilität - Kreis 1 Oberwallis",
+   "delai_offres": "2026-05-28",
+   "execution": {
+    "type": "date_time",
+    "debut": "2026-06-15",
+    "fin": "2026-11-27",
+    "jours": null
+   },
+   "url": "https://www.simap.ch/fr/project-detail/df069193-47e8-4b8a-8aad-aadb9c44ae62",
+   "url_api": "https://www.simap.ch/api/publications/v1/project/df069193-47e8-4b8a-8aad-aadb9c44ae62/publication-details/c986292c-6804-46ff-82e1-21d02613825a",
+   "provenance": {
+    "source": "simap.ch",
+    "url": "https://www.simap.ch/api/publications/v1/project/df069193-47e8-4b8a-8aad-aadb9c44ae62/publication-details/c986292c-6804-46ff-82e1-21d02613825a",
+    "retrieved_at": "2026-10-06T18:39:14.897780+00:00",
+    "sha256": "33878faf696c063548174420644a002b0d11a1db30b683415d101d31578cd493",
+    "licence": "CG API simap.ch (version du 30.09.2023) : usage commercial autorisé ; contenu non modifié ; mention obligatoire : « Ceci n'est pas une publication officielle. Les données publiées sur la plateforme www.simap.ch font foi. »"
+   }
+  }
+ }
+}

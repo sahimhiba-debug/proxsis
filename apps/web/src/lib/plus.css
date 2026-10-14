@@ -1,0 +1,23 @@
+/* « En savoir plus » (Plus.tsx, suite 9, § 10). The two wrappers leave the layout as it was (their children stay
+   children of the page's own grid or flow); the detail folds only on a phone's screen, never on paper. */
+.px-plus, .px-plus-zone { display: contents; }
+.px-plus-btn { display: none; }
+.px-bref { display: none; } /* a short version, on a phone only (the whole text is the detail) */
+
+@media screen and (max-width: 600px) {
+  .px-bref { display: block; }
+  .px-plus:not([data-ouvert]) .px-plus-detail { display: none; }
+  .px-plus-btn { display: inline-flex; align-items: center; gap: 0.55em; justify-self: start; width: fit-content;
+    min-height: 44px; min-width: 44px; margin: 0; padding: 0 2px; border: 0; background: none; color: inherit; font: inherit;
+    font-weight: 600; cursor: pointer; -webkit-tap-highlight-color: transparent; }
+  .px-plus-label { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 0.3em; }
+  .px-plus-btn::after { content: "+"; font-weight: 800; font-size: 1.2em; line-height: 1; }
+  .px-plus-btn[aria-expanded="true"]::after { content: "\2212"; }
+  .px-plus-btn:focus-visible { outline: 3px solid currentColor; outline-offset: 3px; border-radius: 4px; }
+  /* the two identities: the visit on white (orange underline), the application on black (its line) */
+  .dir .px-plus-btn { font-size: var(--fs-small); }
+  .dir .px-plus-label { text-decoration-color: var(--orange); }
+  .fx .px-plus-btn { font-size: 15px; color: var(--fx-muted); }
+  .fx .px-plus-label { text-decoration-color: var(--fx-line-strong); }
+  .fx .fx-card .px-plus-btn { margin-top: 10px; }
+}

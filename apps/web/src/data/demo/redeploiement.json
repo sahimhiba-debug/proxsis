@@ -1,0 +1,664 @@
+{
+ "fictif": true,
+ "avertissement": "FICTIF : travailleurs inventés face à des besoins estimés à partir de marchés publics réels (simap.ch). Le taux prouve que le mécanisme fonctionne, pas ce que Flexsis obtiendrait.",
+ "date": "2026-10-05",
+ "fenetre_semaines": 3,
+ "fins_de_mission": 43,
+ "redeployes": 26,
+ "taux_redeploiement": 0.6046511627906976,
+ "motifs_non_redeploye": {
+  "aucun besoin prévu compatible (métier)": 11,
+  "besoins compatibles déjà pourvus par d'autres fins de mission": 4,
+  "besoins compatibles hors de son rayon de déplacement": 2
+ },
+ "besoins": 60,
+ "travailleurs": [
+  {
+   "candidate_id": "cand-222",
+   "libelle": "Candidat·e 222 (FICTIF)",
+   "fin_mission": "2026-10-05",
+   "metier": "electricien",
+   "fictif": true,
+   "proposition": {
+    "entreprise": "ent-307c99b8c8",
+    "nom": "VI Véhicules industriels SA",
+    "ville": "Saxon",
+    "metier": "electricien",
+    "semaine": "2026-10-05",
+    "distance_km": 4.3,
+    "source": "simap.ch",
+    "contact_des": null,
+    "raison_fr": "Fin de mission le 05.10.2026 ; besoin estimé de électricien chez VI Véhicules industriels SA dès la semaine du 05.10.2026, à 4 km",
+    "raison_de": "Einsatzende am 05.10.2026; geschätzter Bedarf (Elektroinstallateur) bei VI Véhicules industriels SA ab der Woche vom 05.10.2026, 4 km entfernt"
+   }
+  },
+  {
+   "candidate_id": "cand-140",
+   "libelle": "Candidat·e 140 (FICTIF)",
+   "fin_mission": "2026-10-06",
+   "metier": "manoeuvre_construction",
+   "fictif": true,
+   "proposition": {
+    "entreprise": "ent-734d5f7d45",
+    "nom": "Bitz travaux publics SA",
+    "ville": "Sion",
+    "metier": "manoeuvre_construction",
+    "semaine": "2026-10-12",
+    "distance_km": 2.3,
+    "source": "simap.ch",
+    "contact_des": "2026-10-13",
+    "raison_fr": "Fin de mission le 06.10.2026 ; besoin estimé de manœuvre de chantier chez Bitz travaux publics SA dès la semaine du 12.10.2026, à 2 km",
+    "raison_de": "Einsatzende am 06.10.2026; geschätzter Bedarf (Bauhilfsarbeiter) bei Bitz travaux publics SA ab der Woche vom 12.10.2026, 2 km entfernt"
+   }
+  },
+  {
+   "candidate_id": "cand-161",
+   "libelle": "Candidat·e 161 (FICTIF)",
+   "fin_mission": "2026-10-07",
+   "metier": "manoeuvre_construction",
+   "fictif": true,
+   "proposition": {
+    "entreprise": "ent-1ef761b229",
+    "nom": "Société de Travaux Publics, Joseph Carron SA",
+    "ville": "Saxon",
+    "metier": "manoeuvre_construction",
+    "semaine": "2026-10-12",
+    "distance_km": 9.7,
+    "source": "simap.ch",
+    "contact_des": "2026-10-13",
+    "raison_fr": "Fin de mission le 07.10.2026 ; besoin estimé de manœuvre de chantier chez Société de Travaux Publics, Joseph Carron SA dès la semaine du 12.10.2026, à 10 km",
+    "raison_de": "Einsatzende am 07.10.2026; geschätzter Bedarf (Bauhilfsarbeiter) bei Société de Travaux Publics, Joseph Carron SA ab der Woche vom 12.10.2026, 10 km entfernt"
+   }
+  },
+  {
+   "candidate_id": "cand-178",
+   "libelle": "Candidat·e 178 (FICTIF)",
+   "fin_mission": "2026-10-07",
+   "metier": "coffreur",
+   "fictif": true,
+   "proposition": {
+    "entreprise": "ent-55bb6b3e49",
+    "nom": "Evéquoz SA",
+    "ville": "Conthey",
+    "metier": "coffreur",
+    "semaine": "2026-10-12",
+    "distance_km": 5.2,
+    "source": "simap.ch",
+    "contact_des": "2026-10-13",
+    "raison_fr": "Fin de mission le 07.10.2026 ; besoin estimé de coffreur chez Evéquoz SA dès la semaine du 12.10.2026, à 5 km",
+    "raison_de": "Einsatzende am 07.10.2026; geschätzter Bedarf (Schaler) bei Evéquoz SA ab der Woche vom 12.10.2026, 5 km entfernt"
+   }
+  },
+  {
+   "candidate_id": "cand-227",
+   "libelle": "Candidat·e 227 (FICTIF)",
+   "fin_mission": "2026-10-07",
+   "metier": "electricien",
+   "fictif": true,
+   "proposition": {
+    "entreprise": "ent-8798cd7fa8",
+    "nom": "Grichting & Valterio Electro SA",
+    "ville": "Sion",
+    "metier": "electricien",
+    "semaine": "2026-10-05",
+    "distance_km": 40.8,
+    "source": "simap.ch",
+    "contact_des": null,
+    "raison_fr": "Fin de mission le 07.10.2026 ; besoin estimé de électricien chez Grichting & Valterio Electro SA dès la semaine du 05.10.2026, à 41 km",
+    "raison_de": "Einsatzende am 07.10.2026; geschätzter Bedarf (Elektroinstallateur) bei Grichting & Valterio Electro SA ab der Woche vom 05.10.2026, 41 km entfernt"
+   }
+  },
+  {
+   "candidate_id": "cand-220",
+   "libelle": "Candidat·e 220 (FICTIF)",
+   "fin_mission": "2026-10-08",
+   "metier": "charpentier",
+   "fictif": true,
+   "proposition": {
+    "entreprise": "ent-bd58f9a809",
+    "nom": "Astori SA",
+    "ville": "Sion",
+    "metier": "charpentier",
+    "semaine": "2026-10-05",
+    "distance_km": 26.6,
+    "source": "simap.ch",
+    "contact_des": null,
+    "raison_fr": "Fin de mission le 08.10.2026 ; besoin estimé de charpentier chez Astori SA dès la semaine du 05.10.2026, à 27 km",
+    "raison_de": "Einsatzende am 08.10.2026; geschätzter Bedarf (Zimmermann) bei Astori SA ab der Woche vom 05.10.2026, 27 km entfernt"
+   }
+  },
+  {
+   "candidate_id": "cand-120",
+   "libelle": "Candidat·e 120 (FICTIF)",
+   "fin_mission": "2026-10-09",
+   "metier": "polymecanicien",
+   "fictif": true,
+   "motif_code": "metier",
+   "motif": "aucun besoin prévu compatible (métier)"
+  },
+  {
+   "candidate_id": "cand-215",
+   "libelle": "Candidat·e 215 (FICTIF)",
+   "fin_mission": "2026-10-09",
+   "metier": "polymecanicien",
+   "fictif": true,
+   "motif_code": "metier",
+   "motif": "aucun besoin prévu compatible (métier)"
+  },
+  {
+   "candidate_id": "cand-183",
+   "libelle": "Candidat·e 183 (FICTIF)",
+   "fin_mission": "2026-10-10",
+   "metier": "coffreur",
+   "fictif": true,
+   "proposition": {
+    "entreprise": "ent-e0b3af4121",
+    "nom": "Epiney Construction SA",
+    "ville": "Sierre",
+    "metier": "coffreur",
+    "semaine": "2026-10-12",
+    "distance_km": 4.8,
+    "source": "simap.ch",
+    "contact_des": "2026-10-13",
+    "raison_fr": "Fin de mission le 10.10.2026 ; besoin estimé de coffreur chez Epiney Construction SA dès la semaine du 12.10.2026, à 5 km",
+    "raison_de": "Einsatzende am 10.10.2026; geschätzter Bedarf (Schaler) bei Epiney Construction SA ab der Woche vom 12.10.2026, 5 km entfernt"
+   }
+  },
+  {
+   "candidate_id": "cand-243",
+   "libelle": "Candidat·e 243 (FICTIF)",
+   "fin_mission": "2026-10-10",
+   "metier": "charpentier",
+   "fictif": true,
+   "proposition": {
+    "entreprise": "ent-bd58f9a809",
+    "nom": "Astori SA",
+    "ville": "Sion",
+    "metier": "charpentier",
+    "semaine": "2026-10-05",
+    "distance_km": 11.0,
+    "source": "simap.ch",
+    "contact_des": null,
+    "raison_fr": "Fin de mission le 10.10.2026 ; besoin estimé de charpentier chez Astori SA dès la semaine du 05.10.2026, à 11 km",
+    "raison_de": "Einsatzende am 10.10.2026; geschätzter Bedarf (Zimmermann) bei Astori SA ab der Woche vom 05.10.2026, 11 km entfernt"
+   }
+  },
+  {
+   "candidate_id": "cand-264",
+   "libelle": "Candidat·e 264 (FICTIF)",
+   "fin_mission": "2026-10-10",
+   "metier": "electricien",
+   "fictif": true,
+   "proposition": {
+    "entreprise": "ent-8798cd7fa8",
+    "nom": "Grichting & Valterio Electro SA",
+    "ville": "Sion",
+    "metier": "electricien",
+    "semaine": "2026-10-05",
+    "distance_km": 54.4,
+    "source": "simap.ch",
+    "contact_des": null,
+    "raison_fr": "Fin de mission le 10.10.2026 ; besoin estimé de électricien chez Grichting & Valterio Electro SA dès la semaine du 05.10.2026, à 54 km",
+    "raison_de": "Einsatzende am 10.10.2026; geschätzter Bedarf (Elektroinstallateur) bei Grichting & Valterio Electro SA ab der Woche vom 05.10.2026, 54 km entfernt"
+   }
+  },
+  {
+   "candidate_id": "cand-289",
+   "libelle": "Candidat·e 289 (FICTIF)",
+   "fin_mission": "2026-10-10",
+   "metier": "soudeur",
+   "fictif": true,
+   "proposition": {
+    "entreprise": "ent-5398e1188f",
+    "nom": "LUYET CONSTRUCTIONS METALLIQUES SA",
+    "ville": "Sion",
+    "metier": "soudeur",
+    "semaine": "2026-10-19",
+    "distance_km": 11.9,
+    "source": "simap.ch",
+    "contact_des": "2026-10-13",
+    "raison_fr": "Fin de mission le 10.10.2026 ; besoin estimé de soudeur chez LUYET CONSTRUCTIONS METALLIQUES SA dès la semaine du 19.10.2026, à 12 km",
+    "raison_de": "Einsatzende am 10.10.2026; geschätzter Bedarf (Schweisser) bei LUYET CONSTRUCTIONS METALLIQUES SA ab der Woche vom 19.10.2026, 12 km entfernt"
+   }
+  },
+  {
+   "candidate_id": "cand-159",
+   "libelle": "Candidat·e 159 (FICTIF)",
+   "fin_mission": "2026-10-11",
+   "metier": "soudeur",
+   "fictif": true,
+   "motif_code": "capacite",
+   "motif": "besoins compatibles déjà pourvus par d'autres fins de mission"
+  },
+  {
+   "candidate_id": "cand-276",
+   "libelle": "Candidat·e 276 (FICTIF)",
+   "fin_mission": "2026-10-11",
+   "metier": "macon",
+   "fictif": true,
+   "proposition": {
+    "entreprise": "ent-1ef761b229",
+    "nom": "Société de Travaux Publics, Joseph Carron SA",
+    "ville": "Saxon",
+    "metier": "macon",
+    "semaine": "2026-10-12",
+    "distance_km": 10.0,
+    "source": "simap.ch",
+    "contact_des": null,
+    "raison_fr": "Fin de mission le 11.10.2026 ; besoin estimé de maçon chez Société de Travaux Publics, Joseph Carron SA dès la semaine du 12.10.2026, à 10 km",
+    "raison_de": "Einsatzende am 11.10.2026; geschätzter Bedarf (Maurer) bei Société de Travaux Publics, Joseph Carron SA ab der Woche vom 12.10.2026, 10 km entfernt"
+   }
+  },
+  {
+   "candidate_id": "cand-086",
+   "libelle": "Candidat·e 086 (FICTIF)",
+   "fin_mission": "2026-10-13",
+   "metier": "platrier",
+   "fictif": true,
+   "motif_code": "metier",
+   "motif": "aucun besoin prévu compatible (métier)"
+  },
+  {
+   "candidate_id": "cand-290",
+   "libelle": "Candidat·e 290 (FICTIF)",
+   "fin_mission": "2026-10-13",
+   "metier": "soudeur",
+   "fictif": true,
+   "motif_code": "capacite",
+   "motif": "besoins compatibles déjà pourvus par d'autres fins de mission"
+  },
+  {
+   "candidate_id": "cand-097",
+   "libelle": "Candidat·e 097 (FICTIF)",
+   "fin_mission": "2026-10-14",
+   "metier": "installateur_sanitaire",
+   "fictif": true,
+   "proposition": {
+    "entreprise": "ent-aa916d5995",
+    "nom": "Fernand Favre SA",
+    "ville": "Riddes",
+    "metier": "installateur_sanitaire",
+    "semaine": "2026-10-12",
+    "distance_km": 13.3,
+    "source": "simap.ch",
+    "contact_des": null,
+    "raison_fr": "Fin de mission le 14.10.2026 ; besoin estimé de installateur sanitaire chez Fernand Favre SA dès la semaine du 12.10.2026, à 13 km",
+    "raison_de": "Einsatzende am 14.10.2026; geschätzter Bedarf (Sanitärinstallateur) bei Fernand Favre SA ab der Woche vom 12.10.2026, 13 km entfernt"
+   }
+  },
+  {
+   "candidate_id": "cand-235",
+   "libelle": "Candidat·e 235 (FICTIF)",
+   "fin_mission": "2026-10-14",
+   "metier": "polymecanicien",
+   "fictif": true,
+   "motif_code": "metier",
+   "motif": "aucun besoin prévu compatible (métier)"
+  },
+  {
+   "candidate_id": "cand-268",
+   "libelle": "Candidat·e 268 (FICTIF)",
+   "fin_mission": "2026-10-14",
+   "metier": "coffreur",
+   "fictif": true,
+   "proposition": {
+    "entreprise": "ent-0ff073ea76",
+    "nom": "Ulrich Imboden AG",
+    "ville": "Visp",
+    "metier": "coffreur",
+    "semaine": "2026-10-12",
+    "distance_km": 9.5,
+    "source": "simap.ch",
+    "contact_des": "2026-10-13",
+    "raison_fr": "Fin de mission le 14.10.2026 ; besoin estimé de coffreur chez Ulrich Imboden AG dès la semaine du 12.10.2026, à 10 km",
+    "raison_de": "Einsatzende am 14.10.2026; geschätzter Bedarf (Schaler) bei Ulrich Imboden AG ab der Woche vom 12.10.2026, 10 km entfernt"
+   }
+  },
+  {
+   "candidate_id": "cand-033",
+   "libelle": "Candidat·e 033 (FICTIF)",
+   "fin_mission": "2026-10-15",
+   "metier": "electricien",
+   "fictif": true,
+   "proposition": {
+    "entreprise": "ent-1f979b0082",
+    "nom": "Alpera SA",
+    "ville": "Orsières",
+    "metier": "electricien",
+    "semaine": "2026-10-12",
+    "distance_km": 13.9,
+    "source": "simap.ch",
+    "contact_des": null,
+    "raison_fr": "Fin de mission le 15.10.2026 ; besoin estimé de électricien chez Alpera SA dès la semaine du 12.10.2026, à 14 km",
+    "raison_de": "Einsatzende am 15.10.2026; geschätzter Bedarf (Elektroinstallateur) bei Alpera SA ab der Woche vom 12.10.2026, 14 km entfernt"
+   }
+  },
+  {
+   "candidate_id": "cand-110",
+   "libelle": "Candidat·e 110 (FICTIF)",
+   "fin_mission": "2026-10-15",
+   "metier": "grutier",
+   "fictif": true,
+   "proposition": {
+    "entreprise": "ent-0ff073ea76",
+    "nom": "Ulrich Imboden AG",
+    "ville": "Visp",
+    "metier": "grutier",
+    "semaine": "2026-10-12",
+    "distance_km": 7.9,
+    "source": "simap.ch",
+    "contact_des": null,
+    "raison_fr": "Fin de mission le 15.10.2026 ; besoin estimé de grutier chez Ulrich Imboden AG dès la semaine du 12.10.2026, à 8 km",
+    "raison_de": "Einsatzende am 15.10.2026; geschätzter Bedarf (Kranführer) bei Ulrich Imboden AG ab der Woche vom 12.10.2026, 8 km entfernt"
+   }
+  },
+  {
+   "candidate_id": "cand-225",
+   "libelle": "Candidat·e 225 (FICTIF)",
+   "fin_mission": "2026-10-15",
+   "metier": "charpentier",
+   "fictif": true,
+   "proposition": {
+    "entreprise": "ent-bd58f9a809",
+    "nom": "Astori SA",
+    "ville": "Sion",
+    "metier": "charpentier",
+    "semaine": "2026-10-12",
+    "distance_km": 11.9,
+    "source": "simap.ch",
+    "contact_des": null,
+    "raison_fr": "Fin de mission le 15.10.2026 ; besoin estimé de charpentier chez Astori SA dès la semaine du 12.10.2026, à 12 km",
+    "raison_de": "Einsatzende am 15.10.2026; geschätzter Bedarf (Zimmermann) bei Astori SA ab der Woche vom 12.10.2026, 12 km entfernt"
+   }
+  },
+  {
+   "candidate_id": "cand-004",
+   "libelle": "Candidat·e 004 (FICTIF)",
+   "fin_mission": "2026-10-16",
+   "metier": "electricien",
+   "fictif": true,
+   "proposition": {
+    "entreprise": "ent-1f979b0082",
+    "nom": "Alpera SA",
+    "ville": "Orsières",
+    "metier": "electricien",
+    "semaine": "2026-10-12",
+    "distance_km": 13.0,
+    "source": "simap.ch",
+    "contact_des": null,
+    "raison_fr": "Fin de mission le 16.10.2026 ; besoin estimé de électricien chez Alpera SA dès la semaine du 12.10.2026, à 13 km",
+    "raison_de": "Einsatzende am 16.10.2026; geschätzter Bedarf (Elektroinstallateur) bei Alpera SA ab der Woche vom 12.10.2026, 13 km entfernt"
+   }
+  },
+  {
+   "candidate_id": "cand-228",
+   "libelle": "Candidat·e 228 (FICTIF)",
+   "fin_mission": "2026-10-16",
+   "metier": "charpentier",
+   "fictif": true,
+   "motif_code": "distance",
+   "motif": "besoins compatibles hors de son rayon de déplacement"
+  },
+  {
+   "candidate_id": "cand-070",
+   "libelle": "Candidat·e 070 (FICTIF)",
+   "fin_mission": "2026-10-17",
+   "metier": "soudeur",
+   "fictif": true,
+   "motif_code": "capacite",
+   "motif": "besoins compatibles déjà pourvus par d'autres fins de mission"
+  },
+  {
+   "candidate_id": "cand-080",
+   "libelle": "Candidat·e 080 (FICTIF)",
+   "fin_mission": "2026-10-17",
+   "metier": "soudeur",
+   "fictif": true,
+   "motif_code": "capacite",
+   "motif": "besoins compatibles déjà pourvus par d'autres fins de mission"
+  },
+  {
+   "candidate_id": "cand-175",
+   "libelle": "Candidat·e 175 (FICTIF)",
+   "fin_mission": "2026-10-17",
+   "metier": "platrier",
+   "fictif": true,
+   "motif_code": "metier",
+   "motif": "aucun besoin prévu compatible (métier)"
+  },
+  {
+   "candidate_id": "cand-221",
+   "libelle": "Candidat·e 221 (FICTIF)",
+   "fin_mission": "2026-10-17",
+   "metier": "macon",
+   "fictif": true,
+   "proposition": {
+    "entreprise": "ent-1ef761b229",
+    "nom": "Société de Travaux Publics, Joseph Carron SA",
+    "ville": "Saxon",
+    "metier": "macon",
+    "semaine": "2026-10-12",
+    "distance_km": 11.3,
+    "source": "simap.ch",
+    "contact_des": null,
+    "raison_fr": "Fin de mission le 17.10.2026 ; besoin estimé de maçon chez Société de Travaux Publics, Joseph Carron SA dès la semaine du 12.10.2026, à 11 km",
+    "raison_de": "Einsatzende am 17.10.2026; geschätzter Bedarf (Maurer) bei Société de Travaux Publics, Joseph Carron SA ab der Woche vom 12.10.2026, 11 km entfernt"
+   }
+  },
+  {
+   "candidate_id": "cand-134",
+   "libelle": "Candidat·e 134 (FICTIF)",
+   "fin_mission": "2026-10-19",
+   "metier": "installateur_sanitaire",
+   "fictif": true,
+   "motif_code": "distance",
+   "motif": "besoins compatibles hors de son rayon de déplacement"
+  },
+  {
+   "candidate_id": "cand-108",
+   "libelle": "Candidat·e 108 (FICTIF)",
+   "fin_mission": "2026-10-20",
+   "metier": "grutier",
+   "fictif": true,
+   "proposition": {
+    "entreprise": "ent-6e874811ae",
+    "nom": "PraderLosinger SA",
+    "ville": "Sion",
+    "metier": "grutier",
+    "semaine": "2026-10-19",
+    "distance_km": 5.5,
+    "source": "simap.ch",
+    "contact_des": null,
+    "raison_fr": "Fin de mission le 20.10.2026 ; besoin estimé de grutier chez PraderLosinger SA dès la semaine du 19.10.2026, à 5 km",
+    "raison_de": "Einsatzende am 20.10.2026; geschätzter Bedarf (Kranführer) bei PraderLosinger SA ab der Woche vom 19.10.2026, 5 km entfernt"
+   }
+  },
+  {
+   "candidate_id": "cand-211",
+   "libelle": "Candidat·e 211 (FICTIF)",
+   "fin_mission": "2026-10-20",
+   "metier": "platrier",
+   "fictif": true,
+   "motif_code": "metier",
+   "motif": "aucun besoin prévu compatible (métier)"
+  },
+  {
+   "candidate_id": "cand-099",
+   "libelle": "Candidat·e 099 (FICTIF)",
+   "fin_mission": "2026-10-21",
+   "metier": "polymecanicien",
+   "fictif": true,
+   "motif_code": "metier",
+   "motif": "aucun besoin prévu compatible (métier)"
+  },
+  {
+   "candidate_id": "cand-101",
+   "libelle": "Candidat·e 101 (FICTIF)",
+   "fin_mission": "2026-10-21",
+   "metier": "manoeuvre_construction",
+   "fictif": true,
+   "proposition": {
+    "entreprise": "ent-0ff073ea76",
+    "nom": "Ulrich Imboden AG",
+    "ville": "Visp",
+    "metier": "manoeuvre_construction",
+    "semaine": "2026-10-19",
+    "distance_km": 19.8,
+    "source": "simap.ch",
+    "contact_des": "2026-10-13",
+    "raison_fr": "Fin de mission le 21.10.2026 ; besoin estimé de manœuvre de chantier chez Ulrich Imboden AG dès la semaine du 19.10.2026, à 20 km",
+    "raison_de": "Einsatzende am 21.10.2026; geschätzter Bedarf (Bauhilfsarbeiter) bei Ulrich Imboden AG ab der Woche vom 19.10.2026, 20 km entfernt"
+   }
+  },
+  {
+   "candidate_id": "cand-111",
+   "libelle": "Candidat·e 111 (FICTIF)",
+   "fin_mission": "2026-10-21",
+   "metier": "electricien",
+   "fictif": true,
+   "proposition": {
+    "entreprise": "ent-8798cd7fa8",
+    "nom": "Grichting & Valterio Electro SA",
+    "ville": "Sion",
+    "metier": "electricien",
+    "semaine": "2026-10-19",
+    "distance_km": 6.3,
+    "source": "simap.ch",
+    "contact_des": null,
+    "raison_fr": "Fin de mission le 21.10.2026 ; besoin estimé de électricien chez Grichting & Valterio Electro SA dès la semaine du 19.10.2026, à 6 km",
+    "raison_de": "Einsatzende am 21.10.2026; geschätzter Bedarf (Elektroinstallateur) bei Grichting & Valterio Electro SA ab der Woche vom 19.10.2026, 6 km entfernt"
+   }
+  },
+  {
+   "candidate_id": "cand-180",
+   "libelle": "Candidat·e 180 (FICTIF)",
+   "fin_mission": "2026-10-21",
+   "metier": "polymecanicien",
+   "fictif": true,
+   "motif_code": "metier",
+   "motif": "aucun besoin prévu compatible (métier)"
+  },
+  {
+   "candidate_id": "cand-055",
+   "libelle": "Candidat·e 055 (FICTIF)",
+   "fin_mission": "2026-10-23",
+   "metier": "polymecanicien",
+   "fictif": true,
+   "motif_code": "metier",
+   "motif": "aucun besoin prévu compatible (métier)"
+  },
+  {
+   "candidate_id": "cand-064",
+   "libelle": "Candidat·e 064 (FICTIF)",
+   "fin_mission": "2026-10-23",
+   "metier": "coffreur",
+   "fictif": true,
+   "proposition": {
+    "entreprise": "ent-e0b3af4121",
+    "nom": "Epiney Construction SA",
+    "ville": "Sierre",
+    "metier": "coffreur",
+    "semaine": "2026-10-19",
+    "distance_km": 6.4,
+    "source": "simap.ch",
+    "contact_des": "2026-10-13",
+    "raison_fr": "Fin de mission le 23.10.2026 ; besoin estimé de coffreur chez Epiney Construction SA dès la semaine du 19.10.2026, à 6 km",
+    "raison_de": "Einsatzende am 23.10.2026; geschätzter Bedarf (Schaler) bei Epiney Construction SA ab der Woche vom 19.10.2026, 6 km entfernt"
+   }
+  },
+  {
+   "candidate_id": "cand-003",
+   "libelle": "Candidat·e 003 (FICTIF)",
+   "fin_mission": "2026-10-24",
+   "metier": "charpentier",
+   "fictif": true,
+   "proposition": {
+    "entreprise": "ent-bd58f9a809",
+    "nom": "Astori SA",
+    "ville": "Sion",
+    "metier": "charpentier",
+    "semaine": "2026-10-19",
+    "distance_km": 4.9,
+    "source": "simap.ch",
+    "contact_des": null,
+    "raison_fr": "Fin de mission le 24.10.2026 ; besoin estimé de charpentier chez Astori SA dès la semaine du 19.10.2026, à 5 km",
+    "raison_de": "Einsatzende am 24.10.2026; geschätzter Bedarf (Zimmermann) bei Astori SA ab der Woche vom 19.10.2026, 5 km entfernt"
+   }
+  },
+  {
+   "candidate_id": "cand-212",
+   "libelle": "Candidat·e 212 (FICTIF)",
+   "fin_mission": "2026-10-24",
+   "metier": "polymecanicien",
+   "fictif": true,
+   "motif_code": "metier",
+   "motif": "aucun besoin prévu compatible (métier)"
+  },
+  {
+   "candidate_id": "cand-226",
+   "libelle": "Candidat·e 226 (FICTIF)",
+   "fin_mission": "2026-10-24",
+   "metier": "coffreur",
+   "fictif": true,
+   "proposition": {
+    "entreprise": "ent-1ef761b229",
+    "nom": "Société de Travaux Publics, Joseph Carron SA",
+    "ville": "Saxon",
+    "metier": "coffreur",
+    "semaine": "2026-10-19",
+    "distance_km": 2.7,
+    "source": "simap.ch",
+    "contact_des": "2026-10-13",
+    "raison_fr": "Fin de mission le 24.10.2026 ; besoin estimé de coffreur chez Société de Travaux Publics, Joseph Carron SA dès la semaine du 19.10.2026, à 3 km",
+    "raison_de": "Einsatzende am 24.10.2026; geschätzter Bedarf (Schaler) bei Société de Travaux Publics, Joseph Carron SA ab der Woche vom 19.10.2026, 3 km entfernt"
+   }
+  },
+  {
+   "candidate_id": "cand-011",
+   "libelle": "Candidat·e 011 (FICTIF)",
+   "fin_mission": "2026-10-25",
+   "metier": "platrier",
+   "fictif": true,
+   "motif_code": "metier",
+   "motif": "aucun besoin prévu compatible (métier)"
+  },
+  {
+   "candidate_id": "cand-195",
+   "libelle": "Candidat·e 195 (FICTIF)",
+   "fin_mission": "2026-10-25",
+   "metier": "electricien",
+   "fictif": true,
+   "proposition": {
+    "entreprise": "ent-8798cd7fa8",
+    "nom": "Grichting & Valterio Electro SA",
+    "ville": "Sion",
+    "metier": "electricien",
+    "semaine": "2026-10-26",
+    "distance_km": 39.2,
+    "source": "simap.ch",
+    "contact_des": null,
+    "raison_fr": "Fin de mission le 25.10.2026 ; besoin estimé de électricien chez Grichting & Valterio Electro SA dès la semaine du 26.10.2026, à 39 km",
+    "raison_de": "Einsatzende am 25.10.2026; geschätzter Bedarf (Elektroinstallateur) bei Grichting & Valterio Electro SA ab der Woche vom 26.10.2026, 39 km entfernt"
+   }
+  },
+  {
+   "candidate_id": "cand-260",
+   "libelle": "Candidat·e 260 (FICTIF)",
+   "fin_mission": "2026-10-26",
+   "metier": "manoeuvre_construction",
+   "fictif": true,
+   "proposition": {
+    "entreprise": "ent-734d5f7d45",
+    "nom": "Bitz travaux publics SA",
+    "ville": "Sion",
+    "metier": "manoeuvre_construction",
+    "semaine": "2026-10-26",
+    "distance_km": 3.0,
+    "source": "simap.ch",
+    "contact_des": "2026-10-13",
+    "raison_fr": "Fin de mission le 26.10.2026 ; besoin estimé de manœuvre de chantier chez Bitz travaux publics SA dès la semaine du 26.10.2026, à 3 km",
+    "raison_de": "Einsatzende am 26.10.2026; geschätzter Bedarf (Bauhilfsarbeiter) bei Bitz travaux publics SA ab der Woche vom 26.10.2026, 3 km entfernt"
+   }
+  }
+ ]
+}

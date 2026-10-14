@@ -1,0 +1,290 @@
+/* Proxsis in the Flexsis identity (brief of 07.10.2026, § 2; docs/identite/IDENTITE.md), replacing the
+   « graphite, ivory, copper » direction of 06.10.2026. White dominant; black #121212 for three moments only (the
+   director decides in the carnet, the next Monday, the big question « Et la liste, vaut-elle quelque chose ? »:
+   data-scene="sombre"); ONE orange #E6530F that only marks what counts (a choice, a decision, a reminder's date, the
+   next action, the large diagonal of the set). Documents and companies on white labels with a thin graphite shell.
+   Sora light for statements with one strong word, Urbanist for everything else; no italic.
+   Contrast (WCAG): text 18.7:1 and grey text 6.7:1 on white; orange on white 3.7:1, so orange TEXT only from 24 px, or
+   bold from 19 px; smaller, the text stays black or dark grey and the orange becomes the small diagonal beside it;
+   white on orange 3.7:1, bold pills of 19 px and more; orange on black 5.1:1. Sizes keep the projection floor of the
+   brief (§ 12): nothing the audience reads is under 20 px at 1920 × 1080. */
+.dir {
+  --fond: #ffffff;
+  --surface: #f4f4f4;
+  --texte: #121212;
+  --doux: #5c5c5c;
+  --trait: #e3e3e3;
+  --trait-fort: #8a8a8a; /* the edge of a control: 3.4:1 on white */
+  --orange: #e6530f;
+  --orange-fort: #c9470b;
+  --encre: #121212; /* text on a label: labels stay white in the dark scenes */
+  --encre-douce: #5c5c5c;
+  --etiquette: #ffffff;
+  --etiquette-trait: #e3e3e3;
+  --coque: #2a2a2a; /* the thin graphite shell of a label */
+  --ombre: 0 16px 32px -14px rgb(0 0 0 / 0.4);
+  --diag: polygon(0 100%, 82% 100%, 100% 0, 18% 0); /* the dot of the logo's « i »: the mark of a choice */
+  --ease: cubic-bezier(0.2, 0.7, 0.1, 1);
+  --t-short: 220ms;
+  --t-medium: 420ms;
+  /* Urbanist for business text, figures, sources and labels; Sora for the statements; no serif any more */
+  --font-sans: var(--font-urbanist);
+  --font-serif: var(--font-urbanist);
+  --font-display: var(--font-sora);
+  /* type scale: the mockup's ratios at 1920 × 1080, bounded by width AND height (1280 × 720 rooms, phones) */
+  --fs-display: clamp(64px, min(9.4vw, 16.5vh), 184px);
+  --fs-statement: clamp(40px, min(4.2vw, 7.6vh), 84px);
+  --fs-sub: clamp(28px, min(2.6vw, 4.8vh), 52px);
+  --fs-figure: clamp(40px, min(3.4vw, 6.2vh), 68px);
+  --fs-quote: clamp(22px, min(1.75vw, 3.2vh), 34px);
+  --fs-lead: clamp(19px, min(1.45vw, 2.7vh), 28px);
+  --fs-body: clamp(17px, min(1.25vw, 2.3vh), 24px);
+  --fs-small: clamp(14px, min(1.042vw, 1.86vh), 20px);
+  --mx: clamp(16px, 4.2vw, 96px);
+  --my: clamp(12px, 2.6vh, 36px);
+  --gap: clamp(16px, 2.2vw, 48px);
+  position: fixed;
+  inset: 0;
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr) auto;
+  background: var(--fond);
+  color: var(--texte);
+  font-family: var(--font-sans);
+  font-size: var(--fs-body);
+  font-weight: 500;
+  line-height: 1.45;
+  font-variant-numeric: lining-nums tabular-nums;
+  caret-color: var(--orange);
+  overflow: hidden;
+  -webkit-font-smoothing: antialiased;
+  transition: background-color var(--t-medium) var(--ease), color var(--t-medium) var(--ease);
+}
+/* the three dark moments: the labels stay white, the orange stands out (5.1:1 on black) */
+.dir[data-scene="sombre"] { --fond: #121212; --surface: #1c1c1c; --texte: #ffffff; --doux: rgb(255 255 255 / 0.72);
+  --trait: #2e2e2e; --trait-fort: #7a7a7a; color-scheme: dark; }
+.dir[data-projection="on"] { --doux: #4a4a4a; --trait: #cfcfcf; font-weight: 600; }
+.dir[data-projection="on"][data-scene="sombre"] { --doux: rgb(255 255 255 / 0.82); --trait: #444444; }
+.dir ::selection { background: var(--orange); color: #ffffff; }
+.dir * { scrollbar-width: thin; scrollbar-color: var(--trait) transparent; }
+.dir :focus-visible { outline: 2px solid var(--orange); outline-offset: 4px; }
+
+/* ---------------------------------------------------------------- type */
+.dir .d-statement { font-family: var(--font-display); font-size: var(--fs-statement); font-weight: 400; line-height: 1.04;
+  letter-spacing: -0.05em; text-wrap: balance; }
+.dir .d-sub { font-size: var(--fs-sub); font-weight: 450; line-height: 1.16; letter-spacing: -0.035em; }
+.dir .d-lead { font-size: var(--fs-lead); line-height: 1.4; letter-spacing: -0.015em; text-wrap: pretty; }
+.dir .d-small { font-size: var(--fs-small); line-height: 1.45; }
+.dir .d-em { font-family: inherit; font-style: normal; font-weight: 600; letter-spacing: -0.01em; } /* no italic: the strong word */
+/* small text is never orange on white (3.7:1): it stays grey or black, the orange becomes the small diagonal beside it */
+.dir .d-label { display: inline-flex; align-items: baseline; gap: 0.55em; font-size: var(--fs-small); font-weight: 700;
+  letter-spacing: 0.08em; text-transform: uppercase; color: var(--doux); }
+.dir .d-label::before { content: ""; flex: none; width: 0.6em; height: 0.72em; align-self: center; background: var(--orange);
+  clip-path: var(--diag); }
+.dir .d-caps { font-size: var(--fs-small); font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; }
+.dir .d-muted { color: var(--doux); }
+.dir .d-copper { color: var(--texte); font-weight: 700; }
+.dir .d-copper::before { content: ""; display: inline-block; width: 0.6em; height: 0.72em; margin-right: 0.45em; vertical-align: -0.05em;
+  background: var(--orange); clip-path: var(--diag); }
+.dir[data-scene="sombre"] .d-copper { color: var(--orange); }
+.dir[data-scene="sombre"] .d-copper::before { content: none; }
+.dir .d-num { font-variant-numeric: tabular-nums lining-nums; }
+[lang="de-CH"] .dir .d-lead, .dir[lang="de-CH"] .d-lead { hyphens: auto; }
+
+/* ---------------------------------------------------------------- frame */
+.dir .d-head { display: flex; align-items: flex-end; justify-content: space-between; gap: var(--gap);
+  margin: 0 var(--mx); padding: var(--my) 0 clamp(8px, 1.2vh, 20px); border-bottom: 1px solid var(--trait); }
+.dir .d-brand { font-size: clamp(22px, min(1.6vw, 2.9vh), 32px); font-weight: 300; letter-spacing: -0.03em; line-height: 1; }
+.dir .d-brand b { color: var(--orange); font-weight: 300; }
+.dir .d-brand-block { display: flex; flex-direction: column; gap: 2px; }
+/* the prototype mention: words, not capitals, at the size of the screen's mentions (DESIGN.md § 7.2) */
+.dir .d-proto { font-size: var(--fs-small); line-height: 1.2; color: var(--doux, currentColor); }
+.dir .d-head-right { display: flex; align-items: flex-end; gap: clamp(12px, 1.6vw, 32px); text-align: right; }
+.dir .d-head-right .d-caps { color: var(--doux); }
+.dir .d-tool { font: inherit; font-size: var(--fs-small); color: var(--texte); background: none; border: 0;
+  padding: 0.2em 0; cursor: pointer; text-decoration: underline; text-decoration-color: var(--trait-fort);
+  text-underline-offset: 0.3em; white-space: nowrap; }
+.dir .d-tool:hover { text-decoration-color: var(--orange); }
+/* less room under the scene than above it: the scene's last line sits close to the navigation rule, never under it */
+.dir .d-main { position: relative; min-height: 0; overflow: auto; padding: clamp(10px, 2.2vh, 40px) var(--mx) clamp(8px, 1.4vh, 22px); }
+.dir .d-foot { margin: 0 var(--mx); padding: clamp(10px, 1.8vh, 24px) 0 var(--my); border-top: 1px solid var(--trait); }
+.dir .d-nav { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: var(--gap); }
+.dir .d-navbtn { display: inline-flex; align-items: center; gap: 0.5em; font: inherit; font-size: var(--fs-lead);
+  font-weight: 500; letter-spacing: -0.01em; color: var(--texte); background: none; border: 0; padding: 0.25em 0;
+  cursor: pointer; }
+.dir .d-navbtn:disabled { color: var(--doux); opacity: 0.55; cursor: default; }
+.dir .d-navbtn svg { width: 1.05em; height: 1.05em; stroke-width: 1.6; transition: transform var(--t-short) var(--ease); }
+.dir .d-navbtn:not(:disabled):hover svg.fwd { transform: translateX(4px); }
+.dir .d-navbtn:not(:disabled):hover svg.back { transform: translateX(-4px); }
+.dir .d-count { font-size: var(--fs-small); letter-spacing: 0.08em; }
+.dir .d-count .of { color: var(--doux); }
+/* the dash keeps its drawing; its target is 44 px high (a pseudo-element: the navigation does not grow) */
+.dir .d-mentions { display: flex; justify-content: space-between; align-items: flex-start; gap: var(--gap);
+  margin-bottom: clamp(8px, 1.4vh, 18px); color: var(--doux); font-size: var(--fs-small); line-height: 1.4; }
+.dir .d-mentions p:first-child { flex: 1; max-width: 110ch; }
+/* the replayed date wraps on its own side: the mandatory mention keeps the width (two or three lines, never four) */
+.dir .d-mentions p:last-child { text-align: right; max-width: 34ch; }
+.dir .d-menu { position: absolute; right: var(--mx); top: calc(100% + 8px); z-index: 50; width: min(28rem, 90vw);
+  max-height: 70vh; overflow: auto; background: var(--surface); border: 1px solid var(--trait); padding: 18px 22px;
+  box-shadow: 0 24px 48px -16px rgb(0 0 0 / 0.6); text-align: left; }
+.dir .d-menu li button, .dir .d-menu > div button { display: block; width: 100%; text-align: left; font: inherit;
+  font-size: var(--fs-small); color: var(--texte); background: none; border: 0; padding: 0.35em 0; cursor: pointer; }
+.dir .d-menu li button[aria-current="true"] { color: var(--orange); }
+.dir .d-menu button[aria-pressed="true"]::after { content: " ✓"; color: var(--orange); }
+
+/* ---------------------------------------------------------------- controls (shadcn-style, ui.tsx) */
+.dir .d-action { display: inline-flex; align-items: center; gap: 0.9em; font: inherit; font-size: var(--fs-lead);
+  font-weight: 550; letter-spacing: -0.01em; color: var(--encre); background: var(--orange); border: 0;
+  padding: 0.7em 1.05em 0.7em 1.15em; cursor: pointer; transition: background var(--t-short) var(--ease); }
+.dir .d-action:hover { background: var(--orange-fort); }
+.dir .d-action:active { transform: translateY(1px); }
+.dir .d-action svg { width: 1em; height: 1em; stroke-width: 1.6; }
+.dir .d-option { display: flex; width: 100%; align-items: baseline; justify-content: space-between; gap: 1em;
+  font: inherit; font-size: var(--fs-lead); font-weight: 500; letter-spacing: -0.015em; text-align: left;
+  color: var(--texte); background: transparent; border: 1px solid var(--trait); padding: 0.85em 1.05em; cursor: pointer;
+  transition: border-color var(--t-short) var(--ease), background var(--t-short) var(--ease); }
+.dir .d-option:hover { border-color: var(--trait-fort); }
+.dir .d-option small { font-size: var(--fs-small); letter-spacing: 0.08em; color: var(--doux); }
+/* the director's choice must read from the back of the room: a 4 px copper bar and a copper outline, not a hairline */
+.dir .d-option[aria-pressed="true"] { border-color: var(--orange); background: rgb(230 83 15 / 0.1);
+  box-shadow: inset 4px 0 0 var(--orange); }
+.dir .d-option[aria-pressed="true"] small { color: var(--orange); }
+.dir .d-quiet { font: inherit; font-size: var(--fs-small); color: var(--doux); background: none; border: 0; padding: 0;
+  cursor: pointer; text-decoration: underline; text-decoration-color: var(--trait-fort); text-underline-offset: 0.3em; }
+.dir .d-quiet:hover { color: var(--texte); text-decoration-color: var(--orange); }
+.dir .d-field { display: grid; gap: 0.35em; }
+.dir .d-field span { font-size: var(--fs-small); color: var(--doux); }
+.dir .d-field input { font: inherit; font-size: var(--fs-lead); color: var(--texte); background: transparent; border: 0;
+  border-bottom: 1px solid var(--trait-fort); padding: 0.3em 0; width: 100%; }
+.dir .d-field input:focus-visible { outline: none; border-bottom-color: var(--orange); box-shadow: 0 1px 0 var(--orange); }
+
+/* ---------------------------------------------------------------- paper (documents, evidence) */
+.dir .d-paper { background: var(--etiquette); color: var(--encre); padding: clamp(16px, 1.7vw, 32px) clamp(18px, 1.9vw, 36px);
+  box-shadow: 0 22px 44px -22px rgb(0 0 0 / 0.75); }
+.dir .d-paper-head { display: flex; justify-content: space-between; gap: 1em; padding-bottom: 0.6em;
+  border-bottom: 1px solid var(--etiquette-trait); font-size: var(--fs-small); font-weight: 500; letter-spacing: 0.1em;
+  text-transform: uppercase; color: var(--encre-douce); }
+.dir .d-paper-title { margin-top: 0.7em; font-family: var(--font-serif); font-size: var(--fs-quote); line-height: 1.22;
+  letter-spacing: -0.025em; text-wrap: pretty; }
+.dir .d-paper-meta { margin-top: 0.8em; font-size: var(--fs-small); color: var(--encre-douce); }
+.dir .d-paper-link { display: inline-flex; align-items: center; gap: 0.4em; margin-top: 0.9em; font: inherit;
+  font-size: var(--fs-small); font-weight: 600; color: var(--encre); background: none; border: 0; padding: 0; cursor: pointer;
+  text-decoration: underline; text-decoration-color: var(--etiquette-trait); text-underline-offset: 0.3em; }
+.dir .d-paper-link svg { width: 1em; height: 1em; }
+.dir .d-paper :focus-visible { outline-color: var(--encre); }
+
+/* ---------------------------------------------------------------- scenes */
+.dir .d-scene { display: flex; min-height: 100%; flex-direction: column; gap: clamp(10px, 2.1vh, 30px); } /* a scene that must fit the screen (the map): no hidden part */
+/* map */
+.dir .d-map path.commune { stroke: var(--trait-fort); stroke-width: 0.7; vector-effect: non-scaling-stroke;
+  stroke-linejoin: round; }
+.dir .d-map path.canton { fill: none; stroke: var(--doux); stroke-width: 1.3; vector-effect: non-scaling-stroke;
+  stroke-linejoin: round; }
+.dir .d-map circle.award { fill: none; stroke: var(--orange); stroke-width: 2; vector-effect: non-scaling-stroke; }
+.dir .d-map text { font-family: var(--font-sans); font-size: 17px; fill: var(--doux); letter-spacing: 0.01em;
+  paint-order: stroke; stroke: var(--fond); stroke-width: 4px; stroke-linejoin: round; }
+.dir .d-map text.home { fill: var(--texte); font-weight: 600; }
+/* decision */
+.dir .d-company { font-size: var(--fs-lead); font-weight: 600; letter-spacing: -0.02em; }
+.dir .d-company span { color: var(--doux); font-weight: 450; }
+.dir .d-options { display: grid; gap: clamp(8px, 1.1vh, 14px); }
+
+/* the other scenes (E4) */
+.dir .d-scene-head { display: flex; align-items: baseline; justify-content: space-between; gap: var(--gap); }
+.dir .d-quote { font-family: var(--font-serif); font-size: clamp(26px, min(2.2vw, 4vh), 42px); line-height: 1.22;
+  letter-spacing: -0.025em; text-wrap: pretty; } /* 6:1 on paper: a trace, still legible (axe) */
+
+/* ---------------------------------------------------------------- phone and narrow screens: the page scrolls */
+@media (max-width: 860px) {
+  .dir { position: relative; inset: auto; min-height: 100dvh; overflow: visible; grid-template-rows: auto 1fr auto; }
+  .dir .d-main { overflow: visible; padding-top: 20px; padding-bottom: 28px; }
+  .dir .d-head-right .d-head-title { display: none; }
+  .dir .d-foot { padding-bottom: 16px; } /* at the end of the page, as in the mockup: nothing covers the content */
+  .dir .d-nav { grid-template-columns: 1fr 1fr; }
+  .dir .d-nav > :last-child { justify-self: end; }
+  .dir .d-mentions { flex-direction: column; gap: 4px; }
+  .dir .d-mentions p:last-child { text-align: left; white-space: normal; }
+  .dir .d-scene-head { flex-direction: column; gap: 4px; }
+  .dir .d-scene-head p:last-child { text-align: left; }
+  .dir .d-map text { font-size: 34px; }
+}
+/* short projection screens (1280 × 720, 1366 × 768): the mention keeps the full width; the replay date stays in the menu */
+@media (max-height: 820px) and (min-width: 861px) {
+  .dir .d-mentions p:last-child { display: none; }
+  .dir .d-mentions p:first-child { max-width: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .dir *, .dir *::before, .dir *::after { transition-duration: 0ms !important; }
+}
+
+/* act 4: the three stops of a story side by side (stacked on a phone), the pieces and the named intervals */
+.dir .d-story-grid { display: grid; gap: var(--gap); grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); align-items: start; }
+.dir .d-story-grid section { padding-top: 0.45em; border-top: 1px solid var(--trait); }
+.dir .d-story-right { display: grid; gap: clamp(4px, 0.9vh, 14px); }
+@media (max-width: 900px) { .dir .d-story-grid { grid-template-columns: 1fr; } }
+.dir .d-story-piece { padding: 0.35em 0; border-bottom: 1px solid var(--trait); }
+.dir .d-interval { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 0.6em; align-items: baseline; padding: 0.15em 0; }
+.dir .d-interval .d-small { line-height: 1.3; }
+/* the interval that tells the story (« 4 jours »…) in large figures; the others stay at the size of the text */
+.dir .d-interval[data-hero] > .d-num { font-size: clamp(32px, min(3vw, 5.4vh), 64px); font-weight: 400; letter-spacing: -0.04em; line-height: 1; }
+/* the same anchor for the three stories, a little smaller than a statement: their stops need the height */
+.dir .d-sub.d-story-title { font-size: clamp(24px, min(2.3vw, 4vh), 46px); }
+/* stories are dense (pieces, reasons, intervals): their text is set at the small projection size, still ≥ 14 px */
+.dir .d-story-grid p, .dir .d-story-grid li { font-size: var(--fs-small); line-height: 1.38; }
+/* the source links of a story, a dense scene */
+.dir .d-source-link { display: inline-flex; align-items: center; gap: 0.3em; }
+.dir .d-source-link svg { width: 0.9em; height: 0.9em; }
+.dir .d-scene.d-dense { gap: clamp(4px, 1.1vh, 22px); }
+/* act 4, « Choisissez une date »: the date field and its action on one line; the ten of the chosen Monday in two
+   columns of five (one column on a phone), rank, name and town, the count of 52 weeks, then what each obtained */
+.dir .d-date-head { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 0.4em 2em; }
+.dir .d-date-example { font-size: var(--fs-small); letter-spacing: 0.1em; }
+/* on one line only where it fits: on a phone « · VORBEREITETES BEISPIEL » is wider than the screen (WebKit, 383 px) */
+@media (min-width: 861px) { .dir .d-date-example { white-space: nowrap; } }
+.dir .d-date-form { display: flex; flex-wrap: wrap; align-items: end; gap: 0.4em 1.2em; }
+.dir .d-date-form .d-field input { min-width: 10em; font-size: var(--fs-body); padding: 0.1em 0; color-scheme: dark; }
+.dir .d-date-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); grid-auto-flow: column;
+  grid-template-rows: repeat(5, auto); column-gap: clamp(20px, 3vw, 64px); }
+.dir .d-date-list li { display: grid; grid-template-columns: 1.6em minmax(0, 1fr); gap: 0.5em; align-items: baseline;
+  padding: clamp(3px, 0.7vh, 9px) 0; border-bottom: 1px solid var(--trait); font-size: var(--fs-body); line-height: 1.3; }
+.dir .d-date-line { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 0 1em; line-height: 1.3; }
+.dir .d-date-won { color: var(--texte); text-align: left; }
+.dir .d-date-result { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); column-gap: clamp(20px, 3vw, 64px);
+  align-items: baseline; }
+.dir .d-date-end { display: grid; gap: 0.4em; max-width: 52em; }
+.dir .d-date-closing { font-weight: 600; }
+@media (max-height: 820px) and (min-width: 861px) {
+  .dir .d-date-rule[data-later] { display: none; }
+  .dir .d-date-list li { padding-block: 2px; }
+}
+@media (max-width: 860px) {
+  .dir .d-date-list { grid-template-columns: minmax(0, 1fr); grid-auto-flow: row; grid-template-rows: none; }
+  .dir .d-date-result { grid-template-columns: minmax(0, 1fr); }
+}
+
+/* ---------------------------------------------------------------- fields */
+.dir .d-field[data-linked] input { border-bottom-color: var(--orange); }
+.dir .d-field input[aria-invalid="true"] { border-bottom-style: dashed; }
+
+/* ---------------------------------------------------------------- printable pages */
+/* the printable page: the same sheet on a page that scrolls, black on white when printed (A4) */
+.dir.d-print { position: static; display: block; min-height: 100dvh; overflow: visible; }
+.dir .d-print-main { display: grid; gap: clamp(12px, 2vh, 24px); max-width: 52rem; margin: 0 auto; padding: 32px 20px 64px; }
+.dir .d-print-tools { display: flex; flex-wrap: wrap; align-items: center; gap: 1.2em; }
+.dir .d-print-only { display: none; }
+/* the proof dossier: the stories at the width of the stage, one after the other, separated by a rule */
+.dir .d-print-main.d-proofs { max-width: 88rem; }
+.dir .d-proof { padding-top: clamp(16px, 3vh, 36px); border-top: 1px solid var(--trait-fort); }
+@page { size: A4; margin: 16mm; }
+@media print {
+  .dir.d-print { background: #fff; color: #000; --doux: #444; }
+  /* on paper the page is as tall as its content: no screen-high minimum, no screen margins (else a blank page 2) */
+  .dir.d-print { min-height: 0; --fs-sub: 20pt; --fs-lead: 12.5pt; --fs-body: 10.5pt; --fs-small: 8.5pt; font-size: 10.5pt; }
+  .dir.d-print .v-tech p { margin: 0; }
+  .dir .d-print-main { padding: 0; gap: 10px; }
+  .dir.d-print .d-paper { box-shadow: none; padding: 0; }
+  .dir .d-print-tools { display: none; }
+  .dir .d-print-only { display: block; }
+}
+
+.dir .d-field small { font-size: var(--fs-small); }
+

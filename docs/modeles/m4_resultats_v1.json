@@ -1,0 +1,25 @@
+{
+ "avertissement": "monde fictif : prouve que le code fonctionne, pas sa performance réelle",
+ "protocole": "monde FICTIF seed=42 (4000 entreprises), 3000 mentions bruitées seed=8 (tenues à l'écart ; seuils choisis sur seed=7), 20 % d'entreprises inconnues, 35 % avec IDE",
+ "M4_flou_auto": {
+  "precision": 0.9890909090909091,
+  "recall": 0.9066666666666666,
+  "f1": 0.9460869565217391,
+  "review_share": 0.166,
+  "n": 3000
+ },
+ "M4_flou_auto_plus_revue_acceptee": {
+  "precision": 0.8454410674573758,
+  "recall": 0.9504166666666667,
+  "f1": 0.8948607296979207,
+  "review_share": 0.166,
+  "n": 3000
+ },
+ "base_nom_exact_normalise": {
+  "precision": 0.9827298050139276,
+  "recall": 0.735,
+  "f1": 0.8410011918951131,
+  "review_share": 0.0,
+  "n": 3000
+ }
+}

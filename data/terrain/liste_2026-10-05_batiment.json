@@ -1,0 +1,6062 @@
+{
+ "as_of": "2026-10-05",
+ "specialite": "batiment",
+ "region": [
+  "VS"
+ ],
+ "k": 10,
+ "entreprises_classees": 200,
+ "entreprises": [
+  {
+   "id": "ent-e0b3af4121",
+   "nom": "Epiney Construction SA",
+   "ville": "Sierre",
+   "canton": "VS",
+   "specialite": "batiment",
+   "score": 0.9082,
+   "score_surprise": 0.2206,
+   "surprise": [],
+   "confiance": "moyenne",
+   "faiblesses": [
+    "code_generique"
+   ],
+   "raisons": [
+    {
+     "code": "marches_52s",
+     "n": 21
+    },
+    {
+     "code": "dernier_marche",
+     "jours": 13,
+     "titre": "Protection contre les crues de la Navizence. Aménagement du secteur Mission - LOT 1",
+     "adjudicateur": "Commune d'Anniviers",
+     "montant": 1339493.6
+    },
+    {
+     "code": "besoin",
+     "bas": "30",
+     "haut": "69",
+     "debut": "2026-10-05",
+     "metiers": [
+      "coffreur",
+      "grutier",
+      "machiniste",
+      "macon",
+      "manoeuvre_construction"
+     ],
+     "en_cours": true
+    },
+    {
+     "code": "permis_commune",
+     "n": 17
+    }
+   ],
+   "besoin": [
+    {
+     "semaine": "2026-10-05",
+     "metier": "coffreur",
+     "personnes_bas": 0.48,
+     "personnes_milieu": 0.76,
+     "personnes_haut": 1.12,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-05",
+     "metier": "grutier",
+     "personnes_bas": 0.24,
+     "personnes_milieu": 0.38,
+     "personnes_haut": 0.56,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-05",
+     "metier": "machiniste",
+     "personnes_bas": 4.9,
+     "personnes_milieu": 7.75,
+     "personnes_haut": 11.46,
+     "phases": [
+      "genie_civil"
+     ]
+    },
+    {
+     "semaine": "2026-10-05",
+     "metier": "macon",
+     "personnes_bas": 5.86,
+     "personnes_milieu": 9.27,
+     "personnes_haut": 13.7,
+     "phases": [
+      "genie_civil",
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-05",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 5.62,
+     "personnes_milieu": 8.89,
+     "personnes_haut": 13.14,
+     "phases": [
+      "genie_civil",
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-12",
+     "metier": "coffreur",
+     "personnes_bas": 0.48,
+     "personnes_milieu": 0.76,
+     "personnes_haut": 1.12,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-12",
+     "metier": "grutier",
+     "personnes_bas": 0.24,
+     "personnes_milieu": 0.38,
+     "personnes_haut": 0.56,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-12",
+     "metier": "machiniste",
+     "personnes_bas": 4.9,
+     "personnes_milieu": 7.75,
+     "personnes_haut": 11.46,
+     "phases": [
+      "genie_civil"
+     ]
+    },
+    {
+     "semaine": "2026-10-12",
+     "metier": "macon",
+     "personnes_bas": 5.86,
+     "personnes_milieu": 9.27,
+     "personnes_haut": 13.7,
+     "phases": [
+      "genie_civil",
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-12",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 5.62,
+     "personnes_milieu": 8.89,
+     "personnes_haut": 13.14,
+     "phases": [
+      "genie_civil",
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-19",
+     "metier": "coffreur",
+     "personnes_bas": 2.96,
+     "personnes_milieu": 4.69,
+     "personnes_haut": 6.93,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-19",
+     "metier": "grutier",
+     "personnes_bas": 1.48,
+     "personnes_milieu": 2.34,
+     "personnes_haut": 3.47,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-19",
+     "metier": "machiniste",
+     "personnes_bas": 4.9,
+     "personnes_milieu": 7.75,
+     "personnes_haut": 11.46,
+     "phases": [
+      "genie_civil"
+     ]
+    },
+    {
+     "semaine": "2026-10-19",
+     "metier": "macon",
+     "personnes_bas": 10.82,
+     "personnes_milieu": 17.12,
+     "personnes_haut": 25.32,
+     "phases": [
+      "genie_civil",
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-19",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 9.34,
+     "personnes_milieu": 14.78,
+     "personnes_haut": 21.85,
+     "phases": [
+      "genie_civil",
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-26",
+     "metier": "coffreur",
+     "personnes_bas": 2.96,
+     "personnes_milieu": 4.69,
+     "personnes_haut": 6.93,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-26",
+     "metier": "grutier",
+     "personnes_bas": 1.48,
+     "personnes_milieu": 2.34,
+     "personnes_haut": 3.47,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-26",
+     "metier": "machiniste",
+     "personnes_bas": 3.97,
+     "personnes_milieu": 6.28,
+     "personnes_haut": 9.28,
+     "phases": [
+      "genie_civil"
+     ]
+    },
+    {
+     "semaine": "2026-10-26",
+     "metier": "macon",
+     "personnes_bas": 9.89,
+     "personnes_milieu": 15.65,
+     "personnes_haut": 23.14,
+     "phases": [
+      "genie_civil",
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-26",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 8.41,
+     "personnes_milieu": 13.31,
+     "personnes_haut": 19.68,
+     "phases": [
+      "genie_civil",
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-02",
+     "metier": "coffreur",
+     "personnes_bas": 2.96,
+     "personnes_milieu": 4.69,
+     "personnes_haut": 6.93,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-02",
+     "metier": "grutier",
+     "personnes_bas": 1.48,
+     "personnes_milieu": 2.34,
+     "personnes_haut": 3.47,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-02",
+     "metier": "machiniste",
+     "personnes_bas": 2.01,
+     "personnes_milieu": 3.18,
+     "personnes_haut": 4.7,
+     "phases": [
+      "genie_civil"
+     ]
+    },
+    {
+     "semaine": "2026-11-02",
+     "metier": "macon",
+     "personnes_bas": 7.93,
+     "personnes_milieu": 12.55,
+     "personnes_haut": 18.56,
+     "phases": [
+      "genie_civil",
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-02",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 6.45,
+     "personnes_milieu": 10.21,
+     "personnes_haut": 15.1,
+     "phases": [
+      "genie_civil",
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-09",
+     "metier": "coffreur",
+     "personnes_bas": 2.96,
+     "personnes_milieu": 4.69,
+     "personnes_haut": 6.93,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-09",
+     "metier": "grutier",
+     "personnes_bas": 1.48,
+     "personnes_milieu": 2.34,
+     "personnes_haut": 3.47,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-09",
+     "metier": "machiniste",
+     "personnes_bas": 2.01,
+     "personnes_milieu": 3.18,
+     "personnes_haut": 4.7,
+     "phases": [
+      "genie_civil"
+     ]
+    },
+    {
+     "semaine": "2026-11-09",
+     "metier": "macon",
+     "personnes_bas": 7.93,
+     "personnes_milieu": 12.55,
+     "personnes_haut": 18.56,
+     "phases": [
+      "genie_civil",
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-09",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 6.45,
+     "personnes_milieu": 10.21,
+     "personnes_haut": 15.1,
+     "phases": [
+      "genie_civil",
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-16",
+     "metier": "coffreur",
+     "personnes_bas": 2.96,
+     "personnes_milieu": 4.69,
+     "personnes_haut": 6.93,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-16",
+     "metier": "grutier",
+     "personnes_bas": 1.48,
+     "personnes_milieu": 2.34,
+     "personnes_haut": 3.47,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-16",
+     "metier": "machiniste",
+     "personnes_bas": 2.01,
+     "personnes_milieu": 3.18,
+     "personnes_haut": 4.7,
+     "phases": [
+      "genie_civil"
+     ]
+    },
+    {
+     "semaine": "2026-11-16",
+     "metier": "macon",
+     "personnes_bas": 7.93,
+     "personnes_milieu": 12.55,
+     "personnes_haut": 18.56,
+     "phases": [
+      "genie_civil",
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-16",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 6.45,
+     "personnes_milieu": 10.21,
+     "personnes_haut": 15.1,
+     "phases": [
+      "genie_civil",
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-23",
+     "metier": "coffreur",
+     "personnes_bas": 2.96,
+     "personnes_milieu": 4.69,
+     "personnes_haut": 6.93,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-23",
+     "metier": "grutier",
+     "personnes_bas": 1.48,
+     "personnes_milieu": 2.34,
+     "personnes_haut": 3.47,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-23",
+     "metier": "machiniste",
+     "personnes_bas": 2.01,
+     "personnes_milieu": 3.18,
+     "personnes_haut": 4.7,
+     "phases": [
+      "genie_civil"
+     ]
+    },
+    {
+     "semaine": "2026-11-23",
+     "metier": "macon",
+     "personnes_bas": 7.93,
+     "personnes_milieu": 12.55,
+     "personnes_haut": 18.56,
+     "phases": [
+      "genie_civil",
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-23",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 6.45,
+     "personnes_milieu": 10.21,
+     "personnes_haut": 15.1,
+     "phases": [
+      "genie_civil",
+      "gros_oeuvre"
+     ]
+    }
+   ],
+   "lots_attendus": [],
+   "sources": [
+    {
+     "date": "2026-09-22",
+     "titre": "Protection contre les crues de la Navizence. Aménagement du secteur Mission - LOT 1",
+     "adjudicateur": "Commune d'Anniviers",
+     "montant_chf": 1339493.6,
+     "phase": "gros_oeuvre",
+     "url_simap": "https://www.simap.ch/fr/project-detail/221ab6f5-bf61-44dd-acfe-eba82a837eac",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/221ab6f5-bf61-44dd-acfe-eba82a837eac/publication-details/5b1454a7-13a8-4fe0-8a5d-c94ae7b626cf",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-09-22",
+     "titre": "Correction du carrefour avec la rue St-Georges à l'entrée d'Euseigne, sur la RC no 54 Sion - Les Haudères - Arolla, sur le territoire de la commune d'Hérémence",
+     "adjudicateur": "Service de la mobilité, arrondissement 2, Valais central",
+     "montant_chf": 1429426.25,
+     "phase": "gros_oeuvre",
+     "url_simap": "https://www.simap.ch/fr/project-detail/3bfd6080-e1c6-453b-90c2-452a319d318e",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/3bfd6080-e1c6-453b-90c2-452a319d318e/publication-details/b37f80c7-51ac-4843-956d-d327a71281d9",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-08-06",
+     "titre": "Projet de défense contre les chutes de pierres et les éboulements \"Fey - Condémines\" - construction d'une digue en terre armée",
+     "adjudicateur": "Commune de Nendaz",
+     "montant_chf": 939784.0,
+     "phase": "genie_civil",
+     "url_simap": "https://www.simap.ch/fr/project-detail/00f1f4ed-a3f9-47ab-a9a5-e119d2df890d",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/00f1f4ed-a3f9-47ab-a9a5-e119d2df890d/publication-details/c1d1d44e-e6c5-4539-8175-a061a1610e17",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-07-11",
+     "titre": "Travaux de génie civil pour la construction du dépotoir de Verfi - Montagnon",
+     "adjudicateur": "[particulier]",
+     "montant_chf": 347756.95,
+     "phase": "genie_civil",
+     "url_simap": "https://www.simap.ch/fr/project-detail/7fbc00fc-4b41-4377-8ca7-0b9eada2f8f8",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/7fbc00fc-4b41-4377-8ca7-0b9eada2f8f8/publication-details/b8fe5c13-71e5-403c-96c0-c5b6dfbf2e94",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-07-01",
+     "titre": "Collecteur Baar-Aproz",
+     "adjudicateur": "Commune de Nendaz",
+     "montant_chf": 855552.85,
+     "phase": "genie_civil",
+     "url_simap": "https://www.simap.ch/fr/project-detail/21ec71f3-e4f2-4bc4-ac21-8870013d29ce",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/21ec71f3-e4f2-4bc4-ac21-8870013d29ce/publication-details/76b1b690-691b-4390-a7ca-b57ec8080780",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-06-08",
+     "titre": "Correction de la chaussée et construction de trottoirs à Suen et St-Martin, sur la RC no 53 Bramois - St-Martin - La Crête, sur le territoire de la commune de St-Martin",
+     "adjudicateur": "Service de la mobilité, arrondissement 2, Valais central",
+     "montant_chf": 399770.0,
+     "phase": "gros_oeuvre",
+     "url_simap": "https://www.simap.ch/fr/project-detail/56a5b5b1-fe0e-486a-914d-88607f9a8d96",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/56a5b5b1-fe0e-486a-914d-88607f9a8d96/publication-details/fe5c49b0-4836-48ef-bcff-ebed48a991b3",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-05-28",
+     "titre": "R3 – MA Ile des Clous - Réalisation d’une piste de chantier pour travaux préparatoires - LR0916",
+     "adjudicateur": "Etat du Valais, Département de la Mobilité, du Territoire et de l’Environnement, Service des dangers naturels, et Etat de Vaud, ECF-R3 p.a. Direction Générale de l’Environnement-DIRNA-EAU.",
+     "montant_chf": 516233.15,
+     "phase": "genie_civil",
+     "url_simap": "https://www.simap.ch/fr/project-detail/01ef2114-a6bc-4916-bd18-f7636707b207",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/01ef2114-a6bc-4916-bd18-f7636707b207/publication-details/dcb7a886-bdc9-419d-bc29-f3292f530b64",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-05-21",
+     "titre": "Réservoir d'eau potable à la Caffe",
+     "adjudicateur": "Commune de Martigny-Combe",
+     "montant_chf": 294484.55,
+     "phase": "gros_oeuvre",
+     "url_simap": "https://www.simap.ch/fr/project-detail/eb4339fa-a2bf-49ac-8c55-690eca205a35",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/eb4339fa-a2bf-49ac-8c55-690eca205a35/publication-details/7acf38e1-b809-41cb-8a51-ef33408dab64",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-05-20",
+     "titre": "Stabilisation du glissement affectant le torrent de Corniolla par la construction d'une paroi berlinoise ancrée, travaux de gunitage et de coulage, PR 80+540, sur la RC no 54 Sion - Les Haudères - Arolla",
+     "adjudicateur": "Service de la mobilité, arrondissement 2, Valais central",
+     "montant_chf": 186434.65,
+     "phase": "gros_oeuvre",
+     "url_simap": "https://www.simap.ch/fr/project-detail/87ba76f9-2127-4ffb-ad34-2731a7320307",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/87ba76f9-2127-4ffb-ad34-2731a7320307/publication-details/b509eb8c-3b15-4d7c-8ad6-1af766c0956f",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-05-18",
+     "titre": "Mesures urgentes de stabilisation du torrent Corniola, Vex",
+     "adjudicateur": "Commune de Vex",
+     "montant_chf": 280702.4,
+     "phase": "gros_oeuvre",
+     "url_simap": "https://www.simap.ch/fr/project-detail/5cd197e6-e86b-4e85-83c8-503d284bc649",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/5cd197e6-e86b-4e85-83c8-503d284bc649/publication-details/3dc055b3-6bb2-46f7-b72a-9248c9930e4c",
+     "source": "simap.ch"
+    }
+   ],
+   "n_52s": 21,
+   "dernier_marche_jours": 13,
+   "rang": 1
+  },
+  {
+   "id": "ent-734d5f7d45",
+   "nom": "Bitz travaux publics SA",
+   "ville": "Sion",
+   "canton": "VS",
+   "specialite": "batiment",
+   "score": 0.6545,
+   "score_surprise": 0.1171,
+   "surprise": [],
+   "confiance": "faible",
+   "faiblesses": [
+    "dernier_marche_ancien",
+    "code_generique"
+   ],
+   "raisons": [
+    {
+     "code": "marches_52s",
+     "n": 13
+    },
+    {
+     "code": "dernier_marche",
+     "jours": 156,
+     "titre": "Construction d'un EMS & AEMS - St-Maurice - CFC 201 Terrassement + TS",
+     "adjudicateur": "Foyer Saint-Jacques p.a Quartal Sàrl",
+     "montant": 1574663.35
+    },
+    {
+     "code": "besoin",
+     "bas": "4",
+     "haut": "9",
+     "debut": "2026-10-05",
+     "metiers": [
+      "machiniste",
+      "manoeuvre_construction"
+     ],
+     "en_cours": true
+    },
+    {
+     "code": "permis_commune",
+     "n": 28
+    },
+    {
+     "code": "permis_entreprise",
+     "date": "2026-08-21",
+     "url": "https://bulletin-officiel.vs.ch/api/v1/publications/2af61a49-def0-464e-a64b-78c24fea6098/pdf"
+    },
+    {
+     "code": "permis_entreprise",
+     "date": "2026-08-28",
+     "url": "https://bulletin-officiel.vs.ch/api/v1/publications/11cb9aba-1cbf-4a35-b2e0-32ca5fded2ea/pdf"
+    },
+    {
+     "code": "permis_entreprise",
+     "date": "2026-08-28",
+     "url": "https://bulletin-officiel.vs.ch/api/v1/publications/3b1f8104-5778-43ef-9fe7-f3775610b263/pdf"
+    }
+   ],
+   "besoin": [
+    {
+     "semaine": "2026-10-05",
+     "metier": "machiniste",
+     "personnes_bas": 1.89,
+     "personnes_milieu": 3.0,
+     "personnes_haut": 4.43,
+     "phases": [
+      "preparatoire"
+     ]
+    },
+    {
+     "semaine": "2026-10-05",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 1.89,
+     "personnes_milieu": 3.0,
+     "personnes_haut": 4.43,
+     "phases": [
+      "preparatoire"
+     ]
+    },
+    {
+     "semaine": "2026-10-12",
+     "metier": "machiniste",
+     "personnes_bas": 1.89,
+     "personnes_milieu": 3.0,
+     "personnes_haut": 4.43,
+     "phases": [
+      "preparatoire"
+     ]
+    },
+    {
+     "semaine": "2026-10-12",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 1.89,
+     "personnes_milieu": 3.0,
+     "personnes_haut": 4.43,
+     "phases": [
+      "preparatoire"
+     ]
+    },
+    {
+     "semaine": "2026-10-19",
+     "metier": "machiniste",
+     "personnes_bas": 1.89,
+     "personnes_milieu": 3.0,
+     "personnes_haut": 4.43,
+     "phases": [
+      "preparatoire"
+     ]
+    },
+    {
+     "semaine": "2026-10-19",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 1.89,
+     "personnes_milieu": 3.0,
+     "personnes_haut": 4.43,
+     "phases": [
+      "preparatoire"
+     ]
+    },
+    {
+     "semaine": "2026-10-26",
+     "metier": "machiniste",
+     "personnes_bas": 1.89,
+     "personnes_milieu": 3.0,
+     "personnes_haut": 4.43,
+     "phases": [
+      "preparatoire"
+     ]
+    },
+    {
+     "semaine": "2026-10-26",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 1.89,
+     "personnes_milieu": 3.0,
+     "personnes_haut": 4.43,
+     "phases": [
+      "preparatoire"
+     ]
+    },
+    {
+     "semaine": "2026-11-02",
+     "metier": "machiniste",
+     "personnes_bas": 1.89,
+     "personnes_milieu": 3.0,
+     "personnes_haut": 4.43,
+     "phases": [
+      "preparatoire"
+     ]
+    },
+    {
+     "semaine": "2026-11-02",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 1.89,
+     "personnes_milieu": 3.0,
+     "personnes_haut": 4.43,
+     "phases": [
+      "preparatoire"
+     ]
+    },
+    {
+     "semaine": "2026-11-09",
+     "metier": "machiniste",
+     "personnes_bas": 1.89,
+     "personnes_milieu": 3.0,
+     "personnes_haut": 4.43,
+     "phases": [
+      "preparatoire"
+     ]
+    },
+    {
+     "semaine": "2026-11-09",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 1.89,
+     "personnes_milieu": 3.0,
+     "personnes_haut": 4.43,
+     "phases": [
+      "preparatoire"
+     ]
+    },
+    {
+     "semaine": "2026-11-16",
+     "metier": "machiniste",
+     "personnes_bas": 1.89,
+     "personnes_milieu": 3.0,
+     "personnes_haut": 4.43,
+     "phases": [
+      "preparatoire"
+     ]
+    },
+    {
+     "semaine": "2026-11-16",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 1.89,
+     "personnes_milieu": 3.0,
+     "personnes_haut": 4.43,
+     "phases": [
+      "preparatoire"
+     ]
+    },
+    {
+     "semaine": "2026-11-23",
+     "metier": "machiniste",
+     "personnes_bas": 1.89,
+     "personnes_milieu": 3.0,
+     "personnes_haut": 4.43,
+     "phases": [
+      "preparatoire"
+     ]
+    },
+    {
+     "semaine": "2026-11-23",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 1.89,
+     "personnes_milieu": 3.0,
+     "personnes_haut": 4.43,
+     "phases": [
+      "preparatoire"
+     ]
+    }
+   ],
+   "lots_attendus": [],
+   "sources": [
+    {
+     "date": "2026-05-02",
+     "titre": "Construction d'un EMS & AEMS - St-Maurice - CFC 201 Terrassement + TS",
+     "adjudicateur": "Foyer Saint-Jacques p.a Quartal Sàrl",
+     "montant_chf": 1574663.35,
+     "phase": "preparatoire",
+     "url_simap": "https://www.simap.ch/fr/project-detail/95465d92-7be7-46b7-862a-a376ca087134",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/95465d92-7be7-46b7-862a-a376ca087134/publication-details/6ae65802-ae69-46e8-b6bf-4a1394da6a55",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-04-17",
+     "titre": "Nouvel accès Enevi et trottoir mixte",
+     "adjudicateur": null,
+     "montant_chf": 1321352.5,
+     "phase": "gros_oeuvre",
+     "url_simap": "https://www.simap.ch/fr/project-detail/ad831063-3d8b-42ff-94f0-63e92f156f1c",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/ad831063-3d8b-42ff-94f0-63e92f156f1c/publication-details/84b6d005-f1a0-4fec-8fac-15bb91e9a313",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-04-03",
+     "titre": "Entretien de la Dranse - Curage amont barrage filtrant - Travaux de génie civil",
+     "adjudicateur": "Commune de Martigny - Services Techniques",
+     "montant_chf": 21432.77,
+     "phase": "gros_oeuvre",
+     "url_simap": "https://www.simap.ch/fr/project-detail/94ffbe5a-1a3a-474b-aad2-db46b0bbb991",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/94ffbe5a-1a3a-474b-aad2-db46b0bbb991/publication-details/0a6e3a10-5dd9-43c7-b196-1ce4bb8f620a",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-04-01",
+     "titre": "Route d'Antzère et Av. Gare - TC15 - Conthey - Travaux GC et CAD",
+     "adjudicateur": "Sogaval SA, société gérée par OIKEN SA",
+     "montant_chf": 938208.15,
+     "phase": "gros_oeuvre",
+     "url_simap": "https://www.simap.ch/fr/project-detail/0f65d25a-e00d-41db-9759-70ed6c583674",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/0f65d25a-e00d-41db-9759-70ed6c583674/publication-details/eed158cd-516a-4d46-ba75-d30b5956d173",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-03-10",
+     "titre": "Mesures de remise en état liées aux intempéries de juin/juillet 2024 et d’avril 2025 - Digues du Rhône à Chamoson-Riddes - Travaux remise en état rive droite amont Genetti",
+     "adjudicateur": "Service des dangers naturels / Dienststelle Naturgefahren - Section R&L / Sektion RuG",
+     "montant_chf": 431061.45,
+     "phase": "preparatoire",
+     "url_simap": "https://www.simap.ch/fr/project-detail/da1cdef7-3979-4d2d-b4b7-78b9a9b7a9ff",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/da1cdef7-3979-4d2d-b4b7-78b9a9b7a9ff/publication-details/091eb79b-8e20-40c6-9b2a-9786e54c9b42",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-02-16",
+     "titre": "CAD Sierre - Route de l'Hôpital - Secteur 2026",
+     "adjudicateur": "Sogaval SA, société gérée par OIKEN SA",
+     "montant_chf": 528435.55,
+     "phase": "gros_oeuvre",
+     "url_simap": "https://www.simap.ch/fr/project-detail/07d7e2bc-c79b-413f-af7c-6661b157a762",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/07d7e2bc-c79b-413f-af7c-6661b157a762/publication-details/d078c659-d230-48d8-9524-b5f387a75011",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-01-30",
+     "titre": "Extension et rénovation du Lycée-collège de St-Maurice - CFC 112",
+     "adjudicateur": "Etat du Valais, Service immobilier et patrimoine - Investissements",
+     "montant_chf": 243283.85,
+     "phase": "preparatoire",
+     "url_simap": "https://www.simap.ch/fr/project-detail/15c7554e-7ad8-4509-a43e-5ebfec11b503",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/15c7554e-7ad8-4509-a43e-5ebfec11b503/publication-details/bd0e140a-d7d9-4281-aa9f-c48b0941935c",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-01-29",
+     "titre": "L10130, SB Werkhof Sierre, Baugrubenaushub",
+     "adjudicateur": "Dienststelle für Nationalstrassenbau / Service de la construction des routes nationales",
+     "montant_chf": 432400.0,
+     "phase": "genie_civil",
+     "url_simap": "https://www.simap.ch/fr/project-detail/01bf3e5c-f6b6-4606-8358-625de4d8954d",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/01bf3e5c-f6b6-4606-8358-625de4d8954d/publication-details/04d00bdc-d734-4433-bb0f-0bea5684b05c",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-01-15",
+     "titre": "La Castalie à Monthey, modernisation et extension des infrastructures du centre médico-éducatif",
+     "adjudicateur": "Service immobilier et patrimoine",
+     "montant_chf": 22424.1,
+     "phase": "preparatoire",
+     "url_simap": "https://www.simap.ch/fr/project-detail/9b907b26-dfc7-4331-a1a1-6f768ceb2516",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/9b907b26-dfc7-4331-a1a1-6f768ceb2516/publication-details/ea3dd786-2d94-45c3-832b-a416146e56ac",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2025-11-14",
+     "titre": "Réfection de la route de Chermoran à Bluche, sur la RC no 47 Montana Village - Bluche, sur le territoire de la commune de Crans-Montana",
+     "adjudicateur": "Service de la mobilité, arrondissement 2, Valais central",
+     "montant_chf": 545616.9,
+     "phase": "gros_oeuvre",
+     "url_simap": "https://www.simap.ch/fr/project-detail/1f4634d5-1650-40ca-8cf5-9c8df8d32bc4",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/1f4634d5-1650-40ca-8cf5-9c8df8d32bc4/publication-details/c3f1643a-66c9-4338-b649-2bbf85392e5c",
+     "source": "simap.ch"
+    }
+   ],
+   "n_52s": 13,
+   "dernier_marche_jours": 156,
+   "rang": 2
+  },
+  {
+   "id": "ent-266673a5c4",
+   "nom": "MELLY CONSTRUCTIONS SA",
+   "ville": "Sierre",
+   "canton": "VS",
+   "specialite": "batiment",
+   "score": 0.7842,
+   "score_surprise": 0.1911,
+   "surprise": [],
+   "confiance": "moyenne",
+   "faiblesses": [
+    "code_generique"
+   ],
+   "raisons": [
+    {
+     "code": "marches_52s",
+     "n": 12
+    },
+    {
+     "code": "dernier_marche",
+     "jours": 17,
+     "titre": "Campus du Pôle Santé - CFC 859.1 - Travaux de génie civil pour puits de pompage",
+     "adjudicateur": "Service immobilier et patrimoine / Dienststelle für Immobilien und Bauliches Erbe - Investissements / Investitionen",
+     "montant": 114285.7
+    },
+    {
+     "code": "besoin",
+     "bas": "11",
+     "haut": "25",
+     "debut": "2026-10-05",
+     "metiers": [
+      "coffreur",
+      "grutier",
+      "macon",
+      "manoeuvre_construction"
+     ],
+     "en_cours": true
+    },
+    {
+     "code": "permis_commune",
+     "n": 17
+    }
+   ],
+   "besoin": [
+    {
+     "semaine": "2026-10-05",
+     "metier": "coffreur",
+     "personnes_bas": 2.16,
+     "personnes_milieu": 3.41,
+     "personnes_haut": 5.04,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-05",
+     "metier": "grutier",
+     "personnes_bas": 1.08,
+     "personnes_milieu": 1.71,
+     "personnes_haut": 2.52,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-05",
+     "metier": "macon",
+     "personnes_bas": 4.31,
+     "personnes_milieu": 6.82,
+     "personnes_haut": 10.09,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-05",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 3.23,
+     "personnes_milieu": 5.12,
+     "personnes_haut": 7.57,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-12",
+     "metier": "coffreur",
+     "personnes_bas": 2.16,
+     "personnes_milieu": 3.41,
+     "personnes_haut": 5.04,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-12",
+     "metier": "grutier",
+     "personnes_bas": 1.08,
+     "personnes_milieu": 1.71,
+     "personnes_haut": 2.52,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-12",
+     "metier": "macon",
+     "personnes_bas": 4.31,
+     "personnes_milieu": 6.82,
+     "personnes_haut": 10.09,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-12",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 3.23,
+     "personnes_milieu": 5.12,
+     "personnes_haut": 7.57,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-19",
+     "metier": "coffreur",
+     "personnes_bas": 2.16,
+     "personnes_milieu": 3.41,
+     "personnes_haut": 5.04,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-19",
+     "metier": "grutier",
+     "personnes_bas": 1.08,
+     "personnes_milieu": 1.71,
+     "personnes_haut": 2.52,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-19",
+     "metier": "macon",
+     "personnes_bas": 4.31,
+     "personnes_milieu": 6.82,
+     "personnes_haut": 10.09,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-19",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 3.23,
+     "personnes_milieu": 5.12,
+     "personnes_haut": 7.57,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-26",
+     "metier": "coffreur",
+     "personnes_bas": 2.16,
+     "personnes_milieu": 3.41,
+     "personnes_haut": 5.04,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-26",
+     "metier": "grutier",
+     "personnes_bas": 1.08,
+     "personnes_milieu": 1.71,
+     "personnes_haut": 2.52,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-26",
+     "metier": "macon",
+     "personnes_bas": 4.31,
+     "personnes_milieu": 6.82,
+     "personnes_haut": 10.09,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-26",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 3.23,
+     "personnes_milieu": 5.12,
+     "personnes_haut": 7.57,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-02",
+     "metier": "coffreur",
+     "personnes_bas": 2.16,
+     "personnes_milieu": 3.41,
+     "personnes_haut": 5.04,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-02",
+     "metier": "grutier",
+     "personnes_bas": 1.08,
+     "personnes_milieu": 1.71,
+     "personnes_haut": 2.52,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-02",
+     "metier": "macon",
+     "personnes_bas": 4.31,
+     "personnes_milieu": 6.82,
+     "personnes_haut": 10.09,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-02",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 3.23,
+     "personnes_milieu": 5.12,
+     "personnes_haut": 7.57,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-09",
+     "metier": "coffreur",
+     "personnes_bas": 2.16,
+     "personnes_milieu": 3.41,
+     "personnes_haut": 5.04,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-09",
+     "metier": "grutier",
+     "personnes_bas": 1.08,
+     "personnes_milieu": 1.71,
+     "personnes_haut": 2.52,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-09",
+     "metier": "macon",
+     "personnes_bas": 4.31,
+     "personnes_milieu": 6.82,
+     "personnes_haut": 10.09,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-09",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 3.23,
+     "personnes_milieu": 5.12,
+     "personnes_haut": 7.57,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-16",
+     "metier": "coffreur",
+     "personnes_bas": 2.16,
+     "personnes_milieu": 3.41,
+     "personnes_haut": 5.04,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-16",
+     "metier": "grutier",
+     "personnes_bas": 1.08,
+     "personnes_milieu": 1.71,
+     "personnes_haut": 2.52,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-16",
+     "metier": "macon",
+     "personnes_bas": 4.31,
+     "personnes_milieu": 6.82,
+     "personnes_haut": 10.09,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-16",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 3.23,
+     "personnes_milieu": 5.12,
+     "personnes_haut": 7.57,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-23",
+     "metier": "coffreur",
+     "personnes_bas": 2.16,
+     "personnes_milieu": 3.41,
+     "personnes_haut": 5.04,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-23",
+     "metier": "grutier",
+     "personnes_bas": 1.08,
+     "personnes_milieu": 1.71,
+     "personnes_haut": 2.52,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-23",
+     "metier": "macon",
+     "personnes_bas": 4.31,
+     "personnes_milieu": 6.82,
+     "personnes_haut": 10.09,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-23",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 3.23,
+     "personnes_milieu": 5.12,
+     "personnes_haut": 7.57,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    }
+   ],
+   "lots_attendus": [],
+   "sources": [
+    {
+     "date": "2026-09-18",
+     "titre": "Campus du Pôle Santé - CFC 859.1 - Travaux de génie civil pour puits de pompage",
+     "adjudicateur": "Service immobilier et patrimoine / Dienststelle für Immobilien und Bauliches Erbe - Investissements / Investitionen",
+     "montant_chf": 114285.7,
+     "phase": "gros_oeuvre",
+     "url_simap": "https://www.simap.ch/fr/project-detail/47eb5c99-36e3-44cd-ae51-d907bd38e064",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/47eb5c99-36e3-44cd-ae51-d907bd38e064/publication-details/12ea1c68-9205-4f10-8936-5043f43962af",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-08-27",
+     "titre": "Appel d'offres N° 26-504 Dépotoir de Viouc - Travaux de génie civil et béton armé",
+     "adjudicateur": "Ville de Sierre - Centrale des achats",
+     "montant_chf": 428696.95,
+     "phase": "gros_oeuvre",
+     "url_simap": "https://www.simap.ch/fr/project-detail/da37f14b-b63f-4bde-a62e-6f2ac00f48c1",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/da37f14b-b63f-4bde-a62e-6f2ac00f48c1/publication-details/1c6b302e-e1ff-4e6a-a557-4404862a4ded",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-08-05",
+     "titre": "GC - Dérivation du Comblonard & PGEE du Levron",
+     "adjudicateur": "Administration communale de Val de Bagnes, Service technique",
+     "montant_chf": 1797406.2,
+     "phase": "gros_oeuvre",
+     "url_simap": "https://www.simap.ch/fr/project-detail/023ff2cc-0810-4b59-8b15-be7fc3d723e4",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/023ff2cc-0810-4b59-8b15-be7fc3d723e4/publication-details/7476b12c-0068-4183-b6cc-c566eefe72b8",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-06-25",
+     "titre": "L10128 SB Centre d'entretien Sierre - CFC 141 Travaux de maçonnerie - Adjudication complémentaire 1",
+     "adjudicateur": "Dienststelle für Nationalstrassenbau / Service de la construction des routes nationales",
+     "montant_chf": 373529.05,
+     "phase": "preparatoire",
+     "url_simap": "https://www.simap.ch/fr/project-detail/d23cb564-8dad-47ae-9c79-6950f35dfe5b",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/d23cb564-8dad-47ae-9c79-6950f35dfe5b/publication-details/a03dafb6-981e-45b6-b7d7-36d261c217f2",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-06-04",
+     "titre": "Ecole de Grône - Agrandissement du centre scolaire",
+     "adjudicateur": "Commune de Grône",
+     "montant_chf": 396928.3,
+     "phase": "terrassement",
+     "url_simap": "https://www.simap.ch/fr/project-detail/ab056a15-198c-45dc-a715-56981f91163a",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/ab056a15-198c-45dc-a715-56981f91163a/publication-details/39715eea-9d10-45de-a773-bf4f5788dd22",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-04-01",
+     "titre": "Réfection de la chaussée à l'aval de Chandolin, sur la RC no 42 Vissoie - St-Luc - Chandolin, sur le territoire de la commune d'Anniviers",
+     "adjudicateur": "Service de la mobilité, arrondissement 2, Valais central",
+     "montant_chf": 640937.05,
+     "phase": "gros_oeuvre",
+     "url_simap": "https://www.simap.ch/fr/project-detail/f0ac7d81-8e22-40df-bacb-fb2aa94c095b",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/f0ac7d81-8e22-40df-bacb-fb2aa94c095b/publication-details/a33a07d0-ea84-4255-8d17-1282fe5d91f2",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-03-27",
+     "titre": "RC 512 : Pont du Roty à Isérables / Assainissement",
+     "adjudicateur": "Service de la mobilité / Dienststelle für Mobilität - Arrondissement 3 Bas-Valais / Kreis 3 Unterwallis",
+     "montant_chf": 773605.55,
+     "phase": "gros_oeuvre",
+     "url_simap": "https://www.simap.ch/fr/project-detail/b8e14cf6-a01c-4aa1-813d-1bd618d6add5",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/b8e14cf6-a01c-4aa1-813d-1bd618d6add5/publication-details/bd110b2a-b51d-4be5-a61a-d1e4e5b38062",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-03-18",
+     "titre": "Réfection de la route d'Ayer et du pont sur le torrent du Moulin, à Vissoie, sur la RC no 40 Sierre - Vissoie - Ayer - Zinal, sur le territoire de la commune d'Anniviers",
+     "adjudicateur": "Service de la mobilité, arrondissement 2, Valais central",
+     "montant_chf": 300246.45,
+     "phase": "gros_oeuvre",
+     "url_simap": "https://www.simap.ch/fr/project-detail/7a287be1-4007-4a6c-bcb4-214ac92a9238",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/7a287be1-4007-4a6c-bcb4-214ac92a9238/publication-details/c1768028-c538-4954-a89d-a3d1a9c3ed3f",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-02-27",
+     "titre": "Mini Centrale électrique de Nava à Ayer",
+     "adjudicateur": "Commune d'Anniviers",
+     "montant_chf": 1550365.4,
+     "phase": "gros_oeuvre",
+     "url_simap": "https://www.simap.ch/fr/project-detail/3c12ccb7-744d-4f47-a16d-18c428687ee1",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/3c12ccb7-744d-4f47-a16d-18c428687ee1/publication-details/19f891d8-7268-4168-bc0a-c59308ab23a2",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-01-27",
+     "titre": "Aménagement de la Route des Faloucs en aval de Vissoie.",
+     "adjudicateur": "Commune d'Anniviers",
+     "montant_chf": 1299457.85,
+     "phase": "gros_oeuvre",
+     "url_simap": "https://www.simap.ch/fr/project-detail/420f5a4a-f38e-45e7-9884-080b446a5f04",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/420f5a4a-f38e-45e7-9884-080b446a5f04/publication-details/7f1082a2-c97b-405a-8e93-b3df066ddeee",
+     "source": "simap.ch"
+    }
+   ],
+   "n_52s": 12,
+   "dernier_marche_jours": 17,
+   "rang": 3
+  },
+  {
+   "id": "ent-6e874811ae",
+   "nom": "PraderLosinger SA",
+   "ville": "Sion",
+   "canton": "VS",
+   "specialite": "batiment",
+   "score": 0.7761,
+   "score_surprise": 0.2218,
+   "surprise": [],
+   "confiance": "faible",
+   "faiblesses": [
+    "code_generique",
+    "montant_non_publie"
+   ],
+   "raisons": [
+    {
+     "code": "marches_52s",
+     "n": 12
+    },
+    {
+     "code": "dernier_marche",
+     "jours": 31,
+     "titre": "104 La Chaux - Pissevache / Affaissement de bord de chaussée",
+     "adjudicateur": "Service de la mobilité / Dienststelle für Mobilität - Arrondissement 3 Bas-Valais / Kreis 3 Unterwallis",
+     "montant": 1677712.35
+    },
+    {
+     "code": "montant_non_publie"
+    },
+    {
+     "code": "besoin",
+     "bas": "15",
+     "haut": "35",
+     "debut": "2026-10-05",
+     "metiers": [
+      "coffreur",
+      "grutier",
+      "macon",
+      "manoeuvre_construction"
+     ],
+     "en_cours": true
+    },
+    {
+     "code": "permis_commune",
+     "n": 28
+    }
+   ],
+   "besoin": [
+    {
+     "semaine": "2026-10-05",
+     "metier": "coffreur",
+     "personnes_bas": 3.02,
+     "personnes_milieu": 4.78,
+     "personnes_haut": 7.07,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-05",
+     "metier": "grutier",
+     "personnes_bas": 1.51,
+     "personnes_milieu": 2.39,
+     "personnes_haut": 3.54,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-05",
+     "metier": "macon",
+     "personnes_bas": 6.04,
+     "personnes_milieu": 9.56,
+     "personnes_haut": 14.14,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-05",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 4.53,
+     "personnes_milieu": 7.17,
+     "personnes_haut": 10.61,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-12",
+     "metier": "coffreur",
+     "personnes_bas": 3.02,
+     "personnes_milieu": 4.78,
+     "personnes_haut": 7.07,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-12",
+     "metier": "grutier",
+     "personnes_bas": 1.51,
+     "personnes_milieu": 2.39,
+     "personnes_haut": 3.54,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-12",
+     "metier": "macon",
+     "personnes_bas": 6.04,
+     "personnes_milieu": 9.56,
+     "personnes_haut": 14.14,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-12",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 4.53,
+     "personnes_milieu": 7.17,
+     "personnes_haut": 10.61,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-19",
+     "metier": "coffreur",
+     "personnes_bas": 2.59,
+     "personnes_milieu": 4.1,
+     "personnes_haut": 6.06,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-19",
+     "metier": "grutier",
+     "personnes_bas": 1.29,
+     "personnes_milieu": 2.05,
+     "personnes_haut": 3.03,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-19",
+     "metier": "macon",
+     "personnes_bas": 5.18,
+     "personnes_milieu": 8.19,
+     "personnes_haut": 12.11,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-19",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 3.88,
+     "personnes_milieu": 6.14,
+     "personnes_haut": 9.08,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-26",
+     "metier": "coffreur",
+     "personnes_bas": 2.59,
+     "personnes_milieu": 4.1,
+     "personnes_haut": 6.06,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-26",
+     "metier": "grutier",
+     "personnes_bas": 1.29,
+     "personnes_milieu": 2.05,
+     "personnes_haut": 3.03,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-26",
+     "metier": "macon",
+     "personnes_bas": 5.18,
+     "personnes_milieu": 8.19,
+     "personnes_haut": 12.11,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-26",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 3.88,
+     "personnes_milieu": 6.14,
+     "personnes_haut": 9.08,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-02",
+     "metier": "coffreur",
+     "personnes_bas": 2.59,
+     "personnes_milieu": 4.1,
+     "personnes_haut": 6.06,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-02",
+     "metier": "grutier",
+     "personnes_bas": 1.29,
+     "personnes_milieu": 2.05,
+     "personnes_haut": 3.03,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-02",
+     "metier": "macon",
+     "personnes_bas": 5.18,
+     "personnes_milieu": 8.19,
+     "personnes_haut": 12.11,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-02",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 3.88,
+     "personnes_milieu": 6.14,
+     "personnes_haut": 9.08,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-09",
+     "metier": "coffreur",
+     "personnes_bas": 1.96,
+     "personnes_milieu": 3.11,
+     "personnes_haut": 4.59,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-09",
+     "metier": "grutier",
+     "personnes_bas": 0.98,
+     "personnes_milieu": 1.55,
+     "personnes_haut": 2.3,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-09",
+     "metier": "macon",
+     "personnes_bas": 3.93,
+     "personnes_milieu": 6.21,
+     "personnes_haut": 9.19,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-09",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 2.94,
+     "personnes_milieu": 4.66,
+     "personnes_haut": 6.89,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-16",
+     "metier": "coffreur",
+     "personnes_bas": 1.96,
+     "personnes_milieu": 3.11,
+     "personnes_haut": 4.59,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-16",
+     "metier": "grutier",
+     "personnes_bas": 0.98,
+     "personnes_milieu": 1.55,
+     "personnes_haut": 2.3,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-16",
+     "metier": "macon",
+     "personnes_bas": 3.93,
+     "personnes_milieu": 6.21,
+     "personnes_haut": 9.19,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-16",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 2.94,
+     "personnes_milieu": 4.66,
+     "personnes_haut": 6.89,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-23",
+     "metier": "coffreur",
+     "personnes_bas": 1.96,
+     "personnes_milieu": 3.11,
+     "personnes_haut": 4.59,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-23",
+     "metier": "grutier",
+     "personnes_bas": 0.98,
+     "personnes_milieu": 1.55,
+     "personnes_haut": 2.3,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-23",
+     "metier": "macon",
+     "personnes_bas": 3.93,
+     "personnes_milieu": 6.21,
+     "personnes_haut": 9.19,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-23",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 2.94,
+     "personnes_milieu": 4.66,
+     "personnes_haut": 6.89,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    }
+   ],
+   "lots_attendus": [],
+   "sources": [
+    {
+     "date": "2026-09-04",
+     "titre": "104 La Chaux - Pissevache / Affaissement de bord de chaussée",
+     "adjudicateur": "Service de la mobilité / Dienststelle für Mobilität - Arrondissement 3 Bas-Valais / Kreis 3 Unterwallis",
+     "montant_chf": 1677712.35,
+     "phase": "gros_oeuvre",
+     "url_simap": "https://www.simap.ch/fr/project-detail/b0f2f077-061d-4d7c-a424-761f285bd32b",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/b0f2f077-061d-4d7c-a424-761f285bd32b/publication-details/bcf209d4-710c-4c4b-a60e-77c96fbf004c",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-09-04",
+     "titre": "107 Charrières / Soutènement aval",
+     "adjudicateur": "Service de la mobilité / Dienststelle für Mobilität - Arrondissement 3 Bas-Valais / Kreis 3 Unterwallis",
+     "montant_chf": 413084.2,
+     "phase": "gros_oeuvre",
+     "url_simap": "https://www.simap.ch/fr/project-detail/22cba097-a92e-4d80-b6f3-5162e05bfffb",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/22cba097-a92e-4d80-b6f3-5162e05bfffb/publication-details/a34f4089-8767-4b25-9b99-331aa65ce84b",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-08-28",
+     "titre": "Rénovation de l'aménagement des FGB, Lot GC",
+     "adjudicateur": "Forces motrices du Grand-Saint-Bernard",
+     "montant_chf": 1076591.15,
+     "phase": "enveloppe",
+     "url_simap": "https://www.simap.ch/fr/project-detail/ac819dfd-4d56-4d65-b634-e163d77173f6",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/ac819dfd-4d56-4d65-b634-e163d77173f6/publication-details/cb36a3c3-3921-47ed-8367-adb3be50d2da",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-06-25",
+     "titre": "Aménagement d'une piste cyclable bidirectionnelle sur la digue nord du Rhône entre Sion et Batassé, sur le territoire de la Ville de Sion",
+     "adjudicateur": "Service de la mobilité, arrondissement 2, Valais central",
+     "montant_chf": 520218.85,
+     "phase": "gros_oeuvre",
+     "url_simap": "https://www.simap.ch/fr/project-detail/dc748e91-fd31-4e3b-a415-ca18dacb6102",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/dc748e91-fd31-4e3b-a415-ca18dacb6102/publication-details/f78475a4-18fb-4a54-a6a1-cccb6bba0cbf",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-06-12",
+     "titre": "Remplacement de la couche de roulement à l'intérieur d'Euseigne, sur la RC no 54 Sion - Les Haudères - Arolla, sur le territoire de la commune d'Hérémence",
+     "adjudicateur": "Service de la mobilité, arrondissement 2, Valais central",
+     "montant_chf": 360770.1,
+     "phase": "gros_oeuvre",
+     "url_simap": "https://www.simap.ch/fr/project-detail/582ed2da-6eb2-447b-bb79-e562afaf5afb",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/582ed2da-6eb2-447b-bb79-e562afaf5afb/publication-details/6b32f211-6119-4ae9-aabe-bd05319215e9",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-05-25",
+     "titre": "VE 21.45 – Assainissement galerie du Bourgout",
+     "adjudicateur": "Infrastructure - TMR SA",
+     "montant_chf": null,
+     "phase": "genie_civil",
+     "url_simap": "https://www.simap.ch/fr/project-detail/1b96cd39-3098-4fb5-9251-e21bd5e11eee",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/1b96cd39-3098-4fb5-9251-e21bd5e11eee/publication-details/42c9d16c-8653-402a-b8ec-0cd96ce7211e",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-05-08",
+     "titre": "Assainissement revêtement N21.08",
+     "adjudicateur": "Service Unité Territoriale III / Dienststelle Gebietseinheit III",
+     "montant_chf": null,
+     "phase": "genie_civil",
+     "url_simap": "https://www.simap.ch/fr/project-detail/7c12384d-67a3-460c-aa37-80de815f7a7f",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/7c12384d-67a3-460c-aa37-80de815f7a7f/publication-details/e4c95e61-d314-4861-984c-17159dc91c91",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-01-29",
+     "titre": "L10138, SB Werkhof Sierre, Wasserhaltung",
+     "adjudicateur": "Dienststelle für Nationalstrassenbau / Service de la construction des routes nationales",
+     "montant_chf": 94008.95,
+     "phase": "preparatoire",
+     "url_simap": "https://www.simap.ch/fr/project-detail/2c8a3a46-f046-4e72-ae7c-0c9d7f287574",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/2c8a3a46-f046-4e72-ae7c-0c9d7f287574/publication-details/553f7c12-11ac-495e-90a4-6c7c15995d87",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-01-23",
+     "titre": "Baulos L05721, LG Tunnel Riedberg Wiederaufnahme Vortrieb",
+     "adjudicateur": "Dienststelle für Nationalstrassenbau / Service de la construction des routes nationales",
+     "montant_chf": 269500.9,
+     "phase": "genie_civil",
+     "url_simap": "https://www.simap.ch/fr/project-detail/0bcf1430-0103-4677-8df7-5afa687ba13c",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/0bcf1430-0103-4677-8df7-5afa687ba13c/publication-details/1a872b3f-1c4a-4a2c-8c3c-e7c7e3fcd6e1",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2025-11-05",
+     "titre": "CFF, Ligne n°100, Sierre : Passage Supérieur de Beaulieu – Travaux GC",
+     "adjudicateur": "I-AEP-PJM-RWT-T4",
+     "montant_chf": 9983646.47,
+     "phase": "gros_oeuvre",
+     "url_simap": "https://www.simap.ch/fr/project-detail/e671bb39-af40-422a-9db6-3d95840fbe7f",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/e671bb39-af40-422a-9db6-3d95840fbe7f/publication-details/0088f3eb-c754-40b9-8f6c-288031f4f1d6",
+     "source": "simap.ch"
+    }
+   ],
+   "n_52s": 12,
+   "dernier_marche_jours": 31,
+   "rang": 4
+  },
+  {
+   "id": "ent-1ef761b229",
+   "nom": "Société de Travaux Publics, Joseph Carron SA",
+   "ville": "Saxon",
+   "canton": "VS",
+   "specialite": "batiment",
+   "score": 0.7196,
+   "score_surprise": 0.1784,
+   "surprise": [],
+   "confiance": "faible",
+   "faiblesses": [
+    "code_generique",
+    "montant_non_publie"
+   ],
+   "raisons": [
+    {
+     "code": "marches_52s",
+     "n": 11
+    },
+    {
+     "code": "dernier_marche",
+     "jours": 54,
+     "titre": "94 Le Cotterg - Les Chenevaires / Restructuration routière avec revêtement bitumineux",
+     "adjudicateur": "Service de la mobilité / Dienststelle für Mobilität - Arrondissement 3 Bas-Valais / Kreis 3 Unterwallis",
+     "montant": 750969.3
+    },
+    {
+     "code": "montant_non_publie"
+    },
+    {
+     "code": "besoin",
+     "bas": "14",
+     "haut": "34",
+     "debut": "2026-10-05",
+     "metiers": [
+      "coffreur",
+      "grutier",
+      "machiniste",
+      "macon",
+      "manoeuvre_construction"
+     ],
+     "en_cours": true
+    },
+    {
+     "code": "permis_commune",
+     "n": 13
+    }
+   ],
+   "besoin": [
+    {
+     "semaine": "2026-10-05",
+     "metier": "coffreur",
+     "personnes_bas": 1.63,
+     "personnes_milieu": 2.58,
+     "personnes_haut": 3.82,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-05",
+     "metier": "grutier",
+     "personnes_bas": 0.82,
+     "personnes_milieu": 1.29,
+     "personnes_haut": 1.91,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-05",
+     "metier": "machiniste",
+     "personnes_bas": 2.1,
+     "personnes_milieu": 3.33,
+     "personnes_haut": 4.92,
+     "phases": [
+      "genie_civil"
+     ]
+    },
+    {
+     "semaine": "2026-10-05",
+     "metier": "macon",
+     "personnes_bas": 5.37,
+     "personnes_milieu": 8.49,
+     "personnes_haut": 12.56,
+     "phases": [
+      "genie_civil",
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-05",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 4.55,
+     "personnes_milieu": 7.2,
+     "personnes_haut": 10.65,
+     "phases": [
+      "genie_civil",
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-12",
+     "metier": "coffreur",
+     "personnes_bas": 1.63,
+     "personnes_milieu": 2.58,
+     "personnes_haut": 3.82,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-12",
+     "metier": "grutier",
+     "personnes_bas": 0.82,
+     "personnes_milieu": 1.29,
+     "personnes_haut": 1.91,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-12",
+     "metier": "machiniste",
+     "personnes_bas": 2.1,
+     "personnes_milieu": 3.33,
+     "personnes_haut": 4.92,
+     "phases": [
+      "genie_civil"
+     ]
+    },
+    {
+     "semaine": "2026-10-12",
+     "metier": "macon",
+     "personnes_bas": 5.37,
+     "personnes_milieu": 8.49,
+     "personnes_haut": 12.56,
+     "phases": [
+      "genie_civil",
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-12",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 4.55,
+     "personnes_milieu": 7.2,
+     "personnes_haut": 10.65,
+     "phases": [
+      "genie_civil",
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-19",
+     "metier": "coffreur",
+     "personnes_bas": 1.63,
+     "personnes_milieu": 2.58,
+     "personnes_haut": 3.82,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-19",
+     "metier": "grutier",
+     "personnes_bas": 0.82,
+     "personnes_milieu": 1.29,
+     "personnes_haut": 1.91,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-19",
+     "metier": "machiniste",
+     "personnes_bas": 2.1,
+     "personnes_milieu": 3.33,
+     "personnes_haut": 4.92,
+     "phases": [
+      "genie_civil"
+     ]
+    },
+    {
+     "semaine": "2026-10-19",
+     "metier": "macon",
+     "personnes_bas": 5.37,
+     "personnes_milieu": 8.49,
+     "personnes_haut": 12.56,
+     "phases": [
+      "genie_civil",
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-19",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 4.55,
+     "personnes_milieu": 7.2,
+     "personnes_haut": 10.65,
+     "phases": [
+      "genie_civil",
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-26",
+     "metier": "coffreur",
+     "personnes_bas": 1.63,
+     "personnes_milieu": 2.58,
+     "personnes_haut": 3.82,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-26",
+     "metier": "grutier",
+     "personnes_bas": 0.82,
+     "personnes_milieu": 1.29,
+     "personnes_haut": 1.91,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-26",
+     "metier": "macon",
+     "personnes_bas": 3.26,
+     "personnes_milieu": 5.16,
+     "personnes_haut": 7.63,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-26",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 2.45,
+     "personnes_milieu": 3.87,
+     "personnes_haut": 5.72,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-02",
+     "metier": "coffreur",
+     "personnes_bas": 1.22,
+     "personnes_milieu": 1.93,
+     "personnes_haut": 2.85,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-02",
+     "metier": "grutier",
+     "personnes_bas": 0.61,
+     "personnes_milieu": 0.96,
+     "personnes_haut": 1.43,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-02",
+     "metier": "macon",
+     "personnes_bas": 2.44,
+     "personnes_milieu": 3.86,
+     "personnes_haut": 5.71,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-02",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 1.83,
+     "personnes_milieu": 2.89,
+     "personnes_haut": 4.28,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-09",
+     "metier": "coffreur",
+     "personnes_bas": 1.22,
+     "personnes_milieu": 1.93,
+     "personnes_haut": 2.85,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-09",
+     "metier": "grutier",
+     "personnes_bas": 0.61,
+     "personnes_milieu": 0.96,
+     "personnes_haut": 1.43,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-09",
+     "metier": "macon",
+     "personnes_bas": 2.44,
+     "personnes_milieu": 3.86,
+     "personnes_haut": 5.71,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-09",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 1.83,
+     "personnes_milieu": 2.89,
+     "personnes_haut": 4.28,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-16",
+     "metier": "coffreur",
+     "personnes_bas": 1.22,
+     "personnes_milieu": 1.93,
+     "personnes_haut": 2.85,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-16",
+     "metier": "grutier",
+     "personnes_bas": 0.61,
+     "personnes_milieu": 0.96,
+     "personnes_haut": 1.43,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-16",
+     "metier": "macon",
+     "personnes_bas": 2.44,
+     "personnes_milieu": 3.86,
+     "personnes_haut": 5.71,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-16",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 1.83,
+     "personnes_milieu": 2.89,
+     "personnes_haut": 4.28,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-23",
+     "metier": "coffreur",
+     "personnes_bas": 1.22,
+     "personnes_milieu": 1.93,
+     "personnes_haut": 2.85,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-23",
+     "metier": "grutier",
+     "personnes_bas": 0.61,
+     "personnes_milieu": 0.96,
+     "personnes_haut": 1.43,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-23",
+     "metier": "macon",
+     "personnes_bas": 2.44,
+     "personnes_milieu": 3.86,
+     "personnes_haut": 5.71,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-23",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 1.83,
+     "personnes_milieu": 2.89,
+     "personnes_haut": 4.28,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    }
+   ],
+   "lots_attendus": [],
+   "sources": [
+    {
+     "date": "2026-08-12",
+     "titre": "94 Le Cotterg - Les Chenevaires / Restructuration routière avec revêtement bitumineux",
+     "adjudicateur": "Service de la mobilité / Dienststelle für Mobilität - Arrondissement 3 Bas-Valais / Kreis 3 Unterwallis",
+     "montant_chf": 750969.3,
+     "phase": "gros_oeuvre",
+     "url_simap": "https://www.simap.ch/fr/project-detail/7426f3df-c921-4314-bed7-a200718b5392",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/7426f3df-c921-4314-bed7-a200718b5392/publication-details/6e6b648e-e981-465a-a797-e423edcdf981",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-08-12",
+     "titre": "94 Merdenson - Le Châble : revêtements bitumineux - lot 26207",
+     "adjudicateur": "Service de la mobilité / Dienststelle für Mobilität - Arrondissement 3 Bas-Valais / Kreis 3 Unterwallis",
+     "montant_chf": 263487.3,
+     "phase": "gros_oeuvre",
+     "url_simap": "https://www.simap.ch/fr/project-detail/84ae130f-6c7f-44c1-b63d-1f7597a3dcfb",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/84ae130f-6c7f-44c1-b63d-1f7597a3dcfb/publication-details/3d761d89-ea8c-4f76-8e1b-caf00ac77eb7",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-06-30",
+     "titre": "Chemin-Dessus : chemin des Frênes",
+     "adjudicateur": "Commune de Val de Bagnes - TP",
+     "montant_chf": 342559.0,
+     "phase": "gros_oeuvre",
+     "url_simap": "https://www.simap.ch/fr/project-detail/fa3c43de-95f3-4cef-9b54-75a97181c46d",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/fa3c43de-95f3-4cef-9b54-75a97181c46d/publication-details/b3ee405f-6f1c-4837-9b0b-0f1ccb419595",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-05-13",
+     "titre": "Réfection de la chaussée et adaptation des réseaux de canalisations Rue de Bonnes-Luites / Martigny",
+     "adjudicateur": "Commune de Martigny - Services Techniques",
+     "montant_chf": 1065427.65,
+     "phase": "genie_civil",
+     "url_simap": "https://www.simap.ch/fr/project-detail/dc6a90e9-3beb-4f71-895e-f537f224b346",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/dc6a90e9-3beb-4f71-895e-f537f224b346/publication-details/cac3b708-8505-4c7f-a64b-8f096b60b05c",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-05-08",
+     "titre": "Assainissement revêtement N21.04",
+     "adjudicateur": "Service Unité Territoriale III / Dienststelle Gebietseinheit III",
+     "montant_chf": null,
+     "phase": "genie_civil",
+     "url_simap": "https://www.simap.ch/fr/project-detail/00c7e0c6-36f4-47b0-8a38-f243538d2d67",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/00c7e0c6-36f4-47b0-8a38-f243538d2d67/publication-details/007683d3-236b-4bd0-98bb-e680d8d52813",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-04-06",
+     "titre": "La Tzoumaz - Assainissement Ancienne RC87 - LOT 2",
+     "adjudicateur": "Commune de Riddes - Service Technique",
+     "montant_chf": 1772613.55,
+     "phase": "genie_civil",
+     "url_simap": "https://www.simap.ch/fr/project-detail/8404b3d8-ec3c-4767-82aa-a0f3a9500a5f",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/8404b3d8-ec3c-4767-82aa-a0f3a9500a5f/publication-details/183e4937-d2b2-490d-b166-ba8d6a5c32dc",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-03-27",
+     "titre": "Réfection de la chaussée entre Basse-Nendaz et Sornard, sur la RC no 62 Sion - Nendaz, sur le territoire de la commune de Nendaz",
+     "adjudicateur": "Service de la mobilité, arrondissement 2, Valais central",
+     "montant_chf": 486534.65,
+     "phase": "gros_oeuvre",
+     "url_simap": "https://www.simap.ch/fr/project-detail/e228ee5d-aa6b-4c88-8793-4daf1ca48be3",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/e228ee5d-aa6b-4c88-8793-4daf1ca48be3/publication-details/61d23251-63a5-4d2b-a594-8852d23234fc",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-03-18",
+     "titre": "Réfection de la chaussée sur le tronçon de route compris entre La Boverêche et Montana, sur la RC no 624 Mollens - Aminona - Crans, sur le territoire de la commune de Crans-Montana",
+     "adjudicateur": "Service de la mobilité, arrondissement 2, Valais central",
+     "montant_chf": 490909.65,
+     "phase": "gros_oeuvre",
+     "url_simap": "https://www.simap.ch/fr/project-detail/e2d43e98-01bd-46ba-b71c-f2e60fbbd0ea",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/e2d43e98-01bd-46ba-b71c-f2e60fbbd0ea/publication-details/342de687-7f9c-4238-8fb6-8fdba524b665",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-02-24",
+     "titre": "Vollèges : réfection Chemin des Vignes",
+     "adjudicateur": "Commune de Val de Bagnes - TP",
+     "montant_chf": 490032.95,
+     "phase": "gros_oeuvre",
+     "url_simap": "https://www.simap.ch/fr/project-detail/fb522c75-71cf-4119-ac69-2d0170d5a426",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/fb522c75-71cf-4119-ac69-2d0170d5a426/publication-details/dd32ea87-6dfd-4f05-8756-aee70df5814f",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2025-12-29",
+     "titre": "Réfection du revêtement entre Bella Plache et Prassan sur la RC no 209 Praz-Jean - St-Martin, sur le territoire de la commune de St-Martin",
+     "adjudicateur": "Service de la mobilité, arrondissement 2, Valais central",
+     "montant_chf": 248517.25,
+     "phase": "gros_oeuvre",
+     "url_simap": "https://www.simap.ch/fr/project-detail/26cfae60-9a78-4f02-888c-8ed6900f8bcf",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/26cfae60-9a78-4f02-888c-8ed6900f8bcf/publication-details/9cae5ab7-052b-4960-a5ec-67d250eba856",
+     "source": "simap.ch"
+    }
+   ],
+   "n_52s": 11,
+   "dernier_marche_jours": 54,
+   "rang": 5
+  },
+  {
+   "id": "ent-0ff073ea76",
+   "nom": "Ulrich Imboden AG",
+   "ville": "Visp",
+   "canton": "VS",
+   "specialite": "batiment",
+   "score": 0.8083,
+   "score_surprise": 0.3022,
+   "surprise": [],
+   "confiance": "moyenne",
+   "faiblesses": [
+    "code_generique"
+   ],
+   "raisons": [
+    {
+     "code": "marches_52s",
+     "n": 10
+    },
+    {
+     "code": "dernier_marche",
+     "jours": 6,
+     "titre": "HWS Triftbach - Geschiebesperre",
+     "adjudicateur": "Gemeinde Zermatt",
+     "montant": 2141199.85
+    },
+    {
+     "code": "besoin",
+     "bas": "30",
+     "haut": "69",
+     "debut": "2026-10-05",
+     "metiers": [
+      "coffreur",
+      "grutier",
+      "machiniste",
+      "macon",
+      "manoeuvre_construction"
+     ],
+     "en_cours": true
+    },
+    {
+     "code": "permis_commune",
+     "n": 11
+    }
+   ],
+   "besoin": [
+    {
+     "semaine": "2026-10-05",
+     "metier": "coffreur",
+     "personnes_bas": 2.24,
+     "personnes_milieu": 3.55,
+     "personnes_haut": 5.24,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-05",
+     "metier": "grutier",
+     "personnes_bas": 1.12,
+     "personnes_milieu": 1.77,
+     "personnes_haut": 2.62,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-05",
+     "metier": "machiniste",
+     "personnes_bas": 6.1,
+     "personnes_milieu": 9.65,
+     "personnes_haut": 14.26,
+     "phases": [
+      "genie_civil"
+     ]
+    },
+    {
+     "semaine": "2026-10-05",
+     "metier": "macon",
+     "personnes_bas": 10.58,
+     "personnes_milieu": 16.74,
+     "personnes_haut": 24.75,
+     "phases": [
+      "genie_civil",
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-05",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 9.46,
+     "personnes_milieu": 14.97,
+     "personnes_haut": 22.13,
+     "phases": [
+      "genie_civil",
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-12",
+     "metier": "coffreur",
+     "personnes_bas": 2.24,
+     "personnes_milieu": 3.55,
+     "personnes_haut": 5.24,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-12",
+     "metier": "grutier",
+     "personnes_bas": 1.12,
+     "personnes_milieu": 1.77,
+     "personnes_haut": 2.62,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-12",
+     "metier": "machiniste",
+     "personnes_bas": 6.1,
+     "personnes_milieu": 9.65,
+     "personnes_haut": 14.26,
+     "phases": [
+      "genie_civil"
+     ]
+    },
+    {
+     "semaine": "2026-10-12",
+     "metier": "macon",
+     "personnes_bas": 10.58,
+     "personnes_milieu": 16.74,
+     "personnes_haut": 24.75,
+     "phases": [
+      "genie_civil",
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-12",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 9.46,
+     "personnes_milieu": 14.97,
+     "personnes_haut": 22.13,
+     "phases": [
+      "genie_civil",
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-19",
+     "metier": "coffreur",
+     "personnes_bas": 2.24,
+     "personnes_milieu": 3.55,
+     "personnes_haut": 5.24,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-19",
+     "metier": "grutier",
+     "personnes_bas": 1.12,
+     "personnes_milieu": 1.77,
+     "personnes_haut": 2.62,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-19",
+     "metier": "machiniste",
+     "personnes_bas": 6.07,
+     "personnes_milieu": 9.61,
+     "personnes_haut": 14.21,
+     "phases": [
+      "genie_civil"
+     ]
+    },
+    {
+     "semaine": "2026-10-19",
+     "metier": "macon",
+     "personnes_bas": 10.56,
+     "personnes_milieu": 16.71,
+     "personnes_haut": 24.7,
+     "phases": [
+      "genie_civil",
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-19",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 9.44,
+     "personnes_milieu": 14.93,
+     "personnes_haut": 22.08,
+     "phases": [
+      "genie_civil",
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-26",
+     "metier": "coffreur",
+     "personnes_bas": 2.24,
+     "personnes_milieu": 3.55,
+     "personnes_haut": 5.24,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-26",
+     "metier": "grutier",
+     "personnes_bas": 1.12,
+     "personnes_milieu": 1.77,
+     "personnes_haut": 2.62,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-26",
+     "metier": "machiniste",
+     "personnes_bas": 6.07,
+     "personnes_milieu": 9.61,
+     "personnes_haut": 14.21,
+     "phases": [
+      "genie_civil"
+     ]
+    },
+    {
+     "semaine": "2026-10-26",
+     "metier": "macon",
+     "personnes_bas": 10.56,
+     "personnes_milieu": 16.71,
+     "personnes_haut": 24.7,
+     "phases": [
+      "genie_civil",
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-26",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 9.44,
+     "personnes_milieu": 14.93,
+     "personnes_haut": 22.08,
+     "phases": [
+      "genie_civil",
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-02",
+     "metier": "coffreur",
+     "personnes_bas": 2.24,
+     "personnes_milieu": 3.55,
+     "personnes_haut": 5.24,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-02",
+     "metier": "grutier",
+     "personnes_bas": 1.12,
+     "personnes_milieu": 1.77,
+     "personnes_haut": 2.62,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-02",
+     "metier": "machiniste",
+     "personnes_bas": 6.07,
+     "personnes_milieu": 9.61,
+     "personnes_haut": 14.21,
+     "phases": [
+      "genie_civil"
+     ]
+    },
+    {
+     "semaine": "2026-11-02",
+     "metier": "macon",
+     "personnes_bas": 10.56,
+     "personnes_milieu": 16.71,
+     "personnes_haut": 24.7,
+     "phases": [
+      "genie_civil",
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-02",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 9.44,
+     "personnes_milieu": 14.93,
+     "personnes_haut": 22.08,
+     "phases": [
+      "genie_civil",
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-09",
+     "metier": "coffreur",
+     "personnes_bas": 0.88,
+     "personnes_milieu": 1.4,
+     "personnes_haut": 2.07,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-09",
+     "metier": "grutier",
+     "personnes_bas": 0.44,
+     "personnes_milieu": 0.7,
+     "personnes_haut": 1.04,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-09",
+     "metier": "machiniste",
+     "personnes_bas": 6.07,
+     "personnes_milieu": 9.61,
+     "personnes_haut": 14.21,
+     "phases": [
+      "genie_civil"
+     ]
+    },
+    {
+     "semaine": "2026-11-09",
+     "metier": "macon",
+     "personnes_bas": 7.84,
+     "personnes_milieu": 12.41,
+     "personnes_haut": 18.35,
+     "phases": [
+      "genie_civil",
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-09",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 7.4,
+     "personnes_milieu": 11.71,
+     "personnes_haut": 17.32,
+     "phases": [
+      "genie_civil",
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-16",
+     "metier": "coffreur",
+     "personnes_bas": 0.88,
+     "personnes_milieu": 1.4,
+     "personnes_haut": 2.07,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-16",
+     "metier": "grutier",
+     "personnes_bas": 0.44,
+     "personnes_milieu": 0.7,
+     "personnes_haut": 1.04,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-16",
+     "metier": "machiniste",
+     "personnes_bas": 4.11,
+     "personnes_milieu": 6.5,
+     "personnes_haut": 9.61,
+     "phases": [
+      "genie_civil"
+     ]
+    },
+    {
+     "semaine": "2026-11-16",
+     "metier": "macon",
+     "personnes_bas": 5.88,
+     "personnes_milieu": 9.3,
+     "personnes_haut": 13.75,
+     "phases": [
+      "genie_civil",
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-16",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 5.43,
+     "personnes_milieu": 8.6,
+     "personnes_haut": 12.71,
+     "phases": [
+      "genie_civil",
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-23",
+     "metier": "coffreur",
+     "personnes_bas": 0.88,
+     "personnes_milieu": 1.4,
+     "personnes_haut": 2.07,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-23",
+     "metier": "grutier",
+     "personnes_bas": 0.44,
+     "personnes_milieu": 0.7,
+     "personnes_haut": 1.04,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-23",
+     "metier": "machiniste",
+     "personnes_bas": 4.11,
+     "personnes_milieu": 6.5,
+     "personnes_haut": 9.61,
+     "phases": [
+      "genie_civil"
+     ]
+    },
+    {
+     "semaine": "2026-11-23",
+     "metier": "macon",
+     "personnes_bas": 5.88,
+     "personnes_milieu": 9.3,
+     "personnes_haut": 13.75,
+     "phases": [
+      "genie_civil",
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-23",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 5.43,
+     "personnes_milieu": 8.6,
+     "personnes_haut": 12.71,
+     "phases": [
+      "genie_civil",
+      "gros_oeuvre"
+     ]
+    }
+   ],
+   "lots_attendus": [],
+   "sources": [
+    {
+     "date": "2026-09-29",
+     "titre": "HWS Triftbach - Geschiebesperre",
+     "adjudicateur": "Gemeinde Zermatt",
+     "montant_chf": 2141199.85,
+     "phase": "genie_civil",
+     "url_simap": "https://www.simap.ch/fr/project-detail/202bef8a-c12f-460f-8680-15d06318a9c5",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/202bef8a-c12f-460f-8680-15d06318a9c5/publication-details/8080d503-d3dc-4bb8-8650-3e60483ead54",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-07-25",
+     "titre": "NG 702 Vergabe Seilbahn (Baumeister Bergstation) zwischen Wiler und Weissenried",
+     "adjudicateur": "Departement für Mobilität, Raumentwicklung und Umwelt",
+     "montant_chf": 736084.4,
+     "phase": "gros_oeuvre",
+     "url_simap": "https://www.simap.ch/fr/project-detail/231fcffe-c8be-4f77-b343-6baeac763022",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/231fcffe-c8be-4f77-b343-6baeac763022/publication-details/9bb850dd-2fd9-4e78-8e8e-49f0480cc913",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-07-10",
+     "titre": "Strassenunterhalt 2026",
+     "adjudicateur": "Gemeinde Unterbäch",
+     "montant_chf": 274487.3,
+     "phase": "preparatoire",
+     "url_simap": "https://www.simap.ch/fr/project-detail/33fcfee1-7c2a-4826-9bb6-5be4d70d50fb",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/33fcfee1-7c2a-4826-9bb6-5be4d70d50fb/publication-details/92249408-6c20-4b59-8da3-0b4e7e6fff91",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-07-06",
+     "titre": "Réparation de la Rathausstrasse à Viège",
+     "adjudicateur": "Gemeinde Visp",
+     "montant_chf": 920937.9,
+     "phase": "genie_civil",
+     "url_simap": "https://www.simap.ch/fr/project-detail/d1834070-878c-4e60-8613-7da14c0181b1",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/d1834070-878c-4e60-8613-7da14c0181b1/publication-details/77c396bc-c72c-4923-bbdf-b69da7d9f8da",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-07-06",
+     "titre": "Instandsetzung Weizacherstrasse Eyholz, Visp",
+     "adjudicateur": "Gemeinde Visp",
+     "montant_chf": 1327787.25,
+     "phase": "genie_civil",
+     "url_simap": "https://www.simap.ch/fr/project-detail/5210f9d5-3a4e-4484-a003-3d2565d6465d",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/5210f9d5-3a4e-4484-a003-3d2565d6465d/publication-details/f895e1fe-1ebd-4c91-aed8-731917c6b00b",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-07-01",
+     "titre": "Sanierung Dorfstrassen Kippel",
+     "adjudicateur": "Einwohnergemeinde Kippel",
+     "montant_chf": 1311041.85,
+     "phase": "genie_civil",
+     "url_simap": "https://www.simap.ch/fr/project-detail/a1951a9f-3843-4bbf-a8b4-b08c179ccf11",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/a1951a9f-3843-4bbf-a8b4-b08c179ccf11/publication-details/00665910-18c7-4fc2-87e6-97d539a14c28",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-06-26",
+     "titre": "NG24 Neue Kantonsstrasse Blatten, Hangräumung 2026",
+     "adjudicateur": "Service de la mobilité / Dienststelle für Mobilität - Arrondissement 1 Haut-Valais / Kreis 1 Oberwallis",
+     "montant_chf": 1128509.15,
+     "phase": "gros_oeuvre",
+     "url_simap": "https://www.simap.ch/fr/project-detail/d033ded7-1cbe-4bb4-880c-1354f0ffd2fd",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/d033ded7-1cbe-4bb4-880c-1354f0ffd2fd/publication-details/af5fc035-2720-453e-8827-285693cf42c4",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-05-08",
+     "titre": "NG24 und NG702 Rettungsstrasse Weissenried-Blatten-Eisten, Oberbau und Belagsarbeiten",
+     "adjudicateur": "Dienststelle für Mobilität - Kreis 1 Oberwallis",
+     "montant_chf": 629800.7,
+     "phase": "genie_civil",
+     "url_simap": "https://www.simap.ch/fr/project-detail/7e153997-7dea-4dfa-bb2f-38b57a632720",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/7e153997-7dea-4dfa-bb2f-38b57a632720/publication-details/507ab31c-a120-4ed0-a16e-d17b93294bed",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-01-16",
+     "titre": "H19 Brig - Furkapass Verlängerung Einspurstrecke Autoverlad Simplon",
+     "adjudicateur": "Dienststelle für Mobilität - Kreis 1 Oberwallis",
+     "montant_chf": 812103.35,
+     "phase": "genie_civil",
+     "url_simap": "https://www.simap.ch/fr/project-detail/d8e64cd3-2b8d-43bb-a058-4e6f10469343",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/d8e64cd3-2b8d-43bb-a058-4e6f10469343/publication-details/9f9405d5-e328-4140-9d82-155d83124088",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2025-10-31",
+     "titre": "Neubau Turnhalle und Kindergarten in 3942 Raron - BKP 211 Baumeisterarbeiten",
+     "adjudicateur": "Einwohnergemeinde Raron",
+     "montant_chf": 1251605.2,
+     "phase": "gros_oeuvre",
+     "url_simap": "https://www.simap.ch/fr/project-detail/638cd632-b0a2-48f8-8fd1-7c2f68fcf133",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/638cd632-b0a2-48f8-8fd1-7c2f68fcf133/publication-details/11996d76-5782-45cd-b482-5f1e3e96f2b4",
+     "source": "simap.ch"
+    }
+   ],
+   "n_52s": 10,
+   "dernier_marche_jours": 6,
+   "rang": 6
+  },
+  {
+   "id": "ent-866876591f",
+   "nom": "Theler AG, Bauunternehmung",
+   "ville": "Raron",
+   "canton": "VS",
+   "specialite": "batiment",
+   "score": 0.7354,
+   "score_surprise": 0.234,
+   "surprise": [],
+   "confiance": "faible",
+   "faiblesses": [
+    "code_generique",
+    "montant_non_publie"
+   ],
+   "raisons": [
+    {
+     "code": "marches_52s",
+     "n": 9
+    },
+    {
+     "code": "dernier_marche",
+     "jours": 14,
+     "titre": "NG24 neue Kantonsstrasse, Abschnitt 3 Tännbach - Oberried",
+     "adjudicateur": "Dienststelle für Mobilität - Kreis 1 Oberwallis",
+     "montant": 3994845.7
+    },
+    {
+     "code": "montant_non_publie"
+    },
+    {
+     "code": "besoin",
+     "bas": "37",
+     "haut": "87",
+     "debut": "2026-10-05",
+     "metiers": [
+      "coffreur",
+      "grutier",
+      "machiniste",
+      "macon",
+      "manoeuvre_construction"
+     ],
+     "en_cours": true
+    },
+    {
+     "code": "lots_attendus",
+     "n": 2
+    }
+   ],
+   "besoin": [
+    {
+     "semaine": "2026-10-05",
+     "metier": "coffreur",
+     "personnes_bas": 3.67,
+     "personnes_milieu": 5.81,
+     "personnes_haut": 8.58,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-05",
+     "metier": "grutier",
+     "personnes_bas": 1.83,
+     "personnes_milieu": 2.9,
+     "personnes_haut": 4.29,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-05",
+     "metier": "machiniste",
+     "personnes_bas": 6.24,
+     "personnes_milieu": 9.87,
+     "personnes_haut": 14.59,
+     "phases": [
+      "genie_civil"
+     ]
+    },
+    {
+     "semaine": "2026-10-05",
+     "metier": "macon",
+     "personnes_bas": 13.57,
+     "personnes_milieu": 21.48,
+     "personnes_haut": 31.76,
+     "phases": [
+      "genie_civil",
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-05",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 11.74,
+     "personnes_milieu": 18.58,
+     "personnes_haut": 27.47,
+     "phases": [
+      "genie_civil",
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-12",
+     "metier": "coffreur",
+     "personnes_bas": 3.67,
+     "personnes_milieu": 5.81,
+     "personnes_haut": 8.58,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-12",
+     "metier": "grutier",
+     "personnes_bas": 1.83,
+     "personnes_milieu": 2.9,
+     "personnes_haut": 4.29,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-12",
+     "metier": "machiniste",
+     "personnes_bas": 6.24,
+     "personnes_milieu": 9.87,
+     "personnes_haut": 14.59,
+     "phases": [
+      "genie_civil"
+     ]
+    },
+    {
+     "semaine": "2026-10-12",
+     "metier": "macon",
+     "personnes_bas": 13.57,
+     "personnes_milieu": 21.48,
+     "personnes_haut": 31.76,
+     "phases": [
+      "genie_civil",
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-12",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 11.74,
+     "personnes_milieu": 18.58,
+     "personnes_haut": 27.47,
+     "phases": [
+      "genie_civil",
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-19",
+     "metier": "coffreur",
+     "personnes_bas": 3.67,
+     "personnes_milieu": 5.81,
+     "personnes_haut": 8.58,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-19",
+     "metier": "grutier",
+     "personnes_bas": 1.83,
+     "personnes_milieu": 2.9,
+     "personnes_haut": 4.29,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-19",
+     "metier": "machiniste",
+     "personnes_bas": 6.24,
+     "personnes_milieu": 9.87,
+     "personnes_haut": 14.59,
+     "phases": [
+      "genie_civil"
+     ]
+    },
+    {
+     "semaine": "2026-10-19",
+     "metier": "macon",
+     "personnes_bas": 13.57,
+     "personnes_milieu": 21.48,
+     "personnes_haut": 31.76,
+     "phases": [
+      "genie_civil",
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-19",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 11.74,
+     "personnes_milieu": 18.58,
+     "personnes_haut": 27.47,
+     "phases": [
+      "genie_civil",
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-26",
+     "metier": "coffreur",
+     "personnes_bas": 3.67,
+     "personnes_milieu": 5.81,
+     "personnes_haut": 8.58,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-26",
+     "metier": "grutier",
+     "personnes_bas": 1.83,
+     "personnes_milieu": 2.9,
+     "personnes_haut": 4.29,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-26",
+     "metier": "machiniste",
+     "personnes_bas": 6.24,
+     "personnes_milieu": 9.87,
+     "personnes_haut": 14.59,
+     "phases": [
+      "genie_civil"
+     ]
+    },
+    {
+     "semaine": "2026-10-26",
+     "metier": "macon",
+     "personnes_bas": 13.57,
+     "personnes_milieu": 21.48,
+     "personnes_haut": 31.76,
+     "phases": [
+      "genie_civil",
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-26",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 11.74,
+     "personnes_milieu": 18.58,
+     "personnes_haut": 27.47,
+     "phases": [
+      "genie_civil",
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-02",
+     "metier": "coffreur",
+     "personnes_bas": 2.16,
+     "personnes_milieu": 3.42,
+     "personnes_haut": 5.06,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-02",
+     "metier": "grutier",
+     "personnes_bas": 1.08,
+     "personnes_milieu": 1.71,
+     "personnes_haut": 2.53,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-02",
+     "metier": "machiniste",
+     "personnes_bas": 6.24,
+     "personnes_milieu": 9.87,
+     "personnes_haut": 14.59,
+     "phases": [
+      "genie_civil"
+     ]
+    },
+    {
+     "semaine": "2026-11-02",
+     "metier": "macon",
+     "personnes_bas": 10.56,
+     "personnes_milieu": 16.71,
+     "personnes_haut": 24.7,
+     "phases": [
+      "genie_civil",
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-02",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 9.48,
+     "personnes_milieu": 15.0,
+     "personnes_haut": 22.18,
+     "phases": [
+      "genie_civil",
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-09",
+     "metier": "coffreur",
+     "personnes_bas": 1.14,
+     "personnes_milieu": 1.8,
+     "personnes_haut": 2.66,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-09",
+     "metier": "grutier",
+     "personnes_bas": 0.57,
+     "personnes_milieu": 0.9,
+     "personnes_haut": 1.33,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-09",
+     "metier": "machiniste",
+     "personnes_bas": 6.24,
+     "personnes_milieu": 9.87,
+     "personnes_haut": 14.59,
+     "phases": [
+      "genie_civil"
+     ]
+    },
+    {
+     "semaine": "2026-11-09",
+     "metier": "macon",
+     "personnes_bas": 8.51,
+     "personnes_milieu": 13.47,
+     "personnes_haut": 19.92,
+     "phases": [
+      "genie_civil",
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-09",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 7.94,
+     "personnes_milieu": 12.57,
+     "personnes_haut": 18.58,
+     "phases": [
+      "genie_civil",
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-16",
+     "metier": "coffreur",
+     "personnes_bas": 1.14,
+     "personnes_milieu": 1.8,
+     "personnes_haut": 2.66,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-16",
+     "metier": "grutier",
+     "personnes_bas": 0.57,
+     "personnes_milieu": 0.9,
+     "personnes_haut": 1.33,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-16",
+     "metier": "machiniste",
+     "personnes_bas": 6.24,
+     "personnes_milieu": 9.87,
+     "personnes_haut": 14.59,
+     "phases": [
+      "genie_civil"
+     ]
+    },
+    {
+     "semaine": "2026-11-16",
+     "metier": "macon",
+     "personnes_bas": 8.51,
+     "personnes_milieu": 13.47,
+     "personnes_haut": 19.92,
+     "phases": [
+      "genie_civil",
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-16",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 7.94,
+     "personnes_milieu": 12.57,
+     "personnes_haut": 18.58,
+     "phases": [
+      "genie_civil",
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-23",
+     "metier": "coffreur",
+     "personnes_bas": 1.14,
+     "personnes_milieu": 1.8,
+     "personnes_haut": 2.66,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-23",
+     "metier": "grutier",
+     "personnes_bas": 0.57,
+     "personnes_milieu": 0.9,
+     "personnes_haut": 1.33,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-23",
+     "metier": "machiniste",
+     "personnes_bas": 6.24,
+     "personnes_milieu": 9.87,
+     "personnes_haut": 14.59,
+     "phases": [
+      "genie_civil"
+     ]
+    },
+    {
+     "semaine": "2026-11-23",
+     "metier": "macon",
+     "personnes_bas": 8.51,
+     "personnes_milieu": 13.47,
+     "personnes_haut": 19.92,
+     "phases": [
+      "genie_civil",
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-23",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 7.94,
+     "personnes_milieu": 12.57,
+     "personnes_haut": 18.58,
+     "phases": [
+      "genie_civil",
+      "gros_oeuvre"
+     ]
+    }
+   ],
+   "lots_attendus": [
+    {
+     "phase": "transport",
+     "chantier": 483,
+     "presence": 0.11,
+     "date_p10": "2026-06-17",
+     "date_p50": "2026-06-27",
+     "date_p90": "2026-12-09"
+    },
+    {
+     "phase": "exterieur",
+     "chantier": 483,
+     "presence": 0.07,
+     "date_p10": "2026-05-16",
+     "date_p50": "2026-06-20",
+     "date_p90": "2027-10-17"
+    }
+   ],
+   "sources": [
+    {
+     "date": "2026-09-21",
+     "titre": "NG24 neue Kantonsstrasse, Abschnitt 3 Tännbach - Oberried",
+     "adjudicateur": "Dienststelle für Mobilität - Kreis 1 Oberwallis",
+     "montant_chf": 3994845.7,
+     "phase": "genie_civil",
+     "url_simap": "https://www.simap.ch/fr/project-detail/df069193-47e8-4b8a-8aad-aadb9c44ae62",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/df069193-47e8-4b8a-8aad-aadb9c44ae62/publication-details/9cd8c6d5-2dec-4edb-a988-b0667eb51a31",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-07-25",
+     "titre": "NG 702 Vergabe Seilbahn (Baumeister Talstation) zwischen Wiler und Weissenried",
+     "adjudicateur": "Departement für Mobilität, Raumentwicklung und Umwelt",
+     "montant_chf": 946156.05,
+     "phase": "gros_oeuvre",
+     "url_simap": "https://www.simap.ch/fr/project-detail/4db5a4d7-8c9d-467f-924a-d4150db4671f",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/4db5a4d7-8c9d-467f-924a-d4150db4671f/publication-details/cfacccd2-4424-4475-92aa-974ad155f95a",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-07-03",
+     "titre": "NG24 neue Kantonsstrasse, Abschnitt 2 Brücke Tännbach",
+     "adjudicateur": "Dienststelle für Mobilität - Kreis 1 Oberwallis",
+     "montant_chf": 1692885.55,
+     "phase": "genie_civil",
+     "url_simap": "https://www.simap.ch/fr/project-detail/e4e1d84d-6695-497c-b4ff-9ac9821664b7",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/e4e1d84d-6695-497c-b4ff-9ac9821664b7/publication-details/13eef521-c12d-49a6-b0f3-ec06af54c796",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-06-26",
+     "titre": "NG24 Neue Kantonsstrasse Blatten, Abschnitt 1 Wiler - Tännbach",
+     "adjudicateur": "Service de la mobilité / Dienststelle für Mobilität - Arrondissement 1 Haut-Valais / Kreis 1 Oberwallis",
+     "montant_chf": 1791207.35,
+     "phase": "genie_civil",
+     "url_simap": "https://www.simap.ch/fr/project-detail/d433a826-4586-4b49-8858-66345cc7d9c2",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/d433a826-4586-4b49-8858-66345cc7d9c2/publication-details/0d61ca61-529d-4bd5-bc85-d6fb520e1604",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-06-24",
+     "titre": "OMS St. Ursula Brig - Erweiterung des Sportzentrums Klostermatte & Heizzentrale",
+     "adjudicateur": "Service immobilier et patrimoine",
+     "montant_chf": 851499.35,
+     "phase": "gros_oeuvre",
+     "url_simap": "https://www.simap.ch/fr/project-detail/e05dfb10-56f3-47a3-a495-60587b339853",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/e05dfb10-56f3-47a3-a495-60587b339853/publication-details/9149ac23-6de0-43d7-98c1-5dc39c2a7167",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-04-21",
+     "titre": "Ersatz Trinkwasserleitung Täätschen-Erich",
+     "adjudicateur": "Gemeinde Naters",
+     "montant_chf": null,
+     "phase": "genie_civil",
+     "url_simap": "https://www.simap.ch/fr/project-detail/5d04936b-dc64-40e6-851c-95d46cf46828",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/5d04936b-dc64-40e6-851c-95d46cf46828/publication-details/3e4e8eb9-0866-4f3d-bab6-a3ea8522f287",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-04-13",
+     "titre": "Baumeisterarbeiten Fernwärmezentrale Leukerbad - Hochbau",
+     "adjudicateur": "IMION AG",
+     "montant_chf": 1959651.4,
+     "phase": "gros_oeuvre",
+     "url_simap": "https://www.simap.ch/fr/project-detail/9cb9a163-a57a-4f12-8ee7-b55ba6a81b6e",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/9cb9a163-a57a-4f12-8ee7-b55ba6a81b6e/publication-details/4a295ddb-9a12-4b39-b5d7-f0f37d434af4",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-02-20",
+     "titre": "Neubau Fernwärmeleitung Heizzentrale Klostermatte – Unterstation Geschina Brig-Glis",
+     "adjudicateur": "[particulier]",
+     "montant_chf": 448300.2,
+     "phase": "gros_oeuvre",
+     "url_simap": "https://www.simap.ch/fr/project-detail/3cdb5fa7-1386-48c6-8d9f-e774ba17ae96",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/3cdb5fa7-1386-48c6-8d9f-e774ba17ae96/publication-details/1c064918-720d-4ec0-b27a-43d74e1771bb",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2025-10-14",
+     "titre": "Hochwasserschutz Milchbach Naters",
+     "adjudicateur": "Gemeinde Naters",
+     "montant_chf": 483592.05,
+     "phase": "genie_civil",
+     "url_simap": "https://www.simap.ch/fr/project-detail/5594231f-e9cb-4b8a-98d1-9f8405b598db",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/5594231f-e9cb-4b8a-98d1-9f8405b598db/publication-details/cc9e5d17-63be-4149-81c0-a73ec5f5887a",
+     "source": "simap.ch"
+    }
+   ],
+   "n_52s": 9,
+   "dernier_marche_jours": 14,
+   "rang": 7
+  },
+  {
+   "id": "ent-1b28ee92b6",
+   "nom": "Walpen AG Hoch- und Tiefbau",
+   "ville": "Reckingen VS",
+   "canton": "VS",
+   "specialite": "batiment",
+   "score": 0.648,
+   "score_surprise": 0.1954,
+   "surprise": [],
+   "confiance": "faible",
+   "faiblesses": [
+    "dernier_marche_ancien",
+    "code_generique"
+   ],
+   "raisons": [
+    {
+     "code": "marches_52s",
+     "n": 9
+    },
+    {
+     "code": "dernier_marche",
+     "jours": 97,
+     "titre": "Lot L10184, SL Hangsicherung Seeli",
+     "adjudicateur": "Dienststelle für Nationalstrassenbau / Service de la construction des routes nationales",
+     "montant": 2486621.05
+    },
+    {
+     "code": "besoin",
+     "bas": "19",
+     "haut": "44",
+     "debut": "2026-10-05",
+     "metiers": [
+      "machiniste",
+      "macon",
+      "manoeuvre_construction"
+     ],
+     "en_cours": true
+    }
+   ],
+   "besoin": [
+    {
+     "semaine": "2026-10-05",
+     "metier": "machiniste",
+     "personnes_bas": 6.3,
+     "personnes_milieu": 9.96,
+     "personnes_haut": 14.73,
+     "phases": [
+      "genie_civil"
+     ]
+    },
+    {
+     "semaine": "2026-10-05",
+     "metier": "macon",
+     "personnes_bas": 6.3,
+     "personnes_milieu": 9.96,
+     "personnes_haut": 14.73,
+     "phases": [
+      "genie_civil"
+     ]
+    },
+    {
+     "semaine": "2026-10-05",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 6.3,
+     "personnes_milieu": 9.96,
+     "personnes_haut": 14.73,
+     "phases": [
+      "genie_civil"
+     ]
+    },
+    {
+     "semaine": "2026-10-12",
+     "metier": "machiniste",
+     "personnes_bas": 6.3,
+     "personnes_milieu": 9.96,
+     "personnes_haut": 14.73,
+     "phases": [
+      "genie_civil"
+     ]
+    },
+    {
+     "semaine": "2026-10-12",
+     "metier": "macon",
+     "personnes_bas": 6.3,
+     "personnes_milieu": 9.96,
+     "personnes_haut": 14.73,
+     "phases": [
+      "genie_civil"
+     ]
+    },
+    {
+     "semaine": "2026-10-12",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 6.3,
+     "personnes_milieu": 9.96,
+     "personnes_haut": 14.73,
+     "phases": [
+      "genie_civil"
+     ]
+    },
+    {
+     "semaine": "2026-10-19",
+     "metier": "machiniste",
+     "personnes_bas": 6.3,
+     "personnes_milieu": 9.96,
+     "personnes_haut": 14.73,
+     "phases": [
+      "genie_civil"
+     ]
+    },
+    {
+     "semaine": "2026-10-19",
+     "metier": "macon",
+     "personnes_bas": 6.3,
+     "personnes_milieu": 9.96,
+     "personnes_haut": 14.73,
+     "phases": [
+      "genie_civil"
+     ]
+    },
+    {
+     "semaine": "2026-10-19",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 6.3,
+     "personnes_milieu": 9.96,
+     "personnes_haut": 14.73,
+     "phases": [
+      "genie_civil"
+     ]
+    },
+    {
+     "semaine": "2026-10-26",
+     "metier": "machiniste",
+     "personnes_bas": 6.3,
+     "personnes_milieu": 9.96,
+     "personnes_haut": 14.73,
+     "phases": [
+      "genie_civil"
+     ]
+    },
+    {
+     "semaine": "2026-10-26",
+     "metier": "macon",
+     "personnes_bas": 6.3,
+     "personnes_milieu": 9.96,
+     "personnes_haut": 14.73,
+     "phases": [
+      "genie_civil"
+     ]
+    },
+    {
+     "semaine": "2026-10-26",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 6.3,
+     "personnes_milieu": 9.96,
+     "personnes_haut": 14.73,
+     "phases": [
+      "genie_civil"
+     ]
+    },
+    {
+     "semaine": "2026-11-02",
+     "metier": "machiniste",
+     "personnes_bas": 6.3,
+     "personnes_milieu": 9.96,
+     "personnes_haut": 14.73,
+     "phases": [
+      "genie_civil"
+     ]
+    },
+    {
+     "semaine": "2026-11-02",
+     "metier": "macon",
+     "personnes_bas": 6.3,
+     "personnes_milieu": 9.96,
+     "personnes_haut": 14.73,
+     "phases": [
+      "genie_civil"
+     ]
+    },
+    {
+     "semaine": "2026-11-02",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 6.3,
+     "personnes_milieu": 9.96,
+     "personnes_haut": 14.73,
+     "phases": [
+      "genie_civil"
+     ]
+    },
+    {
+     "semaine": "2026-11-09",
+     "metier": "machiniste",
+     "personnes_bas": 6.3,
+     "personnes_milieu": 9.96,
+     "personnes_haut": 14.73,
+     "phases": [
+      "genie_civil"
+     ]
+    },
+    {
+     "semaine": "2026-11-09",
+     "metier": "macon",
+     "personnes_bas": 6.3,
+     "personnes_milieu": 9.96,
+     "personnes_haut": 14.73,
+     "phases": [
+      "genie_civil"
+     ]
+    },
+    {
+     "semaine": "2026-11-09",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 6.3,
+     "personnes_milieu": 9.96,
+     "personnes_haut": 14.73,
+     "phases": [
+      "genie_civil"
+     ]
+    },
+    {
+     "semaine": "2026-11-16",
+     "metier": "machiniste",
+     "personnes_bas": 6.3,
+     "personnes_milieu": 9.96,
+     "personnes_haut": 14.73,
+     "phases": [
+      "genie_civil"
+     ]
+    },
+    {
+     "semaine": "2026-11-16",
+     "metier": "macon",
+     "personnes_bas": 6.3,
+     "personnes_milieu": 9.96,
+     "personnes_haut": 14.73,
+     "phases": [
+      "genie_civil"
+     ]
+    },
+    {
+     "semaine": "2026-11-16",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 6.3,
+     "personnes_milieu": 9.96,
+     "personnes_haut": 14.73,
+     "phases": [
+      "genie_civil"
+     ]
+    },
+    {
+     "semaine": "2026-11-23",
+     "metier": "machiniste",
+     "personnes_bas": 6.3,
+     "personnes_milieu": 9.96,
+     "personnes_haut": 14.73,
+     "phases": [
+      "genie_civil"
+     ]
+    },
+    {
+     "semaine": "2026-11-23",
+     "metier": "macon",
+     "personnes_bas": 6.3,
+     "personnes_milieu": 9.96,
+     "personnes_haut": 14.73,
+     "phases": [
+      "genie_civil"
+     ]
+    },
+    {
+     "semaine": "2026-11-23",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 6.3,
+     "personnes_milieu": 9.96,
+     "personnes_haut": 14.73,
+     "phases": [
+      "genie_civil"
+     ]
+    }
+   ],
+   "lots_attendus": [],
+   "sources": [
+    {
+     "date": "2026-06-30",
+     "titre": "Lot L10184, SL Hangsicherung Seeli",
+     "adjudicateur": "Dienststelle für Nationalstrassenbau / Service de la construction des routes nationales",
+     "montant_chf": 2486621.05,
+     "phase": "genie_civil",
+     "url_simap": "https://www.simap.ch/fr/project-detail/af0559cf-7563-43ae-aeb7-010dd6244a96",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/af0559cf-7563-43ae-aeb7-010dd6244a96/publication-details/6ec0d347-f495-4d15-b93b-0eeebd582f74",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-06-17",
+     "titre": "FbE Merjen-Kalpetran, réfection de la chaussée- travaux de construction",
+     "adjudicateur": "Matterhorn Gotthard Infrastruktur AG",
+     "montant_chf": 2362860.0,
+     "phase": "genie_civil",
+     "url_simap": "https://www.simap.ch/fr/project-detail/a33936c3-169b-46f9-8e14-c5edfa24e7cc",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/a33936c3-169b-46f9-8e14-c5edfa24e7cc/publication-details/6f0f118a-6202-47ec-8c74-c4181f39070e",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-05-08",
+     "titre": "Lot L10075, SL Baupiste Pfyn-Finges",
+     "adjudicateur": "Dienststelle für Nationalstrassenbau / Service de la construction des routes nationales",
+     "montant_chf": 11701386.65,
+     "phase": "genie_civil",
+     "url_simap": "https://www.simap.ch/fr/project-detail/0ab2a1f7-8e60-4c30-8e4a-e3057cef33ba",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/0ab2a1f7-8e60-4c30-8e4a-e3057cef33ba/publication-details/cedca784-6efb-4e61-aed0-cd75e7ed9948",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-05-04",
+     "titre": "Steinschlagverbauung Zen Eisten",
+     "adjudicateur": "Gemeinde Eisten",
+     "montant_chf": 1387695.55,
+     "phase": "gros_oeuvre",
+     "url_simap": "https://www.simap.ch/fr/project-detail/348c278e-fd8f-439f-866b-e0385fe36c4e",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/348c278e-fd8f-439f-866b-e0385fe36c4e/publication-details/ea7fa9e7-7c38-4625-8a10-1644161188a0",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-04-08",
+     "titre": "Steinschlagverbauung Kalpetran",
+     "adjudicateur": "Gemeinde Embd",
+     "montant_chf": 665723.9,
+     "phase": "gros_oeuvre",
+     "url_simap": "https://www.simap.ch/fr/project-detail/ec33b573-4f2b-45ae-acc5-a7ab28b0e81c",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/ec33b573-4f2b-45ae-acc5-a7ab28b0e81c/publication-details/e40e2962-2462-487c-a3df-fe57be9e07d4",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-03-12",
+     "titre": "KKW Bifig, Saas-Fee",
+     "adjudicateur": "KWKW Bifig Saas-Fee AG",
+     "montant_chf": 2473737.8,
+     "phase": "gros_oeuvre",
+     "url_simap": "https://www.simap.ch/fr/project-detail/fcb149e7-9033-4046-beaa-f4c429257a6c",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/fcb149e7-9033-4046-beaa-f4c429257a6c/publication-details/6e9cc4a6-08f8-406f-a477-7e497663a326",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-02-20",
+     "titre": "ARA Briglina Realisierung BKP 211.11 Baumeisterarbeiten",
+     "adjudicateur": "[particulier]",
+     "montant_chf": 6624002.05,
+     "phase": "gros_oeuvre",
+     "url_simap": "https://www.simap.ch/fr/project-detail/952cf548-76a9-4224-bb58-1066f545a4ce",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/952cf548-76a9-4224-bb58-1066f545a4ce/publication-details/75e4051b-300a-46f0-b24a-304fd0818acc",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-01-15",
+     "titre": "Ausbau und Erweiterung Altersheim St. Barbara in 3917 Kippel - BKP 211 Baumeisterarbeiten",
+     "adjudicateur": null,
+     "montant_chf": 1683083.35,
+     "phase": "gros_oeuvre",
+     "url_simap": "https://www.simap.ch/fr/project-detail/ab84ddb9-387e-4927-ba60-f0f6eeb07c30",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/ab84ddb9-387e-4927-ba60-f0f6eeb07c30/publication-details/af034f0e-35a8-461c-9d8f-7e3ad26a366f",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2025-10-24",
+     "titre": "Kollegium Brig – Sanierung Internat / BKP 112+211 – Abbruch- und Baumeisterarbeiten (Südtrakt)",
+     "adjudicateur": "Service immobilier et patrimoine / Dienststelle für Immobilien u. Bauliches Erbe - Gérance et entretien d'immeuble / Immobilienverwaltung u. Unterhalt",
+     "montant_chf": 2674440.75,
+     "phase": "preparatoire",
+     "url_simap": "https://www.simap.ch/fr/project-detail/52df3002-6456-48db-91b7-b9d4f30e1080",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/52df3002-6456-48db-91b7-b9d4f30e1080/publication-details/d0ebe00b-90e6-4639-97be-c9a6f3962bb7",
+     "source": "simap.ch"
+    }
+   ],
+   "n_52s": 9,
+   "dernier_marche_jours": 97,
+   "rang": 8
+  },
+  {
+   "id": "ent-bd58f9a809",
+   "nom": "Astori SA",
+   "ville": "Sion",
+   "canton": "VS",
+   "specialite": "batiment",
+   "score": 0.7037,
+   "score_surprise": 0.2248,
+   "surprise": [],
+   "confiance": "elevee",
+   "faiblesses": [],
+   "raisons": [
+    {
+     "code": "marches_52s",
+     "n": 8
+    },
+    {
+     "code": "dernier_marche",
+     "jours": 10,
+     "titre": "Ecole de Grône - Agrandissement du centre scolaire",
+     "adjudicateur": "Commune de Grône",
+     "montant": 1196894.8
+    },
+    {
+     "code": "besoin",
+     "bas": "24",
+     "haut": "56",
+     "debut": "2026-10-05",
+     "metiers": [
+      "charpentier",
+      "coffreur",
+      "grutier",
+      "macon",
+      "manoeuvre_construction"
+     ],
+     "en_cours": true
+    },
+    {
+     "code": "lots_attendus",
+     "n": 6
+    },
+    {
+     "code": "permis_commune",
+     "n": 28
+    }
+   ],
+   "besoin": [
+    {
+     "semaine": "2026-10-05",
+     "metier": "charpentier",
+     "personnes_bas": 3.68,
+     "personnes_milieu": 5.83,
+     "personnes_haut": 8.62,
+     "phases": [
+      "menuiserie"
+     ]
+    },
+    {
+     "semaine": "2026-10-05",
+     "metier": "coffreur",
+     "personnes_bas": 4.07,
+     "personnes_milieu": 6.45,
+     "personnes_haut": 9.53,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-05",
+     "metier": "grutier",
+     "personnes_bas": 2.04,
+     "personnes_milieu": 3.22,
+     "personnes_haut": 4.77,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-05",
+     "metier": "macon",
+     "personnes_bas": 8.15,
+     "personnes_milieu": 12.89,
+     "personnes_haut": 19.06,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-05",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 6.11,
+     "personnes_milieu": 9.67,
+     "personnes_haut": 14.3,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-12",
+     "metier": "charpentier",
+     "personnes_bas": 3.68,
+     "personnes_milieu": 5.83,
+     "personnes_haut": 8.62,
+     "phases": [
+      "menuiserie"
+     ]
+    },
+    {
+     "semaine": "2026-10-12",
+     "metier": "coffreur",
+     "personnes_bas": 4.07,
+     "personnes_milieu": 6.45,
+     "personnes_haut": 9.53,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-12",
+     "metier": "grutier",
+     "personnes_bas": 2.04,
+     "personnes_milieu": 3.22,
+     "personnes_haut": 4.77,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-12",
+     "metier": "macon",
+     "personnes_bas": 8.15,
+     "personnes_milieu": 12.89,
+     "personnes_haut": 19.06,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-12",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 6.11,
+     "personnes_milieu": 9.67,
+     "personnes_haut": 14.3,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-19",
+     "metier": "charpentier",
+     "personnes_bas": 3.68,
+     "personnes_milieu": 5.83,
+     "personnes_haut": 8.62,
+     "phases": [
+      "menuiserie"
+     ]
+    },
+    {
+     "semaine": "2026-10-19",
+     "metier": "coffreur",
+     "personnes_bas": 4.07,
+     "personnes_milieu": 6.45,
+     "personnes_haut": 9.53,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-19",
+     "metier": "grutier",
+     "personnes_bas": 2.04,
+     "personnes_milieu": 3.22,
+     "personnes_haut": 4.77,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-19",
+     "metier": "macon",
+     "personnes_bas": 8.15,
+     "personnes_milieu": 12.89,
+     "personnes_haut": 19.06,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-19",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 6.11,
+     "personnes_milieu": 9.67,
+     "personnes_haut": 14.3,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-26",
+     "metier": "charpentier",
+     "personnes_bas": 3.68,
+     "personnes_milieu": 5.83,
+     "personnes_haut": 8.62,
+     "phases": [
+      "menuiserie"
+     ]
+    },
+    {
+     "semaine": "2026-10-26",
+     "metier": "coffreur",
+     "personnes_bas": 4.07,
+     "personnes_milieu": 6.45,
+     "personnes_haut": 9.53,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-26",
+     "metier": "grutier",
+     "personnes_bas": 2.04,
+     "personnes_milieu": 3.22,
+     "personnes_haut": 4.77,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-26",
+     "metier": "macon",
+     "personnes_bas": 8.15,
+     "personnes_milieu": 12.89,
+     "personnes_haut": 19.06,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-26",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 6.11,
+     "personnes_milieu": 9.67,
+     "personnes_haut": 14.3,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-02",
+     "metier": "charpentier",
+     "personnes_bas": 3.68,
+     "personnes_milieu": 5.83,
+     "personnes_haut": 8.62,
+     "phases": [
+      "menuiserie"
+     ]
+    },
+    {
+     "semaine": "2026-11-02",
+     "metier": "coffreur",
+     "personnes_bas": 4.07,
+     "personnes_milieu": 6.45,
+     "personnes_haut": 9.53,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-02",
+     "metier": "grutier",
+     "personnes_bas": 2.04,
+     "personnes_milieu": 3.22,
+     "personnes_haut": 4.77,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-02",
+     "metier": "macon",
+     "personnes_bas": 8.15,
+     "personnes_milieu": 12.89,
+     "personnes_haut": 19.06,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-02",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 6.11,
+     "personnes_milieu": 9.67,
+     "personnes_haut": 14.3,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-09",
+     "metier": "charpentier",
+     "personnes_bas": 3.68,
+     "personnes_milieu": 5.83,
+     "personnes_haut": 8.62,
+     "phases": [
+      "menuiserie"
+     ]
+    },
+    {
+     "semaine": "2026-11-09",
+     "metier": "coffreur",
+     "personnes_bas": 4.07,
+     "personnes_milieu": 6.45,
+     "personnes_haut": 9.53,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-09",
+     "metier": "grutier",
+     "personnes_bas": 2.04,
+     "personnes_milieu": 3.22,
+     "personnes_haut": 4.77,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-09",
+     "metier": "macon",
+     "personnes_bas": 8.15,
+     "personnes_milieu": 12.89,
+     "personnes_haut": 19.06,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-09",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 6.11,
+     "personnes_milieu": 9.67,
+     "personnes_haut": 14.3,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-16",
+     "metier": "charpentier",
+     "personnes_bas": 3.68,
+     "personnes_milieu": 5.83,
+     "personnes_haut": 8.62,
+     "phases": [
+      "menuiserie"
+     ]
+    },
+    {
+     "semaine": "2026-11-16",
+     "metier": "coffreur",
+     "personnes_bas": 4.07,
+     "personnes_milieu": 6.45,
+     "personnes_haut": 9.53,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-16",
+     "metier": "grutier",
+     "personnes_bas": 2.04,
+     "personnes_milieu": 3.22,
+     "personnes_haut": 4.77,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-16",
+     "metier": "macon",
+     "personnes_bas": 8.15,
+     "personnes_milieu": 12.89,
+     "personnes_haut": 19.06,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-16",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 6.11,
+     "personnes_milieu": 9.67,
+     "personnes_haut": 14.3,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-23",
+     "metier": "charpentier",
+     "personnes_bas": 3.68,
+     "personnes_milieu": 5.83,
+     "personnes_haut": 8.62,
+     "phases": [
+      "menuiserie"
+     ]
+    },
+    {
+     "semaine": "2026-11-23",
+     "metier": "coffreur",
+     "personnes_bas": 2.6,
+     "personnes_milieu": 4.11,
+     "personnes_haut": 6.08,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-23",
+     "metier": "grutier",
+     "personnes_bas": 1.3,
+     "personnes_milieu": 2.06,
+     "personnes_haut": 3.04,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-23",
+     "metier": "macon",
+     "personnes_bas": 5.2,
+     "personnes_milieu": 8.23,
+     "personnes_haut": 12.17,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-23",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 3.9,
+     "personnes_milieu": 6.17,
+     "personnes_haut": 9.12,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    }
+   ],
+   "lots_attendus": [
+    {
+     "phase": "amenagement_int",
+     "chantier": 6,
+     "presence": 0.26,
+     "date_p10": "2026-05-10",
+     "date_p50": "2026-11-14",
+     "date_p90": "2027-07-25"
+    },
+    {
+     "phase": "finitions",
+     "chantier": 6,
+     "presence": 0.21,
+     "date_p10": "2026-07-03",
+     "date_p50": "2026-11-11",
+     "date_p90": "2027-07-14"
+    },
+    {
+     "phase": "equipement",
+     "chantier": 6,
+     "presence": 0.07,
+     "date_p10": "2026-08-22",
+     "date_p50": "2026-12-03",
+     "date_p90": "2027-09-23"
+    },
+    {
+     "phase": "exterieur",
+     "chantier": 6,
+     "presence": 0.07,
+     "date_p10": "2026-07-31",
+     "date_p50": "2026-09-04",
+     "date_p90": "2028-01-01"
+    },
+    {
+     "phase": "transport",
+     "chantier": 8,
+     "presence": 0.11,
+     "date_p10": "2026-09-01",
+     "date_p50": "2026-09-11",
+     "date_p90": "2027-02-23"
+    },
+    {
+     "phase": "electricite",
+     "chantier": 33,
+     "presence": 0.39,
+     "date_p10": "2026-06-21",
+     "date_p50": "2026-06-25",
+     "date_p90": "2026-12-16"
+    }
+   ],
+   "sources": [
+    {
+     "date": "2026-09-25",
+     "titre": "Ecole de Grône - Agrandissement du centre scolaire",
+     "adjudicateur": "Commune de Grône",
+     "montant_chf": 1196894.8,
+     "phase": "gros_oeuvre",
+     "url_simap": "https://www.simap.ch/fr/project-detail/4e4f85ad-aaa0-4fa1-8a2a-4fbe60e26e2a",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/4e4f85ad-aaa0-4fa1-8a2a-4fbe60e26e2a/publication-details/62577710-4ea3-4401-a02f-d6da8ece7bf6",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-09-24",
+     "titre": "Construction d'une NCUAPE à Vollèges - CFC 214.2 Charpente",
+     "adjudicateur": "Commune de Val de Bagnes",
+     "montant_chf": 965909.3,
+     "phase": "gros_oeuvre",
+     "url_simap": "https://www.simap.ch/fr/project-detail/c792bf5b-9f78-4627-8223-aeb133c59636",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/c792bf5b-9f78-4627-8223-aeb133c59636/publication-details/4484911c-992f-49d2-94d7-f56e7cb864c1",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-07-01",
+     "titre": "SAV AO_2140",
+     "adjudicateur": "Municipalité de Savièse",
+     "montant_chf": 1302598.35,
+     "phase": "gros_oeuvre",
+     "url_simap": "https://www.simap.ch/fr/project-detail/71df5275-8b23-45b0-bff7-b2803a625f43",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/71df5275-8b23-45b0-bff7-b2803a625f43/publication-details/3d3e7009-3669-4c3b-924a-7877712eb28a",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-07-01",
+     "titre": "SAV_AO_2730 - Portes et vitrages intérieurs, armoires et meubles divers",
+     "adjudicateur": "Municipalité de Savièse",
+     "montant_chf": 1149393.29,
+     "phase": "menuiserie",
+     "url_simap": "https://www.simap.ch/fr/project-detail/16c1c048-51cd-41d6-98ad-6c3c769720db",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/16c1c048-51cd-41d6-98ad-6c3c769720db/publication-details/f19b2675-2d8b-4518-b19a-565977210340",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-04-09",
+     "titre": "Extension et rénovation du Lycée-collège de St-Maurice : ZONE SPORTIVE - CFC 214",
+     "adjudicateur": "Service immobilier et patrimoine",
+     "montant_chf": 698060.65,
+     "phase": "gros_oeuvre",
+     "url_simap": "https://www.simap.ch/fr/project-detail/9d199cb3-31a8-4189-87f9-8ccea9fa6656",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/9d199cb3-31a8-4189-87f9-8ccea9fa6656/publication-details/46ddc557-d364-485b-bd33-a95bc0900c76",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2025-12-05",
+     "titre": "Piscine 10, Bâtiment B, Sion",
+     "adjudicateur": "Service immobilier et patrimoine",
+     "montant_chf": 115107.8,
+     "phase": "amenagement_int",
+     "url_simap": "https://www.simap.ch/fr/project-detail/5d06b869-67a6-45ad-801e-b52d1e4c6d7b",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/5d06b869-67a6-45ad-801e-b52d1e4c6d7b/publication-details/8bb330e6-e4ad-4190-a2db-2bc556353903",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2025-10-28",
+     "titre": "Collège du Grand-Pré à Prilly - Assainissement-transformation-mise en conformité - LOT 25 - CFC 273.0",
+     "adjudicateur": "ASIGOS",
+     "montant_chf": 407950.1,
+     "phase": "menuiserie",
+     "url_simap": "https://www.simap.ch/fr/project-detail/609fe519-5bb0-41ad-8516-e88ccdf33413",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/609fe519-5bb0-41ad-8516-e88ccdf33413/publication-details/f25c8c94-1486-4eab-8523-4890b6884480",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2025-10-10",
+     "titre": "Construction du Campus EDHEA et Ecole de couture du Valais à Sierre - CFC 214.3",
+     "adjudicateur": "Service immobilier et patrimoine / Dienststelle für Immobilien und Bauliches Erbe - Investissements / Investitionen",
+     "montant_chf": 390882.35,
+     "phase": "gros_oeuvre",
+     "url_simap": "https://www.simap.ch/fr/project-detail/4f212def-c1ce-4f02-b351-55b4ed72f0fd",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/4f212def-c1ce-4f02-b351-55b4ed72f0fd/publication-details/7452a962-8724-4993-bc07-fc4a0e73cbc9",
+     "source": "simap.ch"
+    }
+   ],
+   "n_52s": 8,
+   "dernier_marche_jours": 10,
+   "rang": 9
+  },
+  {
+   "id": "ent-42fbc21c38",
+   "nom": "RITHNER SA",
+   "ville": "Monthey",
+   "canton": "VS",
+   "specialite": "batiment",
+   "score": 0.687,
+   "score_surprise": 0.2482,
+   "surprise": [],
+   "confiance": "moyenne",
+   "faiblesses": [
+    "code_generique"
+   ],
+   "raisons": [
+    {
+     "code": "marches_52s",
+     "n": 8
+    },
+    {
+     "code": "dernier_marche",
+     "jours": 18,
+     "titre": "Construction d'une NCUAPE à Vollèges - CFC 201.1 Terrassements",
+     "adjudicateur": "Commune de Val de Bagnes",
+     "montant": 386559.3
+    },
+    {
+     "code": "besoin",
+     "bas": "13",
+     "haut": "30",
+     "debut": "2026-10-05",
+     "metiers": [
+      "coffreur",
+      "grutier",
+      "machiniste",
+      "macon",
+      "manoeuvre_construction"
+     ],
+     "en_cours": true
+    },
+    {
+     "code": "permis_commune",
+     "n": 15
+    }
+   ],
+   "besoin": [
+    {
+     "semaine": "2026-10-05",
+     "metier": "coffreur",
+     "personnes_bas": 0.42,
+     "personnes_milieu": 0.66,
+     "personnes_haut": 0.98,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-05",
+     "metier": "grutier",
+     "personnes_bas": 0.21,
+     "personnes_milieu": 0.33,
+     "personnes_haut": 0.49,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-05",
+     "metier": "machiniste",
+     "personnes_bas": 4.31,
+     "personnes_milieu": 6.82,
+     "personnes_haut": 10.08,
+     "phases": [
+      "genie_civil",
+      "terrassement"
+     ]
+    },
+    {
+     "semaine": "2026-10-05",
+     "metier": "macon",
+     "personnes_bas": 2.82,
+     "personnes_milieu": 4.47,
+     "personnes_haut": 6.61,
+     "phases": [
+      "genie_civil",
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-05",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 4.94,
+     "personnes_milieu": 7.81,
+     "personnes_haut": 11.55,
+     "phases": [
+      "genie_civil",
+      "gros_oeuvre",
+      "terrassement"
+     ]
+    },
+    {
+     "semaine": "2026-10-12",
+     "metier": "machiniste",
+     "personnes_bas": 2.32,
+     "personnes_milieu": 3.68,
+     "personnes_haut": 5.44,
+     "phases": [
+      "terrassement"
+     ]
+    },
+    {
+     "semaine": "2026-10-12",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 2.32,
+     "personnes_milieu": 3.68,
+     "personnes_haut": 5.44,
+     "phases": [
+      "terrassement"
+     ]
+    },
+    {
+     "semaine": "2026-10-19",
+     "metier": "machiniste",
+     "personnes_bas": 2.32,
+     "personnes_milieu": 3.68,
+     "personnes_haut": 5.44,
+     "phases": [
+      "terrassement"
+     ]
+    },
+    {
+     "semaine": "2026-10-19",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 2.32,
+     "personnes_milieu": 3.68,
+     "personnes_haut": 5.44,
+     "phases": [
+      "terrassement"
+     ]
+    },
+    {
+     "semaine": "2026-10-26",
+     "metier": "machiniste",
+     "personnes_bas": 2.32,
+     "personnes_milieu": 3.68,
+     "personnes_haut": 5.44,
+     "phases": [
+      "terrassement"
+     ]
+    },
+    {
+     "semaine": "2026-10-26",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 2.32,
+     "personnes_milieu": 3.68,
+     "personnes_haut": 5.44,
+     "phases": [
+      "terrassement"
+     ]
+    },
+    {
+     "semaine": "2026-11-02",
+     "metier": "machiniste",
+     "personnes_bas": 2.32,
+     "personnes_milieu": 3.68,
+     "personnes_haut": 5.44,
+     "phases": [
+      "terrassement"
+     ]
+    },
+    {
+     "semaine": "2026-11-02",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 2.32,
+     "personnes_milieu": 3.68,
+     "personnes_haut": 5.44,
+     "phases": [
+      "terrassement"
+     ]
+    },
+    {
+     "semaine": "2026-11-09",
+     "metier": "machiniste",
+     "personnes_bas": 2.32,
+     "personnes_milieu": 3.68,
+     "personnes_haut": 5.44,
+     "phases": [
+      "terrassement"
+     ]
+    },
+    {
+     "semaine": "2026-11-09",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 2.32,
+     "personnes_milieu": 3.68,
+     "personnes_haut": 5.44,
+     "phases": [
+      "terrassement"
+     ]
+    }
+   ],
+   "lots_attendus": [],
+   "sources": [
+    {
+     "date": "2026-09-17",
+     "titre": "Construction d'une NCUAPE à Vollèges - CFC 201.1 Terrassements",
+     "adjudicateur": "Commune de Val de Bagnes",
+     "montant_chf": 386559.3,
+     "phase": "terrassement",
+     "url_simap": "https://www.simap.ch/fr/project-detail/a15cf2c2-5e02-4bc2-8777-c26e3e874a9a",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/a15cf2c2-5e02-4bc2-8777-c26e3e874a9a/publication-details/8a4351da-f691-44ce-9c9f-ac43ea156a8d",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-07-01",
+     "titre": "Réaménagement de la Rue de la Cime de l'Est à Saint-Maurice",
+     "adjudicateur": "Commune de Saint-Maurice",
+     "montant_chf": 991131.3,
+     "phase": "genie_civil",
+     "url_simap": "https://www.simap.ch/fr/project-detail/6e0d4b28-3bc7-489c-8018-71389e377784",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/6e0d4b28-3bc7-489c-8018-71389e377784/publication-details/25519637-9b0b-4710-80c1-6cc072eb5bda",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-06-24",
+     "titre": "Lycée-collège de St-Maurice : Zone sportive",
+     "adjudicateur": "Service immobilier et patrimoine",
+     "montant_chf": 33659.81,
+     "phase": "terrassement",
+     "url_simap": "https://www.simap.ch/fr/project-detail/9b0ee770-4042-4615-a0ad-d864b5ee1d61",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/9b0ee770-4042-4615-a0ad-d864b5ee1d61/publication-details/9a455bf2-2b23-487e-9950-1de75e14c722",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-05-29",
+     "titre": "H203 Bifurcation route de Ravoire : Renforcement de bord de chaussée et revêtements bitumineux",
+     "adjudicateur": "Service de la mobilité / Dienststelle für Mobilität - Arrondissement 3 Bas-Valais / Kreis 3 Unterwallis",
+     "montant_chf": 348726.05,
+     "phase": "gros_oeuvre",
+     "url_simap": "https://www.simap.ch/fr/project-detail/fa5c919c-32b4-4d59-b346-41d628f380fd",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/fa5c919c-32b4-4d59-b346-41d628f380fd/publication-details/a2a7e670-87bc-4e22-bb8c-8a325f0078f4",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-04-21",
+     "titre": "Extension et rénovation du Lycée-collège de St-Maurice - CFC 201",
+     "adjudicateur": "Service immobilier et patrimoine",
+     "montant_chf": 248052.7,
+     "phase": "terrassement",
+     "url_simap": "https://www.simap.ch/fr/project-detail/96f20200-cced-4138-a661-d89294cfd823",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/96f20200-cced-4138-a661-d89294cfd823/publication-details/f5190eb0-9488-4a0c-8613-e6377804508f",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-04-09",
+     "titre": "Extension et rénovation du Lycée-collège de St-Maurice : ZONE SPORTIVE - CFC 201",
+     "adjudicateur": "Service immobilier et patrimoine",
+     "montant_chf": 1065200.2,
+     "phase": "terrassement",
+     "url_simap": "https://www.simap.ch/fr/project-detail/0570f7e8-6ee7-48fe-a8c1-0e31d23cba1b",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/0570f7e8-6ee7-48fe-a8c1-0e31d23cba1b/publication-details/d0a689ee-9ecf-49cc-9455-e8533b01c936",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-01-07",
+     "titre": "Création d’une nouvelle sous-station à Gryon Chalméry",
+     "adjudicateur": "Transports publics du Chablais SA",
+     "montant_chf": 896999.31,
+     "phase": "genie_civil",
+     "url_simap": "https://www.simap.ch/fr/project-detail/c832e1f0-5cd0-4643-a1e4-f0fd18c0e1a1",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/c832e1f0-5cd0-4643-a1e4-f0fd18c0e1a1/publication-details/2fdc7696-b23c-4503-8051-a74482e89e0b",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2025-11-01",
+     "titre": "Réaménagement de la Morge à Conthey - Travaux GC de protection contre les crues/renaturation",
+     "adjudicateur": "Commune de Conthey",
+     "montant_chf": 3295078.65,
+     "phase": "gros_oeuvre",
+     "url_simap": "https://www.simap.ch/fr/project-detail/d332e46b-ba4e-427d-9021-f0a90dd2e105",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/d332e46b-ba4e-427d-9021-f0a90dd2e105/publication-details/81fa55fd-75cb-4ddb-81e5-7ccca8385bde",
+     "source": "simap.ch"
+    }
+   ],
+   "n_52s": 8,
+   "dernier_marche_jours": 18,
+   "rang": 10
+  }
+ ],
+ "ordre_code": "frequence",
+ "ordre": "nombre de marchés de la spécialité en 52 semaines, puis le plus récent",
+ "surprises": [
+  {
+   "id": "ent-c3148afd7e",
+   "nom": "Héritier & Cie SA, entreprise de bâtiments et travaux publics",
+   "ville": "Sion",
+   "canton": "VS",
+   "specialite": "batiment",
+   "score": 0.5577,
+   "score_surprise": 0.205,
+   "surprise": [
+    "rythme_double"
+   ],
+   "confiance": "faible",
+   "faiblesses": [
+    "montant_non_publie",
+    "code_generique"
+   ],
+   "raisons": [
+    {
+     "code": "marches_52s",
+     "n": 4
+    },
+    {
+     "code": "dernier_marche",
+     "jours": 9,
+     "titre": "Foyer St-Joseph à Sierre: travaux d'agrandissement, de transformation et de mise aux normes de l'établissement",
+     "adjudicateur": "Association du Foyer St-Joseph",
+     "montant": 969438.0
+    },
+    {
+     "code": "rythme_double",
+     "n8": 3,
+     "habituel": 0.2
+    },
+    {
+     "code": "montant_non_publie"
+    },
+    {
+     "code": "besoin",
+     "bas": "8",
+     "haut": "18",
+     "debut": "2026-10-05",
+     "metiers": [
+      "coffreur",
+      "grutier",
+      "macon",
+      "manoeuvre_construction"
+     ],
+     "en_cours": true
+    },
+    {
+     "code": "lots_attendus",
+     "n": 3
+    },
+    {
+     "code": "permis_commune",
+     "n": 28
+    }
+   ],
+   "besoin": [
+    {
+     "semaine": "2026-10-05",
+     "metier": "coffreur",
+     "personnes_bas": 1.51,
+     "personnes_milieu": 2.4,
+     "personnes_haut": 3.54,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-05",
+     "metier": "grutier",
+     "personnes_bas": 0.76,
+     "personnes_milieu": 1.2,
+     "personnes_haut": 1.77,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-05",
+     "metier": "macon",
+     "personnes_bas": 3.03,
+     "personnes_milieu": 4.79,
+     "personnes_haut": 7.09,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-05",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 2.27,
+     "personnes_milieu": 3.59,
+     "personnes_haut": 5.31,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-12",
+     "metier": "coffreur",
+     "personnes_bas": 1.51,
+     "personnes_milieu": 2.4,
+     "personnes_haut": 3.54,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-12",
+     "metier": "grutier",
+     "personnes_bas": 0.76,
+     "personnes_milieu": 1.2,
+     "personnes_haut": 1.77,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-12",
+     "metier": "macon",
+     "personnes_bas": 3.03,
+     "personnes_milieu": 4.79,
+     "personnes_haut": 7.09,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-12",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 2.27,
+     "personnes_milieu": 3.59,
+     "personnes_haut": 5.31,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-19",
+     "metier": "coffreur",
+     "personnes_bas": 1.51,
+     "personnes_milieu": 2.4,
+     "personnes_haut": 3.54,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-19",
+     "metier": "grutier",
+     "personnes_bas": 0.76,
+     "personnes_milieu": 1.2,
+     "personnes_haut": 1.77,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-19",
+     "metier": "macon",
+     "personnes_bas": 3.03,
+     "personnes_milieu": 4.79,
+     "personnes_haut": 7.09,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-19",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 2.27,
+     "personnes_milieu": 3.59,
+     "personnes_haut": 5.31,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-26",
+     "metier": "coffreur",
+     "personnes_bas": 1.51,
+     "personnes_milieu": 2.4,
+     "personnes_haut": 3.54,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-26",
+     "metier": "grutier",
+     "personnes_bas": 0.76,
+     "personnes_milieu": 1.2,
+     "personnes_haut": 1.77,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-26",
+     "metier": "macon",
+     "personnes_bas": 3.03,
+     "personnes_milieu": 4.79,
+     "personnes_haut": 7.09,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-26",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 2.27,
+     "personnes_milieu": 3.59,
+     "personnes_haut": 5.31,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-02",
+     "metier": "coffreur",
+     "personnes_bas": 1.51,
+     "personnes_milieu": 2.4,
+     "personnes_haut": 3.54,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-02",
+     "metier": "grutier",
+     "personnes_bas": 0.76,
+     "personnes_milieu": 1.2,
+     "personnes_haut": 1.77,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-02",
+     "metier": "macon",
+     "personnes_bas": 3.03,
+     "personnes_milieu": 4.79,
+     "personnes_haut": 7.09,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-02",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 2.27,
+     "personnes_milieu": 3.59,
+     "personnes_haut": 5.31,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-09",
+     "metier": "coffreur",
+     "personnes_bas": 1.51,
+     "personnes_milieu": 2.4,
+     "personnes_haut": 3.54,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-09",
+     "metier": "grutier",
+     "personnes_bas": 0.76,
+     "personnes_milieu": 1.2,
+     "personnes_haut": 1.77,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-09",
+     "metier": "macon",
+     "personnes_bas": 3.03,
+     "personnes_milieu": 4.79,
+     "personnes_haut": 7.09,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-09",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 2.27,
+     "personnes_milieu": 3.59,
+     "personnes_haut": 5.31,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-16",
+     "metier": "coffreur",
+     "personnes_bas": 1.51,
+     "personnes_milieu": 2.4,
+     "personnes_haut": 3.54,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-16",
+     "metier": "grutier",
+     "personnes_bas": 0.76,
+     "personnes_milieu": 1.2,
+     "personnes_haut": 1.77,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-16",
+     "metier": "macon",
+     "personnes_bas": 3.03,
+     "personnes_milieu": 4.79,
+     "personnes_haut": 7.09,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-16",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 2.27,
+     "personnes_milieu": 3.59,
+     "personnes_haut": 5.31,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-23",
+     "metier": "coffreur",
+     "personnes_bas": 1.51,
+     "personnes_milieu": 2.4,
+     "personnes_haut": 3.54,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-23",
+     "metier": "grutier",
+     "personnes_bas": 0.76,
+     "personnes_milieu": 1.2,
+     "personnes_haut": 1.77,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-23",
+     "metier": "macon",
+     "personnes_bas": 3.03,
+     "personnes_milieu": 4.79,
+     "personnes_haut": 7.09,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-23",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 2.27,
+     "personnes_milieu": 3.59,
+     "personnes_haut": 5.31,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    }
+   ],
+   "lots_attendus": [
+    {
+     "phase": "finitions",
+     "chantier": 56,
+     "presence": 0.21,
+     "date_p10": "2026-02-14",
+     "date_p50": "2026-06-25",
+     "date_p90": "2027-02-25"
+    },
+    {
+     "phase": "equipement",
+     "chantier": 56,
+     "presence": 0.07,
+     "date_p10": "2026-04-05",
+     "date_p50": "2026-07-17",
+     "date_p90": "2027-05-07"
+    },
+    {
+     "phase": "exterieur",
+     "chantier": 56,
+     "presence": 0.07,
+     "date_p10": "2026-03-14",
+     "date_p50": "2026-04-18",
+     "date_p90": "2027-08-15"
+    }
+   ],
+   "sources": [
+    {
+     "date": "2026-09-26",
+     "titre": "Foyer St-Joseph à Sierre: travaux d'agrandissement, de transformation et de mise aux normes de l'établissement",
+     "adjudicateur": "Association du Foyer St-Joseph",
+     "montant_chf": 969438.0,
+     "phase": "preparatoire",
+     "url_simap": "https://www.simap.ch/fr/project-detail/8882250c-777f-49ed-a287-8176eec7f186",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/8882250c-777f-49ed-a287-8176eec7f186/publication-details/5ef1fb7f-e6f5-4738-b3ce-a8693e28fe9a",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-09-25",
+     "titre": "Génie civil: 65kV_St-Léonard-Granges_Lot N°2026 FMV",
+     "adjudicateur": "Valgrid SA",
+     "montant_chf": null,
+     "phase": "gros_oeuvre",
+     "url_simap": "https://www.simap.ch/fr/project-detail/d5ee0269-f4ae-4641-9ee7-309788674c16",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/d5ee0269-f4ae-4641-9ee7-309788674c16/publication-details/b6859144-26d9-4950-b3f7-d4b4c7cde1f6",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-08-21",
+     "titre": "CFC 226 - Crépissage de façade",
+     "adjudicateur": "Commune de Val de Bagnes",
+     "montant_chf": 243710.55,
+     "phase": "enveloppe",
+     "url_simap": "https://www.simap.ch/fr/project-detail/84ed336d-c34c-4585-b533-67731e69140e",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/84ed336d-c34c-4585-b533-67731e69140e/publication-details/ba084e4f-1522-493b-9e6d-7a45a303ad7b",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-04-21",
+     "titre": "Extension et rénovation du Lycée-collège de St-Maurice - CFC 211",
+     "adjudicateur": "Service immobilier et patrimoine",
+     "montant_chf": 2204433.4,
+     "phase": "gros_oeuvre",
+     "url_simap": "https://www.simap.ch/fr/project-detail/a649f138-3f86-4824-9ce7-4675638ec3d2",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/a649f138-3f86-4824-9ce7-4675638ec3d2/publication-details/3f496875-16f1-464c-9ca4-df73b223dcc5",
+     "source": "simap.ch"
+    }
+   ],
+   "n_52s": 4,
+   "dernier_marche_jours": 9
+  },
+  {
+   "id": "ent-55bb6b3e49",
+   "nom": "Evéquoz SA",
+   "ville": "Conthey",
+   "canton": "VS",
+   "specialite": "batiment",
+   "score": 0.6479,
+   "score_surprise": 0.1879,
+   "surprise": [
+    "rythme_double"
+   ],
+   "confiance": "moyenne",
+   "faiblesses": [
+    "code_generique"
+   ],
+   "raisons": [
+    {
+     "code": "marches_52s",
+     "n": 7
+    },
+    {
+     "code": "dernier_marche",
+     "jours": 24,
+     "titre": "STEP III Noës : Extension de la STEP et traitement des micropolluants - Lot GC04 : Travaux béton armé du bâtiment E",
+     "adjudicateur": "Association pour l'épuration des eaux usées de Sierre et environs - STEP de Noës",
+     "montant": 7274505.2
+    },
+    {
+     "code": "rythme_double",
+     "n8": 2,
+     "habituel": 0.9
+    },
+    {
+     "code": "besoin",
+     "bas": "21",
+     "haut": "48",
+     "debut": "2026-10-05",
+     "metiers": [
+      "coffreur",
+      "grutier",
+      "machiniste",
+      "macon",
+      "manoeuvre_construction"
+     ],
+     "en_cours": true
+    },
+    {
+     "code": "permis_commune",
+     "n": 6
+    }
+   ],
+   "besoin": [
+    {
+     "semaine": "2026-10-05",
+     "metier": "coffreur",
+     "personnes_bas": 3.37,
+     "personnes_milieu": 5.33,
+     "personnes_haut": 7.88,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-05",
+     "metier": "grutier",
+     "personnes_bas": 1.68,
+     "personnes_milieu": 2.67,
+     "personnes_haut": 3.94,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-05",
+     "metier": "machiniste",
+     "personnes_bas": 1.87,
+     "personnes_milieu": 2.96,
+     "personnes_haut": 4.37,
+     "phases": [
+      "preparatoire"
+     ]
+    },
+    {
+     "semaine": "2026-10-05",
+     "metier": "macon",
+     "personnes_bas": 6.74,
+     "personnes_milieu": 10.66,
+     "personnes_haut": 15.76,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-05",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 6.92,
+     "personnes_milieu": 10.95,
+     "personnes_haut": 16.19,
+     "phases": [
+      "gros_oeuvre",
+      "preparatoire"
+     ]
+    },
+    {
+     "semaine": "2026-10-12",
+     "metier": "coffreur",
+     "personnes_bas": 3.37,
+     "personnes_milieu": 5.33,
+     "personnes_haut": 7.88,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-12",
+     "metier": "grutier",
+     "personnes_bas": 1.68,
+     "personnes_milieu": 2.67,
+     "personnes_haut": 3.94,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-12",
+     "metier": "machiniste",
+     "personnes_bas": 1.87,
+     "personnes_milieu": 2.96,
+     "personnes_haut": 4.37,
+     "phases": [
+      "preparatoire"
+     ]
+    },
+    {
+     "semaine": "2026-10-12",
+     "metier": "macon",
+     "personnes_bas": 6.74,
+     "personnes_milieu": 10.66,
+     "personnes_haut": 15.76,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-12",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 6.92,
+     "personnes_milieu": 10.95,
+     "personnes_haut": 16.19,
+     "phases": [
+      "gros_oeuvre",
+      "preparatoire"
+     ]
+    },
+    {
+     "semaine": "2026-10-19",
+     "metier": "coffreur",
+     "personnes_bas": 1.81,
+     "personnes_milieu": 2.87,
+     "personnes_haut": 4.24,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-19",
+     "metier": "grutier",
+     "personnes_bas": 0.91,
+     "personnes_milieu": 1.43,
+     "personnes_haut": 2.12,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-19",
+     "metier": "machiniste",
+     "personnes_bas": 1.87,
+     "personnes_milieu": 2.96,
+     "personnes_haut": 4.37,
+     "phases": [
+      "preparatoire"
+     ]
+    },
+    {
+     "semaine": "2026-10-19",
+     "metier": "macon",
+     "personnes_bas": 3.62,
+     "personnes_milieu": 5.73,
+     "personnes_haut": 8.47,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-19",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 4.58,
+     "personnes_milieu": 7.26,
+     "personnes_haut": 10.73,
+     "phases": [
+      "gros_oeuvre",
+      "preparatoire"
+     ]
+    },
+    {
+     "semaine": "2026-10-26",
+     "metier": "coffreur",
+     "personnes_bas": 1.81,
+     "personnes_milieu": 2.87,
+     "personnes_haut": 4.24,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-26",
+     "metier": "grutier",
+     "personnes_bas": 0.91,
+     "personnes_milieu": 1.43,
+     "personnes_haut": 2.12,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-26",
+     "metier": "machiniste",
+     "personnes_bas": 1.87,
+     "personnes_milieu": 2.96,
+     "personnes_haut": 4.37,
+     "phases": [
+      "preparatoire"
+     ]
+    },
+    {
+     "semaine": "2026-10-26",
+     "metier": "macon",
+     "personnes_bas": 3.62,
+     "personnes_milieu": 5.73,
+     "personnes_haut": 8.47,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-10-26",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 4.58,
+     "personnes_milieu": 7.26,
+     "personnes_haut": 10.73,
+     "phases": [
+      "gros_oeuvre",
+      "preparatoire"
+     ]
+    },
+    {
+     "semaine": "2026-11-02",
+     "metier": "coffreur",
+     "personnes_bas": 1.81,
+     "personnes_milieu": 2.87,
+     "personnes_haut": 4.24,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-02",
+     "metier": "grutier",
+     "personnes_bas": 0.91,
+     "personnes_milieu": 1.43,
+     "personnes_haut": 2.12,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-02",
+     "metier": "machiniste",
+     "personnes_bas": 1.87,
+     "personnes_milieu": 2.96,
+     "personnes_haut": 4.37,
+     "phases": [
+      "preparatoire"
+     ]
+    },
+    {
+     "semaine": "2026-11-02",
+     "metier": "macon",
+     "personnes_bas": 3.62,
+     "personnes_milieu": 5.73,
+     "personnes_haut": 8.47,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-02",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 4.58,
+     "personnes_milieu": 7.26,
+     "personnes_haut": 10.73,
+     "phases": [
+      "gros_oeuvre",
+      "preparatoire"
+     ]
+    },
+    {
+     "semaine": "2026-11-09",
+     "metier": "coffreur",
+     "personnes_bas": 1.81,
+     "personnes_milieu": 2.87,
+     "personnes_haut": 4.24,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-09",
+     "metier": "grutier",
+     "personnes_bas": 0.91,
+     "personnes_milieu": 1.43,
+     "personnes_haut": 2.12,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-09",
+     "metier": "machiniste",
+     "personnes_bas": 1.87,
+     "personnes_milieu": 2.96,
+     "personnes_haut": 4.37,
+     "phases": [
+      "preparatoire"
+     ]
+    },
+    {
+     "semaine": "2026-11-09",
+     "metier": "macon",
+     "personnes_bas": 3.62,
+     "personnes_milieu": 5.73,
+     "personnes_haut": 8.47,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-09",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 4.58,
+     "personnes_milieu": 7.26,
+     "personnes_haut": 10.73,
+     "phases": [
+      "gros_oeuvre",
+      "preparatoire"
+     ]
+    },
+    {
+     "semaine": "2026-11-16",
+     "metier": "coffreur",
+     "personnes_bas": 1.81,
+     "personnes_milieu": 2.87,
+     "personnes_haut": 4.24,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-16",
+     "metier": "grutier",
+     "personnes_bas": 0.91,
+     "personnes_milieu": 1.43,
+     "personnes_haut": 2.12,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-16",
+     "metier": "machiniste",
+     "personnes_bas": 1.87,
+     "personnes_milieu": 2.96,
+     "personnes_haut": 4.37,
+     "phases": [
+      "preparatoire"
+     ]
+    },
+    {
+     "semaine": "2026-11-16",
+     "metier": "macon",
+     "personnes_bas": 3.62,
+     "personnes_milieu": 5.73,
+     "personnes_haut": 8.47,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-16",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 4.58,
+     "personnes_milieu": 7.26,
+     "personnes_haut": 10.73,
+     "phases": [
+      "gros_oeuvre",
+      "preparatoire"
+     ]
+    },
+    {
+     "semaine": "2026-11-23",
+     "metier": "coffreur",
+     "personnes_bas": 1.81,
+     "personnes_milieu": 2.87,
+     "personnes_haut": 4.24,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-23",
+     "metier": "grutier",
+     "personnes_bas": 0.91,
+     "personnes_milieu": 1.43,
+     "personnes_haut": 2.12,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-23",
+     "metier": "machiniste",
+     "personnes_bas": 1.87,
+     "personnes_milieu": 2.96,
+     "personnes_haut": 4.37,
+     "phases": [
+      "preparatoire"
+     ]
+    },
+    {
+     "semaine": "2026-11-23",
+     "metier": "macon",
+     "personnes_bas": 3.62,
+     "personnes_milieu": 5.73,
+     "personnes_haut": 8.47,
+     "phases": [
+      "gros_oeuvre"
+     ]
+    },
+    {
+     "semaine": "2026-11-23",
+     "metier": "manoeuvre_construction",
+     "personnes_bas": 4.58,
+     "personnes_milieu": 7.26,
+     "personnes_haut": 10.73,
+     "phases": [
+      "gros_oeuvre",
+      "preparatoire"
+     ]
+    }
+   ],
+   "lots_attendus": [],
+   "sources": [
+    {
+     "date": "2026-09-11",
+     "titre": "STEP III Noës : Extension de la STEP et traitement des micropolluants - Lot GC04 : Travaux béton armé du bâtiment E",
+     "adjudicateur": "Association pour l'épuration des eaux usées de Sierre et environs - STEP de Noës",
+     "montant_chf": 7274505.2,
+     "phase": "gros_oeuvre",
+     "url_simap": "https://www.simap.ch/fr/project-detail/7badbb7a-53bf-4ea6-a651-e6cfdc544155",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/7badbb7a-53bf-4ea6-a651-e6cfdc544155/publication-details/f729c410-f14e-4db0-83b6-3a1b59a8a4b1",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-08-20",
+     "titre": "Correction du trottoir sur la route cantonale T9 St-Maurice - Brig, à Conthey",
+     "adjudicateur": "Service de la mobilité, arrondissement 2, Valais central",
+     "montant_chf": 254770.55,
+     "phase": "gros_oeuvre",
+     "url_simap": "https://www.simap.ch/fr/project-detail/47751800-1fcf-4b38-83de-41cc590e4ab2",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/47751800-1fcf-4b38-83de-41cc590e4ab2/publication-details/e6b211db-2f50-466d-a08e-8d23df25dc44",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-07-01",
+     "titre": "SAV AO_2010",
+     "adjudicateur": "Municipalité de Savièse",
+     "montant_chf": 1049406.05,
+     "phase": "preparatoire",
+     "url_simap": "https://www.simap.ch/fr/project-detail/4d54eb52-0ca3-42c9-ba94-335dc46e14f8",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/4d54eb52-0ca3-42c9-ba94-335dc46e14f8/publication-details/7332ce19-5b04-4e68-8dda-c4b44db11d8e",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-06-08",
+     "titre": "Correction de la chaussée à l'aval du torrent d'Ortchu, sur la RC no 68 Pont-de-la-Morge - Erde - Derborence, sur le territoire de la commune de Conthey",
+     "adjudicateur": "Service de la mobilité, arrondissement 2, Valais central",
+     "montant_chf": 256068.5,
+     "phase": "gros_oeuvre",
+     "url_simap": "https://www.simap.ch/fr/project-detail/c006c5a2-b9dd-43ef-96bc-cda372a16dfa",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/c006c5a2-b9dd-43ef-96bc-cda372a16dfa/publication-details/b33e195a-2572-4381-b726-dc90a9407481",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-06-05",
+     "titre": "Route des Rottes Est - Conthey - TC 12 - Travaux GC et CAD",
+     "adjudicateur": "Sogaval SA, société gérée par OIKEN SA",
+     "montant_chf": 1039779.6,
+     "phase": "gros_oeuvre",
+     "url_simap": "https://www.simap.ch/fr/project-detail/762764a4-9510-491b-91c1-244e945ae12a",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/762764a4-9510-491b-91c1-244e945ae12a/publication-details/fe5df020-38b8-42b1-83d5-6070201be275",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-03-30",
+     "titre": "Construction du nouveau Lycée-Collège Ella Maillart (au Cours Roger Bonvin) à Sion",
+     "adjudicateur": "Service immobilier et patrimoine",
+     "montant_chf": 211758.0,
+     "phase": "gros_oeuvre",
+     "url_simap": "https://www.simap.ch/fr/project-detail/c9052868-d923-4a55-b155-795fdcc0911c",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/c9052868-d923-4a55-b155-795fdcc0911c/publication-details/c2d23975-cca0-4a02-a81a-1cbe81e3b130",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2025-12-05",
+     "titre": "Ecole professionnelle de commerce et artisanale de Sion (EPCAS), bâtiment principal, Sion",
+     "adjudicateur": "Service immobilier et patrimoine",
+     "montant_chf": 189027.95,
+     "phase": "exterieur",
+     "url_simap": "https://www.simap.ch/fr/project-detail/821c00d1-c862-4b8e-a25c-a4c68a1df5d7",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/821c00d1-c862-4b8e-a25c-a4c68a1df5d7/publication-details/57fa9318-b42f-46ff-a3d6-7cdcfd0c348b",
+     "source": "simap.ch"
+    }
+   ],
+   "n_52s": 7,
+   "dernier_marche_jours": 24
+  },
+  {
+   "id": "ent-5398e1188f",
+   "nom": "LUYET CONSTRUCTIONS METALLIQUES SA",
+   "ville": "Sion",
+   "canton": "VS",
+   "specialite": "batiment",
+   "score": 0.6059,
+   "score_surprise": 0.1786,
+   "surprise": [
+    "rythme_double"
+   ],
+   "confiance": "elevee",
+   "faiblesses": [],
+   "raisons": [
+    {
+     "code": "marches_52s",
+     "n": 6
+    },
+    {
+     "code": "dernier_marche",
+     "jours": 11,
+     "titre": "Ecole de Grône - Agrandissement du centre scolaires",
+     "adjudicateur": "Commune de Grône",
+     "montant": 194706.25
+    },
+    {
+     "code": "rythme_double",
+     "n8": 2,
+     "habituel": 0.7
+    },
+    {
+     "code": "besoin",
+     "bas": "0.4",
+     "haut": "0.8",
+     "debut": "2026-10-19",
+     "metiers": [
+      "soudeur"
+     ],
+     "en_cours": true
+    },
+    {
+     "code": "permis_commune",
+     "n": 28
+    }
+   ],
+   "besoin": [
+    {
+     "semaine": "2026-10-19",
+     "metier": "soudeur",
+     "personnes_bas": 0.36,
+     "personnes_milieu": 0.57,
+     "personnes_haut": 0.85,
+     "phases": [
+      "metallerie"
+     ]
+    },
+    {
+     "semaine": "2026-10-26",
+     "metier": "soudeur",
+     "personnes_bas": 0.36,
+     "personnes_milieu": 0.57,
+     "personnes_haut": 0.85,
+     "phases": [
+      "metallerie"
+     ]
+    },
+    {
+     "semaine": "2026-11-02",
+     "metier": "soudeur",
+     "personnes_bas": 0.36,
+     "personnes_milieu": 0.57,
+     "personnes_haut": 0.85,
+     "phases": [
+      "metallerie"
+     ]
+    },
+    {
+     "semaine": "2026-11-09",
+     "metier": "soudeur",
+     "personnes_bas": 0.36,
+     "personnes_milieu": 0.57,
+     "personnes_haut": 0.85,
+     "phases": [
+      "metallerie"
+     ]
+    },
+    {
+     "semaine": "2026-11-16",
+     "metier": "soudeur",
+     "personnes_bas": 0.36,
+     "personnes_milieu": 0.57,
+     "personnes_haut": 0.85,
+     "phases": [
+      "metallerie"
+     ]
+    },
+    {
+     "semaine": "2026-11-23",
+     "metier": "soudeur",
+     "personnes_bas": 0.36,
+     "personnes_milieu": 0.57,
+     "personnes_haut": 0.85,
+     "phases": [
+      "metallerie"
+     ]
+    }
+   ],
+   "lots_attendus": [],
+   "sources": [
+    {
+     "date": "2026-09-24",
+     "titre": "Ecole de Grône - Agrandissement du centre scolaires",
+     "adjudicateur": "Commune de Grône",
+     "montant_chf": 194706.25,
+     "phase": "enveloppe",
+     "url_simap": "https://www.simap.ch/fr/project-detail/54ca0b4a-1a34-48d1-a2b5-a8a163033f49",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/54ca0b4a-1a34-48d1-a2b5-a8a163033f49/publication-details/e208c148-1186-47aa-94ca-7e46b00ca3b7",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-09-21",
+     "titre": "La Castalie à Monthey, modernisation et extension des infrastructures du centre médico-éducatif, CFC 272.2",
+     "adjudicateur": "Etat du Valais Service Immobilier et Patrimoine",
+     "montant_chf": 30118.3,
+     "phase": "metallerie",
+     "url_simap": "https://www.simap.ch/fr/project-detail/5a52f329-ea95-4270-b4fd-89bc4a334dc8",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/5a52f329-ea95-4270-b4fd-89bc4a334dc8/publication-details/4aa7b0ca-201e-4c1f-b1f0-b86879e3c671",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-05-20",
+     "titre": "Construction et transformation des ateliers de l'EPCL sur le site de Crêtelongue à Sierre - CFC 272.0 et CFC 272.3 Portes et vitrages intérieurs en aluminium",
+     "adjudicateur": "Service immobilier et patrimoine",
+     "montant_chf": 371646.9,
+     "phase": "metallerie",
+     "url_simap": "https://www.simap.ch/fr/project-detail/c64dd0a3-c9d4-4a0b-9ee5-6b1e58c40beb",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/c64dd0a3-c9d4-4a0b-9ee5-6b1e58c40beb/publication-details/49ec8734-d50d-4e0c-9d03-6dab24badf8d",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-05-07",
+     "titre": "Centre sportif de Verbier - CFC 272.12 Serrurerie caillebotis-escaliers",
+     "adjudicateur": "Commune de Val de Bagnes",
+     "montant_chf": 128103.1,
+     "phase": "metallerie",
+     "url_simap": "https://www.simap.ch/fr/project-detail/dfcb22af-3a86-4568-96af-e0a0fe5b6d0e",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/dfcb22af-3a86-4568-96af-e0a0fe5b6d0e/publication-details/0abe8746-53d5-4262-8dea-04c3f4847c03",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-05-06",
+     "titre": "Copie Construction et transformation des ateliers de l'EPCL sur le site de Crêtelongue à Sierre - CFC 221.4 - Fenêtres et portes extérieures en aluminium",
+     "adjudicateur": "Service immobilier et patrimoine",
+     "montant_chf": 581529.6,
+     "phase": "enveloppe",
+     "url_simap": "https://www.simap.ch/fr/project-detail/bf1ba7c8-b226-4bed-867a-25a43ec76057",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/bf1ba7c8-b226-4bed-867a-25a43ec76057/publication-details/33af9434-f871-44d9-9328-1c7b356761d3",
+     "source": "simap.ch"
+    },
+    {
+     "date": "2026-03-04",
+     "titre": "Centre sportif de Verbier - CFC 272.00 Portes métalliques vitrées + cloisons vitrées en métal",
+     "adjudicateur": "Commune de Val de Bagnes",
+     "montant_chf": 353185.85,
+     "phase": "metallerie",
+     "url_simap": "https://www.simap.ch/fr/project-detail/b7aa62e3-cca1-464b-9f8b-8d4e456db761",
+     "url_api": "https://www.simap.ch/api/publications/v1/project/b7aa62e3-cca1-464b-9f8b-8d4e456db761/publication-details/bce58d1b-fe07-41f8-beb2-7345d9544b14",
+     "source": "simap.ch"
+    }
+   ],
+   "n_52s": 6,
+   "dernier_marche_jours": 11
+  }
+ ],
+ "modele": {
+  "type": "régression logistique (variables standardisées, log)",
+  "variables": [
+   "n_52s",
+   "n_26s",
+   "n_8s",
+   "last_days",
+   "m0",
+   "value_52s",
+   "n_auth_52s",
+   "first_days",
+   "tendance"
+  ],
+  "depuis": "2025-01-20",
+  "semaines_apprentissage": 82,
+  "dernier_label_avant_as_of_jours": 56,
+  "repli_frequence": {
+   "activite": false,
+   "pic": false
+  }
+ },
+ "cible": "T0 : au moins un nouveau marché public (simap) dans la spécialité dans les 8 semaines",
+ "mention_obligatoire": "Ceci n'est pas une publication officielle. Les données publiées sur la plateforme www.simap.ch font foi.",
+ "source": "simap.ch (API, CG du 30.09.2023)",
+ "hypotheses": [
+  "mesuré : délai entre l'adjudication de l'ancre (gros_oeuvre) et celle de chaque phase (quantiles 10/50/90)",
+  "mesuré : probabilité qu'une phase soit adjugée séparément dans le même chantier",
+  "mesuré : montant de chaque phase rapporté au montant de l'ancre (médiane)",
+  "hypothèse : début des travaux 4 semaines après l'adjudication",
+  "hypothèse : durées des phases en semaines {'preparatoire': 4, 'terrassement': 6, 'gros_oeuvre': 16, 'enveloppe': 8, 'electricite': 12, 'cvc': 12, 'sanitaire': 12, 'transport': 6, 'amenagement_int': 8, 'finitions': 6, 'equipement': 6, 'exterieur': 6}",
+  "hypothèse : part de main-d'œuvre dans le prix (0.25, 0.35, 0.45) (bas, milieu, haut)",
+  "hypothèse : coût hebdomadaire d'une personne en CHF (2600.0, 2300.0, 2000.0)",
+  "hypothèse : répartition de la main-d'œuvre d'une phase entre ses métiers (égale, sauf gros œuvre)",
+  "hypothèse : le besoin chiffré est la main-d'œuvre mobilisée par le lot ; la part confiée à des temporaires est inconnue sans l'historique des commandes de Flexsis",
+  "règle : confiance élevée sans faiblesse, moyenne avec une, faible avec deux ou plus (dernier marché > 13 semaines, montant estimé ou non publié, code CPV générique, pas de lot récent)",
+  "le score mesure une activité (nouveau marché public), pas une commande à Flexsis"
+ ],
+ "phasage": {
+  "gros_oeuvre": {
+   "presence": 1.0,
+   "p10": 0.0,
+   "p50": 0.0,
+   "p90": 0.0,
+   "ratio": 1.0
+  },
+  "preparatoire": {
+   "presence": 0.3,
+   "p10": -112.7,
+   "p50": 0.0,
+   "p90": 16.1,
+   "ratio": 0.78
+  },
+  "terrassement": {
+   "presence": 0.07,
+   "p10": -79.7,
+   "p50": 0.0,
+   "p90": 54.9,
+   "ratio": 1.12
+  },
+  "enveloppe": {
+   "presence": 0.54,
+   "p10": -17.4,
+   "p50": 14.0,
+   "p90": 156.4,
+   "ratio": 0.56
+  },
+  "electricite": {
+   "presence": 0.39,
+   "p10": -3.2,
+   "p50": 0.0,
+   "p90": 174.4,
+   "ratio": 0.72
+  },
+  "cvc": {
+   "presence": 0.4,
+   "p10": -74.2,
+   "p50": 0.0,
+   "p90": 77.0,
+   "ratio": 0.33
+  },
+  "sanitaire": {
+   "presence": 0.32,
+   "p10": -25.8,
+   "p50": 0.0,
+   "p90": 77.0,
+   "ratio": 0.37
+  },
+  "transport": {
+   "presence": 0.11,
+   "p10": 0.0,
+   "p50": 10.0,
+   "p90": 175.5,
+   "ratio": 0.11
+  },
+  "amenagement_int": {
+   "presence": 0.26,
+   "p10": -113.8,
+   "p50": 74.0,
+   "p90": 327.0,
+   "ratio": 0.33
+  },
+  "finitions": {
+   "presence": 0.21,
+   "p10": -59.1,
+   "p50": 71.0,
+   "p90": 316.7,
+   "ratio": 0.18
+  },
+  "equipement": {
+   "presence": 0.07,
+   "p10": -9.8,
+   "p50": 93.0,
+   "p90": 387.7,
+   "ratio": 0.26
+  },
+  "exterieur": {
+   "presence": 0.07,
+   "p10": -31.4,
+   "p50": 3.5,
+   "p90": 487.7,
+   "ratio": 0.27
+  }
+ },
+ "liste_id": "9f5ab7868657",
+ "donnees": {
+  "fichiers": [
+   "adjudications_romandie_construction_2024-07_2026-09.jsonl",
+   "adjudications_emetteur_vs_construction_2024-07_2026-09.jsonl"
+  ],
+  "adjudications": 2508,
+  "type": "RÉEL (simap.ch)"
+ }
+}

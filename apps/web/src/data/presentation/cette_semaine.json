@@ -1,0 +1,56 @@
+{
+ "schema": 1,
+ "claims": "PRES-SEMAINE-1",
+ "lundi": "2026-10-05",
+ "semaine": {
+  "du": "2026-09-21",
+  "au": "2026-09-27"
+ },
+ "liste": {
+  "fichier": "data/terrain/liste_2026-10-05_batiment.json",
+  "liste_id": "9f5ab7868657",
+  "specialite": "batiment",
+  "region": [
+   "VS"
+  ]
+ },
+ "fin_des_donnees": {
+  "simap": "2026-09-30",
+  "bulletin_officiel": "2026-09-29"
+ },
+ "lues": {
+  "total": 130,
+  "simap": 38,
+  "bulletin_officiel": 92
+ },
+ "retenues": {
+  "total": 15,
+  "simap": 15,
+  "bulletin_officiel": 0
+ },
+ "appels": 10,
+ "sources": {
+  "simap": {
+   "nom": {
+    "fr": "simap.ch",
+    "de": "simap.ch"
+   },
+   "mention": "Ceci n'est pas une publication officielle. Les données publiées sur la plateforme www.simap.ch font foi."
+  },
+  "bulletin_officiel": {
+   "nom": {
+    "fr": "Bulletin officiel du Valais",
+    "de": "Amtsblatt des Kantons Wallis"
+   },
+   "mention": {
+    "fr": "relevé manuel pendant le prototype",
+    "de": "während des Prototyps von Hand erfasst"
+   }
+  }
+ },
+ "provenance": {
+  "commande": "proxsis moments-presentation",
+  "calcule_le": "2026-10-07",
+  "claims": "PRES-SEMAINE-1"
+ }
+}

@@ -1,0 +1,11 @@
+# Empreintes SHA-256 de l'instantané data/reel/ (hors git : adjudications simap filtrées, séries et référentiels publics)
+# qui reproduit à l'octet près les fichiers de apps/web/src/data/ (python/tests/test_reproducibility.py).
+# Vérifier une copie : depuis la racine, shasum -a 256 -c data/reel.sha256
+3d37a5b96919b6d60e88d133eead461fd297a38bc03fbf000560fad3f66e4e55  data/reel/referentiels/lieux_vs.csv
+8e7eaf479c217794de29447298393ea6ef3e4bdde4d038d9d509365bc8fc60ed  data/reel/referentiels/localites_vs.csv
+7a748841618c06459f3fee0bb8b0d033839d9fa2e37656cff8d82718d21d1a94  data/reel/series/kof_jobtracker_hebdo.csv
+d11651037ebea6994308996ef8103a26b92cbd3be50d06d33fb346460aec4adb  data/reel/series/meteo_4_stations_hebdo.csv
+b501b2cd3159d6496cfdfc4cbd7d6c949ec4ee5cbc26717b917e58cd9f514ac5  data/reel/series/ofs_places_vacantes_trimestre.csv
+083b6c780aee1aa9a2f50a0a70a9e57268d364d77c1806f0ccc1d8461a86b549  data/reel/simap/adjudications_emetteur_vs_construction_2024-07_2026-09.jsonl
+040875dff8e56e233c5ad557b154a6656d26d7f25a8f48fd83ae135f2dbfa69c  data/reel/simap/adjudications_romandie_construction_2024-07_2026-09.jsonl
+e9abe25f9e08483f8b08ffa18a605c63b76f441d8407e2682a624f708415791f  data/reel/simap/adjudications_romandie_fournitures_2024-07_2026-09.jsonl

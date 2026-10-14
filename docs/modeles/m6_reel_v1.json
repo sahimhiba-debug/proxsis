@@ -1,0 +1,223 @@
+{
+ "donnees": "RÉEL",
+ "sources": {
+  "kof": "KOF Job Tracker, ch.kof.jobtracker.total.total.clean.idx (tsdb-api.kof.ethz.ch), hebdomadaire",
+  "meteo": "MétéoSuisse OGD, stations Sion, Genève, Berne, Zurich (CC BY 4.0), moyenne hebdomadaire",
+  "ofs": "OFS STAT-TAB px-x-0602000000_104, places vacantes par grande région, trimestriel",
+  "simap": "adjudications simap de construction collectées (Suisse romande et adjudicateurs valaisans)"
+ },
+ "kof_hebdo_sans_signal": {
+  "periode": [
+   "2022-01-03",
+   "2026-09-28"
+  ],
+  "n_origines": 60,
+  "pas": 4,
+  "horizons": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "wape": {
+   "saisonnier_naif": 0.11107920007336454,
+   "derniere_valeur": 0.01594807323404262,
+   "moyenne_4": 0.019965936725154006,
+   "boosting": 0.018531840350530324
+  },
+  "meilleure_naive": "derniere_valeur",
+  "boosting_moins_meilleure_naive": {
+   "moyenne": 0.002215409556764201,
+   "ic95": [
+    -0.0017042474888324419,
+    0.00691362972049963
+   ]
+  }
+ },
+ "kof_hebdo_avec_meteo": {
+  "periode": [
+   "2022-01-03",
+   "2026-09-28"
+  ],
+  "n_origines": 60,
+  "pas": 4,
+  "horizons": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "wape": {
+   "saisonnier_naif": 0.11107920007336454,
+   "derniere_valeur": 0.01594807323404262,
+   "moyenne_4": 0.019965936725154006,
+   "boosting": 0.018180312450051462
+  },
+  "meilleure_naive": "derniere_valeur",
+  "boosting_moins_meilleure_naive": {
+   "moyenne": 0.0020457487236970177,
+   "ic95": [
+    -0.0013984341831372086,
+    0.006270681908943213
+   ]
+  }
+ },
+ "kof_hebdo_fenetre_simap_sans": {
+  "periode": [
+   "2025-06-02",
+   "2026-09-28"
+  ],
+  "n_origines": 32,
+  "pas": 2,
+  "horizons": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "wape": {
+   "saisonnier_naif": 0.08930660414525793,
+   "derniere_valeur": 0.015468608238991693,
+   "moyenne_4": 0.018679059936995788,
+   "boosting": 0.01234047859206094
+  },
+  "meilleure_naive": "derniere_valeur",
+  "boosting_moins_meilleure_naive": {
+   "moyenne": -0.003088989410104514,
+   "ic95": [
+    -0.006923175297110707,
+    0.0017807027340669631
+   ]
+  }
+ },
+ "kof_hebdo_fenetre_simap_avec": {
+  "periode": [
+   "2025-06-02",
+   "2026-09-28"
+  ],
+  "n_origines": 32,
+  "pas": 2,
+  "horizons": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "wape": {
+   "saisonnier_naif": 0.08930660414525793,
+   "derniere_valeur": 0.015468608238991693,
+   "moyenne_4": 0.018679059936995788,
+   "boosting": 0.0124560803984909
+  },
+  "meilleure_naive": "derniere_valeur",
+  "boosting_moins_meilleure_naive": {
+   "moyenne": -0.0029746812214894703,
+   "ic95": [
+    -0.006799765149993115,
+    0.0018058352567242352
+   ]
+  }
+ },
+ "ofs_trimestriel": {
+  "Suisse": {
+   "periode": [
+    "2015Q1",
+    "2026Q2"
+   ],
+   "n_origines": 43,
+   "pas": 1,
+   "horizons": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "wape": {
+    "saisonnier_naif": 0.15690624431124292,
+    "derniere_valeur": 0.10667060028248003,
+    "moyenne_4": 0.1466072977965398,
+    "boosting": 0.10672231724152385
+   },
+   "meilleure_naive": "derniere_valeur",
+   "boosting_moins_meilleure_naive": {
+    "moyenne": 9.095281529044199e-05,
+    "ic95": [
+     -0.02623877183830134,
+     0.01770175704650361
+    ]
+   }
+  },
+  "Région lémanique": {
+   "periode": [
+    "2015Q1",
+    "2026Q2"
+   ],
+   "n_origines": 43,
+   "pas": 1,
+   "horizons": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "wape": {
+    "saisonnier_naif": 0.1659623584887598,
+    "derniere_valeur": 0.11810495969716116,
+    "moyenne_4": 0.14955539691526695,
+    "boosting": 0.12715844855438566
+   },
+   "meilleure_naive": "derniere_valeur",
+   "boosting_moins_meilleure_naive": {
+    "moyenne": 0.007552284423879769,
+    "ic95": [
+     -0.01419518605731635,
+     0.030303358788633054
+    ]
+   }
+  },
+  "Espace Mittelland": {
+   "periode": [
+    "2015Q1",
+    "2026Q2"
+   ],
+   "n_origines": 43,
+   "pas": 1,
+   "horizons": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "wape": {
+    "saisonnier_naif": 0.17584955842590588,
+    "derniere_valeur": 0.1226419262524545,
+    "moyenne_4": 0.16837905041832382,
+    "boosting": 0.1291885380248343
+   },
+   "meilleure_naive": "derniere_valeur",
+   "boosting_moins_meilleure_naive": {
+    "moyenne": 0.009517811955397906,
+    "ic95": [
+     -0.01990684459638913,
+     0.03578330529461441
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,38 @@
+{
+  "_": "Adresse publique de la démonstration (Vercel), contrôlée chaque jour par .github/workflows/production-quotidienne.yml : proxsis.vercel.app, l'adresse du QR et la seule restante (Hiba a retiré flexsis-web.vercel.app et proxsisweb.vercel.app le 07.10.2026).",
+  "domaines": [
+    "proxsis.vercel.app"
+  ],
+  "pages": [
+    "/fr/",
+    "/de/",
+    "/fr/semaine/M1/",
+    "/de/semaine/M1/",
+    "/fr/entreprise/ent-1ef761b229/appel/",
+    "/fr/presentation/",
+    "/de/presentation/",
+    "/fr/presentation/synthese/"
+  ],
+  "marqueurs": {
+    "/fr/semaine/M1/": [
+      "Prototype · concept non officiel",
+      "Les données publiées sur la plateforme www.simap.ch font foi."
+    ],
+    "/de/semaine/M1/": [
+      "Prototyp · inoffizielles Konzept",
+      "Les données publiées sur la plateforme www.simap.ch font foi."
+    ],
+    "/fr/presentation/": [
+      "Prototype · concept non officiel"
+    ],
+    "/de/presentation/": [
+      "Prototyp · inoffizielles Konzept"
+    ]
+  },
+  "entetes": [
+    "content-security-policy",
+    "x-content-type-options",
+    "referrer-policy"
+  ],
+  "matin_en_direct": "apps/web/src/data/direct/matin.json"
+}

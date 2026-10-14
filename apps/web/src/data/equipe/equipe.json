@@ -1,0 +1,11 @@
+{
+ "schema": 2,
+ "note": "« Qui sommes-nous » (suite 6 de Hiba, § 5) : seulement les membres que Hiba a donnés, avec leur accord, tels qu'elle les a écrits ; aucun emplacement vide ne s'affiche. Le contact n'apparaît que si Hiba le donne. Une construction de production s'arrête si un nom ou un rôle manque (next.config.ts, src/lib/team.ts).",
+ "membres": [
+  {
+   "nom": "Hiba Sahim",
+   "role": "Ingénieur IA"
+  }
+ ],
+ "contact": null
+}

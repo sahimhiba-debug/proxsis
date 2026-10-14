@@ -1,0 +1,94 @@
+name: CI
+# Every push to main and every pull request: the engine (python), the application (web), the demo in a browser
+# (e2e), the three browser engines (moteurs) and the database rights (database). A pull request is merged only when all
+# five are green.
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+# a newer push to the same pull request cancels the run it makes obsolete; runs on main always finish
+concurrency:
+  group: ci-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+jobs:
+  python:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    defaults: { run: { working-directory: python } }
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+        with: { persist-credentials: false }
+      - uses: astral-sh/setup-uv@caf0cab7a618c569241d31dcd442f54681755d39 # v3.2.4
+        with: { version: "0.11.17" }
+      # the locked environment, as tested (python/uv.lock, Python from python/.python-version): nothing is resolved here
+      - run: uv sync --frozen --extra dev
+      - run: uv run --frozen ruff check src tests
+      - run: uv run --frozen mypy
+      - run: uv run --frozen pytest -q -m "not network"
+  web:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    defaults: { run: { working-directory: apps/web } }
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+        with: { persist-credentials: false }
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with: { node-version-file: apps/web/.nvmrc, cache: npm, cache-dependency-path: apps/web/package-lock.json }
+      - run: npm ci
+      - run: npm run lint
+      - run: npm run typecheck
+      - run: npm test
+      - run: node --test ../../scripts/production/fraicheur.test.mjs # the daily production check's freshness rule
+      - run: npm run build
+  e2e:
+    # the demo replayed in a browser, as on the presenter's machine: online, offline (static copy, every external
+    # request blocked) and in German; accessibility, mentions, network, phone. The pixel references are kept per
+    # platform (macOS, where the demo runs) and are replayed there (npm run visuel:temps).
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    defaults: { run: { working-directory: apps/web } }
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+        with: { persist-credentials: false }
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with: { node-version-file: apps/web/.nvmrc, cache: npm, cache-dependency-path: apps/web/package-lock.json }
+      - run: npm ci
+      - run: google-chrome --version
+      - run: npm run e2e:prepare
+      - run: npx playwright test
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        if: failure()
+        with: { name: playwright, path: apps/web/test-results, retention-days: 7 }
+  moteurs:
+    # the first screen, the visit and the application on Chrome, Safari (WebKit) and Firefox, each on a phone, a tablet
+    # and a computer (brief « à distance », § 10), from the static export the director receives
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    defaults: { run: { working-directory: apps/web } }
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+        with: { persist-credentials: false }
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with: { node-version-file: apps/web/.nvmrc, cache: npm, cache-dependency-path: apps/web/package-lock.json }
+      - run: npm ci
+      - run: npx playwright install --with-deps webkit firefox
+      - run: npm run build:static
+      - run: npm run moteurs
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        if: failure()
+        with: { name: moteurs, path: apps/web/test-results/moteurs, retention-days: 7 }
+  database:
+    timeout-minutes: 10
+    # the script builds its own disposable cluster (initdb, Unix socket in a temporary folder): it uses the PostgreSQL
+    # binaries preinstalled on the runner, no database service
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+        with: { persist-credentials: false }
+      - run: PG_BIN="$(find /usr/lib/postgresql -mindepth 2 -maxdepth 2 -type d -name bin | sort -V | tail -1)" ./supabase/tests/run.sh

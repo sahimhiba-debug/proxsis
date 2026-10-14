@@ -1,0 +1,538 @@
+{
+ "NET-1": {
+  "affirmation": "Domaines de données qui répondent depuis le Mac (2026-10-05)",
+  "valeur": "76 sur 77 (seul `datenservice.kof.ethz.ch` refuse la connexion)",
+  "donnees": "RÉEL",
+  "commande": "python -c \"from pathlib import Path; from proxsis.netcheck import run; run(Path('../data/reseau/verification_2026-10-05.csv'))\"",
+  "fichier": "`data/reseau/verification_2026-10-05.csv`",
+  "limite": "mesuré le 2026-10-05 ; varie dans le temps"
+ },
+ "CAT-1": {
+  "affirmation": "Test réel des 68 lignes du catalogue (2026-10-05, 2e passage)",
+  "valeur": "66 URL répondent ; 40 interdites par robots.txt (non appelées) ; 3 serveurs injoignables ; 17 sources non appelées (inscription, accord ou verdict « non ») ; 2 erreurs HTTP (405, 404)",
+  "donnees": "RÉEL",
+  "commande": "python -c \"from pathlib import Path; from proxsis.catalogue_check import run; run(Path('../data/catalogue.csv'), Path('../data/reseau/catalogue_tests_2026-10-05.csv'))\"",
+  "fichier": "`data/reseau/catalogue_tests_2026-10-05.csv`, colonne `test_reel_2026_10_05` du catalogue",
+  "limite": "mesuré ; un serveur peut expirer d'un passage à l'autre"
+ },
+ "SOURCES-1": {
+  "affirmation": "Carte des sources (haut de la page « Sources et mesures », visite, page A4 ; suite 10, § 3) : lignes du catalogue `data/catalogue.csv` comptées par groupe, sans recouvrement (une ligne = une source ou une rubrique ; les trois lignes simap.ch partagent un même accès)",
+  "valeur": "68 sources étudiées ; 2 en service (simap.ch, adjudications ; Bulletin officiel du Valais, demandes d'autorisation de construire, consulté à la main) ; 4 couvertes par une demande d'accès envoyée (FOSC, registre du commerce HR01 et HR02 ; ZefixPublicREST ; Job-Room ; RegBL, extraits publics) ; 9 écartées (3 données de particuliers, 3 conditions du site qui l'interdisent, 2 portails privés sans accord, 1 serveur fermé et remplacé par une autre adresse) ; 53 autres (43 sous conditions à vérifier, 10 utilisables mais sans usage pour la liste)",
+  "donnees": "RÉEL",
+  "commande": "proxsis carte-sources",
+  "fichier": "`apps/web/src/data/sources/carte.json`",
+  "limite": "compté le 13.10.2026 par la commande (groupes définis dans `source_map.py`, avec la raison de chaque source écartée), refusé s'il diffère de cette ligne ; « envoyée » : statut donné par Hiba (octobre 2026), aucune réponse connue à ce jour ; le compte de notre catalogue, pas un inventaire officiel des sources"
+ },
+ "SIMAP-1": {
+  "affirmation": "**Projets** simap dont la publication la plus récente est une adjudication publiée en août–septembre 2026 (travaux, services, fournitures ; `award_tender` et `direct_award`) — la recherche ne renvoie que la dernière publication de chaque projet (audit M7)",
+  "valeur": "1 937 (travaux 1 009, services 595, fournitures 333) ; 902 sans canton du lieu d'exécution (46,6 %)",
+  "donnees": "RÉEL",
+  "commande": "proxsis tirage-reel",
+  "fichier": "`data/annotations/reel_v2/cadre.jsonl`, `TIRAGE.json`",
+  "limite": "mesuré le 2026-10-05 ; peut bouger si simap corrige des publications"
+ },
+ "SIMAP-2": {
+  "affirmation": "Jeu réel v2 tiré pour annotation",
+  "valeur": "150 adjudications (75 FR, 75 DE) ; 143 avec prix publié ; 1 lauréat masqué par le filtre (nom ressemblant à une personne physique) ; 169 fiches lues ; retiré le 2026-10-05 après l'audit B1 (adjudicateurs publics n'étaient plus à masquer)",
+  "donnees": "RÉEL",
+  "commande": "proxsis tirage-reel` (graine 20261005)",
+  "fichier": "`data/annotations/reel_v2/`",
+  "limite": "non annoté, non gelé"
+ },
+ "REEL-T0": {
+  "affirmation": "Backtest réel T0 (nouveau marché public dans les 8 semaines), construction, Suisse romande, 44 semaines, 731 entreprises, P@20",
+  "valeur": "hasard 16,0 % ; récence 31,0 % ; fréquence 52 sem. 55,0 % (IC 95 % 48,4–68,5 %) ; M0 marchés 52,7 % ; M0 − fréquence −2,3 points (IC −8,9 à +1,4)",
+  "donnees": "RÉEL",
+  "commande": "proxsis backtest-reel …` (voir `docs/backtest/backtest_reel.md`)",
+  "fichier": "`docs/backtest/reel_t0.json`",
+  "limite": "indicateur d'activité publique, **pas** de besoin de personnel ni de commande ; **version des données : 731 entreprises** (fiches simap rafraîchies, commit `e47bca0`, 05.10.2026 22:14). La toute première mesure (commit `8871cf7`, 05.10.2026 21:53) indiquait **729** entreprises : elle portait sur 378 fiches collectées avant une correction d'audit qui avait masqué à tort 353 adjudicateurs et 31 lauréats. Même périmètre dans les deux versions (1 892 adjudications du même fichier, données jusqu'au 30.09.2026, 44 semaines) ; après rafraîchissement, 1 891 adjudications au lieu de 1 888 sont attribuées à une entreprise. Les quatre taux arrondis sont identiques (taux de base 16,04 % → 15,98 %, soit 16,0 %). Rejoué à l'identique le 06.10.2026. Chiffre à citer : **731**"
+ },
+ "REEL-T0-NOUVEAUX": {
+  "affirmation": "Part des lauréats d'une fenêtre de 8 semaines jamais vus avant (construction, Suisse romande, 44 semaines)",
+  "valeur": "34,4 % (2 053 sur 5 965)",
+  "donnees": "RÉEL",
+  "commande": "proxsis backtest-reel … --etendu",
+  "fichier": "`docs/backtest/reel_t0_surprise_combine.json`",
+  "limite": "inatteignables par l'historique des marchés"
+ },
+ "REEL-T0-PIC": {
+  "affirmation": "Cible « pic » (≥ 2 marchés en 8 semaines et ≥ 2 × le rythme habituel), P@20",
+  "valeur": "base 3,5 % ; fréquence 8,1 % ; M0 12,3 % ; combiné 12,8 % ; combiné − fréquence +4,8 points (IC 95 % +2,0 à +7,5) — corrigé le 12.10.2026 (questionnaire de Hiba du 07.10.2026, B10) : rejoué le 07.10.2026 puis le 12.10.2026 sur l'instantané actuel (`data/reel.sha256`) ; les adjudicateurs remasqués le 06.10.2026 (audit B1) changent le modèle combiné ; mesure du 05.10.2026 : 12,7 % / +4,7 (IC +1,9 à +7,5) ; première version 14,2 % / +6,1 sur des données d'avant la correction B1",
+  "donnees": "RÉEL",
+  "commande": "proxsis backtest-reel … --etendu",
+  "fichier": "`docs/backtest/reel_t0_surprise_combine.json`",
+  "limite": "activité publique, pas commande ; conclusion inchangée"
+ },
+ "REEL-T0-COMB": {
+  "affirmation": "Modèle combiné sur T0, P@20",
+  "valeur": "56,0 % contre 55,0 % pour la fréquence ; +1,0 point (IC −4,5 à +4,4), non significatif — corrigé le 12.10.2026 (B10, voir REEL-T0-PIC) ; mesure du 05.10.2026 : 55,9 %, +0,9 (IC −4,7 à +4,3)",
+  "donnees": "RÉEL",
+  "commande": "idem",
+  "fichier": "idem",
+  "limite": "conclusion inchangée"
+ },
+ "SIMAP-3": {
+  "affirmation": "Adjudications de construction collectées (Romandie et adjudicateurs valaisans, 2024-07-19 à 2026-09-30) ; part valaisanne (au moins un des trois critères) ; sans canton des travaux",
+  "valeur": "2 508 adjudications ; Valais 1 223 (48,8 %) ; sans canton 713 (28,4 %) ; lauréats masqués 9 sur 2 536",
+  "donnees": "RÉEL",
+  "commande": "proxsis apercu-simap",
+  "fichier": "`docs/recherche/apercu_simap.json`, `docs/recherche/apercu_simap.md`",
+  "limite": "collecte après masquage des adjudicateurs ressemblant à des personnes (audit semaine 1, B1)"
+ },
+ "PHAS-1": {
+  "affirmation": "Délai médian d'adjudication après le gros œuvre (145 chantiers avec gros œuvre sur 542)",
+  "valeur": "électricité 0 j ; CVC 0 j ; sanitaire 0 j ; enveloppe 14 j ; aménagements intérieurs 74 j ; finitions 71 j",
+  "donnees": "RÉEL",
+  "commande": "proxsis phasage-reel",
+  "fichier": "`docs/modeles/phasage_reel_v1.json`, `docs/modeles/phasage_reel.md`",
+  "limite": "délai d'adjudication, **pas** calendrier des travaux"
+ },
+ "PHAS-2": {
+  "affirmation": "Validation temporelle du phasage (coupures 2025-10-01 et 2026-01-01)",
+  "valeur": "couverture p10–p90 85 % et 83 % ; erreur absolue moyenne par phase 54 et 57 j contre 44 et 43 j pour un délai unique",
+  "donnees": "RÉEL",
+  "commande": "idem",
+  "fichier": "idem",
+  "limite": "fenêtres affichées, pas de date ponctuelle"
+ },
+ "BESOIN-1": {
+  "affirmation": "Besoin estimé d'une entreprise affiché dans l'appli (« Ma semaine », fiche, « Préparer l'appel ») : métiers probables et semaine de début, à confirmer avec l'entreprise",
+  "valeur": "métiers et période seulement ; **aucun nombre de personnes affiché** (aucune mesure de fiabilité des effectifs)",
+  "donnees": "RÉEL",
+  "commande": "proxsis export-demo --seed 42",
+  "fichier": "`apps/web/src/data/demo/entreprises.json` (champ `besoin`)",
+  "limite": "lots publiés sur simap et phasage mesuré (PHAS-1, PHAS-2), hypothèses déclarées ; part confiée à des temporaires inconnue ; audit semaine 2, M3"
+ },
+ "M4-REEL-1": {
+  "affirmation": "Lauréats simap : noms normalisés, variantes, IDE, paires douteuses",
+  "valeur": "903 noms ; 8 à plusieurs graphies ; 0 IDE publié ; 50 paires douteuses à revoir",
+  "donnees": "RÉEL",
+  "commande": "proxsis m4-reel",
+  "fichier": "`docs/modeles/m4_reel_v1.json`, `docs/modeles/m4_paires_douteuses_v1.csv`",
+  "limite": "aucune fusion automatique en zone grise"
+ },
+ "REEL-SPEC-BAT": {
+  "affirmation": "Liste Bâtiment, entreprises valaisannes à la date T, P@10 sur T0, 57 semaines (2025-07-07 à 2026-08-03)",
+  "valeur": "hasard 20,7 % ; récence 35,8 % ; fréquence 52 sem. 66,8 % (IC 95 % 64,0 à 70,4) ; combiné 66,8 % ; combiné − fréquence +0,0 point (IC −2,6 à +2,5) → ordre par fréquence",
+  "donnees": "RÉEL",
+  "commande": "proxsis backtest-specialites",
+  "fichier": "`docs/backtest/specialites_v1.json`, `docs/backtest/specialites.md`",
+  "limite": "activité publique, pas commande à Flexsis"
+ },
+ "PRES-ARRONDIS-1": {
+  "affirmation": "Les arrondis dits et montrés dans le film v2 et le diaporama pour REEL-SPEC-BAT",
+  "valeur": "« près de 7 sur 10 » pour 66,8 % (381 entreprises sur 570, au-dessous de 7 sur 10, d'où « près de ») ; « 2 sur 10 » pour 20,7 % au hasard ; le graphique montre 7 et 2 diagonales orange sur 10",
+  "donnees": "RÉEL",
+  "commande": "arrondi de REEL-SPEC-BAT (`proxsis backtest-specialites`)",
+  "fichier": "`docs/backtest/specialites_v1.json`",
+  "limite": "une image pour l'oral ; les valeurs exactes (66,8 %, 20,7 %) sont écrites sous le graphique et dans l'application"
+ },
+ "REEL-SPEC-PIC": {
+  "affirmation": "Liste Bâtiment, cible « pic », P@10",
+  "valeur": "hasard 4,8 % ; fréquence 12,5 % ; combiné 14,6 % ; +2,1 points (IC −4,4 à +7,9), non significatif",
+  "donnees": "RÉEL",
+  "commande": "idem",
+  "fichier": "idem",
+  "limite": "—"
+ },
+ "REEL-SURPRISE": {
+  "affirmation": "Détecteur de surprises, Bâtiment, hors du top 10 (là où l'appli le montre) : réussite sur T0",
+  "valeur": "« activité qui bondit » 38,3 % (298 cas repérés) contre 17,3 % de base hors top 10 ; « nouveau venu » 9,9 % ; 3 surprises retenues par semaine : 42,1 %",
+  "donnees": "RÉEL",
+  "commande": "idem",
+  "fichier": "idem",
+  "limite": "cas repérés non indépendants : taux descriptifs"
+ },
+ "REEL-SPEC-AUTRES": {
+  "affirmation": "Électricité et Technique, entreprises valaisannes, P@10 sur T0",
+  "valeur": "Électricité (12,3 entreprises classées en moyenne) : base 18,3 %, fréquence 19,6 %, combiné 19,8 % ; Technique (25,5) : base 13,9 %, fréquence 22,8 %, combiné 20,7 %",
+  "donnees": "RÉEL",
+  "commande": "idem",
+  "fichier": "idem",
+  "limite": "top 10 ≈ toute la population en Électricité : P@10 ≈ base par construction"
+ },
+ "REEL-SPEC-NOUVEAUX": {
+  "affirmation": "Part des lauréats Bâtiment d'une fenêtre de 8 semaines jamais vus avant dans la spécialité (toutes entreprises, fenêtres glissantes)",
+  "valeur": "35,0 %",
+  "donnees": "RÉEL",
+  "commande": "idem",
+  "fichier": "idem",
+  "limite": "fenêtres qui se chevauchent ; pas seulement les entreprises valaisannes"
+ },
+ "CAND-1": {
+  "affirmation": "Vivier de 300 candidats FICTIFS (graine 42) : catégories CCT calculées par la règle (art. 20 al. 4-5 CCT LS)",
+  "valeur": "qualifié 173 ; non qualifié 114 ; spécialisé 13 ; point ouvert CCT 63 ; en mission 171 ; inscrits ORP 34",
+  "donnees": "FICTIF",
+  "commande": "proxsis candidats",
+  "fichier": "`data/fictif/candidats_300.csv`",
+  "limite": "répartition inventée ; seule la catégorie suit la règle"
+ },
+ "PROP-1": {
+  "affirmation": "Propositions pour les 60 besoins réels de la semaine du 2026-10-05 (entonnoir moyen des critères stricts)",
+  "valeur": "300 → métier 46 → permis 46 → disponibles 17 → dans le rayon 8 ; 60 besoins sur 60 avec au moins une proposition",
+  "donnees": "FICTIF",
+  "commande": "proxsis moteur-semaine1",
+  "fichier": "`docs/modeles/semaine1_v1.json`, `docs/modeles/semaine1_candidats.md`",
+  "limite": "candidats inventés, besoins réels (simap)"
+ },
+ "REDEP-1": {
+  "affirmation": "Redéploiement des fins de mission à trois semaines vers les besoins prévus réels (permis requis et délai d'annonce respectés)",
+  "valeur": "26 sur 43 (60,5 %)",
+  "donnees": "FICTIF",
+  "commande": "idem",
+  "fichier": "idem",
+  "limite": "prouve le mécanisme, pas le taux de Flexsis"
+ },
+ "EQ-1": {
+  "affirmation": "Audit d'équité, 20 viviers, 60 besoins réels : ratio d'impact moyen (plafond 15 ans / 5 ans / hasard) et test de permutation (viviers avec p < 0,05, plafond 15 ans)",
+  "valeur": "ratio genre 0,80 / 0,78 / 0,87 ; âge 0,61 / 0,63 / 0,73 ; nationalité 0,73 / 0,73 / 0,81 ; permutation : genre 1/20, âge 6/20, nationalité 1/20 (5 % attendus sous indépendance)",
+  "donnees": "FICTIF",
+  "commande": "idem",
+  "fichier": "idem",
+  "limite": "âge : écart réel lié à l'expérience ; nationalité : effet faible, non concluant"
+ },
+ "CONF-1": {
+  "affirmation": "Besoins réels de la semaine soumis à l'obligation d'annonce 2026 (ordonnance du DEFR, RS 823.111.3), site déduit des lots de chaque besoin, bâtiment par prudence",
+  "valeur": "22 sur 60",
+  "donnees": "RÉEL",
+  "commande": "idem",
+  "fichier": "idem",
+  "limite": "correspondance CH-ISCO-19 « probable », l'ORP tranche"
+ },
+ "TAB-FICTIF-1": {
+  "affirmation": "Chiffres d'agence du tableau de bord (appels, rendez-vous, missions pourvues, délai)",
+  "valeur": "inventés pour la maquette (graine 42), aucune mesure",
+  "donnees": "FICTIF",
+  "commande": "proxsis export-demo",
+  "fichier": "`apps/web/src/data/demo/tableau.json`",
+  "limite": "à remplacer par l'historique de Flexsis"
+ },
+ "REEL-M6": {
+  "affirmation": "Prévision KOF Job Tracker 1–8 semaines (2022–2026, 60 origines), WAPE",
+  "valeur": "dernière valeur 1,59 % ; boosting 1,85 % (non significatif) ; places vacantes OFS Suisse : dernière valeur 10,67 %, boosting 10,67 %",
+  "donnees": "RÉEL",
+  "commande": "proxsis m6-reel",
+  "fichier": "`docs/modeles/m6_reel_v1.json`",
+  "limite": "le boosting ne bat pas la dernière valeur ; simap et météo n'aident pas"
+ },
+ "M3-1": {
+  "affirmation": "Exactitude par champ des règles d'extraction sur le jeu gelé v1",
+  "valeur": "0,92 (entreprise) à 1,00 ; F1 métiers 0,95",
+  "donnees": "FICTIF-AGENT",
+  "commande": "proxsis rapports-modeles",
+  "fichier": "`docs/modeles/m3_resultats_regles_v1.json`",
+  "limite": "**optimiste** ; ne dit rien des vraies publications (voir REEL-M3)"
+ },
+ "M4-1": {
+  "affirmation": "Rapprochement d'entreprises (M4 flou, auto)",
+  "valeur": "précision 0,989 ; rappel 0,907 ; F1 0,946 (base nom exact : rappel 0,735) — corrigé le 12.10.2026 (questionnaire de Hiba du 07.10.2026, B10) : les entreprises inconnues étaient comptées comme manquées (pandas 3 lit leur absence comme une valeur) ; première version : rappel 0,725, F1 0,837, base 0,588",
+  "donnees": "FICTIF",
+  "commande": "proxsis rapports-modeles",
+  "fichier": "`docs/modeles/m4_resultats_v1.json`",
+  "limite": "mécanique seulement"
+ },
+ "M5-1": {
+  "affirmation": "Ratio de sélection par âge de l'audit v1",
+  "valeur": "0,82",
+  "donnees": "FICTIF",
+  "commande": "—",
+  "fichier": "`docs/modeles/m5_audit_equite_v1.json`",
+  "limite": "**retiré** : non reproductible (graine non consignée) ; remplacé par M5-2"
+ },
+ "M5-2": {
+  "affirmation": "Ratio de sélection par âge, v1 (plafond d'expérience 15 ans), 20 tirages",
+  "valeur": "moyenne 0,840 ; de 0,771 à 0,884 ; 2 tirages sur 20 sous 0,8",
+  "donnees": "FICTIF",
+  "commande": "proxsis rapports-modeles",
+  "fichier": "`docs/modeles/m5_audit_equite_v2.json`",
+  "limite": "mécanique seulement"
+ },
+ "M5-3": {
+  "affirmation": "Idem avec un plafond de 10 ans (1re proposition de l'ADR-0012)",
+  "valeur": "moyenne 0,856 ; de 0,809 à 0,902 ; 0 tirage sous 0,8 ; 98,7 % des suggestions inchangées",
+  "donnees": "FICTIF",
+  "commande": "proxsis rapports-modeles",
+  "fichier": "`docs/modeles/m5_audit_equite_v2.json`",
+  "limite": "**critère retiré** : mesuré sur les tirages qui ont servi à choisir (audit M5) ; voir M5-5"
+ },
+ "M5-4": {
+  "affirmation": "Idem sans expérience (poids 0)",
+  "valeur": "moyenne 0,810 ; 7 tirages sur 20 sous 0,8",
+  "donnees": "FICTIF",
+  "commande": "proxsis rapports-modeles",
+  "fichier": "`docs/modeles/m5_audit_equite_v2.json`",
+  "limite": "mécanique seulement"
+ },
+ "M5-5": {
+  "affirmation": "Ratio de sélection par âge **hors échantillon** (100 tirages, graines 100–199)",
+  "valeur": "v1 (15 ans) : moyenne 0,834, 18 % des tirages sous 0,8 (IC 95 % 12–27 %) ; 10 ans : 0,845, 15 % (9–23 %) ; 5 ans : 0,862, 10 % (6–17 %)",
+  "donnees": "FICTIF",
+  "commande": "proxsis rapports-modeles",
+  "fichier": "`docs/modeles/m5_audit_equite_v3.json`",
+  "limite": "mécanique seulement ; intervalles qui se recouvrent"
+ },
+ "M5-6": {
+  "affirmation": "Plafond proposé par l'ADR-0012 révisée",
+  "valeur": "5 ans ; 97,8 % des suggestions inchangées ; défaut du code laissé à 15 ans tant que l'ADR n'est pas acceptée",
+  "donnees": "FICTIF",
+  "commande": "proxsis rapports-modeles",
+  "fichier": "`docs/modeles/m5_audit_equite_v3.json`",
+  "limite": "proposition, coût réel inconnu"
+ },
+ "M6-1": {
+  "affirmation": "Erreur de prévision hebdomadaire des offres (WAPE, horizons 1–8 semaines)",
+  "valeur": "LightGBM 0,340 ; moyenne 4 semaines 0,368 ; saisonnier naïf 0,442",
+  "donnees": "FICTIF",
+  "commande": "proxsis rapports-modeles",
+  "fichier": "`docs/modeles/m6_resultats_v1.json`",
+  "limite": "mécanique seulement"
+ },
+ "REEL-M3": {
+  "affirmation": "Exactitude des règles et d'Apertus sur 150 vraies adjudications simap",
+  "valeur": "**pas encore mesuré**",
+  "donnees": "RÉEL",
+  "commande": "proxsis geler-manuel … --nom reel_v2` puis `proxsis comparer-extraction --accord …` (`docs/modeles/apertus.md`)",
+  "fichier": "—",
+  "limite": "en attente de l'annotation et du gel ; **le texte est un rendu par Proxsis des champs de l'API, dont les étiquettes favorisent les règles** (audit M3)"
+ },
+ "REEL-M3-BIS": {
+  "affirmation": "Exactitude des règles et d'Apertus sur 150 publications BO VS et FOSC collectées à la main",
+  "valeur": "**pas encore mesuré**",
+  "donnees": "RÉEL",
+  "commande": "proxsis geler-manuel` puis `proxsis comparer-extraction --jeu ../data/manuel/textes/reel_v3.jsonl --accord ../data/manuel/annotation/accord.json",
+  "fichier": "—",
+  "limite": "en attente de la collecte, de l'annotation et du gel"
+ },
+ "EXT-INTERIM-2025": {
+  "affirmation": "Travail temporaire en Suisse, année 2025 (swissstaffing, Swiss Staffingindex)",
+  "valeur": "heures de travail temporaire −7,1 % sur un an ; « pour la première fois », trois années de recul de suite (2023 à 2025)",
+  "donnees": "SOURCE PUBLIQUE",
+  "commande": "lecture : https://www.organisator.ch/en/?p=43952 (article du 29.01.2026), lu le 07.10.2026",
+  "fichier": "—",
+  "limite": "chiffres de swissstaffing, pas une mesure de Proxsis"
+ },
+ "EXT-INTERIM-T1-2026": {
+  "affirmation": "Travail temporaire en Suisse, premier trimestre 2026 (swissstaffing)",
+  "valeur": "heures +1,3 % sur un an ; premier chiffre positif après douze trimestres négatifs",
+  "donnees": "SOURCE PUBLIQUE",
+  "commande": "lecture : https://www.organisator.ch/en/?p=48185 et communiqué swissstaffing https://www.presseportal.ch/de/pm/100057910/100939744?langid=2 (29.04.2026), lus le 07.10.2026",
+  "fichier": "—",
+  "limite": "un trimestre ; pas une prévision"
+ },
+ "EXT-FLEXSIS-AGENCES-VS": {
+  "affirmation": "Agences Flexsis du Valais, adresses publiques",
+  "valeur": "Martigny, Avenue de la gare 38, 1920 Martigny ; Sion, Avenue de Tourbillon 5, 1950 Sion ; Monthey, Rue de Venise 10, 1870 Monthey",
+  "donnees": "SOURCE PUBLIQUE",
+  "commande": "lecture : https://www.flexsis.ch/agences-de-placement/, lu le 07.10.2026",
+  "fichier": "—",
+  "limite": "seule donnée sur Flexsis utilisée par la carte ; aucun logo"
+ },
+ "EXT-FLEXSIS-MOTS": {
+  "affirmation": "Les quatre mots par lesquels Flexsis se décrit",
+  "valeur": "Proximité, Humain, Expertise, Identité suisse",
+  "donnees": "SOURCE PUBLIQUE",
+  "commande": "lecture : https://www.flexsis.ch/entreprise/, lu le 07.10.2026",
+  "fichier": "—",
+  "limite": "leurs mots, cités tels quels"
+ },
+ "EXT-FLEXSIS-RESEAU": {
+  "affirmation": "Réseau Flexsis après la reprise de Tempro Personal",
+  "valeur": "reprise au 01.06.2026 ; 50 agences, quatre régions linguistiques",
+  "donnees": "SOURCE PUBLIQUE",
+  "commande": "lecture : https://www.flexsis.ch/tempro-personal-rejoint-flexsis-30-ans-de-proximite-locale-desormais-avec-une-portee-nationale/ (01.06.2026), lu le 07.10.2026",
+  "fichier": "—",
+  "limite": "communiqué de l'entreprise"
+ },
+ "EXT-GROUPE-PARTS": {
+  "affirmation": "But du groupe de Flexsis",
+  "valeur": "« atteindre 10 % de parts de marché dans chaque canton d'ici à 2028 »",
+  "donnees": "SOURCE PUBLIQUE",
+  "commande": "lecture : https://www.interiman-group.ch/interiman-group-enregistre-une-annee-record-en-2023-et-annonce-une-reorganisation-majeure/ (14.02.2024), lu le 07.10.2026",
+  "fichier": "—",
+  "limite": "un but annoncé, pas un résultat ; le groupe n'est pas nommé à l'écran"
+ },
+ "EXT-GROUPE-TECH": {
+  "affirmation": "Règle du groupe sur la technologie",
+  "valeur": "« soutenir le personnel et améliorer son efficacité, et non le remplacer »",
+  "donnees": "SOURCE PUBLIQUE",
+  "commande": "lecture : https://www.interiman-group.ch/il-faut-toujours-se-fixer-de-nouvelles-etapes/ (29.09.2026), lu le 07.10.2026",
+  "fichier": "—",
+  "limite": "propos d'un dirigeant, non nommé"
+ },
+ "EXT-GROUPE-DELAI": {
+  "affirmation": "Service commun du groupe et délai de service",
+  "valeur": "un département « récemment créé » pour améliorer « de manière mesurable le time-to-service »",
+  "donnees": "SOURCE PUBLIQUE",
+  "commande": "lecture : Interiman Group, actualité du 12.08.2025 (« Nouvelle recrue au sein du groupe ») ; adresse complète dans un fichier local hors de Git (data/reel/sources-hors-git.md, suite 9, Q09) ; lu le 07.10.2026",
+  "fichier": "—",
+  "limite": "l'article ne date pas la création ; dirigeant non nommé"
+ },
+ "EXT-A9-FINGES": {
+  "affirmation": "Autoroute A9 du Bois de Finges",
+  "valeur": "entre Sierre et Loèche, 8,5 km dont 75 % en souterrain ; inauguration prévue « courant 2037 »",
+  "donnees": "SOURCE PUBLIQUE",
+  "commande": "lecture : https://www.swissinfo.ch/fre/travers%c3%a9e-du-bois-de-finges%3a-travaux-pr%c3%a9liminaires-bien-avanc%c3%a9s/91848472 (05.08.2026), lu le 07.10.2026",
+  "fichier": "—",
+  "limite": "Proxsis n'a pas ces marchés dans ses données"
+ },
+ "EXT-HOPITAUX-VS": {
+  "affirmation": "Agrandissement des hôpitaux de Sion et de Brigue",
+  "valeur": "transformation en cours ; CHF 76,75 millions pour les équipements des nouvelles extensions, garantie votée par le Grand Conseil",
+  "donnees": "SOURCE PUBLIQUE",
+  "commande": "lecture : https://latele.ch/articles/hopitaux-vs-76-millions-pour-les-equipements-de-sion-et-de-brigue (09.03.2026), lu le 07.10.2026",
+  "fichier": "—",
+  "limite": "Proxsis n'a pas ces marchés dans ses données"
+ },
+ "EXT-APERTUS-LICENCE": {
+  "affirmation": "Licence d'Apertus, l'intelligence artificielle suisse (Swiss AI Initiative)",
+  "valeur": "Apache 2.0, dépôt public sans conditions d'accès : Flexsis pourrait le faire tourner chez elle ou chez un hébergeur suisse",
+  "donnees": "SOURCE PUBLIQUE",
+  "commande": "lecture : https://huggingface.co/swiss-ai/Apertus-70B-Instruct-2509 et https://huggingface.co/swiss-ai/Apertus-8B-Instruct-2509 (champ « license » de chaque fiche), lu le 12.10.2026",
+  "fichier": "—",
+  "limite": "une licence, pas une mesure : la puissance de calcul nécessaire n'est pas chiffrée ici ; avec un service en ligne, les textes partent chez un fournisseur, souvent à l'étranger"
+ },
+ "EXT-BISSE-MARTEAU": {
+  "affirmation": "Le marteau du bisse : sur des bisses du Valais, une roue mue par l'eau faisait battre un marteau sur une planche ; tant qu'il frappait, le gardien savait que l'eau coulait",
+  "valeur": "« marteau avertisseur » ; « si le marteau cesse de tapoter, le gardien conclut qu'un accident est survenu » (1921) ; « un marteau appelé le marteau du bisse » (2022)",
+  "donnees": "SOURCE PUBLIQUE",
+  "commande": "lecture : I. Mariétan, « Le problème de l'eau dans le canton du Valais : II. Les Bisses », Echos de Saint-Maurice, t. 20 (1921), p. 40, https://www.aasm.ch/pages/echos/ESM020013.pdf ; O. Taramarcaz, « Gardien du bisse », L'Essentiel, mars 2022, https://presse.saint-augustin.ch/wp-content/uploads/2022/02/Gardien-du-bisse-1.pdf ; Echo Magazine, 08.05.2014, https://bisses-valais.ch/app/uploads/2023/07/2014_05_08_Echo-magazine.pdf ; lus le 13.10.2026",
+  "fichier": "—",
+  "limite": "attesté en général sur les grands bisses ; **pas attesté précisément au bisse d'Ayent** ; le nom « tapette » n'est pas confirmé : ne pas l'employer"
+ },
+ "EXT-BISSE-AYENT": {
+  "affirmation": "Le bisse d'Ayent et le Musée valaisan des bisses",
+  "valeur": "construit au milieu du XVe siècle ; le musée est à Botyre (Ayent)",
+  "donnees": "SOURCE PUBLIQUE",
+  "commande": "lecture : Musée valaisan des bisses, carte « Le Chemin du Musée » (2021), https://bisses-valais.ch/app/uploads/2021/07/MVB_CHEMIN-DU-MUSEE_carte_web.pdf ; https://bisses-valais.ch/musee-valaisan-des-bisses ; lus le 13.10.2026",
+  "fichier": "—",
+  "limite": "**aucune année n'est dite** : les sources divergent (1442 sur anzere.ch, 1448 dans Echo Magazine 2014, « milieu du 15ème siècle » pour le musée)"
+ },
+ "EXT-UNESCO-IRRIGATION": {
+  "affirmation": "L'irrigation traditionnelle au patrimoine culturel immatériel de l'humanité (UNESCO)",
+  "valeur": "« L'irrigation traditionnelle : connaissances, techniques et organisation », inscrite le 6 décembre 2023 sur la Liste représentative (décision 18.COM 8.B.17, Kasane) ; sept pays : Autriche, Belgique, Allemagne, Italie, Luxembourg, Pays-Bas, Suisse ; part suisse : les prairies irriguées de l'Oberaargau et les consortages du Valais (dont Ayent, Lens, Trient, Nendaz, Grächen)",
+  "donnees": "SOURCE PUBLIQUE",
+  "commande": "lecture : https://ich.unesco.org/en/decisions/18.COM/8.B.17 ; https://www.bak.admin.ch/en/traditional-irrigation (« On 6 December 2023 ») ; lus le 13.10.2026",
+  "fichier": "—",
+  "limite": "les bisses du Valais ne sont qu'une partie de l'élément suisse ; l'intitulé français est à relire à la lettre sur ich.unesco.org avant de le citer entre guillemets"
+ },
+ "EXT-IRIS-MESSAGERE": {
+  "affirmation": "Iris dans la mythologie grecque",
+  "valeur": "déesse de l'arc-en-ciel et messagère des dieux",
+  "donnees": "SOURCE PUBLIQUE",
+  "commande": "lecture : Theoi Project, https://www.theoi.com/Pontios/Iris.html (d'après Hésiode, Théogonie, v. 265-266), lu le 13.10.2026",
+  "fichier": "—",
+  "limite": "une des trois raisons du nom d'Iris (suite 8, § 3), avec « Iris met les points sur les i » et un nom qui se dit pareil en français, en allemand et en anglais"
+ },
+ "PRES-DUREE-1": {
+  "affirmation": "Durée de la visite écrite sur le premier écran (« Voir Proxsis en 11 minutes »), en cliquant seulement « Continuer », du premier écran à la conclusion",
+  "valeur": "11 minutes, arrondi à la minute : 1 993 mots à l'écran sans faire défiler en français (117 au premier écran, 1 876 dans la visite, 13 gestes), 1 955 en allemand (157 et 1 798), sur ordinateur (1440 × 900), lus au rythme de la voix d'Iris (599 mots en 201,4 s, soit 178,4 mots par minute, mesuré sur ses 12 prises) : 11,2 minutes en français (11,17), 11,0 en allemand (10,96) ; sur téléphone (390 × 844), 7,2 minutes en français (1 282 mots) et 6,7 en allemand (1 193) sans faire défiler",
+  "donnees": "RÉEL",
+  "commande": "node scripts/duree-visite.mjs fr 1440 900 --rythme 178.4` (export statique servi en local ; idem de, et 390 844)",
+  "fichier": "`apps/web/scripts/duree-visite.mjs`",
+  "limite": "une mesure faite par une machine, pas par une personne : le rythme est celui d'une voix qui lit à haute voix, plus lent qu'une lecture des yeux (la durée est donc un plafond) ; à confirmer avec deux personnes qui ne connaissent pas Proxsis (C5, après le premier contact) ; mesuré le 12.10.2026, remesuré le 13.10.2026 après la réécriture des textes (1 980 mots, 11,1 min : cinq phrases raccourcies), puis le 13.10.2026 après la suite 9 (la phrase sur l'équité de « Qui proposer ? », la porte dans l'avenir en trois étapes, le guide plus grand ; détails fermés non comptés) : 1 994 mots, 11,2 min en français, la durée arrondie reste 11 minutes (questionnaire de Hiba du 07.10.2026, B5) ; remesuré le soir du 13.10.2026 après Q17 à Q19 et la preuve réécrite : 1 993 mots en français, 1 955 en allemand, toujours 11 minutes ; remesuré le 13.10.2026 après la suite 10 (la phrase « Chaque matin » au premier lundi, « Ce lundi-là, en direct de simap » replié sous « Choisissez une date » ; la ligne des sources reste dans la réponse d'Iris, fermée) : 2 012 mots en français (117 et 1 895), 1 969 en allemand (157 et 1 812), 11,3 et 11,0 minutes ; téléphone 7,2 minutes en français (1 280 mots) et 6,9 en allemand (1 229) ; toujours 11 minutes ; remplace « 5 minutes », jamais mesuré"
+ },
+ "PRES-TERR-1": {
+  "affirmation": "Demandes d'autorisation de construire du Bulletin officiel du Valais, acceptées et reliées à l'index, publiées du 07.08 au 29.09.2026 (carte de l'acte 2)",
+  "valeur": "818 publications ; 735 placées dans 103 communes (centre des localités swisstopo) ; 83 sans commune (commission cantonale), hors carte",
+  "donnees": "RÉEL",
+  "commande": "proxsis export-presentation` (après `make bo-import`)",
+  "fichier": "`apps/web/src/data/presentation/presentation.json`",
+  "limite": "des **publications** (une par demande), ni des projets ni des entreprises ; dont 10 allemandes encore « titre seul »"
+ },
+ "PRES-MARCHES-1": {
+  "affirmation": "Adjudications simap de construction d'adjudicateurs valaisans publiées sur la même période (couche distincte de la carte)",
+  "valeur": "91 ; 46 placées par code postal dans 18 communes ; 45 sans lieu indiqué, hors carte",
+  "donnees": "RÉEL",
+  "commande": "idem",
+  "fichier": "idem",
+  "limite": "ne s'additionne pas aux demandes d'autorisation ; « Ceci n'est pas une publication officielle. Les données publiées sur la plateforme www.simap.ch font foi. »"
+ },
+ "PRES-CARRON-1": {
+  "affirmation": "Dossier guidé Société de Travaux Publics, Joseph Carron SA (Saxon) : marchés publics de construction remportés en 52 semaines au 05.10.2026, et date du dernier",
+  "valeur": "11 ; dernier publié le 12.08.2026 (Service de la mobilité, arrondissement 3 Bas-Valais) ; 3 autres marchés récents publiés les 13.05.2026, 30.06.2026 et 12.08.2026 (questionnaire de Hiba du 07.10.2026, A4)",
+  "donnees": "RÉEL",
+  "commande": "proxsis dix-entreprises` (liste gelée)",
+  "fichier": "`data/terrain/liste_2026-10-05_batiment.json`",
+  "limite": "activité publique, **pas** un besoin de personnel ; l'entreprise reste à valider par les consultants"
+ },
+ "PRES-RITHNER-1": {
+  "affirmation": "Fiche RITHNER SA (Monthey), deuxième des « trois premiers appels » de « Ma semaine » (consultant de Martigny, liste du lundi 05.10.2026), visible au téléphone dans l'application et dans le film v2 (scène 04) : marchés publics de construction remportés en 52 semaines au 05.10.2026, et le dernier",
+  "valeur": "8 ; dernier publié le 17.09.2026 (Commune de Val de Bagnes, « Construction d'une NCUAPE à Vollèges - CFC 201.1 Terrassements »), soit « il y a 18 jours »",
+  "donnees": "RÉEL",
+  "commande": "proxsis export-demo` ; recompté le 13.10.2026 sur la chronologie (spécialité Bâtiment, du 06.10.2025 au 04.10.2026)",
+  "fichier": "`apps/web/src/data/demo/entreprises.json`",
+  "limite": "activité publique, **pas** un besoin de personnel ; relevé par la relecture de l'extrait du film (13.10.2026)"
+ },
+ "PRES-BITZ-1": {
+  "affirmation": "Dossier guidé Bitz travaux publics SA (Sion) : marchés publics de construction remportés en 52 semaines au 05.10.2026, date du dernier ; demandes d'autorisation du Bulletin officiel (07.08 au 29.09.2026, import filtré) où l'entreprise a un **rôle établi**",
+  "valeur": "13 ; dernier publié le 02.05.2026 (décidé le 20.03.2026 ; Foyer Saint-Jacques, terrassement d'un EMS à Saint-Maurice ; montant publié CHF 1 574 663.35, affiché arrondi CHF 1 574 663) ; 3 demandes d'autorisation où elle est **auteure des plans** (21.08.2026 à Ardon, 28.08.2026 deux fois à Saint-Maurice), aucun autre rôle",
+  "donnees": "RÉEL",
+  "commande": "proxsis dix-entreprises` (liste gelée) ; rôles : `python -c \"import json; from proxsis.presentation_stories import bo_citations; print(bo_citations([json.loads(l) for l in open('../data/manuel/import_pdf/publications.jsonl')], 'Bitz travaux publics SA'))\"",
+  "fichier": "`data/terrain/liste_2026-10-05_batiment.json`, `data/manuel/import_pdf/publications.jsonl`",
+  "limite": "activité publique, **pas** un besoin de personnel ; auteure des plans ne veut dire ni entreprise du chantier ni employeur qui recrute ; publications : une par demande ; à valider par les consultants"
+ },
+ "PRES-THELER-1": {
+  "affirmation": "Dossier guidé Theler AG, Bauunternehmung (Raron, Haut-Valais) : marchés publics de construction remportés en 52 semaines au 05.10.2026, date du dernier ; tronçons de la nouvelle route cantonale NG24 attribués à l'entreprise",
+  "valeur": "9 ; dernier publié le 21.09.2026 (décidé le 05.08.2026 ; Dienststelle für Mobilität - Kreis 1 Oberwallis, « NG24 neue Kantonsstrasse, Abschnitt 3 Tännbach - Oberried » ; montant publié CHF 3 994 845.70, affiché arrondi CHF 3 994 846) ; 3 tronçons NG24 attribués, publiés les 26.06.2026, 03.07.2026 et 21.09.2026",
+  "donnees": "RÉEL",
+  "commande": "proxsis dix-entreprises` (liste gelée) ; chronologie : `proxsis export-demo",
+  "fichier": "`data/terrain/liste_2026-10-05_batiment.json`, `apps/web/src/data/demo/entreprises.json`",
+  "limite": "activité publique, **pas** un besoin de personnel ; titres allemands cités tels quels (titre original) ; aucune mission fictive proposée chez elle ; à valider par les consultants"
+ },
+ "PRES-HIST-1": {
+  "affirmation": "Acte 4, histoire 1 (région de Martigny) : Société de Travaux Publics, Joseph Carron SA, rejouée au lundi 18.05.2026 ; (a) pièces publiées avant cette date, (c) adjudications suivantes jusqu'au 30.09.2026",
+  "valeur": "(a) appel d'offres de la Commune de Martigny publié le 24.03.2026, adjudication publiée le 13.05.2026 (décidée le 05.05.2026) : 50 j entre l'appel d'offres et l'adjudication, 8 j entre la décision et sa publication ; travaux prévus par l'appel d'offres du 01.05.2026 au 30.11.2026 (213 j) ; 11 marchés de construction en 52 semaines avant le 18.05.2026 ; (c) adjudication suivante publiée le 30.06.2026, 43 j après le lundi de la liste ; puis deux le 12.08.2026",
+  "donnees": "RÉEL",
+  "commande": "proxsis histoires-presentation` (appels d'offres relus par `--en-ligne` : API simap, 2 requêtes par adjudication)",
+  "fichier": "`apps/web/src/data/presentation/histoires.json`, `data/terrain/appels_offres_histoires.json`",
+  "limite": "rejeu sans information postérieure (contrôle `hindsight_leaks`) ; activité publique, **pas** un besoin de personnel ; dates de travaux prévues par l'appel d'offres, non constatées ; histoire choisie pour illustrer, ne mesure rien (mesure : REEL-T0) ; « Ceci n'est pas une publication officielle. Les données publiées sur la plateforme www.simap.ch font foi. »"
+ },
+ "PRES-HIST-2": {
+  "affirmation": "Acte 4, histoire 2 (Haut-Valais) : Theler AG, Bauunternehmung, rejouée au lundi 29.06.2026",
+  "valeur": "(a) tronçon 1 de la NG24 attribué de gré à gré, publié le 26.06.2026 (décidé le 17.06.2026 : 9 j) ; appels d'offres des tronçons 2 (publié le 17.04.2026, travaux prévus du 26.05.2026 au 27.11.2026 : 185 j) et 3 (publié le 12.05.2026, travaux prévus du 15.06.2026 au 27.11.2026 : 165 j), sans adjudication publiée à cette date ; 7 marchés de construction en 52 semaines avant le 29.06.2026 ; (c) adjudication du tronçon 2 publiée le 03.07.2026 (décidée le 24.06.2026) : 4 j après le lundi de la liste, 77 j après la publication de son appel d'offres ; autre adjudication publiée le 25.07.2026 ; adjudication du tronçon 3 publiée le 21.09.2026 (décidée le 05.08.2026) : 132 j après la publication de son appel d'offres",
+  "donnees": "RÉEL",
+  "commande": "proxsis histoires-presentation",
+  "fichier": "`apps/web/src/data/presentation/histoires.json`, `data/terrain/appels_offres_histoires.json`",
+  "limite": "comme PRES-HIST-1 ; titres allemands cités tels quels (titre original), descriptions FR/DE à part"
+ },
+ "PRES-HIST-3": {
+  "affirmation": "Acte 4, histoire 3 (**limite**) : Bitz travaux publics SA, rejouée au lundi 04.05.2026",
+  "valeur": "(a) appel d'offres publié le 02.12.2025, adjudication du terrassement d'un EMS à Saint-Maurice publiée le 02.05.2026 (décidée le 20.03.2026) : 151 j entre l'appel d'offres et l'adjudication, 43 j entre la décision et sa publication ; 15 marchés de construction en 52 semaines avant le 04.05.2026 ; (c) aucune adjudication publiée dans les 8 semaines suivantes ni jusqu'au 30.09.2026 : 149 j sans nouveau marché public publié ; autre trace : auteure des plans dans 3 demandes d'autorisation du Bulletin officiel (21.08.2026, 28.08.2026)",
+  "donnees": "RÉEL",
+  "commande": "proxsis histoires-presentation` (+ `data/manuel/import_pdf/publications.jsonl`, voir PRES-BITZ-1)",
+  "fichier": "`apps/web/src/data/presentation/histoires.json`, `data/terrain/appels_offres_histoires.json`",
+  "limite": "limite : après le lundi de la liste, aucun nouveau marché public publié ; « auteure des plans » ne dit ni qui réalise les travaux ni un besoin de personnel ; périmètre : adjudications de construction collectées (Suisse romande et adjudicateurs valaisans) ; comme PRES-HIST-1"
+ },
+ "PRES-DATE-1": {
+  "affirmation": "Acte 4, « Choisissez une date » : à chaque lundi de la mesure REEL-SPEC-BAT, les dix entreprises de la règle simple (Bâtiment, entreprises valaisannes à la date T, ordre par nombre de marchés en 52 semaines) et ce qu'elles ont obtenu dans les 8 semaines ; 57 lundis (2025-07-07 à 2026-08-03), dont 55 au choix (52 semaines de données avant et 8 semaines complètes après : 2025-07-21 à 2026-08-03)",
+  "valeur": "moyenne 66,8 % (381 sur 570), identique à REEL-SPEC-BAT ; dix entreprises au hasard 20,7 % ; par lundi, de 4 sur 10 (03.11.2025 et 10.11.2025) à 9 sur 10 (01.12.2025)",
+  "donnees": "RÉEL",
+  "commande": "proxsis lundis-presentation",
+  "fichier": "`apps/web/src/data/presentation/lundis.json`",
+  "limite": "liste calculée avec les seules publications parues avant le lundi (date de publication, jamais date de décision) ; tous les lundis de la mesure, bons et mauvais ; un nouveau marché public, **pas** une commande à Flexsis ; deux inscriptions d'une même entreprise (une succursale) comptées à part comme dans la mesure, et dites à l'écran ; « Ceci n'est pas une publication officielle. Les données publiées sur la plateforme www.simap.ch font foi. »"
+ },
+ "PRES-SEMAINE-1": {
+  "affirmation": "Visite, « La semaine du 21 au 27 septembre 2026 » (ouverture du premier lundi : liste gelée du lundi 05.10.2026, Bâtiment, Valais) : publications des deux sources de la liste parues pendant la dernière semaine complète des deux sources avant ce lundi, du 21.09.2026 au 27.09.2026 (questionnaire de Hiba du 07.10.2026, A3) ; **lues** : adjudications simap de construction collectées (une par publication) et demandes d'autorisation de construire acceptées de l'import du Bulletin officiel (une par demande) ; **retenues** : celles qui entrent dans le classement de la liste (un marché de la spécialité Bâtiment remporté par une entreprise identifiée par sa raison sociale, dont le canton le plus fréquent dans ses adjudications avant ce lundi est le Valais : la population de la liste) ; **appels** : les dix entreprises de la liste",
+  "valeur": "130 publications lues (38 adjudications simap, 92 demandes d'autorisation du Bulletin officiel) ; 15 retenues (15 adjudications simap, 0 du Bulletin officiel) ; 10 appels",
+  "donnees": "RÉEL",
+  "commande": "proxsis moments-presentation",
+  "fichier": "`apps/web/src/data/presentation/cette_semaine.json`, `data/terrain/liste_2026-10-05_batiment.json`",
+  "limite": "la dernière semaine complète : la collecte simap s'arrête le 30.09.2026 et l'import du Bulletin officiel le 29.09.2026, la semaine suivante (28.09 au 04.10) est coupée et n'est pas montrée ; rien n'est ajouté ; des **publications**, ni des projets ni des entreprises ; le Bulletin officiel est lu comme contexte et n'entre jamais dans l'ordre de la liste : aucune de ses publications n'est retenue ; les dix appels viennent de 52 semaines de marchés publics, pas des seules publications de la semaine ; remplace la version du 07.10.2026 (semaine du 28.09 au 04.10, coupée : 18 lues, 2 retenues) ; « Ceci n'est pas une publication officielle. Les données publiées sur la plateforme www.simap.ch font foi. »"
+ },
+ "BO-LECT-FR": {
+  "affirmation": "Lecture des demandes d'autorisation du Bulletin officiel en **français** : 100 publications gelées (`tirage_fr_gele.jsonl`), annotées par A1 et A2 (14 en double)",
+  "valeur": "**pas encore mesuré** (annotation à lancer après la relecture du jalon B)",
+  "donnees": "RÉEL",
+  "commande": "proxsis accord-manuel` puis `geler-manuel`, profil `bo_fr",
+  "fichier": "`data/annotations/bo_vs_v1/`",
+  "limite": "mesure séparée de l'allemand"
+ },
+ "BO-LECT-DE": {
+  "affirmation": "Lecture des demandes d'autorisation en **allemand** : 50 publications gelées (`tirage_de_gele.jsonl`)",
+  "valeur": "**allemand : mesure partielle (champs structurés) ; métiers non mesurés** — pas encore mesuré",
+  "donnees": "RÉEL",
+  "commande": "idem, profil `bo_de_structure` (entreprise ou particulier, raison sociale, commune, dates, présence de la parcelle et des coordonnées)",
+  "fichier": "`data/annotations/bo_vs_v1/de/`",
+  "limite": "personne ne lit l'allemand dans l'équipe : annotation des seuls champs lisibles sans comprendre la langue, glossaire `docs/annotation/glossaire_bo_de_fr.md` ; aucune traduction automatique comme référence ; métiers vérifiés pendant le pilote avec des consultants germanophones de Flexsis"
+ }
+}

@@ -1,0 +1,27 @@
+User-agent: *
+Disallow: /
+
+User-agent: Googlebot
+User-agent: Bingbot
+Disallow: /
+Allow: /de/search/entity/welcome
+Allow: /de/search/shab/welcome
+Allow: /de/hra
+Allow: /de/localities
+Allow: /de/contact
+Allow: /fr/search/entity/welcome
+Allow: /fr/search/shab/welcome
+Allow: /fr/hra
+Allow: /fr/localities
+Allow: /fr/contact
+Allow: /it/search/entity/welcome
+Allow: /it/search/shab/welcome
+Allow: /it/hra
+Allow: /it/localities
+Allow: /it/contact
+Allow: /en/search/entity/welcome
+Allow: /en/search/shab/welcome
+Allow: /en/hra
+Allow: /en/localities
+Allow: /en/contact
+Allow: /accessibility-statement

@@ -1,0 +1,81 @@
+{
+ "schema": 1,
+ "claims": "SOURCES-1",
+ "catalogue": "data/catalogue.csv",
+ "etudiees": 68,
+ "en_service": {
+  "nombre": 2,
+  "lignes": [
+   "simap_adjudications",
+   "amtsblatt_vs_permis_construire"
+  ]
+ },
+ "demandes": {
+  "nombre": 4,
+  "liste": [
+   {
+    "cle": "portail",
+    "lignes": [
+     "amtsblatt_fosc_hr"
+    ],
+    "fichier": "docs/demandes/seco_feuilles_officielles.md",
+    "statut": "envoyee",
+    "mois": "2026-10"
+   },
+   {
+    "cle": "zefix",
+    "lignes": [
+     "zefix_publicrest"
+    ],
+    "fichier": "docs/demandes/ofj_zefix.md",
+    "statut": "envoyee",
+    "mois": "2026-10"
+   },
+   {
+    "cle": "jobroom",
+    "lignes": [
+     "jobroom_api"
+    ],
+    "fichier": "docs/demandes/seco_job_room.md",
+    "statut": "envoyee",
+    "mois": "2026-10"
+   },
+   {
+    "cle": "regbl",
+    "lignes": [
+     "regbl_madd_dump"
+    ],
+    "fichier": "docs/demandes/ofs_regbl.md",
+    "statut": "envoyee",
+    "mois": "2026-10"
+   }
+  ]
+ },
+ "ecartees": {
+  "nombre": 9,
+  "familles": {
+   "particuliers": [
+    "amtsblatt_rubriques_personnes_exclues",
+    "ge_sad_consult",
+    "vs_econstruction"
+   ],
+   "conditions": [
+    "zefix_rest_site_web",
+    "zh_zefix_neugruendungen",
+    "nager_date_feries"
+   ],
+   "prive": [
+    "jobcloud_jobs_ch_jobup",
+    "indeed_linkedin"
+   ],
+   "injoignable": [
+    "kof_datenservice"
+   ]
+  }
+ },
+ "autres": {
+  "nombre": 53,
+  "conditions_a_verifier": 43,
+  "sans_usage_pour_la_liste": 10
+ }
+}

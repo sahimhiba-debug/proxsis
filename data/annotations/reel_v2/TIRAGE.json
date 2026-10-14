@@ -1,0 +1,26 @@
+{
+ "source": "simap.ch (API, CG du 30.09.2023)",
+ "periode": [
+  "2026-08-01",
+  "2026-09-30"
+ ],
+ "types_marche": [
+  "construction",
+  "service",
+  "supply"
+ ],
+ "types_publication": [
+  "award_tender",
+  "direct_award"
+ ],
+ "graine": 20261005,
+ "quotas": {
+  "fr": 75,
+  "de": 75
+ },
+ "methode": "cadre complet trié par (date, id) ; partition par canton d'exécution (proxy FR / DE) ; permutation aléatoire de chaque partie (numpy default_rng(graine)) ; lecture des détails dans cet ordre, chaque partie jusqu'à ce que le quota de sa langue soit plein, puis second passage si un quota reste ouvert ; retenu si langue de création fr/de, lauréat nommé et quota non atteint",
+ "ecrit_le": "2026-10-05T19:11:18+00:00",
+ "n_cadre": 1937,
+ "n_retenus": 150,
+ "n_details_lus": 169
+}

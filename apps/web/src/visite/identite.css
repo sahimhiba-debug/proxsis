@@ -1,0 +1,362 @@
+/* The Flexsis identity on the first screen and the visit (brief of 07.10.2026, § 2.3; docs/identite/IDENTITE.md;
+   reference: docs/identite/prototype/proxsis-identite.html, its labels « sans 3D »). Loaded after direction.css
+   and visite.css: the tokens are direction.css's, this layer gives the components their identity.
+   - Labels: white face, thin graphite shell, rounded corners, a visible thickness, a soft shadow; text on the opaque
+     face. Three formats: the small label (a date, a source, a status), the company card (the name first), the question
+     card.
+   - Decisions: rounded buttons; the chosen one fills with orange; the chosen card gets an orange edge and the small
+     diagonal of the logo, and comes back with the same mark the next Monday.
+   - Orange text only from 24 px, or bold from 19 px; smaller, the text stays black and the diagonal stands beside it.
+     In the three dark scenes, orange text is free (5.1:1 on black). */
+
+/* ---------------------------------------------------------------- the logo */
+.dir .d-brand { display: block; line-height: 0; }
+.dir .d-brand .px-logo { display: block; width: auto; height: clamp(22px, min(1.9vw, 3.4vh), 34px); color: var(--texte); overflow: visible; }
+.px-logo path { transform-box: fill-box; transform-origin: 50% 100%; }
+/* the letters rise from the baseline one after the other (35 ms apart, 0.42 s each), then the diagonal lands with a
+   slight bounce; then nothing moves (IDENTITE.md) */
+.px-logo[data-animate] g path { animation: px-lettre 0.42s cubic-bezier(0.2, 0.7, 0.1, 1) both; animation-delay: calc(var(--i) * 35ms); }
+.px-logo[data-animate] .px-logo-dot { animation: px-point 0.46s cubic-bezier(0.34, 1.56, 0.64, 1) 0.5s both; }
+@keyframes px-lettre { from { opacity: 0; transform: translateY(42%); } to { opacity: 1; transform: none; } }
+@keyframes px-point { from { opacity: 0; transform: translate(18%, -70%) scale(0.6); } to { opacity: 1; transform: none; } }
+.dir[data-motion="off"] .px-logo path { animation: none; }
+@media (prefers-reduced-motion: reduce) { .px-logo path { animation: none !important; } }
+
+/* ---------------------------------------------------------------- statements: Sora light, one strong word */
+.dir .d-statement, .dir .v-narration, .dir .d-sub, .dir .v-seuil-main {
+  font-family: var(--font-display); font-weight: 300; letter-spacing: -0.025em; }
+.dir .v-narration { line-height: 1.14; max-width: 26em; }
+.dir :is(.d-statement, .v-narration, .d-sub, .v-seuil-main) b { font-weight: 600; color: var(--orange); }
+/* no italic any more: the words that were in serif italic are strong */
+.dir .d-em, .dir .v-question { font-family: inherit; font-style: normal; font-weight: 600; letter-spacing: -0.01em; }
+.dir.v-visit .d-date-figure { font-family: var(--font-display); font-weight: 300; letter-spacing: -0.03em; }
+
+/* ---------------------------------------------------------------- small text: never orange on white (direction.css) */
+.dir .px-marque { display: inline-flex; align-items: baseline; gap: 0.5em; }
+.dir .px-marque::before { content: ""; flex: none; width: 0.6em; height: 0.72em; align-self: center; background: var(--orange);
+  clip-path: var(--diag); }
+
+/* ---------------------------------------------------------------- the frame */
+.dir .d-head { border-bottom-color: var(--trait); }
+.dir .v-progress { border-bottom-color: var(--trait); }
+.dir .v-progress button { color: var(--doux); font-weight: 600; }
+.dir .v-progress button[data-done], .dir .v-progress button[aria-current="step"] { color: var(--texte); }
+.dir .v-progress button[aria-current="step"] { border-bottom-width: 3px; }
+.dir .v-progress .d-num { color: inherit; font-weight: 700; }
+.dir .v-progress button[aria-current="step"] .d-num { color: var(--orange); }
+.dir[data-scene="claire"] .v-progress button[aria-current="step"] .d-num, .dir:not([data-scene]) .v-progress button[aria-current="step"] .d-num {
+  color: var(--texte); }
+.dir .d-navbtn { font-weight: 700; }
+/* « Continuer », the next action: a rounded black button (white in the dark scenes) */
+.dir .d-nav > .d-navbtn:last-child:not(:disabled) { padding: 0.55em 1.1em 0.55em 1.25em; border-radius: 999px; background: var(--texte);
+  color: var(--fond); }
+.dir .d-nav > .d-navbtn:last-child:not(:disabled):hover { background: var(--orange); color: #ffffff; }
+.dir .d-mentions { color: var(--doux); }
+
+/* ---------------------------------------------------------------- buttons: rounded */
+.dir .d-action { border-radius: 999px; background: var(--texte); color: var(--fond); font-weight: 700; padding: 0.7em 1.25em 0.7em 1.35em; }
+.dir .d-action:hover { background: var(--orange); color: #ffffff; }
+.dir .d-tool, .dir .d-quiet, .dir .v-link { text-decoration-thickness: 1.5px; }
+.dir .d-tool:hover, .dir .d-quiet:hover, .dir .v-link:hover { text-decoration-color: var(--orange); }
+
+/* ---------------------------------------------------------------- labels */
+/* the large label: a document, a dossier part, a card (white face, graphite shell, thickness, shadow) */
+.dir .d-paper, .dir .px-etiquette {
+  position: relative; background: var(--etiquette); color: var(--encre); border-radius: 16px;
+  box-shadow: inset 0 0 0 3px var(--coque), 0 3px 0 0 var(--coque), var(--ombre); }
+.dir .d-paper { padding: clamp(18px, 1.8vw, 32px) clamp(20px, 2vw, 36px); }
+.dir .d-paper-head { border-bottom-color: var(--etiquette-trait); color: var(--encre-douce); font-weight: 700; letter-spacing: 0.08em; }
+.dir .d-paper-title { font-family: var(--font-sans); font-weight: 600; letter-spacing: -0.01em; line-height: 1.28; }
+.dir .d-paper-meta { color: var(--encre-douce); }
+.dir .d-paper-link { font-weight: 700; text-decoration-color: var(--trait-fort); }
+.dir .d-paper :focus-visible { outline-color: var(--orange); }
+.dir[data-scene="sombre"] .d-paper, .dir[data-scene="sombre"] .px-etiquette { box-shadow: inset 0 0 0 3px var(--coque), 0 3px 0 0 #000000, 0 16px 32px -14px rgb(0 0 0 / 0.8); }
+/* the small label: a date, a source or a status; it may hang as a tab on a card's edge, half over it */
+.dir .px-tag { display: inline-flex; align-items: center; gap: 0.5em; padding: 0.4em 0.85em; border-radius: 10px; background: var(--etiquette);
+  color: var(--encre); font-size: var(--fs-small); font-weight: 700; line-height: 1.2; white-space: nowrap;
+  box-shadow: inset 0 0 0 2px var(--coque), 0 2px 0 0 var(--coque), 0 8px 16px -10px rgb(0 0 0 / 0.45); }
+.dir .px-tag[data-or] { box-shadow: inset 0 0 0 2px var(--coque), inset 0 0 0 4px var(--orange), 0 2px 0 0 var(--coque), 0 8px 16px -10px rgb(0 0 0 / 0.45); }
+.dir .px-tag[data-or]::before { content: ""; width: 0.6em; height: 0.72em; background: var(--orange); clip-path: var(--diag); }
+.dir .px-onglet { position: absolute; top: 0; left: clamp(16px, 1.6vw, 28px); transform: translateY(-55%); }
+/* a status: a rounded pill; black text on grey, the orange is its edge and the diagonal (white on orange only for the
+   bold decisions of 19 px and more) */
+.dir .px-statut { display: inline-flex; align-items: center; gap: 0.45em; padding: 0.35em 0.8em; border-radius: 999px; background: #f4f4f4;
+  color: var(--encre); border: 1.5px solid #e3e3e3; /* a status sits on a white label: its colours do not follow the scene */ font-size: var(--fs-small); font-weight: 700; line-height: 1.1; white-space: nowrap; }
+.dir .px-statut[data-or] { border-color: var(--orange); background: #ffffff; }
+.dir .px-statut[data-or]::before { content: ""; width: 0.55em; height: 0.66em; background: var(--orange); clip-path: var(--diag); }
+/* the chosen card: an orange edge inside the shell, and the small diagonal at the top right */
+.dir .px-choisi { box-shadow: inset 0 0 0 3px var(--coque), inset 0 0 0 6px var(--orange), 0 3px 0 0 var(--coque), var(--ombre); }
+.dir .px-choisi::after { content: ""; position: absolute; top: 12px; right: 14px; width: 12px; height: 15px; background: var(--orange); clip-path: var(--diag); }
+
+/* ---------------------------------------------------------------- decisions and choices */
+.dir .d-option { border-radius: 14px; border: 1.5px solid var(--trait-fort); background: var(--fond); color: var(--texte); font-weight: 600; }
+.dir .d-option:hover { border-color: var(--texte); }
+.dir .d-option small { color: var(--doux); }
+.dir .d-option[aria-pressed="true"] { position: relative; border-color: var(--orange); background: var(--fond);
+  box-shadow: inset 0 0 0 1.5px var(--orange); }
+.dir .d-option[aria-pressed="true"]::after { content: ""; position: absolute; top: 8px; right: 10px; width: 10px; height: 12px;
+  background: var(--orange); clip-path: var(--diag); }
+.dir .d-option[aria-pressed="true"] small { color: var(--doux); }
+/* the four decisions of the carnet: rounded buttons; the chosen one fills with orange (white, bold, 19 px and more) */
+.dir .v-decisions .d-option { border-radius: 999px; justify-content: center; font-weight: 700; padding: 0.7em 1.2em; }
+.dir .v-decisions .d-option[aria-pressed="true"] { background: var(--orange); border-color: var(--orange); color: #ffffff; box-shadow: none; }
+.dir .v-decisions .d-option[aria-pressed="true"]::after { content: none; }
+.dir .v-decisions .d-option[aria-pressed="true"] small { color: #ffffff; }
+.dir .v-confide { border-radius: 999px; }
+.dir .v-confide[aria-pressed="true"] { box-shadow: inset 0 0 0 2px var(--orange); }
+
+/* ---------------------------------------------------------------- the map */
+.dir .v-map path.commune { fill: var(--texte); fill-opacity: 0.05; stroke: var(--fond); }
+.dir .v-map path.commune[data-on] { fill-opacity: 0.18; }
+.dir .v-map path.commune[data-on]:hover { fill-opacity: 0.3; }
+.dir .v-map path.commune[data-selected] { fill: var(--orange); fill-opacity: 1; stroke: var(--orange); }
+.dir .v-commune-field select { color-scheme: light; border-radius: 10px; padding: 0.35em 0.6em; background: var(--surface);
+  border: 1.5px solid var(--trait); }
+.dir .v-companies .d-option { border-radius: 12px; }
+
+/* ---------------------------------------------------------------- the dossier: the publication, then our reading */
+.dir .v-paper { margin-top: 0.6em; }
+.dir .v-reading section { border-top: 0; padding: clamp(14px, 1.4vw, 22px) clamp(16px, 1.6vw, 26px); border-radius: 14px; background: var(--etiquette);
+  color: var(--encre); box-shadow: inset 0 0 0 2.5px var(--coque), 0 3px 0 0 var(--coque), 0 12px 24px -14px rgb(0 0 0 / 0.4); }
+.dir .v-reading section .d-muted, .dir .v-reading section .d-small { color: var(--encre-douce); }
+/* a hanging dash: the second line of an item starts under its text, not under the dash (0.5em + 0.55em) */
+.dir .v-list li { padding-left: 1.05em; text-indent: -1.05em; }
+.dir .v-list li::before { content: ""; display: inline-block; width: 0.5em; height: 2px; margin-right: 0.55em; vertical-align: 0.3em;
+  background: var(--encre); text-indent: 0; }
+
+/* ---------------------------------------------------------------- the carnet and the consultant's view */
+.dir .v-consultant { border-left: 0; border-radius: 16px; background: var(--surface); }
+.dir[data-scene="sombre"] .v-consultant { background: #1c1c1c; }
+.dir .v-consultant-wait { border-left-color: var(--trait-fort); }
+.dir .v-calls li[data-confided] { border-bottom-color: var(--orange); }
+
+/* ---------------------------------------------------------------- the next Monday: company cards */
+.dir .v-firsts, .dir .v-next .v-calls { gap: 8px; }
+.dir .v-firsts li, .dir .v-next .v-calls li { padding: 0.55em 0.9em; border-bottom: 0; border-radius: 12px; background: var(--etiquette);
+  color: var(--encre); box-shadow: inset 0 0 0 2px var(--coque), 0 2px 0 0 var(--coque), 0 10px 20px -14px rgb(0 0 0 / 0.6); }
+.dir .v-firsts li .min-w-0, .dir .v-next .v-calls .min-w-0 { font-weight: 700; }
+.dir .v-next { background: transparent; border-left: 0; padding: 0; }
+.dir .v-next li[data-kind="recall"], .dir .v-next li[data-kind="kept"] { position: relative;
+  box-shadow: inset 0 0 0 2px var(--coque), inset 0 0 0 4.5px var(--orange), 0 2px 0 0 var(--coque), 0 10px 20px -14px rgb(0 0 0 / 0.6); }
+.dir .v-next .v-calls .d-num { color: var(--encre-douce); } /* on the white cards only */
+.dir .v-choice select { color: var(--encre); border-bottom-color: var(--trait-fort); color-scheme: light; font-weight: 600; }
+.dir[data-scene="sombre"] .v-firsts .v-example, .dir[data-scene="sombre"] .v-next .v-example { color: var(--encre-douce); }
+.dir .v-firsts .d-copper, .dir .v-next .v-calls .d-copper { color: var(--encre); }
+.dir .v-next .v-calls .d-copper::before { content: ""; display: inline-block; width: 0.6em; height: 0.72em; margin-right: 0.4em;
+  vertical-align: -0.05em; background: var(--orange); clip-path: var(--diag); }
+
+/* ---------------------------------------------------------------- the threshold, the pilot, the conclusion */
+.dir .v-cal-mission { border-radius: 8px; background: var(--texte); color: var(--fond); }
+.dir .v-cal-free { border-radius: 8px; }
+.dir .v-cal-next { border-radius: 8px; border-color: var(--orange); }
+.dir .d-field input { border-bottom-width: 1.5px; font-weight: 600; }
+.dir .v-mail { border-radius: 12px; }
+
+/* ---------------------------------------------------------------- the set: the large orange diagonal, at the edge */
+/* it enters by the right edge, in the margin, never under a text; in the dark scenes it stays in a corner */
+.dir.v-visit, .dir.v-accueil { isolation: isolate; }
+.dir.v-visit::after, .dir.v-accueil::after { content: ""; position: absolute; z-index: -1; pointer-events: none; right: 0; bottom: 0;
+  width: calc(var(--mx) * 0.9); height: 46%; background: var(--orange); clip-path: polygon(62% 0, 100% 0, 100% 100%, 0 100%); }
+.dir.v-visit[data-scene="sombre"]::after { height: 22%; }
+.dir .px-bande { position: fixed; }
+@media (max-width: 860px) {
+  .dir.v-visit::after { display: none; }
+  .dir.v-accueil::after { width: 34vw; height: 30vh; clip-path: polygon(64% 0, 100% 0, 100% 100%, 0 100%); opacity: 1; }
+}
+
+/* ---------------------------------------------------------------- the passage: one orange band, into a dark moment */
+.dir .px-bande { inset: -10vh -70vw; z-index: 80; pointer-events: none; background: var(--orange);
+  transform: translateX(-140%) skewX(-22deg); animation: px-bande 0.9s cubic-bezier(0.65, 0, 0.35, 1) forwards; }
+@keyframes px-bande { 0% { transform: translateX(-140%) skewX(-22deg); } 50% { transform: translateX(0) skewX(-22deg); }
+  100% { transform: translateX(140%) skewX(-22deg); } }
+.dir[data-motion="off"] .px-bande { display: none; }
+@media (prefers-reduced-motion: reduce) { .dir .px-bande { display: none; } }
+/* without motion: a short fade of the colours instead of the band */
+.dir[data-motion="off"] { transition-duration: 220ms; }
+@media (prefers-reduced-motion: reduce) { .dir { transition-duration: 220ms; } }
+
+/* ---------------------------------------------------------------- the three formats, placed */
+/* the publication: its small label hangs on the top edge, half over it */
+.dir .v-paper { margin-top: 1.1em; padding-top: clamp(24px, 2.2vw, 38px); }
+.dir .v-reading h3 { text-transform: uppercase; letter-spacing: 0.09em; font-weight: 700; font-size: clamp(12px, min(0.9vw, 1.6vh), 16px); }
+/* the company card of the carnet: the name first, the decision as a pill (on the right; under it on a phone) */
+.dir .px-carte { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: 0.6em 1.2em;
+  padding: clamp(14px, 1.4vw, 22px) clamp(18px, 1.8vw, 30px); }
+.dir .px-carte .d-company { color: var(--encre); font-weight: 700; }
+.dir .px-carte .d-company .block { color: var(--encre-douce); font-weight: 600; }
+.dir .px-carte .px-statut { margin-right: 18px; }
+@media (max-width: 860px) {
+  .dir .px-carte { grid-template-columns: minmax(0, 1fr); }
+  .dir .px-carte .px-statut { justify-self: start; }
+}
+/* the next Monday: the kept card comes back with its mark; the reminder keeps its date, hanging on its card */
+.dir .v-next li[data-kind="kept"]::after, .dir .v-next li[data-kind="recall"]::after { content: ""; position: absolute; top: 8px; right: 10px;
+  width: 10px; height: 12px; background: var(--orange); clip-path: var(--diag); }
+.dir .v-next li[data-kind="recall"] { margin-top: 1.2em; padding-top: 0.9em; }
+.dir .v-next .px-statut { margin-right: 14px; }
+.dir .v-next .px-onglet { left: auto; right: 34px; }
+
+/* « Qui proposer ? »: three fictional temps, each on a small white card (the name first) */
+.dir .v-who { display: grid; gap: 0.5em; margin-top: 0.4em; }
+.dir .v-who-head { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5em 0.8em; }
+.dir .v-who-list { display: grid; gap: 8px; }
+.dir .v-who-card { display: grid; gap: 0.15em; padding: 0.55em 0.9em; border-radius: 12px; background: #ffffff; color: var(--encre);
+  box-shadow: inset 0 0 0 2px var(--coque), 0 2px 0 0 #000000, 0 10px 20px -14px rgb(0 0 0 / 0.6); }
+.dir .v-who-card .v-who-name { font-weight: 700; }
+.dir .v-who-card .d-small { color: var(--encre-douce); }
+
+/* the sentence to remember, under the signature; the right moment, before « Lundi, 8 h 03 » */
+.dir .v-retenir { font-weight: 700; max-width: 34em; }
+.dir .v-moment { display: grid; gap: 0.15em; max-width: 60em; font-size: var(--fs-body); font-weight: 600; }
+.dir .v-moment .d-muted { font-weight: 500; font-size: 0.85em; }
+.dir .v-who-story { font-weight: 700; }
+.dir .v-reading > .v-who { padding-top: 0.2em; }
+.dir .v-who .v-who-head { text-transform: none; letter-spacing: -0.01em; font-size: var(--fs-lead); font-weight: 600; }
+
+/* « Votre lundi à Martigny, Sion, Monthey »: the agencies, discreetly marked (a small black square, the chosen one with
+   an orange edge), and the choice of the agency as rounded buttons */
+.dir .v-map .v-agence rect { fill: var(--texte); stroke: var(--fond); stroke-width: 2; vector-effect: non-scaling-stroke; }
+.dir .v-map .v-agence[data-on] rect { stroke: var(--orange); stroke-width: 3; }
+.dir .v-map .v-agence text { font-family: var(--font-sans); font-size: 17px; font-weight: 700; fill: var(--texte);
+  paint-order: stroke; stroke: var(--fond); stroke-width: 4px; stroke-linejoin: round; }
+.dir .v-agences { display: grid; gap: 0.35em; }
+.dir .v-agences-choix { display: flex; flex-wrap: wrap; gap: 8px; }
+.dir .v-agences-choix .d-option { width: auto; border-radius: 999px; padding: 0.45em 1.1em; font-weight: 700; }
+.dir .v-agences-choix .d-option[aria-pressed="true"] { background: var(--orange); border-color: var(--orange); color: #ffffff; box-shadow: none; }
+.dir .v-agences-choix .d-option[aria-pressed="true"]::after { content: none; }
+
+/* ---------------------------------------------------------------- the new moments (brief of 07.10.2026, § 3.2 to 3.4) */
+/* « Cette semaine »: one line at the head of the agency's column, its figures in bold, the incomplete week under it */
+.dir .v-semaine { display: grid; gap: 0.3em; max-width: 34em; font-size: var(--fs-body); font-weight: 600; }
+.dir .v-semaine strong { font-weight: 800; }
+.dir .v-semaine .d-small { font-weight: 400; }
+/* the published side of the dossier: the paper, then the facts that go the same way, one dated line each */
+.dir .v-published { display: grid; gap: clamp(14px, 2vh, 24px); align-content: start; }
+.dir .v-faits { display: grid; gap: 0.45em; }
+.dir .v-faits h3 { text-transform: uppercase; letter-spacing: 0.09em; font-weight: 700; font-size: clamp(12px, min(0.9vw, 1.6vh), 16px); }
+.dir .v-faits-phrase { font-weight: 700; max-width: 34em; }
+.dir .v-faits ul { display: grid; }
+.dir .v-faits li { display: grid; grid-template-columns: 7.2em minmax(0, 1fr); gap: 0.2em 1em; align-items: baseline;
+  padding: 0.5em 0; border-top: 1px solid var(--trait); font-size: var(--fs-small); }
+.dir .v-faits li:last-child { border-bottom: 1px solid var(--trait); }
+.dir .v-fait-date { font-weight: 700; }
+.dir .v-fait-source { display: block; margin-top: 0.15em; color: var(--doux); }
+@media (max-width: 640px) {
+  .dir .v-faits li { grid-template-columns: minmax(0, 1fr); }
+}
+/* the link keeps its 44 px for the finger (visite.css), without pushing its line away from the fact it belongs to */
+@media (max-width: 860px) { .dir.v-visit .v-fait-source .v-link { margin-block: -9px; } }
+/* « Celles qui accélèrent »: after the result over every Monday, before the confession */
+.dir .v-accel { display: grid; gap: 0.35em; max-width: 52em; margin-top: clamp(10px, 1.6vh, 20px); padding-top: 0.7em;
+  border-top: 1px solid var(--trait); font-size: var(--fs-body); }
+.dir .v-accel strong { font-weight: 800; }
+
+/* ---------------------------------------------------------------- the director's mode: four questions (suite 2, § 5) */
+.dir .v-questions-btn .v-step-icon { width: 1.05em; height: 1.05em; align-self: center; }
+/* over the whole window (not only the scene's frame), so the four answers are read without scrolling on a computer */
+.dir .v-sheet:has(.v-questions) { position: fixed; }
+.dir .v-questions { width: min(100%, 46rem); max-height: calc(100dvh - 48px); overflow-y: auto; display: grid; gap: 0.6em; }
+.dir .v-questions-head { display: flex; align-items: center; justify-content: space-between; gap: 1em; }
+.dir .v-questions-head h2 { font-family: var(--font-display); font-size: var(--fs-lead); font-weight: 600; letter-spacing: -0.02em; }
+.dir .v-questions-close { display: inline-grid; place-items: center; width: 44px; height: 44px; border-radius: 999px; border: 1.5px solid var(--coque);
+  background: transparent; color: var(--encre); cursor: pointer; }
+.dir .v-questions-close svg { width: 20px; height: 20px; }
+.dir .v-questions ol { display: grid; }
+.dir .v-questions li { display: grid; grid-template-columns: 2em minmax(0, 1fr); gap: 0.2em 0.8em; padding: 0.9em 0;
+  border-top: 1px solid rgb(18 18 18 / 0.14); }
+.dir .v-questions-num { font-weight: 800; font-size: var(--fs-lead); line-height: 1.1; }
+.dir .v-questions h3 { font-weight: 700; font-size: var(--fs-body); }
+.dir .v-questions p { margin: 0.2em 0 0.5em; color: var(--encre); max-width: 38em; }
+@media (max-width: 860px) {
+  .dir .v-progress ol { grid-template-columns: none; }
+  .dir .v-sheet:has(.v-questions) { place-items: start center; overflow-y: auto; }
+  .dir .v-questions { max-height: none; }
+  .dir .v-questions li { grid-template-columns: 1.3em minmax(0, 1fr); }
+}
+
+/* ---------------------------------------------------------------- the proof sentence (§ 6), the future in three steps (§ 7) */
+.dir .v-preuve { font-weight: 700; max-width: 40em; }
+.dir .v-avenir { container-type: inline-size; display: grid; gap: clamp(14px, 2.2vh, 26px); margin-top: clamp(18px, 3vh, 40px); padding-top: clamp(14px, 2.2vh, 26px);
+  border-top: 1px solid var(--trait); }
+.dir .v-avenir header { display: grid; gap: 0.3em; }
+.dir .v-avenir-steps { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(12px, 1.6vw, 24px); align-items: start; }
+.dir .v-avenir-step { display: grid; gap: 0.6em; padding: clamp(14px, 1.4vw, 22px) clamp(16px, 1.6vw, 24px); border-radius: 14px;
+  background: var(--etiquette); color: var(--encre);
+  box-shadow: inset 0 0 0 2px var(--coque), 0 2px 0 0 var(--coque), 0 10px 20px -14px rgb(0 0 0 / 0.45); }
+.dir .v-avenir-step h3 { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.15em 0.5em; font-weight: 700; font-size: var(--fs-body); }
+.dir .v-avenir-num { color: var(--encre); font-weight: 800; }
+.dir .v-avenir-who { flex-basis: 100%; font-weight: 500; font-size: var(--fs-small); color: var(--encre-douce); }
+.dir .v-avenir-step dl { display: grid; gap: 0.5em; }
+.dir .v-avenir-step dt { text-transform: uppercase; letter-spacing: 0.09em; font-weight: 700; font-size: clamp(11px, min(0.85vw, 1.5vh), 14px); color: var(--encre-douce); }
+.dir .v-avenir-step dd { font-size: var(--fs-small); }
+.dir .v-avenir-step .v-list li { font-size: var(--fs-small); }
+.dir .v-avenir-step .v-list li::before { background: var(--encre); }
+.dir .v-iris-demain { border-top: 1px solid rgb(18 18 18 / 0.14); padding-top: 0.6em; font-size: var(--fs-small); }
+.dir .v-iris-demain summary { cursor: pointer; font-weight: 700; min-height: 44px; display: flex; align-items: center; }
+.dir .v-iris-demain[open] { display: grid; gap: 0.45em; }
+.dir .v-iris-demain h4 { margin-top: 0.4em; font-weight: 700; }
+.dir .v-iris-future { color: var(--encre-douce); }
+/* the door (suite 9, § 8): the third step says it first; inside « Demain, si Flexsis le souhaite », Iris's sentence of the
+   silence, in the future */
+.dir .v-avenir-lead { font-weight: 700; font-size: var(--fs-small); }
+.dir .v-porte-silence { font-weight: 600; }
+.dir .v-porte-qui { display: block; text-transform: uppercase; letter-spacing: 0.09em; font-weight: 700; font-size: 0.85em; color: var(--encre-douce); }
+.dir .v-years { display: grid; gap: 0.3em; max-width: 52em; }
+.dir .v-years h3 { text-transform: uppercase; letter-spacing: 0.09em; font-weight: 700; font-size: clamp(12px, min(0.9vw, 1.6vh), 16px); }
+.dir .v-years-phrase { font-weight: 700; }
+@container (max-width: 820px) { .dir .v-avenir-steps { grid-template-columns: minmax(0, 1fr); } }
+.dir .v-iris-demain summary { list-style: none; gap: 0.8em; justify-content: space-between; }
+.dir .v-iris-demain summary::-webkit-details-marker { display: none; }
+.dir .v-iris-demain summary::after { content: "+"; flex: none; font-weight: 800; font-size: 1.3em; line-height: 1; }
+.dir .v-iris-demain[open] summary::after { content: "−"; }
+
+/* ---------------------------------------------------------------- « Pour votre direction » (suite 2, § 8) */
+.dir .v-direction h2 { text-transform: uppercase; letter-spacing: 0.09em; font-weight: 700; font-size: clamp(12px, min(0.9vw, 1.6vh), 15px); margin-bottom: 0.25em; }
+.dir .v-direction-retenir .d-lead { font-weight: 700; max-width: 34em; }
+.dir .v-direction-steps { display: grid; gap: 0.3em; padding-left: 1.3em; list-style: decimal; }
+.dir .v-direction-buts { display: grid; gap: 0.7em; }
+.dir .v-direction-buts > div { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 0.2em 1.4em; padding-top: 0.5em;
+  border-top: 1px solid var(--trait); }
+.dir .v-direction-quote { font-weight: 600; }
+@media (max-width: 640px) { .dir .v-direction-buts > div { grid-template-columns: minmax(0, 1fr); } }
+/* the door's guardrails (suite 9, § 8), a short list under their small title */
+.dir .v-direction-h3 { font-weight: 700; font-size: var(--fs-small); margin-top: 0.3em; }
+.dir .v-direction-guards { display: grid; gap: 0.15em; padding-left: 1.2em; list-style: disc; }
+/* on paper: one A4 page (the sections tighter, the goals on two columns kept) */
+@media print {
+  .dir.d-print:has(.v-direction) { --fs-sub: 17pt; --fs-lead: 10.8pt; --fs-body: 9pt; --fs-small: 7.7pt; font-size: 9pt; line-height: 1.27; }
+  .dir .v-direction.d-print-main { gap: 4px; }
+  .dir .v-direction h2 { font-size: 7.6pt; margin-bottom: 0.1em; }
+  .dir .v-direction .d-brand svg { height: 18px; width: auto; }
+  .dir .v-direction-steps { gap: 0.1em; }
+  /* the five guardrails of the door in one flowing paragraph after their title (the page stays one sheet) */
+  .dir .v-direction-h3 { display: inline; margin: 0 0.4em 0 0; }
+  .dir .v-direction-guards { display: inline; padding: 0; list-style: none; }
+  .dir .v-direction-guards li { display: inline; }
+  .dir .v-direction-guards li + li::before { content: " · "; }
+  .dir .v-direction-buts { gap: 0.3em; }
+  .dir .v-direction-buts > div { padding-top: 0.3em; }
+}
+/* « Proxsis en une page » on paper (suite 9, § 8: the door added in a short block): one A4 sheet in French and German */
+@media print {
+  .dir.d-print:has(.v-une) { --fs-sub: 18pt; --fs-lead: 11.5pt; --fs-body: 9.8pt; --fs-small: 8pt; font-size: 9.8pt; line-height: 1.38; }
+  .dir .v-une.d-print-main { gap: 8px; }
+  /* German runs longer: since the morning sentence and the line of the sources (suite 10), a slightly smaller body keeps
+     the German sheet on one A4 page (e2e/accueil.spec.ts) */
+  .dir.d-print:has(.v-une):lang(de) { --fs-body: 9.4pt; --fs-small: 7.8pt; font-size: 9.4pt; }
+}
+
+/* ---------------------------------------------------------------- « Choisissez une date » : chaque matin, ce lundi-là
+   (suite 10, § 2) : folded under the ten; opened, what simap published sits on its own label (white face, graphite
+   shell), with the mention under it; our mark « dans votre liste » apart, black text beside the orange diagonal */
+.dir .v-matin { border-top: 1px solid var(--trait, rgb(18 18 18 / 0.14)); padding-top: 0.4em; font-size: var(--fs-small); }
+.dir .v-matin summary { cursor: pointer; font-weight: 700; min-height: 44px; display: flex; align-items: center; }
+.dir .v-matin[open] { display: grid; gap: 0.5em; }
+.dir .v-matin-cadre { background: var(--etiquette); color: var(--encre); border-radius: 14px; padding: 0.8em 1em;
+  box-shadow: inset 0 0 0 2px var(--coque); display: grid; gap: 0.5em; }
+.dir .v-matin-cadre .d-muted { color: var(--encre-douce); }
+.dir .v-matin-cadre ol { display: grid; gap: 0.6em; } /* the whole week, never a scroll box: no text cut on a phone (Q18) */
+.dir .v-matin-cadre li { display: grid; gap: 0.1em; border-bottom: 1px solid var(--etiquette-trait); padding-bottom: 0.5em; }
+.dir .v-matin-titre { text-align: left; color: var(--encre); }
+.dir .v-matin-liste { justify-self: start; display: inline-flex; align-items: center; gap: 0.4em; font-weight: 700; }
+.dir .v-matin-liste::before { content: ""; width: 0.55em; height: 0.66em; background: var(--orange); clip-path: polygon(30% 0, 100% 0, 70% 100%, 0 100%); }

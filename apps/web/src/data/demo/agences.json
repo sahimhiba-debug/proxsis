@@ -1,0 +1,80 @@
+{
+ "martigny": {
+  "nom": "Flexsis Martigny",
+  "adresse": "Avenue de la Gare 38, 1920 Martigny",
+  "lat": 46.102,
+  "lon": 7.072,
+  "id": "martigny",
+  "source": "https://www.flexsis.ch/agences-de-placement/",
+  "consultants": [
+   {
+    "code": "M1",
+    "libelle": "Consultant·e M1 (FICTIF)",
+    "specialite": "batiment",
+    "fictif": true
+   },
+   {
+    "code": "M2",
+    "libelle": "Consultant·e M2 (FICTIF)",
+    "specialite": "electricite",
+    "fictif": true
+   },
+   {
+    "code": "M3",
+    "libelle": "Consultant·e M3 (FICTIF)",
+    "specialite": "technique",
+    "fictif": true
+   }
+  ]
+ },
+ "sion": {
+  "nom": "Flexsis Sion",
+  "adresse": "Avenue de Tourbillon 5, 1950 Sion",
+  "lat": 46.233,
+  "lon": 7.36,
+  "id": "sion",
+  "source": "https://www.flexsis.ch/agences-de-placement/",
+  "consultants": [
+   {
+    "code": "S1",
+    "libelle": "Consultant·e S1 (FICTIF)",
+    "specialite": "batiment",
+    "fictif": true
+   },
+   {
+    "code": "S2",
+    "libelle": "Consultant·e S2 (FICTIF)",
+    "specialite": "electricite",
+    "fictif": true
+   },
+   {
+    "code": "S3",
+    "libelle": "Consultant·e S3 (FICTIF)",
+    "specialite": "industrie",
+    "fictif": true
+   }
+  ]
+ },
+ "monthey": {
+  "nom": "Flexsis Monthey",
+  "adresse": "Rue de Venise 10, 1870 Monthey",
+  "lat": 46.255,
+  "lon": 6.954,
+  "id": "monthey",
+  "source": "https://www.flexsis.ch/agences-de-placement/",
+  "consultants": [
+   {
+    "code": "O1",
+    "libelle": "Consultant·e O1 (FICTIF)",
+    "specialite": "batiment",
+    "fictif": true
+   },
+   {
+    "code": "O2",
+    "libelle": "Consultant·e O2 (FICTIF)",
+    "specialite": "technique",
+    "fictif": true
+   }
+  ]
+ }
+}

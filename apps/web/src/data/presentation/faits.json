@@ -1,0 +1,236 @@
+{
+ "schema": 1,
+ "lundi": "2026-10-05",
+ "dossiers": {
+  "ent-1ef761b229": {
+   "claims": "PRES-CARRON-1",
+   "nom": "Société de Travaux Publics, Joseph Carron SA",
+   "ville": "Saxon",
+   "marches_52s": {
+    "nombre": 11,
+    "au": "2026-10-05",
+    "source": "simap"
+   },
+   "faits": [
+    {
+     "type": "marche",
+     "date": "2026-08-12",
+     "dernier": true,
+     "libelle": {
+      "fr": "Marché public remporté",
+      "de": "Öffentlicher Auftrag gewonnen"
+     },
+     "serie": null,
+     "adjudicateur": {
+      "fr": "Service de la mobilité, arrondissement 3 Bas-Valais",
+      "de": "Dienststelle für Mobilität, Kreis 3 Unterwallis"
+     },
+     "objet": null,
+     "titre_original": null,
+     "source": "simap",
+     "url": "https://www.simap.ch/fr/project-detail/7426f3df-c921-4314-bed7-a200718b5392"
+    },
+    {
+     "type": "marche",
+     "date": "2026-08-12",
+     "dernier": false,
+     "libelle": {
+      "fr": "Marché public remporté",
+      "de": "Öffentlicher Auftrag gewonnen"
+     },
+     "serie": null,
+     "adjudicateur": null,
+     "objet": null,
+     "titre_original": null,
+     "source": "simap",
+     "url": "https://www.simap.ch/fr/project-detail/84ae130f-6c7f-44c1-b63d-1f7597a3dcfb"
+    },
+    {
+     "type": "marche",
+     "date": "2026-06-30",
+     "dernier": false,
+     "libelle": {
+      "fr": "Marché public remporté",
+      "de": "Öffentlicher Auftrag gewonnen"
+     },
+     "serie": null,
+     "adjudicateur": null,
+     "objet": null,
+     "titre_original": null,
+     "source": "simap",
+     "url": "https://www.simap.ch/fr/project-detail/fa3c43de-95f3-4cef-9b54-75a97181c46d"
+    },
+    {
+     "type": "marche",
+     "date": "2026-05-13",
+     "dernier": false,
+     "libelle": {
+      "fr": "Marché public remporté",
+      "de": "Öffentlicher Auftrag gewonnen"
+     },
+     "serie": null,
+     "adjudicateur": null,
+     "objet": null,
+     "titre_original": null,
+     "source": "simap",
+     "url": "https://www.simap.ch/fr/project-detail/dc6a90e9-3beb-4f71-895e-f537f224b346"
+    }
+   ]
+  },
+  "ent-734d5f7d45": {
+   "claims": "PRES-BITZ-1",
+   "nom": "Bitz travaux publics SA",
+   "ville": "Sion",
+   "marches_52s": {
+    "nombre": 13,
+    "au": "2026-10-05",
+    "source": "simap"
+   },
+   "faits": [
+    {
+     "type": "demande_autorisation",
+     "date": "2026-08-28",
+     "commune": "Saint-Maurice",
+     "role": "auteur_plans_entreprise",
+     "libelle": {
+      "fr": "Demande d'autorisation de construire : auteure des plans",
+      "de": "Baugesuch: Planverfasserin"
+     },
+     "source": "bulletin_officiel"
+    },
+    {
+     "type": "demande_autorisation",
+     "date": "2026-08-28",
+     "commune": "Saint-Maurice",
+     "role": "auteur_plans_entreprise",
+     "libelle": {
+      "fr": "Demande d'autorisation de construire : auteure des plans",
+      "de": "Baugesuch: Planverfasserin"
+     },
+     "source": "bulletin_officiel"
+    },
+    {
+     "type": "demande_autorisation",
+     "date": "2026-08-21",
+     "commune": "Ardon",
+     "role": "auteur_plans_entreprise",
+     "libelle": {
+      "fr": "Demande d'autorisation de construire : auteure des plans",
+      "de": "Baugesuch: Planverfasserin"
+     },
+     "source": "bulletin_officiel"
+    },
+    {
+     "type": "marche",
+     "date": "2026-05-02",
+     "dernier": true,
+     "libelle": {
+      "fr": "Marché public remporté",
+      "de": "Öffentlicher Auftrag gewonnen"
+     },
+     "serie": null,
+     "adjudicateur": {
+      "fr": "Foyer Saint-Jacques",
+      "de": "Foyer Saint-Jacques"
+     },
+     "objet": {
+      "fr": "terrassement d'un EMS à Saint-Maurice",
+      "de": "Aushub für ein Alters- und Pflegeheim in Saint-Maurice"
+     },
+     "titre_original": null,
+     "source": "simap",
+     "url": "https://www.simap.ch/fr/project-detail/95465d92-7be7-46b7-862a-a376ca087134"
+    }
+   ]
+  },
+  "ent-866876591f": {
+   "claims": "PRES-THELER-1",
+   "nom": "Theler AG, Bauunternehmung",
+   "ville": "Raron",
+   "marches_52s": {
+    "nombre": 9,
+    "au": "2026-10-05",
+    "source": "simap"
+   },
+   "faits": [
+    {
+     "type": "marche",
+     "date": "2026-09-21",
+     "dernier": true,
+     "libelle": {
+      "fr": "Tronçon de la nouvelle route cantonale NG24 attribué",
+      "de": "Abschnitt der neuen Kantonsstrasse NG24 vergeben"
+     },
+     "serie": "NG24",
+     "adjudicateur": {
+      "fr": "Dienststelle für Mobilität - Kreis 1 Oberwallis",
+      "de": "Dienststelle für Mobilität - Kreis 1 Oberwallis"
+     },
+     "objet": null,
+     "titre_original": "NG24 neue Kantonsstrasse, Abschnitt 3 Tännbach - Oberried",
+     "source": "simap",
+     "url": "https://www.simap.ch/fr/project-detail/df069193-47e8-4b8a-8aad-aadb9c44ae62"
+    },
+    {
+     "type": "marche",
+     "date": "2026-07-03",
+     "dernier": false,
+     "libelle": {
+      "fr": "Tronçon de la nouvelle route cantonale NG24 attribué",
+      "de": "Abschnitt der neuen Kantonsstrasse NG24 vergeben"
+     },
+     "serie": "NG24",
+     "adjudicateur": null,
+     "objet": null,
+     "titre_original": null,
+     "source": "simap",
+     "url": "https://www.simap.ch/fr/project-detail/e4e1d84d-6695-497c-b4ff-9ac9821664b7"
+    },
+    {
+     "type": "marche",
+     "date": "2026-06-26",
+     "dernier": false,
+     "libelle": {
+      "fr": "Tronçon de la nouvelle route cantonale NG24 attribué",
+      "de": "Abschnitt der neuen Kantonsstrasse NG24 vergeben"
+     },
+     "serie": "NG24",
+     "adjudicateur": null,
+     "objet": null,
+     "titre_original": null,
+     "source": "simap",
+     "url": "https://www.simap.ch/fr/project-detail/d433a826-4586-4b49-8858-66345cc7d9c2"
+    }
+   ]
+  }
+ },
+ "sources": {
+  "simap": {
+   "nom": {
+    "fr": "simap.ch",
+    "de": "simap.ch"
+   },
+   "mention": "Ceci n'est pas une publication officielle. Les données publiées sur la plateforme www.simap.ch font foi."
+  },
+  "bulletin_officiel": {
+   "nom": {
+    "fr": "Bulletin officiel du Valais",
+    "de": "Amtsblatt des Kantons Wallis"
+   },
+   "mention": {
+    "fr": "relevé manuel pendant le prototype",
+    "de": "während des Prototyps von Hand erfasst"
+   }
+  }
+ },
+ "de_a_relire": true,
+ "provenance": {
+  "commande": "proxsis moments-presentation",
+  "calcule_le": "2026-10-07",
+  "claims": [
+   "PRES-CARRON-1",
+   "PRES-BITZ-1",
+   "PRES-THELER-1"
+  ]
+ }
+}

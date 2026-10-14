@@ -1,0 +1,21 @@
+name: Idée
+description: Proposer une amélioration ou une nouvelle source
+labels: ["idée"]
+body:
+  - type: textarea
+    id: probleme
+    attributes:
+      label: Le besoin
+      description: Pour qui (consultant, direction…), dans quelle situation, et ce qui manque aujourd'hui.
+    validations:
+      required: true
+  - type: textarea
+    id: proposition
+    attributes:
+      label: La proposition
+      description: Une nouvelle source ? Indiquez ses conditions d'utilisation et son robots.txt si vous les connaissez.
+  - type: textarea
+    id: preuve
+    attributes:
+      label: Comment on saura que ça marche
+      description: La mesure ou le test qui montrera l'utilité (voir CLAIMS.md).

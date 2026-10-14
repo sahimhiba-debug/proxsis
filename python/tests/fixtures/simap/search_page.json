@@ -1,0 +1,7 @@
+{
+  "_fixture_note": "Échantillon SYNTHÉTIQUE au format RÉEL observé le 2026-10-05 — PAS une réponse enregistrée de simap.ch.",
+  "projects": [{"id": "fictif-proj-001", "publicationId": "fictif-pub-001", "title": {"fr": "H21 (FICTIF)"},
+                "publicationDate": "2026-09-14", "pubType": "award", "projectSubType": "construction",
+                "orderAddress": {"countryId": "CH", "cantonId": "VS", "postalCode": "1933", "city": {"fr": "Sembrancher"}}}],
+  "pagination": {"lastItem": null, "itemsPerPage": 20}
+}

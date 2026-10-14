@@ -1,0 +1,43 @@
+name: Production, contrôle quotidien
+# Chaque jour à 7 h, heure suisse d'été (6 h en hiver) : les adresses publiques de la démonstration
+# (scripts/production/domaines.json) répondent, montrent leurs mentions obligatoires, portent les en-têtes de sécurité,
+# ne chargent rien d'un autre site et servent la même version (scripts/production/controle.mjs, lecture seule).
+# En cas d'échec, une issue « Production : contrôle quotidien en échec » est ouverte, ou complétée si elle l'est déjà.
+# MISE EN ROUTE : le contrôle planifié ne part que si la variable du dépôt CONTROLE_PRODUCTION vaut « actif »
+# (Settings → Secrets and variables → Actions → Variables), une fois Vercel relié à ce dépôt ; à la main
+# (Actions → Run workflow), toujours.
+on:
+  schedule:
+    - cron: "0 5 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  controle:
+    if: github.event_name != 'schedule' || vars.CONTROLE_PRODUCTION == 'actif'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+        with: { persist-credentials: false }
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with: { node-version-file: apps/web/.nvmrc }
+      - name: Contrôle des adresses publiques
+        shell: bash
+        run: node scripts/production/controle.mjs | tee rapport.txt
+      - name: Issue en cas d'échec
+        if: failure()
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+          EXECUTION: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          titre="Production : contrôle quotidien en échec"
+          printf '%s\n\nExécution : %s\n' "$(cat rapport.txt 2>/dev/null || echo 'contrôle interrompu')" "$EXECUTION" > corps.md
+          n=$(gh issue list --state open --search "\"$titre\" in:title" --json number --jq '.[0].number // empty')
+          if [ -n "$n" ]; then gh issue comment "$n" --body-file corps.md; else gh issue create --title "$titre" --body-file corps.md; fi

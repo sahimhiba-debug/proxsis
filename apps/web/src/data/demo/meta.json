@@ -1,0 +1,120 @@
+{
+ "schema": 1,
+ "semaine": "2026-10-05",
+ "genere_le": "2026-10-12",
+ "mention_simap": "Ceci n'est pas une publication officielle. Les données publiées sur la plateforme www.simap.ch font foi.",
+ "avertissement_fictif": "monde fictif : prouve que le code fonctionne, pas sa performance réelle",
+ "sources": {
+  "simap": "simap.ch (API, CG du 30.09.2023)",
+  "localites": "Office fédéral de topographie swisstopo (OGD)",
+  "conformite": "Ordonnance du DEFR du 27 novembre 2025 concernant l'adaptation de la liste des genres de profession soumis à l'obligation d'annoncer les postes vacants (RS 823.111.3), en vigueur du 1.1 au 31.12.2026 — https://www.fedlex.admin.ch/eli/cc/2025/800/fr",
+  "flexsis": "https://www.flexsis.ch/agences-de-placement/"
+ },
+ "redaction": {
+  "type": "modele",
+  "fournisseur": "modèle de texte (faux fournisseur)",
+  "note": "texte déterministe, chaque affirmation citée"
+ },
+ "metiers": {
+  "macon": {
+   "fr": "Maçon",
+   "de": "Maurer"
+  },
+  "manoeuvre_construction": {
+   "fr": "Manœuvre de chantier",
+   "de": "Bauhilfsarbeiter"
+  },
+  "coffreur": {
+   "fr": "Coffreur",
+   "de": "Schaler"
+  },
+  "grutier": {
+   "fr": "Grutier",
+   "de": "Kranführer"
+  },
+  "machiniste": {
+   "fr": "Machiniste",
+   "de": "Baumaschinenführer"
+  },
+  "electricien": {
+   "fr": "Électricien",
+   "de": "Elektroinstallateur"
+  },
+  "installateur_sanitaire": {
+   "fr": "Installateur sanitaire",
+   "de": "Sanitärinstallateur"
+  },
+  "peintre": {
+   "fr": "Peintre en bâtiment",
+   "de": "Maler"
+  },
+  "platrier": {
+   "fr": "Plâtrier",
+   "de": "Gipser"
+  },
+  "charpentier": {
+   "fr": "Charpentier",
+   "de": "Zimmermann"
+  },
+  "operateur_production": {
+   "fr": "Opérateur de production",
+   "de": "Produktionsmitarbeiter"
+  },
+  "polymecanicien": {
+   "fr": "Polymécanicien",
+   "de": "Polymechaniker"
+  },
+  "soudeur": {
+   "fr": "Soudeur",
+   "de": "Schweisser"
+  },
+  "horloger": {
+   "fr": "Horloger",
+   "de": "Uhrmacher"
+  },
+  "decolleteur": {
+   "fr": "Décolleteur",
+   "de": "Decolleteur"
+  },
+  "cariste": {
+   "fr": "Cariste",
+   "de": "Staplerfahrer"
+  },
+  "agent_logistique": {
+   "fr": "Agent de logistique",
+   "de": "Logistiker"
+  },
+  "chauffeur_pl": {
+   "fr": "Chauffeur poids lourd",
+   "de": "LKW-Chauffeur"
+  },
+  "operateur_pharma": {
+   "fr": "Opérateur de production pharma",
+   "de": "Pharma-Produktionsmitarbeiter"
+  },
+  "laborantin": {
+   "fr": "Laborantin",
+   "de": "Laborant"
+  }
+ },
+ "jours_feries_valais": [
+  "2026-01-01",
+  "2026-03-19",
+  "2026-05-14",
+  "2026-06-04",
+  "2026-08-01",
+  "2026-08-15",
+  "2026-11-01",
+  "2026-12-08",
+  "2026-12-25",
+  "2027-01-01",
+  "2027-03-19",
+  "2027-05-06",
+  "2027-05-27",
+  "2027-08-01",
+  "2027-08-15",
+  "2027-11-01",
+  "2027-12-08",
+  "2027-12-25"
+ ]
+}

@@ -1,0 +1,8 @@
+# Do not crawl Job Adverts
+User-agent: *
+User-agent: AdsBot-Google
+Disallow: /job-search/
+
+# Exclude confirmation pages and similar
+User-agent: *
+Disallow: /aav/confirmation

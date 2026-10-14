@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /api/v
+
+Sitemap: https://nagerholidays.com/sitemap.xml
+

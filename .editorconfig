@@ -1,0 +1,24 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_style = space
+indent_size = 2
+
+[*.py]
+indent_size = 4
+
+[Makefile]
+indent_style = tab
+
+[*.md]
+trim_trailing_whitespace = false
+
+# archived source files and CSV exports are kept byte for byte
+[{*.csv,data/conditions/**}]
+end_of_line = unset
+insert_final_newline = unset
+trim_trailing_whitespace = false

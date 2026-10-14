@@ -1,0 +1,65 @@
+{
+ "avertissement": "monde fictif : prouve que le code fonctionne, pas sa performance réelle",
+ "avertissement_jeu_de_test": "jeu de test écrit et annoté par l'agent de développement (Claude), pas par l'équipe, et sur des textes qu'il a lui-même inventés : les scores sont optimistes",
+ "extractor": "regles",
+ "n": 36,
+ "field_accuracy": {
+  "doc_type": 1.0,
+  "company_name": 0.9166666666666666,
+  "uid": 1.0,
+  "commune": 0.9444444444444444,
+  "amount_chf": 0.9722222222222222,
+  "rc_subtype": 1.0,
+  "private_person": 1.0
+ },
+ "trades_f1": 0.9484536082474226,
+ "false_fill_rate": 0.0,
+ "pii_leaks": 0,
+ "by_lang": {
+  "fr": {
+   "field_accuracy_mean": 0.9603174603174602
+  },
+  "de": {
+   "field_accuracy_mean": 0.9920634920634921
+  }
+ },
+ "errors": [
+  {
+   "id": "p04",
+   "field": "company_name",
+   "pred": "Bourgeoisie de Conthey. Propriétaire : Bourgeoisie de Conthey. Objet : réfection de la route d'accès et terrassements",
+   "gold": "Bourgeoisie de Conthey"
+  },
+  {
+   "id": "a04",
+   "field": "commune",
+   "pred": null,
+   "gold": "Genève"
+  },
+  {
+   "id": "r03",
+   "field": "company_name",
+   "pred": "Registre du commerce de Genève. Lemar Sanitaire SA",
+   "gold": "Lemar Sanitaire SA"
+  },
+  {
+   "id": "r03",
+   "field": "amount_chf",
+   "pred": 100000.0,
+   "gold": 500000
+  },
+  {
+   "id": "r04",
+   "field": "commune",
+   "pred": "Locle",
+   "gold": "Le Locle"
+  },
+  {
+   "id": "r09",
+   "field": "company_name",
+   "pred": "Handelsregister Basel-Landschaft. Seelan Pharma AG",
+   "gold": "Seelan Pharma AG"
+  }
+ ],
+ "protocole": "jeu gelé extraction_v1.jsonl : 36 publications FICTIVES rédigées et annotées par l'agent de développement ; règles écrites sur un jeu de développement généré par le même agent"
+}

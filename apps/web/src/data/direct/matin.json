@@ -1,0 +1,11 @@
+{
+ "schema": 2,
+ "etat": "en_attente",
+ "mode": null,
+ "periode": null,
+ "mis_a_jour_le": null,
+ "source": "simap.ch",
+ "mention": "Ceci n'est pas une publication officielle. Les données publiées sur la plateforme www.simap.ch font foi.",
+ "total": 0,
+ "marches": []
+}

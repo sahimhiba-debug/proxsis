@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Signaler une faille de sécurité ou un nom de particulier visible
+    url: https://github.com/sahimhiba-debug/proxsis/security/advisories/new
+    about: En privé, jamais dans une issue publique.
+  - name: Essayer Proxsis
+    url: https://proxsis.vercel.app/
+    about: Le prototype en ligne, en français et en allemand.

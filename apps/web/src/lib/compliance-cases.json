@@ -1,0 +1,1485 @@
+{
+ "_": "Cas communs du délai de l'obligation d'annonce (art. 53b al. 5-6 OSE ; directive SECO B16-B17), calculés par python/src/proxsis/compliance.py ; le même calcul en TypeScript (apps/web/src/lib/compliance.ts) doit donner les mêmes dates. Une annonce par jour de 2026, jours fériés valaisans 2026 et 2027.",
+ "jours_feries": [
+  "2026-01-01",
+  "2026-03-19",
+  "2026-05-14",
+  "2026-06-04",
+  "2026-08-01",
+  "2026-08-15",
+  "2026-11-01",
+  "2026-12-08",
+  "2026-12-25",
+  "2027-01-01",
+  "2027-03-19",
+  "2027-05-06",
+  "2027-05-27",
+  "2027-08-01",
+  "2027-08-15",
+  "2027-11-01",
+  "2027-12-08",
+  "2027-12-25"
+ ],
+ "cas": [
+  {
+   "en_ligne": "2026-01-01",
+   "publication_libre": "2026-01-09"
+  },
+  {
+   "en_ligne": "2026-01-02",
+   "publication_libre": "2026-01-10"
+  },
+  {
+   "en_ligne": "2026-01-03",
+   "publication_libre": "2026-01-10"
+  },
+  {
+   "en_ligne": "2026-01-04",
+   "publication_libre": "2026-01-10"
+  },
+  {
+   "en_ligne": "2026-01-05",
+   "publication_libre": "2026-01-13"
+  },
+  {
+   "en_ligne": "2026-01-06",
+   "publication_libre": "2026-01-14"
+  },
+  {
+   "en_ligne": "2026-01-07",
+   "publication_libre": "2026-01-15"
+  },
+  {
+   "en_ligne": "2026-01-08",
+   "publication_libre": "2026-01-16"
+  },
+  {
+   "en_ligne": "2026-01-09",
+   "publication_libre": "2026-01-17"
+  },
+  {
+   "en_ligne": "2026-01-10",
+   "publication_libre": "2026-01-17"
+  },
+  {
+   "en_ligne": "2026-01-11",
+   "publication_libre": "2026-01-17"
+  },
+  {
+   "en_ligne": "2026-01-12",
+   "publication_libre": "2026-01-20"
+  },
+  {
+   "en_ligne": "2026-01-13",
+   "publication_libre": "2026-01-21"
+  },
+  {
+   "en_ligne": "2026-01-14",
+   "publication_libre": "2026-01-22"
+  },
+  {
+   "en_ligne": "2026-01-15",
+   "publication_libre": "2026-01-23"
+  },
+  {
+   "en_ligne": "2026-01-16",
+   "publication_libre": "2026-01-24"
+  },
+  {
+   "en_ligne": "2026-01-17",
+   "publication_libre": "2026-01-24"
+  },
+  {
+   "en_ligne": "2026-01-18",
+   "publication_libre": "2026-01-24"
+  },
+  {
+   "en_ligne": "2026-01-19",
+   "publication_libre": "2026-01-27"
+  },
+  {
+   "en_ligne": "2026-01-20",
+   "publication_libre": "2026-01-28"
+  },
+  {
+   "en_ligne": "2026-01-21",
+   "publication_libre": "2026-01-29"
+  },
+  {
+   "en_ligne": "2026-01-22",
+   "publication_libre": "2026-01-30"
+  },
+  {
+   "en_ligne": "2026-01-23",
+   "publication_libre": "2026-01-31"
+  },
+  {
+   "en_ligne": "2026-01-24",
+   "publication_libre": "2026-01-31"
+  },
+  {
+   "en_ligne": "2026-01-25",
+   "publication_libre": "2026-01-31"
+  },
+  {
+   "en_ligne": "2026-01-26",
+   "publication_libre": "2026-02-03"
+  },
+  {
+   "en_ligne": "2026-01-27",
+   "publication_libre": "2026-02-04"
+  },
+  {
+   "en_ligne": "2026-01-28",
+   "publication_libre": "2026-02-05"
+  },
+  {
+   "en_ligne": "2026-01-29",
+   "publication_libre": "2026-02-06"
+  },
+  {
+   "en_ligne": "2026-01-30",
+   "publication_libre": "2026-02-07"
+  },
+  {
+   "en_ligne": "2026-01-31",
+   "publication_libre": "2026-02-07"
+  },
+  {
+   "en_ligne": "2026-02-01",
+   "publication_libre": "2026-02-07"
+  },
+  {
+   "en_ligne": "2026-02-02",
+   "publication_libre": "2026-02-10"
+  },
+  {
+   "en_ligne": "2026-02-03",
+   "publication_libre": "2026-02-11"
+  },
+  {
+   "en_ligne": "2026-02-04",
+   "publication_libre": "2026-02-12"
+  },
+  {
+   "en_ligne": "2026-02-05",
+   "publication_libre": "2026-02-13"
+  },
+  {
+   "en_ligne": "2026-02-06",
+   "publication_libre": "2026-02-14"
+  },
+  {
+   "en_ligne": "2026-02-07",
+   "publication_libre": "2026-02-14"
+  },
+  {
+   "en_ligne": "2026-02-08",
+   "publication_libre": "2026-02-14"
+  },
+  {
+   "en_ligne": "2026-02-09",
+   "publication_libre": "2026-02-17"
+  },
+  {
+   "en_ligne": "2026-02-10",
+   "publication_libre": "2026-02-18"
+  },
+  {
+   "en_ligne": "2026-02-11",
+   "publication_libre": "2026-02-19"
+  },
+  {
+   "en_ligne": "2026-02-12",
+   "publication_libre": "2026-02-20"
+  },
+  {
+   "en_ligne": "2026-02-13",
+   "publication_libre": "2026-02-21"
+  },
+  {
+   "en_ligne": "2026-02-14",
+   "publication_libre": "2026-02-21"
+  },
+  {
+   "en_ligne": "2026-02-15",
+   "publication_libre": "2026-02-21"
+  },
+  {
+   "en_ligne": "2026-02-16",
+   "publication_libre": "2026-02-24"
+  },
+  {
+   "en_ligne": "2026-02-17",
+   "publication_libre": "2026-02-25"
+  },
+  {
+   "en_ligne": "2026-02-18",
+   "publication_libre": "2026-02-26"
+  },
+  {
+   "en_ligne": "2026-02-19",
+   "publication_libre": "2026-02-27"
+  },
+  {
+   "en_ligne": "2026-02-20",
+   "publication_libre": "2026-02-28"
+  },
+  {
+   "en_ligne": "2026-02-21",
+   "publication_libre": "2026-02-28"
+  },
+  {
+   "en_ligne": "2026-02-22",
+   "publication_libre": "2026-02-28"
+  },
+  {
+   "en_ligne": "2026-02-23",
+   "publication_libre": "2026-03-03"
+  },
+  {
+   "en_ligne": "2026-02-24",
+   "publication_libre": "2026-03-04"
+  },
+  {
+   "en_ligne": "2026-02-25",
+   "publication_libre": "2026-03-05"
+  },
+  {
+   "en_ligne": "2026-02-26",
+   "publication_libre": "2026-03-06"
+  },
+  {
+   "en_ligne": "2026-02-27",
+   "publication_libre": "2026-03-07"
+  },
+  {
+   "en_ligne": "2026-02-28",
+   "publication_libre": "2026-03-07"
+  },
+  {
+   "en_ligne": "2026-03-01",
+   "publication_libre": "2026-03-07"
+  },
+  {
+   "en_ligne": "2026-03-02",
+   "publication_libre": "2026-03-10"
+  },
+  {
+   "en_ligne": "2026-03-03",
+   "publication_libre": "2026-03-11"
+  },
+  {
+   "en_ligne": "2026-03-04",
+   "publication_libre": "2026-03-12"
+  },
+  {
+   "en_ligne": "2026-03-05",
+   "publication_libre": "2026-03-13"
+  },
+  {
+   "en_ligne": "2026-03-06",
+   "publication_libre": "2026-03-14"
+  },
+  {
+   "en_ligne": "2026-03-07",
+   "publication_libre": "2026-03-14"
+  },
+  {
+   "en_ligne": "2026-03-08",
+   "publication_libre": "2026-03-14"
+  },
+  {
+   "en_ligne": "2026-03-09",
+   "publication_libre": "2026-03-17"
+  },
+  {
+   "en_ligne": "2026-03-10",
+   "publication_libre": "2026-03-18"
+  },
+  {
+   "en_ligne": "2026-03-11",
+   "publication_libre": "2026-03-19"
+  },
+  {
+   "en_ligne": "2026-03-12",
+   "publication_libre": "2026-03-21"
+  },
+  {
+   "en_ligne": "2026-03-13",
+   "publication_libre": "2026-03-24"
+  },
+  {
+   "en_ligne": "2026-03-14",
+   "publication_libre": "2026-03-24"
+  },
+  {
+   "en_ligne": "2026-03-15",
+   "publication_libre": "2026-03-24"
+  },
+  {
+   "en_ligne": "2026-03-16",
+   "publication_libre": "2026-03-25"
+  },
+  {
+   "en_ligne": "2026-03-17",
+   "publication_libre": "2026-03-26"
+  },
+  {
+   "en_ligne": "2026-03-18",
+   "publication_libre": "2026-03-27"
+  },
+  {
+   "en_ligne": "2026-03-19",
+   "publication_libre": "2026-03-27"
+  },
+  {
+   "en_ligne": "2026-03-20",
+   "publication_libre": "2026-03-28"
+  },
+  {
+   "en_ligne": "2026-03-21",
+   "publication_libre": "2026-03-28"
+  },
+  {
+   "en_ligne": "2026-03-22",
+   "publication_libre": "2026-03-28"
+  },
+  {
+   "en_ligne": "2026-03-23",
+   "publication_libre": "2026-03-31"
+  },
+  {
+   "en_ligne": "2026-03-24",
+   "publication_libre": "2026-04-01"
+  },
+  {
+   "en_ligne": "2026-03-25",
+   "publication_libre": "2026-04-02"
+  },
+  {
+   "en_ligne": "2026-03-26",
+   "publication_libre": "2026-04-03"
+  },
+  {
+   "en_ligne": "2026-03-27",
+   "publication_libre": "2026-04-04"
+  },
+  {
+   "en_ligne": "2026-03-28",
+   "publication_libre": "2026-04-04"
+  },
+  {
+   "en_ligne": "2026-03-29",
+   "publication_libre": "2026-04-04"
+  },
+  {
+   "en_ligne": "2026-03-30",
+   "publication_libre": "2026-04-07"
+  },
+  {
+   "en_ligne": "2026-03-31",
+   "publication_libre": "2026-04-08"
+  },
+  {
+   "en_ligne": "2026-04-01",
+   "publication_libre": "2026-04-09"
+  },
+  {
+   "en_ligne": "2026-04-02",
+   "publication_libre": "2026-04-10"
+  },
+  {
+   "en_ligne": "2026-04-03",
+   "publication_libre": "2026-04-11"
+  },
+  {
+   "en_ligne": "2026-04-04",
+   "publication_libre": "2026-04-11"
+  },
+  {
+   "en_ligne": "2026-04-05",
+   "publication_libre": "2026-04-11"
+  },
+  {
+   "en_ligne": "2026-04-06",
+   "publication_libre": "2026-04-14"
+  },
+  {
+   "en_ligne": "2026-04-07",
+   "publication_libre": "2026-04-15"
+  },
+  {
+   "en_ligne": "2026-04-08",
+   "publication_libre": "2026-04-16"
+  },
+  {
+   "en_ligne": "2026-04-09",
+   "publication_libre": "2026-04-17"
+  },
+  {
+   "en_ligne": "2026-04-10",
+   "publication_libre": "2026-04-18"
+  },
+  {
+   "en_ligne": "2026-04-11",
+   "publication_libre": "2026-04-18"
+  },
+  {
+   "en_ligne": "2026-04-12",
+   "publication_libre": "2026-04-18"
+  },
+  {
+   "en_ligne": "2026-04-13",
+   "publication_libre": "2026-04-21"
+  },
+  {
+   "en_ligne": "2026-04-14",
+   "publication_libre": "2026-04-22"
+  },
+  {
+   "en_ligne": "2026-04-15",
+   "publication_libre": "2026-04-23"
+  },
+  {
+   "en_ligne": "2026-04-16",
+   "publication_libre": "2026-04-24"
+  },
+  {
+   "en_ligne": "2026-04-17",
+   "publication_libre": "2026-04-25"
+  },
+  {
+   "en_ligne": "2026-04-18",
+   "publication_libre": "2026-04-25"
+  },
+  {
+   "en_ligne": "2026-04-19",
+   "publication_libre": "2026-04-25"
+  },
+  {
+   "en_ligne": "2026-04-20",
+   "publication_libre": "2026-04-28"
+  },
+  {
+   "en_ligne": "2026-04-21",
+   "publication_libre": "2026-04-29"
+  },
+  {
+   "en_ligne": "2026-04-22",
+   "publication_libre": "2026-04-30"
+  },
+  {
+   "en_ligne": "2026-04-23",
+   "publication_libre": "2026-05-01"
+  },
+  {
+   "en_ligne": "2026-04-24",
+   "publication_libre": "2026-05-02"
+  },
+  {
+   "en_ligne": "2026-04-25",
+   "publication_libre": "2026-05-02"
+  },
+  {
+   "en_ligne": "2026-04-26",
+   "publication_libre": "2026-05-02"
+  },
+  {
+   "en_ligne": "2026-04-27",
+   "publication_libre": "2026-05-05"
+  },
+  {
+   "en_ligne": "2026-04-28",
+   "publication_libre": "2026-05-06"
+  },
+  {
+   "en_ligne": "2026-04-29",
+   "publication_libre": "2026-05-07"
+  },
+  {
+   "en_ligne": "2026-04-30",
+   "publication_libre": "2026-05-08"
+  },
+  {
+   "en_ligne": "2026-05-01",
+   "publication_libre": "2026-05-09"
+  },
+  {
+   "en_ligne": "2026-05-02",
+   "publication_libre": "2026-05-09"
+  },
+  {
+   "en_ligne": "2026-05-03",
+   "publication_libre": "2026-05-09"
+  },
+  {
+   "en_ligne": "2026-05-04",
+   "publication_libre": "2026-05-12"
+  },
+  {
+   "en_ligne": "2026-05-05",
+   "publication_libre": "2026-05-13"
+  },
+  {
+   "en_ligne": "2026-05-06",
+   "publication_libre": "2026-05-14"
+  },
+  {
+   "en_ligne": "2026-05-07",
+   "publication_libre": "2026-05-16"
+  },
+  {
+   "en_ligne": "2026-05-08",
+   "publication_libre": "2026-05-19"
+  },
+  {
+   "en_ligne": "2026-05-09",
+   "publication_libre": "2026-05-19"
+  },
+  {
+   "en_ligne": "2026-05-10",
+   "publication_libre": "2026-05-19"
+  },
+  {
+   "en_ligne": "2026-05-11",
+   "publication_libre": "2026-05-20"
+  },
+  {
+   "en_ligne": "2026-05-12",
+   "publication_libre": "2026-05-21"
+  },
+  {
+   "en_ligne": "2026-05-13",
+   "publication_libre": "2026-05-22"
+  },
+  {
+   "en_ligne": "2026-05-14",
+   "publication_libre": "2026-05-22"
+  },
+  {
+   "en_ligne": "2026-05-15",
+   "publication_libre": "2026-05-23"
+  },
+  {
+   "en_ligne": "2026-05-16",
+   "publication_libre": "2026-05-23"
+  },
+  {
+   "en_ligne": "2026-05-17",
+   "publication_libre": "2026-05-23"
+  },
+  {
+   "en_ligne": "2026-05-18",
+   "publication_libre": "2026-05-26"
+  },
+  {
+   "en_ligne": "2026-05-19",
+   "publication_libre": "2026-05-27"
+  },
+  {
+   "en_ligne": "2026-05-20",
+   "publication_libre": "2026-05-28"
+  },
+  {
+   "en_ligne": "2026-05-21",
+   "publication_libre": "2026-05-29"
+  },
+  {
+   "en_ligne": "2026-05-22",
+   "publication_libre": "2026-05-30"
+  },
+  {
+   "en_ligne": "2026-05-23",
+   "publication_libre": "2026-05-30"
+  },
+  {
+   "en_ligne": "2026-05-24",
+   "publication_libre": "2026-05-30"
+  },
+  {
+   "en_ligne": "2026-05-25",
+   "publication_libre": "2026-06-02"
+  },
+  {
+   "en_ligne": "2026-05-26",
+   "publication_libre": "2026-06-03"
+  },
+  {
+   "en_ligne": "2026-05-27",
+   "publication_libre": "2026-06-04"
+  },
+  {
+   "en_ligne": "2026-05-28",
+   "publication_libre": "2026-06-06"
+  },
+  {
+   "en_ligne": "2026-05-29",
+   "publication_libre": "2026-06-09"
+  },
+  {
+   "en_ligne": "2026-05-30",
+   "publication_libre": "2026-06-09"
+  },
+  {
+   "en_ligne": "2026-05-31",
+   "publication_libre": "2026-06-09"
+  },
+  {
+   "en_ligne": "2026-06-01",
+   "publication_libre": "2026-06-10"
+  },
+  {
+   "en_ligne": "2026-06-02",
+   "publication_libre": "2026-06-11"
+  },
+  {
+   "en_ligne": "2026-06-03",
+   "publication_libre": "2026-06-12"
+  },
+  {
+   "en_ligne": "2026-06-04",
+   "publication_libre": "2026-06-12"
+  },
+  {
+   "en_ligne": "2026-06-05",
+   "publication_libre": "2026-06-13"
+  },
+  {
+   "en_ligne": "2026-06-06",
+   "publication_libre": "2026-06-13"
+  },
+  {
+   "en_ligne": "2026-06-07",
+   "publication_libre": "2026-06-13"
+  },
+  {
+   "en_ligne": "2026-06-08",
+   "publication_libre": "2026-06-16"
+  },
+  {
+   "en_ligne": "2026-06-09",
+   "publication_libre": "2026-06-17"
+  },
+  {
+   "en_ligne": "2026-06-10",
+   "publication_libre": "2026-06-18"
+  },
+  {
+   "en_ligne": "2026-06-11",
+   "publication_libre": "2026-06-19"
+  },
+  {
+   "en_ligne": "2026-06-12",
+   "publication_libre": "2026-06-20"
+  },
+  {
+   "en_ligne": "2026-06-13",
+   "publication_libre": "2026-06-20"
+  },
+  {
+   "en_ligne": "2026-06-14",
+   "publication_libre": "2026-06-20"
+  },
+  {
+   "en_ligne": "2026-06-15",
+   "publication_libre": "2026-06-23"
+  },
+  {
+   "en_ligne": "2026-06-16",
+   "publication_libre": "2026-06-24"
+  },
+  {
+   "en_ligne": "2026-06-17",
+   "publication_libre": "2026-06-25"
+  },
+  {
+   "en_ligne": "2026-06-18",
+   "publication_libre": "2026-06-26"
+  },
+  {
+   "en_ligne": "2026-06-19",
+   "publication_libre": "2026-06-27"
+  },
+  {
+   "en_ligne": "2026-06-20",
+   "publication_libre": "2026-06-27"
+  },
+  {
+   "en_ligne": "2026-06-21",
+   "publication_libre": "2026-06-27"
+  },
+  {
+   "en_ligne": "2026-06-22",
+   "publication_libre": "2026-06-30"
+  },
+  {
+   "en_ligne": "2026-06-23",
+   "publication_libre": "2026-07-01"
+  },
+  {
+   "en_ligne": "2026-06-24",
+   "publication_libre": "2026-07-02"
+  },
+  {
+   "en_ligne": "2026-06-25",
+   "publication_libre": "2026-07-03"
+  },
+  {
+   "en_ligne": "2026-06-26",
+   "publication_libre": "2026-07-04"
+  },
+  {
+   "en_ligne": "2026-06-27",
+   "publication_libre": "2026-07-04"
+  },
+  {
+   "en_ligne": "2026-06-28",
+   "publication_libre": "2026-07-04"
+  },
+  {
+   "en_ligne": "2026-06-29",
+   "publication_libre": "2026-07-07"
+  },
+  {
+   "en_ligne": "2026-06-30",
+   "publication_libre": "2026-07-08"
+  },
+  {
+   "en_ligne": "2026-07-01",
+   "publication_libre": "2026-07-09"
+  },
+  {
+   "en_ligne": "2026-07-02",
+   "publication_libre": "2026-07-10"
+  },
+  {
+   "en_ligne": "2026-07-03",
+   "publication_libre": "2026-07-11"
+  },
+  {
+   "en_ligne": "2026-07-04",
+   "publication_libre": "2026-07-11"
+  },
+  {
+   "en_ligne": "2026-07-05",
+   "publication_libre": "2026-07-11"
+  },
+  {
+   "en_ligne": "2026-07-06",
+   "publication_libre": "2026-07-14"
+  },
+  {
+   "en_ligne": "2026-07-07",
+   "publication_libre": "2026-07-15"
+  },
+  {
+   "en_ligne": "2026-07-08",
+   "publication_libre": "2026-07-16"
+  },
+  {
+   "en_ligne": "2026-07-09",
+   "publication_libre": "2026-07-17"
+  },
+  {
+   "en_ligne": "2026-07-10",
+   "publication_libre": "2026-07-18"
+  },
+  {
+   "en_ligne": "2026-07-11",
+   "publication_libre": "2026-07-18"
+  },
+  {
+   "en_ligne": "2026-07-12",
+   "publication_libre": "2026-07-18"
+  },
+  {
+   "en_ligne": "2026-07-13",
+   "publication_libre": "2026-07-21"
+  },
+  {
+   "en_ligne": "2026-07-14",
+   "publication_libre": "2026-07-22"
+  },
+  {
+   "en_ligne": "2026-07-15",
+   "publication_libre": "2026-07-23"
+  },
+  {
+   "en_ligne": "2026-07-16",
+   "publication_libre": "2026-07-24"
+  },
+  {
+   "en_ligne": "2026-07-17",
+   "publication_libre": "2026-07-25"
+  },
+  {
+   "en_ligne": "2026-07-18",
+   "publication_libre": "2026-07-25"
+  },
+  {
+   "en_ligne": "2026-07-19",
+   "publication_libre": "2026-07-25"
+  },
+  {
+   "en_ligne": "2026-07-20",
+   "publication_libre": "2026-07-28"
+  },
+  {
+   "en_ligne": "2026-07-21",
+   "publication_libre": "2026-07-29"
+  },
+  {
+   "en_ligne": "2026-07-22",
+   "publication_libre": "2026-07-30"
+  },
+  {
+   "en_ligne": "2026-07-23",
+   "publication_libre": "2026-07-31"
+  },
+  {
+   "en_ligne": "2026-07-24",
+   "publication_libre": "2026-08-01"
+  },
+  {
+   "en_ligne": "2026-07-25",
+   "publication_libre": "2026-08-01"
+  },
+  {
+   "en_ligne": "2026-07-26",
+   "publication_libre": "2026-08-01"
+  },
+  {
+   "en_ligne": "2026-07-27",
+   "publication_libre": "2026-08-04"
+  },
+  {
+   "en_ligne": "2026-07-28",
+   "publication_libre": "2026-08-05"
+  },
+  {
+   "en_ligne": "2026-07-29",
+   "publication_libre": "2026-08-06"
+  },
+  {
+   "en_ligne": "2026-07-30",
+   "publication_libre": "2026-08-07"
+  },
+  {
+   "en_ligne": "2026-07-31",
+   "publication_libre": "2026-08-08"
+  },
+  {
+   "en_ligne": "2026-08-01",
+   "publication_libre": "2026-08-08"
+  },
+  {
+   "en_ligne": "2026-08-02",
+   "publication_libre": "2026-08-08"
+  },
+  {
+   "en_ligne": "2026-08-03",
+   "publication_libre": "2026-08-11"
+  },
+  {
+   "en_ligne": "2026-08-04",
+   "publication_libre": "2026-08-12"
+  },
+  {
+   "en_ligne": "2026-08-05",
+   "publication_libre": "2026-08-13"
+  },
+  {
+   "en_ligne": "2026-08-06",
+   "publication_libre": "2026-08-14"
+  },
+  {
+   "en_ligne": "2026-08-07",
+   "publication_libre": "2026-08-15"
+  },
+  {
+   "en_ligne": "2026-08-08",
+   "publication_libre": "2026-08-15"
+  },
+  {
+   "en_ligne": "2026-08-09",
+   "publication_libre": "2026-08-15"
+  },
+  {
+   "en_ligne": "2026-08-10",
+   "publication_libre": "2026-08-18"
+  },
+  {
+   "en_ligne": "2026-08-11",
+   "publication_libre": "2026-08-19"
+  },
+  {
+   "en_ligne": "2026-08-12",
+   "publication_libre": "2026-08-20"
+  },
+  {
+   "en_ligne": "2026-08-13",
+   "publication_libre": "2026-08-21"
+  },
+  {
+   "en_ligne": "2026-08-14",
+   "publication_libre": "2026-08-22"
+  },
+  {
+   "en_ligne": "2026-08-15",
+   "publication_libre": "2026-08-22"
+  },
+  {
+   "en_ligne": "2026-08-16",
+   "publication_libre": "2026-08-22"
+  },
+  {
+   "en_ligne": "2026-08-17",
+   "publication_libre": "2026-08-25"
+  },
+  {
+   "en_ligne": "2026-08-18",
+   "publication_libre": "2026-08-26"
+  },
+  {
+   "en_ligne": "2026-08-19",
+   "publication_libre": "2026-08-27"
+  },
+  {
+   "en_ligne": "2026-08-20",
+   "publication_libre": "2026-08-28"
+  },
+  {
+   "en_ligne": "2026-08-21",
+   "publication_libre": "2026-08-29"
+  },
+  {
+   "en_ligne": "2026-08-22",
+   "publication_libre": "2026-08-29"
+  },
+  {
+   "en_ligne": "2026-08-23",
+   "publication_libre": "2026-08-29"
+  },
+  {
+   "en_ligne": "2026-08-24",
+   "publication_libre": "2026-09-01"
+  },
+  {
+   "en_ligne": "2026-08-25",
+   "publication_libre": "2026-09-02"
+  },
+  {
+   "en_ligne": "2026-08-26",
+   "publication_libre": "2026-09-03"
+  },
+  {
+   "en_ligne": "2026-08-27",
+   "publication_libre": "2026-09-04"
+  },
+  {
+   "en_ligne": "2026-08-28",
+   "publication_libre": "2026-09-05"
+  },
+  {
+   "en_ligne": "2026-08-29",
+   "publication_libre": "2026-09-05"
+  },
+  {
+   "en_ligne": "2026-08-30",
+   "publication_libre": "2026-09-05"
+  },
+  {
+   "en_ligne": "2026-08-31",
+   "publication_libre": "2026-09-08"
+  },
+  {
+   "en_ligne": "2026-09-01",
+   "publication_libre": "2026-09-09"
+  },
+  {
+   "en_ligne": "2026-09-02",
+   "publication_libre": "2026-09-10"
+  },
+  {
+   "en_ligne": "2026-09-03",
+   "publication_libre": "2026-09-11"
+  },
+  {
+   "en_ligne": "2026-09-04",
+   "publication_libre": "2026-09-12"
+  },
+  {
+   "en_ligne": "2026-09-05",
+   "publication_libre": "2026-09-12"
+  },
+  {
+   "en_ligne": "2026-09-06",
+   "publication_libre": "2026-09-12"
+  },
+  {
+   "en_ligne": "2026-09-07",
+   "publication_libre": "2026-09-15"
+  },
+  {
+   "en_ligne": "2026-09-08",
+   "publication_libre": "2026-09-16"
+  },
+  {
+   "en_ligne": "2026-09-09",
+   "publication_libre": "2026-09-17"
+  },
+  {
+   "en_ligne": "2026-09-10",
+   "publication_libre": "2026-09-18"
+  },
+  {
+   "en_ligne": "2026-09-11",
+   "publication_libre": "2026-09-19"
+  },
+  {
+   "en_ligne": "2026-09-12",
+   "publication_libre": "2026-09-19"
+  },
+  {
+   "en_ligne": "2026-09-13",
+   "publication_libre": "2026-09-19"
+  },
+  {
+   "en_ligne": "2026-09-14",
+   "publication_libre": "2026-09-22"
+  },
+  {
+   "en_ligne": "2026-09-15",
+   "publication_libre": "2026-09-23"
+  },
+  {
+   "en_ligne": "2026-09-16",
+   "publication_libre": "2026-09-24"
+  },
+  {
+   "en_ligne": "2026-09-17",
+   "publication_libre": "2026-09-25"
+  },
+  {
+   "en_ligne": "2026-09-18",
+   "publication_libre": "2026-09-26"
+  },
+  {
+   "en_ligne": "2026-09-19",
+   "publication_libre": "2026-09-26"
+  },
+  {
+   "en_ligne": "2026-09-20",
+   "publication_libre": "2026-09-26"
+  },
+  {
+   "en_ligne": "2026-09-21",
+   "publication_libre": "2026-09-29"
+  },
+  {
+   "en_ligne": "2026-09-22",
+   "publication_libre": "2026-09-30"
+  },
+  {
+   "en_ligne": "2026-09-23",
+   "publication_libre": "2026-10-01"
+  },
+  {
+   "en_ligne": "2026-09-24",
+   "publication_libre": "2026-10-02"
+  },
+  {
+   "en_ligne": "2026-09-25",
+   "publication_libre": "2026-10-03"
+  },
+  {
+   "en_ligne": "2026-09-26",
+   "publication_libre": "2026-10-03"
+  },
+  {
+   "en_ligne": "2026-09-27",
+   "publication_libre": "2026-10-03"
+  },
+  {
+   "en_ligne": "2026-09-28",
+   "publication_libre": "2026-10-06"
+  },
+  {
+   "en_ligne": "2026-09-29",
+   "publication_libre": "2026-10-07"
+  },
+  {
+   "en_ligne": "2026-09-30",
+   "publication_libre": "2026-10-08"
+  },
+  {
+   "en_ligne": "2026-10-01",
+   "publication_libre": "2026-10-09"
+  },
+  {
+   "en_ligne": "2026-10-02",
+   "publication_libre": "2026-10-10"
+  },
+  {
+   "en_ligne": "2026-10-03",
+   "publication_libre": "2026-10-10"
+  },
+  {
+   "en_ligne": "2026-10-04",
+   "publication_libre": "2026-10-10"
+  },
+  {
+   "en_ligne": "2026-10-05",
+   "publication_libre": "2026-10-13"
+  },
+  {
+   "en_ligne": "2026-10-06",
+   "publication_libre": "2026-10-14"
+  },
+  {
+   "en_ligne": "2026-10-07",
+   "publication_libre": "2026-10-15"
+  },
+  {
+   "en_ligne": "2026-10-08",
+   "publication_libre": "2026-10-16"
+  },
+  {
+   "en_ligne": "2026-10-09",
+   "publication_libre": "2026-10-17"
+  },
+  {
+   "en_ligne": "2026-10-10",
+   "publication_libre": "2026-10-17"
+  },
+  {
+   "en_ligne": "2026-10-11",
+   "publication_libre": "2026-10-17"
+  },
+  {
+   "en_ligne": "2026-10-12",
+   "publication_libre": "2026-10-20"
+  },
+  {
+   "en_ligne": "2026-10-13",
+   "publication_libre": "2026-10-21"
+  },
+  {
+   "en_ligne": "2026-10-14",
+   "publication_libre": "2026-10-22"
+  },
+  {
+   "en_ligne": "2026-10-15",
+   "publication_libre": "2026-10-23"
+  },
+  {
+   "en_ligne": "2026-10-16",
+   "publication_libre": "2026-10-24"
+  },
+  {
+   "en_ligne": "2026-10-17",
+   "publication_libre": "2026-10-24"
+  },
+  {
+   "en_ligne": "2026-10-18",
+   "publication_libre": "2026-10-24"
+  },
+  {
+   "en_ligne": "2026-10-19",
+   "publication_libre": "2026-10-27"
+  },
+  {
+   "en_ligne": "2026-10-20",
+   "publication_libre": "2026-10-28"
+  },
+  {
+   "en_ligne": "2026-10-21",
+   "publication_libre": "2026-10-29"
+  },
+  {
+   "en_ligne": "2026-10-22",
+   "publication_libre": "2026-10-30"
+  },
+  {
+   "en_ligne": "2026-10-23",
+   "publication_libre": "2026-10-31"
+  },
+  {
+   "en_ligne": "2026-10-24",
+   "publication_libre": "2026-10-31"
+  },
+  {
+   "en_ligne": "2026-10-25",
+   "publication_libre": "2026-10-31"
+  },
+  {
+   "en_ligne": "2026-10-26",
+   "publication_libre": "2026-11-03"
+  },
+  {
+   "en_ligne": "2026-10-27",
+   "publication_libre": "2026-11-04"
+  },
+  {
+   "en_ligne": "2026-10-28",
+   "publication_libre": "2026-11-05"
+  },
+  {
+   "en_ligne": "2026-10-29",
+   "publication_libre": "2026-11-06"
+  },
+  {
+   "en_ligne": "2026-10-30",
+   "publication_libre": "2026-11-07"
+  },
+  {
+   "en_ligne": "2026-10-31",
+   "publication_libre": "2026-11-07"
+  },
+  {
+   "en_ligne": "2026-11-01",
+   "publication_libre": "2026-11-07"
+  },
+  {
+   "en_ligne": "2026-11-02",
+   "publication_libre": "2026-11-10"
+  },
+  {
+   "en_ligne": "2026-11-03",
+   "publication_libre": "2026-11-11"
+  },
+  {
+   "en_ligne": "2026-11-04",
+   "publication_libre": "2026-11-12"
+  },
+  {
+   "en_ligne": "2026-11-05",
+   "publication_libre": "2026-11-13"
+  },
+  {
+   "en_ligne": "2026-11-06",
+   "publication_libre": "2026-11-14"
+  },
+  {
+   "en_ligne": "2026-11-07",
+   "publication_libre": "2026-11-14"
+  },
+  {
+   "en_ligne": "2026-11-08",
+   "publication_libre": "2026-11-14"
+  },
+  {
+   "en_ligne": "2026-11-09",
+   "publication_libre": "2026-11-17"
+  },
+  {
+   "en_ligne": "2026-11-10",
+   "publication_libre": "2026-11-18"
+  },
+  {
+   "en_ligne": "2026-11-11",
+   "publication_libre": "2026-11-19"
+  },
+  {
+   "en_ligne": "2026-11-12",
+   "publication_libre": "2026-11-20"
+  },
+  {
+   "en_ligne": "2026-11-13",
+   "publication_libre": "2026-11-21"
+  },
+  {
+   "en_ligne": "2026-11-14",
+   "publication_libre": "2026-11-21"
+  },
+  {
+   "en_ligne": "2026-11-15",
+   "publication_libre": "2026-11-21"
+  },
+  {
+   "en_ligne": "2026-11-16",
+   "publication_libre": "2026-11-24"
+  },
+  {
+   "en_ligne": "2026-11-17",
+   "publication_libre": "2026-11-25"
+  },
+  {
+   "en_ligne": "2026-11-18",
+   "publication_libre": "2026-11-26"
+  },
+  {
+   "en_ligne": "2026-11-19",
+   "publication_libre": "2026-11-27"
+  },
+  {
+   "en_ligne": "2026-11-20",
+   "publication_libre": "2026-11-28"
+  },
+  {
+   "en_ligne": "2026-11-21",
+   "publication_libre": "2026-11-28"
+  },
+  {
+   "en_ligne": "2026-11-22",
+   "publication_libre": "2026-11-28"
+  },
+  {
+   "en_ligne": "2026-11-23",
+   "publication_libre": "2026-12-01"
+  },
+  {
+   "en_ligne": "2026-11-24",
+   "publication_libre": "2026-12-02"
+  },
+  {
+   "en_ligne": "2026-11-25",
+   "publication_libre": "2026-12-03"
+  },
+  {
+   "en_ligne": "2026-11-26",
+   "publication_libre": "2026-12-04"
+  },
+  {
+   "en_ligne": "2026-11-27",
+   "publication_libre": "2026-12-05"
+  },
+  {
+   "en_ligne": "2026-11-28",
+   "publication_libre": "2026-12-05"
+  },
+  {
+   "en_ligne": "2026-11-29",
+   "publication_libre": "2026-12-05"
+  },
+  {
+   "en_ligne": "2026-11-30",
+   "publication_libre": "2026-12-08"
+  },
+  {
+   "en_ligne": "2026-12-01",
+   "publication_libre": "2026-12-10"
+  },
+  {
+   "en_ligne": "2026-12-02",
+   "publication_libre": "2026-12-11"
+  },
+  {
+   "en_ligne": "2026-12-03",
+   "publication_libre": "2026-12-12"
+  },
+  {
+   "en_ligne": "2026-12-04",
+   "publication_libre": "2026-12-15"
+  },
+  {
+   "en_ligne": "2026-12-05",
+   "publication_libre": "2026-12-15"
+  },
+  {
+   "en_ligne": "2026-12-06",
+   "publication_libre": "2026-12-15"
+  },
+  {
+   "en_ligne": "2026-12-07",
+   "publication_libre": "2026-12-16"
+  },
+  {
+   "en_ligne": "2026-12-08",
+   "publication_libre": "2026-12-16"
+  },
+  {
+   "en_ligne": "2026-12-09",
+   "publication_libre": "2026-12-17"
+  },
+  {
+   "en_ligne": "2026-12-10",
+   "publication_libre": "2026-12-18"
+  },
+  {
+   "en_ligne": "2026-12-11",
+   "publication_libre": "2026-12-19"
+  },
+  {
+   "en_ligne": "2026-12-12",
+   "publication_libre": "2026-12-19"
+  },
+  {
+   "en_ligne": "2026-12-13",
+   "publication_libre": "2026-12-19"
+  },
+  {
+   "en_ligne": "2026-12-14",
+   "publication_libre": "2026-12-22"
+  },
+  {
+   "en_ligne": "2026-12-15",
+   "publication_libre": "2026-12-23"
+  },
+  {
+   "en_ligne": "2026-12-16",
+   "publication_libre": "2026-12-24"
+  },
+  {
+   "en_ligne": "2026-12-17",
+   "publication_libre": "2026-12-25"
+  },
+  {
+   "en_ligne": "2026-12-18",
+   "publication_libre": "2026-12-29"
+  },
+  {
+   "en_ligne": "2026-12-19",
+   "publication_libre": "2026-12-29"
+  },
+  {
+   "en_ligne": "2026-12-20",
+   "publication_libre": "2026-12-29"
+  },
+  {
+   "en_ligne": "2026-12-21",
+   "publication_libre": "2026-12-30"
+  },
+  {
+   "en_ligne": "2026-12-22",
+   "publication_libre": "2026-12-31"
+  },
+  {
+   "en_ligne": "2026-12-23",
+   "publication_libre": "2027-01-01"
+  },
+  {
+   "en_ligne": "2026-12-24",
+   "publication_libre": "2027-01-05"
+  },
+  {
+   "en_ligne": "2026-12-25",
+   "publication_libre": "2027-01-05"
+  },
+  {
+   "en_ligne": "2026-12-26",
+   "publication_libre": "2027-01-05"
+  },
+  {
+   "en_ligne": "2026-12-27",
+   "publication_libre": "2027-01-05"
+  },
+  {
+   "en_ligne": "2026-12-28",
+   "publication_libre": "2027-01-06"
+  },
+  {
+   "en_ligne": "2026-12-29",
+   "publication_libre": "2027-01-07"
+  },
+  {
+   "en_ligne": "2026-12-30",
+   "publication_libre": "2027-01-08"
+  },
+  {
+   "en_ligne": "2026-12-31",
+   "publication_libre": "2027-01-09"
+  }
+ ]
+}

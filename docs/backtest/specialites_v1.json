@@ -1,0 +1,505 @@
+{
+ "mesure_le": "2026-10-06",
+ "donnees": "RÉEL (simap.ch, adjudications de construction)",
+ "adjudications": 2508,
+ "region": [
+  "VS"
+ ],
+ "k": 10,
+ "fin_donnees": "2026-09-30",
+ "regle_ordre": "modèle combiné retenu seulement si la borne basse de l'IC 95 % de (combiné − fréquence) sur T0 est > 0 ; sinon fréquence puis récence",
+ "specialites": {
+  "batiment": {
+   "k": 10,
+   "n_semaines": 57,
+   "semaines": [
+    "2025-07-07",
+    "2026-08-03"
+   ],
+   "bloc_semaines": 8,
+   "cibles": {
+    "t0": {
+     "taux_de_base": 0.20742318543813104,
+     "p_at_k": {
+      "hasard": {
+       "moyenne": 0.20742318543813104,
+       "ic95": [
+        0.18055508866390343,
+        0.24250913712064145
+       ]
+      },
+      "recence": {
+       "moyenne": 0.35789473684210527,
+       "ic95": [
+        0.2894736842105263,
+        0.4526315789473684
+       ]
+      },
+      "frequence_52s": {
+       "moyenne": 0.668421052631579,
+       "ic95": [
+        0.6403508771929824,
+        0.7035087719298246
+       ]
+      },
+      "m0_marches": {
+       "moyenne": 0.5859649122807017,
+       "ic95": [
+        0.543859649122807,
+        0.6316228070175437
+       ]
+      },
+      "combine": {
+       "moyenne": 0.668421052631579,
+       "ic95": [
+        0.6473684210526317,
+        0.6964912280701755
+       ]
+      }
+     },
+     "combine_moins_frequence": {
+      "moyenne": 0.0,
+      "ic95": [
+       -0.026315789473684202,
+       0.02456140350877193
+      ]
+     }
+    },
+    "pic": {
+     "taux_de_base": 0.04824934635562082,
+     "p_at_k": {
+      "hasard": {
+       "moyenne": 0.04824934635562082,
+       "ic95": [
+        0.03434745383548628,
+        0.06735690516063915
+       ]
+      },
+      "recence": {
+       "moyenne": 0.08947368421052632,
+       "ic95": [
+        0.06135964912280702,
+        0.12456140350877193
+       ]
+      },
+      "frequence_52s": {
+       "moyenne": 0.12456140350877193,
+       "ic95": [
+        0.0807017543859649,
+        0.17719298245614035
+       ]
+      },
+      "m0_marches": {
+       "moyenne": 0.11403508771929824,
+       "ic95": [
+        0.07017543859649122,
+        0.1719298245614035
+       ]
+      },
+      "combine": {
+       "moyenne": 0.1456140350877193,
+       "ic95": [
+        0.08592105263157894,
+        0.20701754385964913
+       ]
+      }
+     },
+     "combine_moins_frequence": {
+      "moyenne": 0.021052631578947368,
+      "ic95": [
+       -0.043859649122807015,
+       0.0789912280701752
+      ]
+     }
+    }
+   },
+   "part_premiers_gagnants": 0.34975581729388106,
+   "premiers_gagnants": {
+    "nouveaux": 2435,
+    "tous": 6962
+   },
+   "region": {
+    "entreprises": null,
+    "entreprises_classees_moyenne": 146.859649122807,
+    "note": "classement restreint à ces entreprises ; apprentissage sur toutes"
+   },
+   "drapeaux_surprise": {
+    "rythme_double": {
+     "signalements": 458,
+     "taux_t0": 0.4781659388646288,
+     "taux_pic": 0.12445414847161572,
+     "taux_de_base_t0": 0.20742318543813104,
+     "hors_top_k": {
+      "signalements": 298,
+      "taux_t0": 0.3825503355704698,
+      "taux_de_base_t0": 0.17269588050666615
+     }
+    },
+    "nouveau_venu": {
+     "signalements": 628,
+     "taux_t0": 0.09872611464968153,
+     "taux_pic": 0.01592356687898089,
+     "taux_de_base_t0": 0.20742318543813104,
+     "hors_top_k": {
+      "signalements": 627,
+      "taux_t0": 0.09888357256778309,
+      "taux_de_base_t0": 0.17269588050666615
+     }
+    }
+   },
+   "surprises_retenues": {
+    "signalements": 171,
+    "taux_t0": 0.42105263157894735,
+    "taux_pic": 0.13450292397660818
+   },
+   "entrainement": {
+    "depuis": "2025-01-06",
+    "reentrainement_semaines": 4,
+    "modele": "régression logistique (variables standardisées, log)",
+    "variables": [
+     "n_52s",
+     "n_26s",
+     "n_8s",
+     "last_days",
+     "m0",
+     "value_52s",
+     "n_auth_52s",
+     "first_days",
+     "tendance"
+    ],
+    "dernier_label_avant_T_jours": 56
+   },
+   "ordre_retenu": "frequence",
+   "entreprises_region": 205,
+   "evenements": 1902
+  },
+  "electricite": {
+   "k": 10,
+   "n_semaines": 57,
+   "semaines": [
+    "2025-07-07",
+    "2026-08-03"
+   ],
+   "bloc_semaines": 8,
+   "cibles": {
+    "t0": {
+     "taux_de_base": 0.18316566474461213,
+     "p_at_k": {
+      "hasard": {
+       "moyenne": 0.18316566474461213,
+       "ic95": [
+        0.13425986294407347,
+        0.24124136097820303
+       ]
+      },
+      "recence": {
+       "moyenne": 0.2,
+       "ic95": [
+        0.14912280701754385,
+        0.2719736842105261
+       ]
+      },
+      "frequence_52s": {
+       "moyenne": 0.19649122807017544,
+       "ic95": [
+        0.143859649122807,
+        0.2736842105263158
+       ]
+      },
+      "m0_marches": {
+       "moyenne": 0.2,
+       "ic95": [
+        0.1456140350877193,
+        0.26842105263157895
+       ]
+      },
+      "combine": {
+       "moyenne": 0.1982456140350877,
+       "ic95": [
+        0.14561403508771928,
+        0.26842105263157895
+       ]
+      }
+     },
+     "combine_moins_frequence": {
+      "moyenne": 0.0017543859649122818,
+      "ic95": [
+       -0.010526315789473682,
+       0.015789473684210527
+      ]
+     }
+    },
+    "pic": {
+     "taux_de_base": 0.04078582236476974,
+     "p_at_k": {
+      "hasard": {
+       "moyenne": 0.04078582236476974,
+       "ic95": [
+        0.009894235881077986,
+        0.06872928971613178
+       ]
+      },
+      "recence": {
+       "moyenne": 0.04736842105263159,
+       "ic95": [
+        0.008771929824561403,
+        0.08421052631578949
+       ]
+      },
+      "frequence_52s": {
+       "moyenne": 0.04736842105263159,
+       "ic95": [
+        0.007017543859649123,
+        0.08947368421052632
+       ]
+      },
+      "m0_marches": {
+       "moyenne": 0.04736842105263159,
+       "ic95": [
+        0.008771929824561403,
+        0.08421052631578949
+       ]
+      },
+      "combine": {
+       "moyenne": 0.04561403508771931,
+       "ic95": [
+        0.005263157894736843,
+        0.08596491228070176
+       ]
+      }
+     },
+     "combine_moins_frequence": {
+      "moyenne": -0.0017543859649122807,
+      "ic95": [
+       -0.005263157894736843,
+       0.0
+      ]
+     }
+    }
+   },
+   "part_premiers_gagnants": 0.38244047619047616,
+   "premiers_gagnants": {
+    "nouveaux": 257,
+    "tous": 672
+   },
+   "region": {
+    "entreprises": null,
+    "entreprises_classees_moyenne": 12.31578947368421,
+    "note": "classement restreint à ces entreprises ; apprentissage sur toutes"
+   },
+   "drapeaux_surprise": {
+    "rythme_double": {
+     "signalements": 28,
+     "taux_t0": 0.32142857142857145,
+     "taux_pic": 0.03571428571428571,
+     "taux_de_base_t0": 0.18316566474461213,
+     "hors_top_k": {
+      "signalements": 0,
+      "taux_t0": null,
+      "taux_de_base_t0": 0.19281045751633985
+     }
+    },
+    "nouveau_venu": {
+     "signalements": 34,
+     "taux_t0": 0.029411764705882353,
+     "taux_pic": 0.0,
+     "taux_de_base_t0": 0.18316566474461213,
+     "hors_top_k": {
+      "signalements": 0,
+      "taux_t0": null,
+      "taux_de_base_t0": 0.19281045751633985
+     }
+    }
+   },
+   "surprises_retenues": {
+    "signalements": 0,
+    "taux_t0": null,
+    "taux_pic": null
+   },
+   "entrainement": {
+    "depuis": "2025-01-06",
+    "reentrainement_semaines": 4,
+    "modele": "régression logistique (variables standardisées, log)",
+    "variables": [
+     "n_52s",
+     "n_26s",
+     "n_8s",
+     "last_days",
+     "m0",
+     "value_52s",
+     "n_auth_52s",
+     "first_days",
+     "tendance"
+    ],
+    "dernier_label_avant_T_jours": 56
+   },
+   "ordre_retenu": "frequence",
+   "entreprises_region": 18,
+   "evenements": 179
+  },
+  "technique": {
+   "k": 10,
+   "n_semaines": 57,
+   "semaines": [
+    "2025-07-07",
+    "2026-08-03"
+   ],
+   "bloc_semaines": 8,
+   "cibles": {
+    "t0": {
+     "taux_de_base": 0.13859606766033797,
+     "p_at_k": {
+      "hasard": {
+       "moyenne": 0.13859606766033797,
+       "ic95": [
+        0.12284528619053892,
+        0.17748655751989256
+       ]
+      },
+      "recence": {
+       "moyenne": 0.19649122807017547,
+       "ic95": [
+        0.15083333333333332,
+        0.2684649122807015
+       ]
+      },
+      "frequence_52s": {
+       "moyenne": 0.22807017543859648,
+       "ic95": [
+        0.16491228070175443,
+        0.31754385964912285
+       ]
+      },
+      "m0_marches": {
+       "moyenne": 0.19824561403508772,
+       "ic95": [
+        0.15087719298245617,
+        0.26842105263157895
+       ]
+      },
+      "combine": {
+       "moyenne": 0.20701754385964913,
+       "ic95": [
+        0.16315789473684209,
+        0.2859649122807018
+       ]
+      }
+     },
+     "combine_moins_frequence": {
+      "moyenne": -0.02105263157894737,
+      "ic95": [
+       -0.04912280701754386,
+       0.005263157894736841
+      ]
+     }
+    },
+    "pic": {
+     "taux_de_base": 0.032333451653997,
+     "p_at_k": {
+      "hasard": {
+       "moyenne": 0.032333451653997,
+       "ic95": [
+        0.0140267602913672,
+        0.05291146529176314
+       ]
+      },
+      "recence": {
+       "moyenne": 0.028070175438596492,
+       "ic95": [
+        0.005263157894736843,
+        0.056140350877192984
+       ]
+      },
+      "frequence_52s": {
+       "moyenne": 0.05964912280701755,
+       "ic95": [
+        0.01929824561403509,
+        0.09649122807017543
+       ]
+      },
+      "m0_marches": {
+       "moyenne": 0.03508771929824562,
+       "ic95": [
+        0.008728070175438599,
+        0.06666666666666667
+       ]
+      },
+      "combine": {
+       "moyenne": 0.03333333333333333,
+       "ic95": [
+        0.010526315789473686,
+        0.05263157894736842
+       ]
+      }
+     },
+     "combine_moins_frequence": {
+      "moyenne": -0.02631578947368421,
+      "ic95": [
+       -0.050877192982456146,
+       -0.005263157894736843
+      ]
+     }
+    }
+   },
+   "part_premiers_gagnants": 0.4165497896213184,
+   "premiers_gagnants": {
+    "nouveaux": 594,
+    "tous": 1426
+   },
+   "region": {
+    "entreprises": null,
+    "entreprises_classees_moyenne": 25.50877192982456,
+    "note": "classement restreint à ces entreprises ; apprentissage sur toutes"
+   },
+   "drapeaux_surprise": {
+    "rythme_double": {
+     "signalements": 68,
+     "taux_t0": 0.3088235294117647,
+     "taux_pic": 0.014705882352941176,
+     "taux_de_base_t0": 0.13859606766033797,
+     "hors_top_k": {
+      "signalements": 0,
+      "taux_t0": null,
+      "taux_de_base_t0": 0.07946607559150155
+     }
+    },
+    "nouveau_venu": {
+     "signalements": 160,
+     "taux_t0": 0.1375,
+     "taux_pic": 0.04375,
+     "taux_de_base_t0": 0.13859606766033797,
+     "hors_top_k": {
+      "signalements": 120,
+      "taux_t0": 0.14166666666666666,
+      "taux_de_base_t0": 0.07946607559150155
+     }
+    }
+   },
+   "surprises_retenues": {
+    "signalements": 97,
+    "taux_t0": 0.1134020618556701,
+    "taux_pic": 0.05154639175257732
+   },
+   "entrainement": {
+    "depuis": "2025-01-06",
+    "reentrainement_semaines": 4,
+    "modele": "régression logistique (variables standardisées, log)",
+    "variables": [
+     "n_52s",
+     "n_26s",
+     "n_8s",
+     "last_days",
+     "m0",
+     "value_52s",
+     "n_auth_52s",
+     "first_days",
+     "tendance"
+    ],
+    "dernier_label_avant_T_jours": 56
+   },
+   "ordre_retenu": "frequence",
+   "entreprises_region": 43,
+   "evenements": 351
+  }
+ }
+}

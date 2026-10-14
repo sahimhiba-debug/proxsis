@@ -1,0 +1,20 @@
+{
+  "_fixture_note": "Échantillon SYNTHÉTIQUE et FICTIF au format RÉEL observé le 2026-10-05 sur l'API simap.ch (noms et chemins des champs) — PAS une réponse enregistrée : les vraies réponses contiennent des personnes de contact et ne sont jamais stockées brutes.",
+  "id": "fictif-pub-001",
+  "type": "award",
+  "base": {"id": "fictif-pub-001", "projectId": "fictif-proj-001", "publicationDate": "2026-09-14",
+           "publicationNumber": "1-02", "type": "award", "projectType": "tender", "processType": "open",
+           "creationLanguage": "fr", "title": {"fr": "H21 — réfection de chaussée (FICTIF)", "de": null}},
+  "procurement": {"orderType": "construction", "pubType": "award",
+                  "orderDescription": {"fr": "<p>Réfection de chaussée. Renseignements : M. Jean Exemple, jean.exemple@exemple.ch, 027 123 45 67</p>"},
+                  "cpvCode": {"code": "45233142", "label": {"fr": "Travaux de réfection de routes"}},
+                  "bkpCodes": [{"code": "221", "label": {"fr": "Fenêtres, portes extérieures"}}], "npkCodes": []},
+  "project-info": {"title": {"fr": "H21 — réfection de chaussée (FICTIF)"},
+                   "procurementRecipientAddress": {"name": {"fr": "Etat du Valais, Service de la mobilité (FICTIF)"},
+                                                   "contactPerson": {"fr": "Jean Exemple"}, "phone": "+41271234567",
+                                                   "email": "jean.exemple@exemple.ch", "cantonId": "VS"}},
+  "decision": {"awardDecisionDate": "2026-09-08", "numberOfSubmissions": 3,
+               "vendors": [{"vendorName": "Brevin Génie Civil SA",
+                            "vendorAddress": {"street": "Route 1", "city": "Sion", "postalCode": "1950", "cantonId": "VS", "countryId": "CH"},
+                            "price": {"currency": "CHF", "price": 1184500.30, "vatType": "incl"}, "note": {"fr": null}}]}
+}

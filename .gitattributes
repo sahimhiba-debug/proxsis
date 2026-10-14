@@ -1,0 +1,19 @@
+# No end-of-line normalisation: archived source files (robots.txt copies, CSV exports) are kept byte for byte, as their
+# hashes and dates of retrieval say; new text files are written in LF (.editorconfig).
+
+# Binary assets: never diffed nor normalised
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.ico binary
+*.woff2 binary
+*.mp3 binary
+*.mp4 binary
+*.pdf binary
+*.zip binary
+
+# Generated or locked files: collapsed in GitHub diffs
+apps/web/package-lock.json linguist-generated=true -diff
+python/uv.lock linguist-generated=true -diff
+apps/web/src/data/**/*.json linguist-generated=true

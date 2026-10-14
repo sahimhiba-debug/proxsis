@@ -1,0 +1,438 @@
+/* The visit in five times (brief « à distance », § 4): the editorial direction of the presentation (direction.css),
+   set for any device instead of a projector: the bar of the five times under the head, one narration sentence per step,
+   the scene below it (it may scroll on a small screen); on a phone, the page scrolls as a whole. */
+.dir.v-visit { grid-template-rows: auto auto minmax(0, 1fr) auto; grid-template-columns: minmax(0, 1fr); }
+/* a scene of the former presentation (the date) inside the visit: its height is its content's, under the narration */
+.dir .v-scene > .d-scene { min-height: 0; }
+.dir .v-progress { padding: 0 var(--mx); border-bottom: 1px solid var(--trait); }
+.dir .v-progress ol { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)) auto auto; gap: clamp(6px, 1vw, 20px); }
+.dir .v-progress button { display: flex; width: 100%; align-items: baseline; gap: 0.5em; padding: 0.7em 0 0.6em;
+  font: inherit; font-size: var(--fs-small); color: var(--doux); text-align: left; background: none; border: 0;
+  border-bottom: 2px solid transparent; cursor: pointer; transition: color var(--t-short) var(--ease); }
+.dir .v-progress button:hover { color: var(--texte); }
+.dir .v-progress button[data-done] { color: var(--texte); border-bottom-color: var(--trait-fort); }
+.dir .v-progress button[aria-current="step"] { color: var(--texte); border-bottom-color: var(--orange); }
+.dir .v-progress .d-num { color: var(--orange); }
+.dir .v-main { display: grid; align-content: start; }
+.dir .v-scene { display: flex; flex-direction: column; gap: clamp(10px, 2vh, 28px); min-height: 100%; }
+.dir .v-narration { font-family: var(--font-display); font-size: var(--fs-sub); font-weight: 400; line-height: 1.12;
+  letter-spacing: -0.035em; max-width: 24em; text-wrap: balance; }
+.dir .v-sheet { position: absolute; inset: 0; z-index: 40; display: grid; place-items: center; padding: 24px;
+  background: rgb(21 23 21 / 0.82); }
+@media (max-width: 860px) {
+  /* the page scrolls as a whole: the scene's row takes its content's height, never under the footer */
+  .dir.v-visit { grid-template-rows: auto auto 1fr auto; }
+  .dir .v-progress { overflow-x: auto; position: relative; } /* les libellés réservés aux lecteurs d'écran restent dans la barre */
+  .dir .v-progress ol { grid-template-columns: repeat(6, max-content); }
+  .dir .v-progress button > span:not(.d-num) { white-space: nowrap; }
+  /* the bar holds on the screen without scrolling (Safari let the long German labels widen the page): the times as
+     numbers, the current one with its name, the conclusion as a flag; every name still read by screen readers */
+  .dir .v-progress button:not([aria-current="step"]) .v-step-label { position: absolute; width: 1px; height: 1px; overflow: hidden;
+    clip: rect(0 0 0 0); clip-path: inset(50%); white-space: nowrap; }
+  .dir .v-progress ol { display: flex; gap: 4px; }
+  .dir .v-progress li { flex: none; }
+  .dir .v-progress button { min-width: 28px; justify-content: center; }
+  .dir .v-progress button[aria-current="step"] .v-step-icon { display: none; }
+  /* the current time gives way on the narrowest phones (its name ends with an ellipsis, never off the screen) */
+  .dir .v-progress li:has(> button[aria-current="step"]) { flex: 0 1 auto; min-width: 0; }
+  .dir .v-progress button[aria-current="step"] { min-width: 0; }
+  .dir .v-progress button[aria-current="step"] .v-step-label { min-width: 0; overflow: hidden; text-overflow: ellipsis; }
+  .dir .v-sheet { position: fixed; }
+}
+/* one line of mentions in the visit (no replay date beside it): the whole width */
+.dir.v-visit .d-mentions p { max-width: none; }
+/* the presentation hides the last paragraph of its mentions on a short laptop screen; the visit has only one, which
+   carries the general mention, simap's mandatory mention and the German review notice: it always shows */
+.dir.v-visit .d-mentions p:last-child { display: block; }
+
+/* time 1, the map: the communes with companies in our data lit, the chosen one in copper; the panel beside it */
+.dir .v-carte { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: clamp(20px, 3vw, 64px); align-items: start; }
+.dir .v-map { display: grid; gap: 8px; }
+.dir .v-map svg { width: 100%; height: auto; max-height: 62vh; }
+.dir .v-map path.commune { fill: var(--texte); fill-opacity: 0.04; }
+.dir .v-map path.commune[data-on] { fill-opacity: 0.2; cursor: pointer; transition: fill-opacity var(--t-short) var(--ease); }
+.dir .v-map path.commune[data-on]:hover { fill-opacity: 0.34; }
+.dir .v-map path.commune[data-selected] { fill: var(--orange); fill-opacity: 0.75; stroke: var(--orange); }
+.dir .v-panel { display: grid; gap: clamp(8px, 1.4vh, 16px); align-content: start; }
+.dir .v-commune-field select { font: inherit; font-size: var(--fs-body); color: var(--texte); background: var(--surface);
+  border: 0; border-bottom: 1px solid var(--trait-fort); padding: 0.25em 0; color-scheme: dark; }
+.dir .v-example { font-size: var(--fs-small); letter-spacing: 0.1em; }
+/* kept on one line on a computer; « vorbereitetes Beispiel » may wrap on a 320 px phone (a rule placed before this one
+   in a max-width query was overridden by it: the order matters at equal specificity) */
+@media (min-width: 861px) { .dir .v-example { white-space: nowrap; } }
+.dir .v-companies { display: grid; gap: 6px; margin-top: 4px; }
+.dir .v-contracts { display: grid; gap: 8px; margin-top: 4px; }
+.dir .v-link { font: inherit; color: var(--texte); background: none; border: 0; padding: 0; text-decoration: underline;
+  text-underline-offset: 0.18em; text-decoration-color: var(--trait-fort); cursor: pointer; }
+.dir .v-link:hover { text-decoration-color: var(--orange); }
+@media (max-width: 860px) {
+  .dir .v-carte { grid-template-columns: minmax(0, 1fr); }
+  .dir .v-map svg { max-height: 34vh; }
+}
+.dir .v-companies .d-option { padding-block: clamp(0.3em, 0.8vh, 0.5em); }
+
+/* time 1, the dossier: the publication on paper (a published fact), our reading beside it, kept apart */
+.dir .v-dossier { display: grid; gap: clamp(10px, 2vh, 24px); }
+.dir .v-dossier-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 0.5em 2em; }
+.dir .v-dossier-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(20px, 3vw, 64px); align-items: start; }
+.dir .v-paper { display: grid; gap: 0.5em; }
+.dir .d-paper-mention { margin-top: 0.4em; padding-top: 0.6em; border-top: 1px solid color-mix(in oklab, var(--encre) 18%, transparent);
+  font-size: var(--fs-small); color: var(--encre-douce); }
+.dir .v-reading { display: grid; gap: clamp(12px, 2.2vh, 26px); align-content: start; }
+.dir .v-reading section { display: grid; gap: 0.3em; padding-top: 0.5em; border-top: 1px solid var(--trait); }
+.dir .v-list { display: grid; gap: 0.2em; }
+.dir .v-list li::before { content: "— "; color: var(--doux); }
+@media (max-width: 860px) {
+  .dir .v-dossier-grid { grid-template-columns: minmax(0, 1fr); }
+}
+/* the call question: strong, upright (identity: no italic; identite.css sets its weight) */
+.dir .v-question { font-family: inherit; font-style: normal; font-weight: 600; letter-spacing: -0.01em; }
+.dir.v-visit .d-mentions p { text-align: left; }
+
+/* time 1, the carnet: the director's decision on the left, the consultant's view on the right (a phone: full screen) */
+.dir .v-carnet { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(20px, 3vw, 64px); align-items: start; }
+.dir .v-desk { display: grid; gap: clamp(10px, 1.8vh, 20px); align-content: start; }
+.dir .v-decisions { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+.dir .v-motifs { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+.dir .v-motifs .d-option { width: auto; }
+.dir .v-consultant { display: grid; gap: clamp(8px, 1.4vh, 16px); align-content: start; padding: clamp(14px, 2vw, 28px);
+  background: var(--surface); border-left: 1px solid var(--trait); }
+.dir .v-consultant-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 1em; }
+.dir .v-consultant-wait { padding: clamp(14px, 2vw, 28px); border-left: 1px dashed var(--trait-fort); }
+.dir .v-calls { display: grid; }
+.dir .v-calls li { display: grid; grid-template-columns: 1.6em minmax(0, 1fr); gap: 0.5em; align-items: baseline; padding: 0.35em 0;
+  border-bottom: 1px solid var(--trait); }
+.dir .v-calls li[data-confided] { border-bottom-color: var(--orange); }
+.dir .v-others li { font-size: var(--fs-small); padding: 0.2em 0; }
+.dir .v-close, .dir .v-reopen { display: none; }
+@media (max-width: 860px) {
+  .dir .v-carnet { grid-template-columns: minmax(0, 1fr); }
+  .dir .v-decisions { grid-template-columns: minmax(0, 1fr); }
+  .dir .v-consultant[data-open] { position: fixed; inset: 0; z-index: 50; overflow: auto; border-left: 0; }
+  .dir .v-consultant[data-open] .v-close { display: inline; }
+  .dir .v-consultant:not([data-open]) .v-reopen { display: inline-flex; }
+  .dir .v-consultant:not([data-open]) > :not(.v-reopen) { display: none; }
+}
+
+/* time 2, the following Monday: the decisions of the first Monday, then the following one, side by side */
+.dir .v-suivant { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(14px, 2.4vh, 28px) clamp(20px, 3vw, 64px);
+  align-items: start; }
+.dir .v-week { display: grid; gap: clamp(6px, 1vh, 12px); align-content: start; }
+.dir .v-next { padding: clamp(12px, 1.6vw, 24px); background: var(--surface); border-left: 1px solid var(--trait); }
+.dir .v-next li[data-kind="recall"], .dir .v-next li[data-kind="kept"] { border-bottom-color: var(--orange); }
+.dir .v-choice { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.4em; }
+.dir .v-choice select { font: inherit; color: var(--doux); background: transparent; border: 0; border-bottom: 1px dashed var(--trait-fort);
+  padding: 0.1em 0; color-scheme: dark; }
+.dir .v-closing { grid-column: 1 / -1; font-weight: 600; max-width: 46em; }
+@media (max-width: 860px) {
+  /* the next Monday slides in from 24px on the right, wider than a phone's 16px gutter: clipped to the scene (the
+     cards' shadows keep 8px), so the page never widens while it slides (WebKit, engines bench of 12.10.2026) */
+  .dir .v-suivant { grid-template-columns: minmax(0, 1fr); overflow-x: clip; overflow-clip-margin: 8px; }
+}
+.dir .v-firsts { display: grid; }
+.dir .v-firsts li { display: flex; align-items: baseline; justify-content: space-between; gap: 1em; padding: 0.3em 0;
+  border-bottom: 1px solid var(--trait); }
+.dir .v-choice-cell { display: flex; flex-direction: column; align-items: flex-end; flex: none; }
+.dir .v-choice-cell .v-example { font-size: 0.72em; }
+.dir .v-next-line { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 0.2em 1em; min-width: 0; }
+.dir .v-next-line > :last-child:not(:first-child) { flex: none; }
+.dir .v-next .v-calls li { padding: 0.25em 0; }
+/* the lists never widen the page on a phone: their columns may shrink; a name is never cut, it goes to the next line,
+   and a menu goes under its name when both do not fit side by side (Q18: no text cut on a phone) */
+.dir .v-week, .dir .v-firsts, .dir .v-calls, .dir .v-panel, .dir .v-desk, .dir .v-reading { grid-template-columns: minmax(0, 1fr); }
+.dir .v-nom { flex: 1 1 12em; min-width: 0; overflow-wrap: break-word; }
+.dir .v-firsts li { flex-wrap: wrap; }
+.dir .v-choice select { max-width: 100%; }
+/* Safari counts the hidden width of a select (its longest option) past the box max-width gives it, and the page grew
+   32 px wider on a phone (German, « Wieder ansehen am 26.10.2026 »): the label cuts that overflow, its 6 px of padding
+   (given back by the margin) keep the focus ring whole */
+.dir .v-choice { overflow-x: clip; padding-inline: 6px; margin-inline: -6px; }
+
+/* time 4, the threshold: the main result first, the assumptions beside it, the fictional calendar below */
+.dir .v-seuil { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); gap: clamp(14px, 2.4vh, 28px) clamp(20px, 3vw, 64px);
+  align-items: start; }
+.dir .v-seuil-result { display: grid; gap: clamp(8px, 1.4vh, 16px); align-content: start; }
+.dir .v-seuil-main { font-size: var(--fs-sub); line-height: 1.15; letter-spacing: -0.03em; text-wrap: balance; }
+.dir .v-seuil-net { display: grid; gap: 0.35em; padding-top: 0.6em; border-top: 1px solid var(--trait); justify-items: start; }
+.dir .v-half { width: auto; }
+.dir .v-seuil-inputs { display: grid; gap: clamp(6px, 1vh, 12px); align-content: start; }
+.dir .v-seuil-field { gap: 0.15em; }
+.dir .v-seuil-field > span { font-size: var(--fs-small); color: var(--texte); line-height: 1.3; }
+.dir .v-seuil-field input { font-size: var(--fs-body); padding: 0.15em 0; font-variant-numeric: tabular-nums; }
+.dir .v-calendar { grid-column: 1 / -1; display: grid; gap: 6px; }
+.dir .v-calendar-grid { display: grid; grid-template-columns: repeat(10, minmax(0, 1fr)); grid-template-rows: auto minmax(2.4em, auto); gap: 6px 3px; }
+/* week 1 then week 2: days on the first row, the mission (Monday to Friday of week 1), the free days and the possible
+   follow-up (week 2) on the second */
+.dir .v-cal-day { grid-row: 1; grid-column: var(--day); }
+.dir .v-cal-day[data-week="1"] { grid-column: calc(var(--day) + 5); }
+.dir .v-cal-mission { grid-row: 2; grid-column: 1 / 6; }
+.dir .v-cal-free { grid-row: 2; grid-column: 6 / 8; }
+.dir .v-cal-next { grid-row: 2; grid-column: 8 / 11; }
+.dir .v-cal-mission { display: flex; align-items: center; padding: 0 0.8em; background: var(--etiquette); color: var(--encre); }
+.dir .v-cal-free { display: flex; align-items: center; padding: 0 0.6em; border: 1px dashed var(--trait-fort); }
+.dir .v-cal-next { display: flex; align-items: center; padding: 0 0.6em; border: 2px dotted var(--orange); }
+@media (max-width: 860px) {
+  .dir .v-seuil { grid-template-columns: minmax(0, 1fr); }
+  /* a phone: week 1 above, week 2 below */
+  .dir .v-calendar-grid { grid-template-columns: repeat(5, minmax(0, 1fr)); grid-template-rows: auto minmax(2.4em, auto) auto minmax(2.4em, auto); }
+  .dir .v-cal-day[data-week="1"] { grid-row: 3; grid-column: var(--day); }
+  .dir .v-cal-free { grid-row: 4; grid-column: 1 / 3; }
+  .dir .v-cal-next { grid-row: 4; grid-column: 3 / 6; }
+}
+
+/* time 5 and the conclusion */
+.dir .v-pilote { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); gap: clamp(20px, 3vw, 64px); align-items: start; }
+.dir .v-condition { display: grid; gap: clamp(10px, 1.8vh, 18px); align-content: start; }
+.dir .v-indicators { display: grid; gap: 8px; }
+.dir .v-threshold input { font-size: var(--fs-lead); max-width: 8em; }
+.dir .v-sentence { font-weight: 600; }
+.dir .v-frame { display: grid; gap: 0.5em; padding-left: clamp(14px, 1.6vw, 28px); border-left: 1px solid var(--trait); }
+.dir .v-conclusion { display: grid; gap: clamp(14px, 2.4vh, 28px); max-width: 64rem; }
+.dir .v-recap { display: grid; gap: 0; }
+.dir .v-recap > div { display: grid; grid-template-columns: minmax(13em, 0.36fr) minmax(0, 1fr); gap: 1em; padding: 0.5em 0;
+  border-bottom: 1px solid var(--trait); }
+.dir .v-share { display: grid; gap: 0.6em; }
+.dir .v-check { display: flex; align-items: center; gap: 0.5em; }
+.dir .v-check input { width: 1.1em; height: 1.1em; accent-color: var(--orange); }
+.dir .v-mail { white-space: pre-wrap; font: inherit; margin-top: 0.5em; padding: 0.8em; background: var(--surface); color: var(--texte); }
+.dir .v-yours { display: grid; gap: 0.4em; }
+.dir .v-privacy { display: grid; gap: 0.2em; padding-top: 0.6em; border-top: 1px solid var(--trait); }
+@media (max-width: 860px) {
+  .dir .v-pilote { grid-template-columns: minmax(0, 1fr); }
+  .dir .v-frame { padding-left: 0; border-left: 0; }
+  .dir .v-recap > div { grid-template-columns: minmax(0, 1fr); gap: 0.1em; }
+}
+
+/* the printable summary: one A4 page */
+.dir .v-synthese { max-width: 46rem; }
+@media print {
+  .dir .v-synthese { padding: 0; }
+  .dir .v-synthese .v-recap > div { break-inside: avoid; }
+}
+
+/* the discreet pages of the conclusion */
+.dir .v-info { max-width: 52rem; }
+.dir .v-qa { display: grid; gap: 1.2em; }
+.dir .v-qa dd { margin-top: 0.3em; }
+.dir .v-tech { display: grid; gap: 0.4em; }
+.dir .v-more { display: flex; flex-wrap: wrap; gap: 0.6em 1.6em; font-size: var(--fs-small); }
+
+/* the first screen: the promise on the left, a real view of the product on the right; one column on a phone */
+.dir.v-accueil { min-height: 100dvh; display: grid; grid-template-rows: auto 1fr auto; }
+.dir .v-accueil-main { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); gap: clamp(24px, 5vw, 96px);
+  align-items: center; padding: clamp(16px, 4vh, 48px) var(--mx); }
+.dir .v-accueil-text { display: grid; gap: clamp(14px, 3vh, 32px); }
+.dir .v-accueil-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 1em 2em; }
+.dir .v-accueil-actions .d-action svg { width: 1em; height: 1em; }
+.dir .v-accueil-preview { display: grid; gap: clamp(10px, 1.6vh, 18px); padding: clamp(14px, 2vw, 28px); background: var(--surface);
+  border-left: 1px solid var(--trait); }
+.dir.v-accueil .d-foot { padding: 12px 0 20px; position: relative; background: #fff; } /* la grande diagonale s'arrête au filet du pied : jamais sous la mention simap */ /* the side margin is the direction's (margin: 0 var(--mx)): once only */
+@media (max-width: 860px) {
+  .dir .v-accueil-main { grid-template-columns: minmax(0, 1fr); align-items: start; }
+}
+
+/* ---------------------------------------------------------------- critique Impeccable du 07.10.2026 (working notes) */
+/* the narration receives the focus at each new step (screen readers read it first); it is not a control: no ring */
+.dir .v-narration:focus { outline: none; }
+/* a scene longer than the frame (a computer: the scene scrolls inside it) fades at the bottom: there is more below */
+.dir.v-visit .v-main[data-more] {
+  -webkit-mask-image: linear-gradient(to bottom, #000 calc(100% - 64px), transparent);
+  mask-image: linear-gradient(to bottom, #000 calc(100% - 64px), transparent);
+}
+/* a short laptop screen (13 inches, browser bars: 720 to 820 px): the frame gives the scene more room, every mention
+   still shown (brand, signature and prototype mention on one line; a smaller narration; a lower map) */
+@media (max-height: 820px) and (min-width: 861px) {
+  .dir.v-visit .d-head { padding-top: 12px; padding-bottom: 8px; }
+  .dir.v-visit .d-brand-block { flex-direction: row; align-items: baseline; gap: 0.9em; flex-wrap: wrap; }
+  .dir.v-visit .v-narration { font-size: clamp(24px, min(2.2vw, 4vh), 40px); }
+  .dir.v-visit .v-progress button { padding: 0.5em 0 0.45em; }
+  .dir .v-map svg { max-height: 46vh; }
+}
+/* a finger, not a pointer: every control of the visit is at least 44 px high on a phone */
+@media (max-width: 860px) {
+  .dir.v-visit .d-tool, .dir.v-visit .d-navbtn, .dir.v-visit .v-link, .dir.v-visit .d-source-link, .dir.v-visit .v-progress button, .dir.v-visit .d-quiet, .dir.v-visit .d-paper-link { min-height: 44px; }
+  .dir.v-visit .d-tool, .dir.v-visit .v-link, .dir.v-visit .d-source-link, .dir.v-visit .d-quiet,
+  .dir.v-visit .d-paper-link { display: inline-flex; align-items: center; }
+  .dir.v-visit input, .dir.v-visit select { min-height: 44px; }
+  /* « Continuer » first, beside « Retour », then « Aller à la conclusion » under them; the mentions after the nav */
+  .dir.v-visit .d-foot { display: flex; flex-direction: column; gap: 10px; }
+  .dir.v-visit .d-nav { order: -1; grid-template-columns: minmax(0, 1fr) auto; row-gap: 2px; }
+  .dir.v-visit .d-nav > :last-child { grid-column: 2; grid-row: 1; }
+  .dir.v-visit .d-nav > :nth-child(2) { grid-column: 1 / -1; grid-row: 2; justify-self: start; }
+  .dir.v-visit .d-count { white-space: nowrap; }
+}
+/* « Une date » in the visit: the measure set off inside its sentence (66,8 % against 20,7 % at random), the scope of the
+   first test as a note apart, lines of a readable length */
+.dir.v-visit .d-date-figure { font-size: 1.75em; font-weight: 400; letter-spacing: -0.03em; color: var(--texte); line-height: 1.1;
+  font-variant-numeric: tabular-nums; }
+.dir.v-visit .d-date-figure-low { color: var(--doux); }
+.dir.v-visit .d-date-rule { max-width: 70ch; }
+.dir.v-visit .d-date-end { max-width: 40em; }
+.dir.v-visit .d-date-scope { max-width: 62ch; margin-top: 0.2em; padding-top: 0.6em; border-top: 1px solid var(--trait); }
+/* the conclusion on a computer: his summary on the left, what comes next and how to keep it on the right, in view */
+@media (min-width: 1024px) {
+  .dir .v-conclusion { max-width: none; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); column-gap: clamp(32px, 4vw, 80px);
+    align-items: start; }
+  .dir .v-conclusion > .v-recap-block { grid-column: 1; grid-row: 1 / span 4; }
+  .dir .v-conclusion > .v-yours { grid-column: 2; grid-row: 1; }
+  .dir .v-conclusion > .v-share { grid-column: 2; grid-row: 3; }
+  .dir .v-conclusion > .v-more { grid-column: 2; grid-row: 4; }
+  .dir .v-conclusion > .v-privacy { grid-column: 1 / -1; }
+}
+.dir .v-recap-block { display: grid; gap: 0.4em; align-content: start; }
+/* « Confier à … » once done: a choice made (outlined, ticked), not a second call to act */
+.dir .v-confide[aria-pressed="true"] { background: transparent; color: var(--texte); box-shadow: inset 0 0 0 1px var(--orange); }
+.dir .v-confide[aria-pressed="true"] svg { color: var(--orange); }
+/* « Proxsis en une page »: the prepared example, a real award on its paper */
+.dir .v-une-example { display: grid; gap: 0.5em; margin-top: 0.4em; }
+.dir .v-une-paper { padding: 14px 18px; }
+.dir .v-une-paper .d-paper-title { font-size: 1.15em; }
+/* la petite Iris de la page A4, à gauche de ce qu'elle dit */
+.dir .v-une-iris { display: flex; align-items: center; gap: 12px; margin-top: 0.5em; }
+.dir .v-une-iris p { margin: 0; }
+
+/* ---------------------------------------------------------------- le guide : Iris, le marteau du bisse (suite 8, § 3), petite,
+   debout sur son manche, tournée vers l'information ; le bois reste à Iris, l'interface garde ses étiquettes blanches */
+.dir .v-guide { display: flex; align-items: flex-start; gap: 12px; flex-direction: row-reverse; z-index: 6; }
+.dir .v-guide-body { display: grid; gap: 6px; justify-items: end; max-width: 19rem; padding-top: 6px; }
+.dir .v-guide-phrase { margin: 0; font-size: var(--fs-small); line-height: 1.35; color: var(--doux); text-align: right; text-wrap: pretty; }
+.dir .v-guide-ask { font: inherit; font-size: var(--fs-small); font-weight: 600; color: var(--texte); background: transparent; border: 1.5px solid var(--trait-fort);
+  border-radius: 999px; padding: 0.35em 0.95em; min-height: 36px; cursor: pointer; }
+.dir .v-guide-ask:hover, .dir .v-guide-ask[aria-expanded="true"] { border-color: var(--orange); }
+.dir .v-iris { position: relative; flex: none; display: block; }
+.dir .v-iris-corps { position: absolute; inset: 0; transform-origin: 50% 100%; }
+.dir .v-iris-corps > img:first-child { position: absolute; inset: 0; width: 100%; height: 100%; }
+.dir .v-iris-oeil { position: absolute; transition: transform 0.18s var(--ease), opacity 0.2s var(--ease); }
+.dir .v-iris-humeurs { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; }
+.dir .v-iris-humeurs path { transition: opacity 0.2s var(--ease); }
+/* « Repéré » : un coup de tête, comme le marteau qui frappe (0,5 s) */
+.dir .v-iris-corps[data-frappe] { animation: v-iris-frappe 0.5s var(--ease) both; }
+@keyframes v-iris-frappe { 0% { transform: rotate(0); } 35% { transform: rotate(-9deg); } 55% { transform: rotate(3deg); } 75% { transform: rotate(-1deg); } 100% { transform: rotate(0); } }
+.dir .v-iris[data-immobile] .v-iris-corps { animation: none; }
+.dir .v-iris[data-immobile] .v-iris-oeil, .dir .v-iris[data-immobile] .v-iris-humeurs path { transition: none; }
+.dir[data-motion="off"] .v-iris-corps { animation: none; }
+@media (prefers-reduced-motion: reduce) { .dir .v-iris-corps { animation: none; } }
+/* « Une question ? » : six questions préparées, une réponse écrite à l'avance */
+.dir .v-guide-panel { position: absolute; top: calc(100% + 8px); right: 0; width: min(26rem, calc(100vw - 2 * var(--mx)));
+  display: grid; gap: 12px; padding: 16px 18px; border-radius: 14px; background: var(--etiquette); color: var(--encre);
+  box-shadow: inset 0 0 0 2px var(--coque), 0 3px 0 0 var(--coque), 0 24px 48px -16px rgb(0 0 0 / 0.45); }
+.dir .v-guide-questions { display: grid; gap: 8px; margin: 0; padding: 0; list-style: none; }
+.dir .v-guide-q { font: inherit; font-size: var(--fs-small); text-align: left; color: var(--encre); background: transparent;
+  border: 1.5px solid var(--etiquette-trait); border-radius: 999px; padding: 0.45em 1em; min-height: 40px; cursor: pointer; }
+.dir .v-guide-q:hover { border-color: var(--orange); }
+.dir .v-guide-answer { display: grid; gap: 8px; justify-items: start; }
+.dir .v-guide-answer h3 { margin: 0; color: var(--encre-douce); }
+.dir .v-guide-answer h3:focus { outline: none; }
+.dir .v-guide-answer p { margin: 0; font-size: var(--fs-body); line-height: 1.4; }
+.dir .v-guide-foot { display: flex; justify-content: space-between; align-items: baseline; gap: 1em; padding-top: 8px;
+  border-top: 1px solid var(--etiquette-trait); }
+.dir .v-guide-panel .d-muted, .dir .v-guide-panel .v-link { color: var(--encre-douce); }
+@media (min-width: 861px) {
+  /* un coin de la scène, à droite de la narration */
+  .dir.v-visit .v-guide { position: absolute; top: clamp(10px, 2.2vh, 40px); right: var(--mx); }
+  .dir.v-visit[data-guide="on"] .v-narration { max-width: min(24em, calc(100% - 26rem)); }
+  /* the right moment's two lines, above the narration (suite 2, § 2): they too leave Iris her corner */
+  .dir.v-visit[data-guide="on"] .v-moment { max-width: calc(100% - 26rem); } /* la bulle d'Iris : 19 rem de texte, son image et l'écart (le texte allemand passait dessous à 1180 px) */
+  /* a one-line narration that opens the scene keeps Iris's height: the columns below never slide under her corner */
+  .dir.v-visit[data-guide="on"] .v-scene > .v-narration:first-child { min-height: 7.4rem; }
+}
+@media (max-width: 860px) {
+  /* au téléphone : une ligne au-dessus de la scène, la narration juste après */
+  .dir.v-visit .v-guide { position: relative; justify-content: flex-start; margin-bottom: 12px; }
+  /* assez grande pour être reconnue, les yeux bien visibles (suite 9, § 10 : au moins 72 px à l'iPad, 56 px au téléphone) */
+  .dir.v-visit .v-guide .v-iris { width: 73px !important; height: 96px !important; }
+  .dir.v-visit .v-guide-body { justify-items: start; max-width: none; }
+  .dir.v-visit .v-guide-phrase { text-align: left; }
+  .dir.v-visit .v-guide-ask { min-height: 44px; }
+  .dir.v-visit .v-guide-q { min-height: 44px; }
+  .dir.v-visit .v-guide-panel { right: auto; left: 0; }
+}
+/* la lumière : posée dans la scène, elle défile avec elle et ne capte jamais le pointeur */
+.dir .v-lumiere { position: absolute; inset: 0; pointer-events: none; z-index: 4; overflow: clip; contain: paint; } /* never widens the page */
+/* le point posé : la petite diagonale de Proxsis tombe au coin haut droit de la carte, avec un léger rebond */
+.dir .v-visee { position: absolute; width: 0; height: 0; }
+.dir .v-point { position: absolute; left: -30px; top: -9px; width: 26px; height: 16px; background: var(--orange);
+  clip-path: polygon(0 100%, 82% 100%, 100% 0, 18% 0); filter: drop-shadow(0 2px 2px rgb(0 0 0 / 0.25));
+  animation: v-point-pose 0.62s var(--ease) both; }
+@keyframes v-point-pose { 0% { transform: translateY(-46px); opacity: 0; } 55% { transform: translateY(0); opacity: 1; }
+  68% { transform: translateY(0) scale(1.18, 0.78); } 82% { transform: translateY(-3px) scale(0.96, 1.05); } 100% { transform: none; opacity: 1; } }
+.dir .v-visee[data-pose] .v-point, .dir .v-visee[data-immobile] .v-point { animation: none; }
+.dir[data-motion="off"] .v-point { animation: none; }
+@media (prefers-reduced-motion: reduce) { .dir .v-point { animation: none; } }
+/* l'étiquette : une pastille noire posée à côté du point, sur le bord de sa carte, jamais sur le texte au-dessus */
+.dir .v-visee-tag { position: absolute; right: 40px; top: -11px; padding: 4px 9px; border-radius: 999px; background: #121212;
+  font: 700 12px/1 var(--font-sans); letter-spacing: 0.12em; text-transform: uppercase; color: #ffffff; white-space: nowrap; }
+/* le miroitement : une fois, la lumière orange traverse les lettres du titre (les mots forts gardent leur orange) */
+.dir .v-miroir { background-image: linear-gradient(100deg, var(--texte) 0%, var(--texte) 40%, var(--orange) 46%, #f2763a 50%, var(--orange) 54%,
+  var(--texte) 60%, var(--texte) 100%); background-size: 300% 100%; background-position: 100% 0; -webkit-background-clip: text;
+  background-clip: text; color: transparent; animation: v-miroir 0.9s var(--ease) 0.35s 1 both; }
+@keyframes v-miroir { from { background-position: 100% 0; } to { background-position: 0% 0; } }
+.dir[data-motion="off"] .v-miroir { animation: none; }
+.dir[data-motion="off"] .v-miroir { background-image: none; color: inherit; }
+@media (prefers-reduced-motion: reduce) {
+  .dir .v-miroir { animation: none; background-image: none; color: inherit; }
+}
+/* the conclusion's flag: only on a phone, when its name is not shown */
+.dir .v-step-icon { display: none; width: 1em; height: 1em; stroke-width: 1.6; color: var(--orange); }
+@media (max-width: 860px) { .dir .v-progress button:not([aria-current="step"]) .v-step-icon { display: inline-block; } }
+
+/* ---------------------------------------------------------------- le son (suite 8, § 5) : un bouton toujours visible */
+.dir .v-son { display: inline-flex; align-items: center; gap: 0.45em; min-height: 44px; }
+.dir .v-son svg { width: 1.1em; height: 1.1em; stroke-width: 1.8; }
+.dir .v-son[aria-pressed="true"] svg { color: var(--orange); }
+@media (max-width: 520px) { .dir .v-son-texte { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; } }
+
+/* ---------------------------------------------------------------- le point du « i » au premier écran (suite 8, § 4) */
+.px-logo-iris-btn { display: block; padding: 0; margin: 0; border: 0; background: transparent; color: inherit; cursor: pointer; line-height: 0; }
+.px-logo-iris-btn:focus-visible { outline: 3px solid var(--orange); outline-offset: 6px; border-radius: 6px; }
+.dir .v-accueil-logo { width: clamp(168px, 34vw, 360px); padding-top: clamp(18px, 4vw, 40px); } /* place pour Iris qui entre */
+.dir .v-accueil-logo .px-logo-iris { color: var(--texte); }
+
+/* ---------------------------------------------------------------- la grande scène d'Iris (ses grands moments) */
+
+/* a finger, on a phone or a tablet (up to the iPad Pro, 1366 px) : every control of the header, of the bar of the five
+   times and of the guide is at least 44 × 44 px (suite 8, § 8) ; the look does not change, only the area that answers */
+@media (pointer: coarse), (max-width: 1366px) {
+  .dir .d-tool, .dir .v-son, .dir .v-progress button, .dir .v-guide-ask, .dir .v-questions-btn { min-height: 44px; min-width: 44px; }
+  .dir .d-tool { display: inline-flex; align-items: center; justify-content: center; }
+  .dir .v-son { justify-content: center; }
+  .dir .d-navbtn, .dir .v-link, .dir .d-source-link, .dir .d-quiet, .dir .d-paper-link, .dir .d-action { min-height: 44px; }
+  .dir .v-link, .dir .d-source-link, .dir .d-quiet, .dir .d-paper-link { display: inline-flex; align-items: center; }
+  .dir input:not([type="checkbox"]):not([type="radio"]), .dir select { min-height: 44px; }
+  /* Safari ne donne sa hauteur à un menu natif qu'avec cette apparence (la flèche reste celle du système) */
+  .dir select { -webkit-appearance: menulist-button; height: 44px; max-width: 100%; }
+  .dir label:has(> input[type="checkbox"]) { min-height: 44px; display: inline-flex; align-items: center; }
+  /* a link inside a sentence keeps its line : its touch area grows above and below (inline padding moves no line) */
+  .dir p a, .dir li a, .dir dd a { padding-block: 14px; }
+}
+/* on paper nothing is touched: the links and buttons take back their own height (the A4 pages keep to one sheet) */
+@media print {
+  .dir .d-navbtn, .dir .v-link, .dir .d-source-link, .dir .d-quiet, .dir .d-paper-link, .dir .d-action { min-height: 0; }
+  .dir p a, .dir li a, .dir dd a { padding-block: 0; }
+}
+
+/* au téléphone (suite 8, § 8 ; relecture finale du 13.10.2026) : les temps en numéros seulement, le temps courant écrit en
+   entier sous la barre (plus de « Le pre… ») ; l'en-tête sur deux rangées : le logo et les commandes, puis la phrase et
+   la mention sur toute la largeur, une ligne chacune */
+.dir .v-progress-courant { display: none; }
+@media (max-width: 600px) {
+  .dir.v-visit .v-progress button[aria-current="step"] .v-step-label { position: absolute; width: 1px; height: 1px; overflow: hidden;
+    clip: rect(0 0 0 0); clip-path: inset(50%); white-space: nowrap; }
+  .dir.v-visit .v-progress button[aria-current="step"] { min-width: 44px; }
+  .dir.v-visit .v-progress li:has(> button[aria-current="step"]) { flex: none; }
+  .dir.v-visit .v-progress-courant { display: block; margin: 0; padding: 0 0 8px; font-size: var(--fs-small); font-weight: 650; color: var(--texte); }
+  .dir.v-visit .d-head { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; column-gap: 12px; row-gap: 2px; }
+  .dir.v-visit .d-brand-block { display: contents; }
+  .dir.v-visit .d-brand { grid-column: 1; grid-row: 1; }
+  .dir.v-visit .d-head-right { grid-column: 2; grid-row: 1; align-items: center; }
+  .dir.v-visit .d-brand-block > :not(.d-brand) { grid-column: 1 / -1; }
+}
+/* au téléphone, Iris garde 72 px de haut (au moins 56 px demandés) : sa tête et ses yeux se reconnaissent */
+@media (max-width: 600px) {
+  .dir.v-visit .v-guide .v-iris { width: 55px !important; height: 72px !important; }
+}
+/* le plus petit téléphone (320 px) : les trois commandes de l'en-tête se resserrent pour laisser sa place au logo */
+@media (max-width: 380px) {
+  .dir.v-visit .d-head { column-gap: 8px; }
+  .dir.v-visit .d-head-right { gap: 6px; }
+}

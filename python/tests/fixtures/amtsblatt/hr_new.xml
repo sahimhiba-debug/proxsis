@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Échantillon SYNTHÉTIQUE et FICTIF au format supposé (docs/recherche/donnees.md § 4.2) — PAS une réponse réelle d'amtsblattportal.ch. -->
+<publication>
+  <meta>
+    <id>FICTIF-HR01-0001</id>
+    <rubric>HR</rubric>
+    <subRubric>HR01</subRubric>
+    <publicationDate>2026-09-30</publicationDate>
+    <cantons>VS</cantons>
+  </meta>
+  <content>
+    <title>Abrel Construction Sàrl, Sion</title>
+    <uid>CHE-346.292.984</uid>
+    <name>Abrel Construction Sàrl</name>
+    <seat>Sion</seat>
+    <publicationText>Nouvelle inscription : Abrel Construction Sàrl, à Sion. But : travaux de maçonnerie. Personnes inscrites : Dupont, Jean, de Sion, à Sion, associé gérant, avec signature individuelle.</publicationText>
+  </content>
+</publication>

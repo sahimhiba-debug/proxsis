@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Échantillon SYNTHÉTIQUE et FICTIF au format RÉEL d'un export BA-VS05 du Bulletin officiel du Valais (structure observée le 2026-10-05) ; noms, numéros et lieux inventés. -->
+<BA-VS05:publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BA-VS05="https://shab.ch/kabvs/BA-VS05-export">
+<meta>
+  <id>00000000-0000-4000-8000-000000000001</id>
+  <rubric>BA-VS</rubric>
+  <subRubric>BA-VS05</subRubric>
+  <language>fr</language>
+  <registrationOffice>
+    <id>00000000-0000-4000-8000-0000000000aa</id>
+    <displayName>Commune de Fictiville</displayName>
+    <street>Rue de l'Exemple</street>
+    <streetNumber>1</streetNumber>
+    <swissZipCode>1999</swissZipCode>
+    <town>Fictiville</town>
+  </registrationOffice>
+  <publicationNumber>BA-VS05-0000000001</publicationNumber>
+  <publicationState>PUBLISHED</publicationState>
+  <publicationDate>2026-09-25</publicationDate>
+  <primaryTenantCode>kabvs</primaryTenantCode>
+  <cantons>VS</cantons>
+  <title>
+    <de>Gesuch für Baubewilligung - Construction d'un immeuble FICTIF, Fictiville</de>
+    <fr>Demande d'autorisation de construire - Construction d'un immeuble FICTIF, Fictiville</fr>
+  </title>
+</meta>
+<content>
+  <businessCase>
+    <key>constructionProject</key>
+    <term><fr>Demande d'autorisation de construire</fr></term>
+    <primary>
+      <element>
+        <valueType>text</valueType>
+        <term><fr>Titre du projet de construction</fr></term>
+        <valueText><term><fr>Construction d'un immeuble de 8 logements avec parking souterrain</fr></term></valueText>
+      </element>
+    </primary>
+    <secondary>
+      <element>
+        <key>caseNo</key>
+        <valueType>textNeutral</valueType>
+        <term><fr>Numéro pour consultation eConstruction</fr></term>
+        <valueTextNeutral>ab12cd34</valueTextNeutral>
+      </element>
+    </secondary>
+    <secondary>
+      <element>
+        <key>applicantParty</key>
+        <valueType>naturalLegalPerson</valueType>
+        <term><fr>Requérant(e)</fr></term>
+        <subject>
+          <selectType>legalPerson</selectType>
+          <legalPerson><noUID>false</noUID><company><legalForm>0106</legalForm><name>Exemple Immobilier SA</name></company></legalPerson>
+        </subject>
+      </element>
+    </secondary>
+    <secondary>
+      <element>
+        <key>projectFramer</key>
+        <valueType>naturalLegalPerson</valueType>
+        <term><fr>Auteur(e) de plans</fr></term>
+        <subject>
+          <selectType>naturalPerson</selectType>
+          <naturalPerson><sex>0</sex><firstName>Jean</firstName><officialName>Exempleton</officialName>
+            <residence><selectType>noSpec</selectType></residence></naturalPerson>
+        </subject>
+      </element>
+    </secondary>
+    <secondary>
+      <element>
+        <key>parcel</key>
+        <valueType>text</valueType>
+        <term><fr>Parcelle</fr></term>
+        <valueText><term><fr>Parcelle 99999, No Folio 77, Lieu-dit Les Fictifs, à Fictiville</fr></term></valueText>
+      </element>
+    </secondary>
+    <secondary>
+      <element>
+        <key>coordinates</key>
+        <valueType>textNeutral</valueType>
+        <term><fr>Coordonnées</fr></term>
+        <valueTextNeutral>2'600'000 / 1'120'000</valueTextNeutral>
+      </element>
+    </secondary>
+    <secondary>
+      <element>
+        <key>landOwner</key>
+        <valueType>naturalLegalPerson</valueType>
+        <term><fr>Propriétaire</fr></term>
+        <subject>
+          <selectType>naturalPerson</selectType>
+          <naturalPerson><sex>0</sex><firstName>Paula</firstName><officialName>Fictivaz</officialName>
+            <residence><selectType>noSpec</selectType></residence></naturalPerson>
+        </subject>
+      </element>
+    </secondary>
+  </businessCase>
+  <reaction>
+    <element>
+      <legalRemedy><fr>Les oppositions doivent être adressées à la commune de Fictiville dans un délai de 30 jours. Renseignements : M. Luc Exemplaire.</fr></legalRemedy>
+      <contact><fr>Commune de Fictiville
+Rue de l'Exemple 1
+1999 Fictiville</fr></contact>
+      <deadline>
+        <selectType>date</selectType>
+        <term><fr>Délai de mise à disposition</fr></term>
+        <date>2026-10-26</date>
+      </deadline>
+    </element>
+  </reaction>
+  <localization>
+    <municipalityId><key>9999</key><term><de>Fictiville</de><fr>Fictiville</fr></term></municipalityId>
+  </localization>
+</content>
+</BA-VS05:publication>

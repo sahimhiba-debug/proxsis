@@ -1,0 +1,3569 @@
+{
+ "avertissement": "monde fictif : prouve que le code fonctionne, pas sa performance réelle",
+ "date": "2026-10-05",
+ "type_de_donnee": "FICTIF (candidats) face à des besoins RÉELS (simap.ch)",
+ "besoins": 60,
+ "entreprises_sans_localite": [],
+ "propositions": {
+  "besoins_avec_au_moins_une": 60,
+  "besoins": 60,
+  "entonnoir_moyen": {
+   "tous": 300.0,
+   "metier": 46.4,
+   "certificat": 46.0,
+   "disponible": 17.2,
+   "distance": 8.1
+  }
+ },
+ "redeploiement": {
+  "fins_de_mission": 43,
+  "redeployes": 26,
+  "taux_redeploiement": 0.6046511627906976,
+  "motifs_non_redeploye": {
+   "aucun besoin prévu compatible (métier)": 11,
+   "besoins compatibles déjà pourvus par d'autres fins de mission": 4,
+   "besoins compatibles hors de son rayon de déplacement": 2
+  },
+  "besoins": 60,
+  "avertissement": "FICTIF : travailleurs inventés face à des besoins estimés à partir de marchés publics réels (simap.ch). Le taux prouve que le mécanisme fonctionne, pas ce que Flexsis obtiendrait."
+ },
+ "equite": {
+  "plafond_15_ans_actuel": {
+   "plafond_experience_ans": 15.0,
+   "tirages": 20,
+   "test_permutation": {
+    "audit_gender": {
+     "viviers": 20,
+     "part_p_inf_0_05": 0.05,
+     "p_mediane": 0.4975,
+     "taux_selection_moyens": {
+      "f": 0.5326996871449704,
+      "m": 0.4875120955218528
+     }
+    },
+    "audit_age_band": {
+     "viviers": 20,
+     "part_p_inf_0_05": 0.3,
+     "p_mediane": 0.14750000000000002,
+     "taux_selection_moyens": {
+      "18-25": 0.37232658039199296,
+      "26-35": 0.4813708092591817,
+      "36-50": 0.5424233917165131,
+      "51+": 0.5436258429846
+     }
+    },
+    "audit_nationality_group": {
+     "viviers": 20,
+     "part_p_inf_0_05": 0.05,
+     "p_mediane": 0.385,
+     "taux_selection_moyens": {
+      "CH": 0.4866981211081606,
+      "UE/AELE": 0.5010110314635161,
+      "autre": 0.5026400943605944
+     }
+    }
+   },
+   "di_ratio": {
+    "audit_gender": {
+     "min": 0.5421338410549327,
+     "max": 0.9851148851148852,
+     "moyenne": 0.8002754331341374
+    },
+    "audit_age_band": {
+     "min": 0.31836734693877544,
+     "max": 0.8333333333333334,
+     "moyenne": 0.6066493808211102
+    },
+    "audit_nationality_group": {
+     "min": 0.45569620253164556,
+     "max": 0.9573267103183564,
+     "moyenne": 0.7253704730635466
+    }
+   },
+   "tirages_avec_alerte": 18,
+   "invariance_contrefactuelle": true,
+   "experience_moyenne_proposes_ans": 12.457108393507047,
+   "details": [
+    {
+     "graine_vivier": "vivier publié",
+     "di_ratio": {
+      "audit_age_band": 0.8003267973856208,
+      "audit_nationality_group": 0.9573267103183564
+     },
+     "alertes": [],
+     "invariance_contrefactuelle": true,
+     "taux_selection": {
+      "audit_gender": {
+       "m": 0.525987525987526
+      },
+      "audit_age_band": {
+       "36-50": 0.53,
+       "26-35": 0.5289855072463768,
+       "51+": 0.569620253164557,
+       "18-25": 0.45588235294117646
+      },
+      "audit_nationality_group": {
+       "UE/AELE": 0.5225225225225225,
+       "autre": 0.5145631067961165,
+       "CH": 0.5375
+      }
+     },
+     "permutation": {
+      "audit_gender": {
+       "p_valeur": 0.94,
+       "khi2": 0.005095593330887438,
+       "taux_selection": {
+        "m": 0.525987525987526
+       }
+      },
+      "audit_age_band": {
+       "p_valeur": 0.89,
+       "khi2": 0.9301375915490786,
+       "taux_selection": {
+        "36-50": 0.53,
+        "26-35": 0.5289855072463768,
+        "51+": 0.569620253164557,
+        "18-25": 0.45588235294117646
+       }
+      },
+      "audit_nationality_group": {
+       "p_valeur": 0.96,
+       "khi2": 0.07092853847565461,
+       "taux_selection": {
+        "UE/AELE": 0.5225225225225225,
+        "CH": 0.5375,
+        "autre": 0.5145631067961165
+       }
+      }
+     }
+    },
+    {
+     "graine_vivier": 1001,
+     "di_ratio": {
+      "audit_gender": 0.6914908416415487,
+      "audit_age_band": 0.7522770235435642,
+      "audit_nationality_group": 0.7536014405762306
+     },
+     "alertes": [
+      "audit_gender: ratio 0.69 < 0,8 (groupe le moins sélectionné : f)",
+      "audit_age_band: ratio 0.75 < 0,8 (groupe le moins sélectionné : 26-35)",
+      "audit_nationality_group: ratio 0.75 < 0,8 (groupe le moins sélectionné : CH)"
+     ],
+     "invariance_contrefactuelle": true,
+     "taux_selection": {
+      "audit_gender": {
+       "m": 0.4871244635193133,
+       "f": 0.3368421052631579
+      },
+      "audit_age_band": {
+       "26-35": 0.40711462450592883,
+       "36-50": 0.5029585798816568,
+       "51+": 0.5411764705882353,
+       "18-25": 0.46296296296296297
+      },
+      "audit_nationality_group": {
+       "CH": 0.3907563025210084,
+       "UE/AELE": 0.512396694214876,
+       "autre": 0.5185185185185185
+      }
+     },
+     "permutation": {
+      "audit_gender": {
+       "p_valeur": 0.155,
+       "khi2": 3.8603418126571523,
+       "taux_selection": {
+        "m": 0.4871244635193133,
+        "f": 0.3368421052631579
+       }
+      },
+      "audit_age_band": {
+       "p_valeur": 0.67,
+       "khi2": 3.419072529105974,
+       "taux_selection": {
+        "26-35": 0.40711462450592883,
+        "36-50": 0.5029585798816568,
+        "51+": 0.5411764705882353,
+        "18-25": 0.46296296296296297
+       }
+      },
+      "audit_nationality_group": {
+       "p_valeur": 0.33,
+       "khi2": 4.508206722492437,
+       "taux_selection": {
+        "UE/AELE": 0.512396694214876,
+        "CH": 0.3907563025210084,
+        "autre": 0.5185185185185185
+       }
+      }
+     }
+    },
+    {
+     "graine_vivier": 1002,
+     "di_ratio": {
+      "audit_age_band": 0.8333333333333334,
+      "audit_nationality_group": 0.806896551724138
+     },
+     "alertes": [],
+     "invariance_contrefactuelle": true,
+     "taux_selection": {
+      "audit_gender": {
+       "m": 0.4506065857885615
+      },
+      "audit_age_band": {
+       "36-50": 0.4166666666666667,
+       "26-35": 0.47863247863247865,
+       "18-25": 0.4409448818897638,
+       "51+": 0.5
+      },
+      "audit_nationality_group": {
+       "CH": 0.4103448275862069,
+       "UE/AELE": 0.5085470085470085,
+       "autre": 0.4492753623188406
+      }
+     },
+     "permutation": {
+      "audit_gender": {
+       "p_valeur": 0.66,
+       "khi2": 0.42968734899782896,
+       "taux_selection": {
+        "m": 0.4506065857885615
+       }
+      },
+      "audit_age_band": {
+       "p_valeur": 0.935,
+       "khi2": 1.1561425228623663,
+       "taux_selection": {
+        "26-35": 0.47863247863247865,
+        "36-50": 0.4166666666666667,
+        "18-25": 0.4409448818897638,
+        "51+": 0.5
+       }
+      },
+      "audit_nationality_group": {
+       "p_valeur": 0.555,
+       "khi2": 2.75639102572439,
+       "taux_selection": {
+        "CH": 0.4103448275862069,
+        "UE/AELE": 0.5085470085470085,
+        "autre": 0.4492753623188406
+       }
+      }
+     }
+    },
+    {
+     "graine_vivier": 1003,
+     "di_ratio": {
+      "audit_age_band": 0.6419848807908509,
+      "audit_nationality_group": 0.8076923076923078
+     },
+     "alertes": [
+      "audit_age_band: ratio 0.64 < 0,8 (groupe le moins sélectionné : 51+)"
+     ],
+     "invariance_contrefactuelle": true,
+     "taux_selection": {
+      "audit_gender": {
+       "m": 0.42857142857142855
+      },
+      "audit_age_band": {
+       "26-35": 0.3625,
+       "36-50": 0.5347222222222222,
+       "18-25": 0.5137614678899083,
+       "51+": 0.34328358208955223
+      },
+      "audit_nationality_group": {
+       "UE/AELE": 0.47101449275362317,
+       "CH": 0.3804347826086957
+      }
+     },
+     "permutation": {
+      "audit_gender": {
+       "p_valeur": 0.185,
+       "khi2": 2.9259259259259256,
+       "taux_selection": {
+        "m": 0.42857142857142855
+       }
+      },
+      "audit_age_band": {
+       "p_valeur": 0.16,
+       "khi2": 9.062857582564515,
+       "taux_selection": {
+        "26-35": 0.3625,
+        "36-50": 0.5347222222222222,
+        "18-25": 0.5137614678899083,
+        "51+": 0.34328358208955223
+       }
+      },
+      "audit_nationality_group": {
+       "p_valeur": 0.105,
+       "khi2": 8.602552633148445,
+       "taux_selection": {
+        "UE/AELE": 0.47101449275362317,
+        "CH": 0.3804347826086957
+       }
+      }
+     }
+    },
+    {
+     "graine_vivier": 1004,
+     "di_ratio": {
+      "audit_gender": 0.9710558499796167,
+      "audit_age_band": 0.8156340329269824,
+      "audit_nationality_group": 0.6217114568599716
+     },
+     "alertes": [
+      "audit_nationality_group: ratio 0.62 < 0,8 (groupe le moins sélectionné : autre)"
+     ],
+     "invariance_contrefactuelle": true,
+     "taux_selection": {
+      "audit_gender": {
+       "m": 0.5617128463476071,
+       "f": 0.5454545454545454
+      },
+      "audit_age_band": {
+       "26-35": 0.5679012345679012,
+       "51+": 0.5045871559633027,
+       "36-50": 0.6186440677966102,
+       "18-25": 0.5238095238095238
+      },
+      "audit_nationality_group": {
+       "autre": 0.42142857142857143,
+       "CH": 0.6778523489932886,
+       "UE/AELE": 0.5705521472392638
+      }
+     },
+     "permutation": {
+      "audit_gender": {
+       "p_valeur": 0.92,
+       "khi2": 0.022813030897378826,
+       "taux_selection": {
+        "m": 0.5617128463476071,
+        "f": 0.5454545454545454
+       }
+      },
+      "audit_age_band": {
+       "p_valeur": 0.875,
+       "khi2": 1.4883958643443362,
+       "taux_selection": {
+        "26-35": 0.5679012345679012,
+        "36-50": 0.6186440677966102,
+        "51+": 0.5045871559633027,
+        "18-25": 0.5238095238095238
+       }
+      },
+      "audit_nationality_group": {
+       "p_valeur": 0.07,
+       "khi2": 8.532421503748804,
+       "taux_selection": {
+        "UE/AELE": 0.5705521472392638,
+        "CH": 0.6778523489932886,
+        "autre": 0.42142857142857143
+       }
+      }
+     }
+    },
+    {
+     "graine_vivier": 1005,
+     "di_ratio": {
+      "audit_gender": 0.8802231237322515,
+      "audit_age_band": 0.7598290598290599,
+      "audit_nationality_group": 0.724236641221374
+     },
+     "alertes": [
+      "audit_age_band: ratio 0.76 < 0,8 (groupe le moins sélectionné : 18-25)",
+      "audit_nationality_group: ratio 0.72 < 0,8 (groupe le moins sélectionné : UE/AELE)"
+     ],
+     "invariance_contrefactuelle": true,
+     "taux_selection": {
+      "audit_gender": {
+       "m": 0.453448275862069,
+       "f": 0.5151515151515151
+      },
+      "audit_age_band": {
+       "36-50": 0.4448669201520912,
+       "18-25": 0.3888888888888889,
+       "26-35": 0.5118110236220472,
+       "51+": 0.5051546391752577
+      },
+      "audit_nationality_group": {
+       "CH": 0.46099290780141844,
+       "UE/AELE": 0.4198473282442748,
+       "autre": 0.5797101449275363
+      }
+     },
+     "permutation": {
+      "audit_gender": {
+       "p_valeur": 0.675,
+       "khi2": 0.26025544857441374,
+       "taux_selection": {
+        "m": 0.453448275862069,
+        "f": 0.5151515151515151
+       }
+      },
+      "audit_age_band": {
+       "p_valeur": 0.8,
+       "khi2": 2.692128817540647,
+       "taux_selection": {
+        "36-50": 0.4448669201520912,
+        "26-35": 0.5118110236220472,
+        "18-25": 0.3888888888888889,
+        "51+": 0.5051546391752577
+       }
+      },
+      "audit_nationality_group": {
+       "p_valeur": 0.525,
+       "khi2": 3.0761532851059803,
+       "taux_selection": {
+        "CH": 0.46099290780141844,
+        "UE/AELE": 0.4198473282442748,
+        "autre": 0.5797101449275363
+       }
+      }
+     }
+    },
+    {
+     "graine_vivier": 1006,
+     "di_ratio": {
+      "audit_gender": 0.5421338410549327,
+      "audit_age_band": 0.4327485380116959,
+      "audit_nationality_group": 0.5648567119155354
+     },
+     "alertes": [
+      "audit_gender: ratio 0.54 < 0,8 (groupe le moins sélectionné : m)",
+      "audit_age_band: ratio 0.43 < 0,8 (groupe le moins sélectionné : 18-25)",
+      "audit_nationality_group: ratio 0.56 < 0,8 (groupe le moins sélectionné : UE/AELE)"
+     ],
+     "invariance_contrefactuelle": true,
+     "taux_selection": {
+      "audit_gender": {
+       "m": 0.5071574642126789,
+       "f": 0.9354838709677419
+      },
+      "audit_age_band": {
+       "36-50": 0.5837837837837838,
+       "26-35": 0.44155844155844154,
+       "18-25": 0.3333333333333333,
+       "51+": 0.7702702702702703
+      },
+      "audit_nationality_group": {
+       "CH": 0.5773584905660377,
+       "UE/AELE": 0.45726495726495725,
+       "autre": 0.8095238095238095
+      }
+     },
+     "permutation": {
+      "audit_gender": {
+       "p_valeur": 0.03,
+       "khi2": 10.040156530904783,
+       "taux_selection": {
+        "m": 0.5071574642126789,
+        "f": 0.9354838709677419
+       }
+      },
+      "audit_age_band": {
+       "p_valeur": 0.13,
+       "khi2": 14.587368887007871,
+       "taux_selection": {
+        "26-35": 0.44155844155844154,
+        "36-50": 0.5837837837837838,
+        "51+": 0.7702702702702703,
+        "18-25": 0.3333333333333333
+       }
+      },
+      "audit_nationality_group": {
+       "p_valeur": 0.265,
+       "khi2": 6.512831075258703,
+       "taux_selection": {
+        "CH": 0.5773584905660377,
+        "UE/AELE": 0.45726495726495725,
+        "autre": 0.8095238095238095
+       }
+      }
+     }
+    },
+    {
+     "graine_vivier": 1007,
+     "di_ratio": {
+      "audit_gender": 0.6288743882544862,
+      "audit_age_band": 0.32619499412668296,
+      "audit_nationality_group": 0.6155400155400155
+     },
+     "alertes": [
+      "audit_gender: ratio 0.63 < 0,8 (groupe le moins sélectionné : m)",
+      "audit_age_band: ratio 0.33 < 0,8 (groupe le moins sélectionné : 18-25)",
+      "audit_nationality_group: ratio 0.62 < 0,8 (groupe le moins sélectionné : autre)"
+     ],
+     "invariance_contrefactuelle": true,
+     "taux_selection": {
+      "audit_gender": {
+       "m": 0.4192495921696574,
+       "f": 0.6666666666666666
+      },
+      "audit_age_band": {
+       "36-50": 0.38596491228070173,
+       "51+": 0.6263157894736842,
+       "18-25": 0.20430107526881722,
+       "26-35": 0.373015873015873
+      },
+      "audit_nationality_group": {
+       "CH": 0.3982808022922636,
+       "UE/AELE": 0.5021459227467812,
+       "autre": 0.3090909090909091
+      }
+     },
+     "permutation": {
+      "audit_gender": {
+       "p_valeur": 0.29,
+       "khi2": 3.298894326626792,
+       "taux_selection": {
+        "m": 0.4192495921696574,
+        "f": 0.6666666666666666
+       }
+      },
+      "audit_age_band": {
+       "p_valeur": 0.01,
+       "khi2": 30.123234609822042,
+       "taux_selection": {
+        "36-50": 0.38596491228070173,
+        "51+": 0.6263157894736842,
+        "26-35": 0.373015873015873,
+        "18-25": 0.20430107526881722
+       }
+      },
+      "audit_nationality_group": {
+       "p_valeur": 0.255,
+       "khi2": 5.52218318060147,
+       "taux_selection": {
+        "CH": 0.3982808022922636,
+        "UE/AELE": 0.5021459227467812,
+        "autre": 0.3090909090909091
+       }
+      }
+     }
+    },
+    {
+     "graine_vivier": 1008,
+     "di_ratio": {
+      "audit_gender": 0.9851148851148852,
+      "audit_age_band": 0.44871794871794873,
+      "audit_nationality_group": 0.45569620253164556
+     },
+     "alertes": [
+      "audit_age_band: ratio 0.45 < 0,8 (groupe le moins sélectionné : 18-25)",
+      "audit_nationality_group: ratio 0.46 < 0,8 (groupe le moins sélectionné : autre)"
+     ],
+     "invariance_contrefactuelle": true,
+     "taux_selection": {
+      "audit_gender": {
+       "m": 0.4238921001926782,
+       "f": 0.4175824175824176
+      },
+      "audit_age_band": {
+       "36-50": 0.5416666666666666,
+       "18-25": 0.24305555555555555,
+       "51+": 0.3364485981308411,
+       "26-35": 0.4789915966386555
+      },
+      "audit_nationality_group": {
+       "CH": 0.5,
+       "UE/AELE": 0.4052044609665427,
+       "autre": 0.22784810126582278
+      }
+     },
+     "permutation": {
+      "audit_gender": {
+       "p_valeur": 0.94,
+       "khi2": 0.007287927976192506,
+       "taux_selection": {
+        "m": 0.4238921001926782,
+        "f": 0.4175824175824176
+       }
+      },
+      "audit_age_band": {
+       "p_valeur": 0.01,
+       "khi2": 21.792061270763952,
+       "taux_selection": {
+        "36-50": 0.5416666666666666,
+        "18-25": 0.24305555555555555,
+        "26-35": 0.4789915966386555,
+        "51+": 0.3364485981308411
+       }
+      },
+      "audit_nationality_group": {
+       "p_valeur": 0.065,
+       "khi2": 10.987661866527755,
+       "taux_selection": {
+        "UE/AELE": 0.4052044609665427,
+        "CH": 0.5,
+        "autre": 0.22784810126582278
+       }
+      }
+     }
+    },
+    {
+     "graine_vivier": 1009,
+     "di_ratio": {
+      "audit_gender": 0.9405301204819277,
+      "audit_age_band": 0.5890243902439024,
+      "audit_nationality_group": 0.6429523809523809
+     },
+     "alertes": [
+      "audit_age_band: ratio 0.59 < 0,8 (groupe le moins sélectionné : 18-25)",
+      "audit_nationality_group: ratio 0.64 < 0,8 (groupe le moins sélectionné : CH)"
+     ],
+     "invariance_contrefactuelle": true,
+     "taux_selection": {
+      "audit_gender": {
+       "m": 0.4355400696864111,
+       "f": 0.40963855421686746
+      },
+      "audit_age_band": {
+       "51+": 0.41954022988505746,
+       "36-50": 0.4603960396039604,
+       "26-35": 0.5093167701863354,
+       "18-25": 0.3
+      },
+      "audit_nationality_group": {
+       "CH": 0.3738095238095238,
+       "UE/AELE": 0.5813953488372093,
+       "autre": 0.4153846153846154
+      }
+     },
+     "permutation": {
+      "audit_gender": {
+       "p_valeur": 0.73,
+       "khi2": 0.11254390876555218,
+       "taux_selection": {
+        "m": 0.4355400696864111,
+        "f": 0.40963855421686746
+       }
+      },
+      "audit_age_band": {
+       "p_valeur": 0.135,
+       "khi2": 7.502672740765704,
+       "taux_selection": {
+        "36-50": 0.4603960396039604,
+        "51+": 0.41954022988505746,
+        "26-35": 0.5093167701863354,
+        "18-25": 0.3
+       }
+      },
+      "audit_nationality_group": {
+       "p_valeur": 0.025,
+       "khi2": 12.212185501200413,
+       "taux_selection": {
+        "CH": 0.3738095238095238,
+        "UE/AELE": 0.5813953488372093,
+        "autre": 0.4153846153846154
+       }
+      }
+     }
+    },
+    {
+     "graine_vivier": 1010,
+     "di_ratio": {
+      "audit_gender": 0.883166169693684,
+      "audit_age_band": 0.47919143876337694,
+      "audit_nationality_group": 0.8595159967186218
+     },
+     "alertes": [
+      "audit_age_band: ratio 0.48 < 0,8 (groupe le moins sélectionné : 18-25)"
+     ],
+     "invariance_contrefactuelle": true,
+     "taux_selection": {
+      "audit_gender": {
+       "m": 0.6574585635359116,
+       "f": 0.5806451612903226
+      },
+      "audit_age_band": {
+       "26-35": 0.6666666666666666,
+       "36-50": 0.6560509554140127,
+       "18-25": 0.4482758620689655,
+       "51+": 0.9354838709677419
+      },
+      "audit_nationality_group": {
+       "CH": 0.5990566037735849,
+       "UE/AELE": 0.696969696969697
+      }
+     },
+     "permutation": {
+      "audit_gender": {
+       "p_valeur": 0.73,
+       "khi2": 0.25864512787381977,
+       "taux_selection": {
+        "m": 0.6574585635359116,
+        "f": 0.5806451612903226
+       }
+      },
+      "audit_age_band": {
+       "p_valeur": 0.065,
+       "khi2": 7.572183829077602,
+       "taux_selection": {
+        "36-50": 0.6560509554140127,
+        "26-35": 0.6666666666666666,
+        "18-25": 0.4482758620689655,
+        "51+": 0.9354838709677419
+       }
+      },
+      "audit_nationality_group": {
+       "p_valeur": 0.37,
+       "khi2": 2.6457406464408235,
+       "taux_selection": {
+        "CH": 0.5990566037735849,
+        "UE/AELE": 0.696969696969697
+       }
+      }
+     }
+    },
+    {
+     "graine_vivier": 1011,
+     "di_ratio": {
+      "audit_gender": 0.6968233055189577,
+      "audit_age_band": 0.778021978021978,
+      "audit_nationality_group": 0.6859934853420195
+     },
+     "alertes": [
+      "audit_gender: ratio 0.70 < 0,8 (groupe le moins sélectionné : f)",
+      "audit_age_band: ratio 0.78 < 0,8 (groupe le moins sélectionné : 18-25)",
+      "audit_nationality_group: ratio 0.69 < 0,8 (groupe le moins sélectionné : CH)"
+     ],
+     "invariance_contrefactuelle": true,
+     "taux_selection": {
+      "audit_gender": {
+       "m": 0.4517857142857143,
+       "f": 0.3148148148148148
+      },
+      "audit_age_band": {
+       "26-35": 0.4585365853658537,
+       "36-50": 0.4661016949152542,
+       "51+": 0.4024390243902439,
+       "18-25": 0.3626373626373626
+      },
+      "audit_nationality_group": {
+       "CH": 0.3811074918566775,
+       "UE/AELE": 0.4778761061946903,
+       "autre": 0.5555555555555556
+      }
+     },
+     "permutation": {
+      "audit_gender": {
+       "p_valeur": 0.375,
+       "khi2": 2.101235057809132,
+       "taux_selection": {
+        "m": 0.4517857142857143,
+        "f": 0.3148148148148148
+       }
+      },
+      "audit_age_band": {
+       "p_valeur": 0.905,
+       "khi2": 2.0273473685379426,
+       "taux_selection": {
+        "36-50": 0.4661016949152542,
+        "26-35": 0.4585365853658537,
+        "18-25": 0.3626373626373626,
+        "51+": 0.4024390243902439
+       }
+      },
+      "audit_nationality_group": {
+       "p_valeur": 0.4,
+       "khi2": 5.618223533267785,
+       "taux_selection": {
+        "CH": 0.3811074918566775,
+        "UE/AELE": 0.4778761061946903,
+        "autre": 0.5555555555555556
+       }
+      }
+     }
+    },
+    {
+     "graine_vivier": 1012,
+     "di_ratio": {
+      "audit_age_band": 0.6040596722915139,
+      "audit_nationality_group": 0.8467455621301776
+     },
+     "alertes": [
+      "audit_age_band: ratio 0.60 < 0,8 (groupe le moins sélectionné : 18-25)"
+     ],
+     "invariance_contrefactuelle": true,
+     "taux_selection": {
+      "audit_gender": {
+       "m": 0.4359375
+      },
+      "audit_age_band": {
+       "26-35": 0.4533898305084746,
+       "36-50": 0.46963562753036436,
+       "18-25": 0.28368794326241137
+      },
+      "audit_nationality_group": {
+       "CH": 0.4076923076923077,
+       "UE/AELE": 0.45121951219512196,
+       "autre": 0.48148148148148145
+      }
+     },
+     "permutation": {
+      "audit_gender": {
+       "p_valeur": 0.915,
+       "khi2": 0.018761160714285696,
+       "taux_selection": {
+        "m": 0.4359375
+       }
+      },
+      "audit_age_band": {
+       "p_valeur": 0.01,
+       "khi2": 18.973709000127993,
+       "taux_selection": {
+        "36-50": 0.46963562753036436,
+        "26-35": 0.4533898305084746,
+        "18-25": 0.28368794326241137
+       }
+      },
+      "audit_nationality_group": {
+       "p_valeur": 0.805,
+       "khi2": 0.9079963667768538,
+       "taux_selection": {
+        "UE/AELE": 0.45121951219512196,
+        "CH": 0.4076923076923077,
+        "autre": 0.48148148148148145
+       }
+      }
+     }
+    },
+    {
+     "graine_vivier": 1013,
+     "di_ratio": {
+      "audit_gender": 0.8843998616395712,
+      "audit_age_band": 0.8292626728110599,
+      "audit_nationality_group": 0.564516129032258
+     },
+     "alertes": [
+      "audit_nationality_group: ratio 0.56 < 0,8 (groupe le moins sélectionné : autre)"
+     ],
+     "invariance_contrefactuelle": true,
+     "taux_selection": {
+      "audit_gender": {
+       "m": 0.651595744680851,
+       "f": 0.576271186440678
+      },
+      "audit_age_band": {
+       "26-35": 0.6775956284153005,
+       "18-25": 0.5619047619047619,
+       "51+": 0.6615384615384615,
+       "36-50": 0.6463414634146342
+      },
+      "audit_nationality_group": {
+       "UE/AELE": 0.6290322580645161,
+       "autre": 0.4411764705882353,
+       "CH": 0.7815126050420168
+      }
+     },
+     "permutation": {
+      "audit_gender": {
+       "p_valeur": 0.505,
+       "khi2": 0.4511374079545857,
+       "taux_selection": {
+        "m": 0.651595744680851,
+        "f": 0.576271186440678
+       }
+      },
+      "audit_age_band": {
+       "p_valeur": 0.79,
+       "khi2": 1.452592376732399,
+       "taux_selection": {
+        "26-35": 0.6775956284153005,
+        "18-25": 0.5619047619047619,
+        "36-50": 0.6463414634146342,
+        "51+": 0.6615384615384615
+       }
+      },
+      "audit_nationality_group": {
+       "p_valeur": 0.055,
+       "khi2": 7.951879607201885,
+       "taux_selection": {
+        "UE/AELE": 0.6290322580645161,
+        "CH": 0.7815126050420168,
+        "autre": 0.4411764705882353
+       }
+      }
+     }
+    },
+    {
+     "graine_vivier": 1014,
+     "di_ratio": {
+      "audit_gender": 0.8982573306897632,
+      "audit_age_band": 0.31836734693877544,
+      "audit_nationality_group": 0.711111111111111
+     },
+     "alertes": [
+      "audit_age_band: ratio 0.32 < 0,8 (groupe le moins sélectionné : 18-25)",
+      "audit_nationality_group: ratio 0.71 < 0,8 (groupe le moins sélectionné : CH)"
+     ],
+     "invariance_contrefactuelle": true,
+     "taux_selection": {
+      "audit_gender": {
+       "m": 0.48141263940520446,
+       "f": 0.43243243243243246
+      },
+      "audit_age_band": {
+       "36-50": 0.592156862745098,
+       "18-25": 0.21428571428571427,
+       "26-35": 0.4609375,
+       "51+": 0.6730769230769231
+      },
+      "audit_nationality_group": {
+       "UE/AELE": 0.4563758389261745,
+       "CH": 0.4444444444444444,
+       "autre": 0.625
+      }
+     },
+     "permutation": {
+      "audit_gender": {
+       "p_valeur": 0.805,
+       "khi2": 0.17365709744891913,
+       "taux_selection": {
+        "m": 0.48141263940520446,
+        "f": 0.43243243243243246
+       }
+      },
+      "audit_age_band": {
+       "p_valeur": 0.01,
+       "khi2": 31.521548886162858,
+       "taux_selection": {
+        "36-50": 0.592156862745098,
+        "18-25": 0.21428571428571427,
+        "26-35": 0.4609375,
+        "51+": 0.6730769230769231
+       }
+      },
+      "audit_nationality_group": {
+       "p_valeur": 0.41,
+       "khi2": 4.712299166158226,
+       "taux_selection": {
+        "UE/AELE": 0.4563758389261745,
+        "CH": 0.4444444444444444,
+        "autre": 0.625
+       }
+      }
+     }
+    },
+    {
+     "graine_vivier": 1015,
+     "di_ratio": {
+      "audit_age_band": 0.6731111111111112,
+      "audit_nationality_group": 0.9204236439101188
+     },
+     "alertes": [
+      "audit_age_band: ratio 0.67 < 0,8 (groupe le moins sélectionné : 18-25)"
+     ],
+     "invariance_contrefactuelle": true,
+     "taux_selection": {
+      "audit_gender": {
+       "m": 0.4410828025477707
+      },
+      "audit_age_band": {
+       "36-50": 0.5150214592274678,
+       "26-35": 0.3869346733668342,
+       "51+": 0.4632352941176471,
+       "18-25": 0.3466666666666667
+      },
+      "audit_nationality_group": {
+       "UE/AELE": 0.42745098039215684,
+       "CH": 0.46440677966101696,
+       "autre": 0.43010752688172044
+      }
+     },
+     "permutation": {
+      "audit_gender": {
+       "p_valeur": 0.415,
+       "khi2": 0.8318148412097456,
+       "taux_selection": {
+        "m": 0.4410828025477707
+       }
+      },
+      "audit_age_band": {
+       "p_valeur": 0.32,
+       "khi2": 5.808917027279162,
+       "taux_selection": {
+        "36-50": 0.5150214592274678,
+        "26-35": 0.3869346733668342,
+        "51+": 0.4632352941176471,
+        "18-25": 0.3466666666666667
+       }
+      },
+      "audit_nationality_group": {
+       "p_valeur": 0.92,
+       "khi2": 0.47265762678878226,
+       "taux_selection": {
+        "CH": 0.46440677966101696,
+        "UE/AELE": 0.42745098039215684,
+        "autre": 0.43010752688172044
+       }
+      }
+     }
+    },
+    {
+     "graine_vivier": 1016,
+     "di_ratio": {
+      "audit_gender": 0.8077123501823866,
+      "audit_age_band": 0.5026852846401719,
+      "audit_nationality_group": 0.5606312292358804
+     },
+     "alertes": [
+      "audit_age_band: ratio 0.50 < 0,8 (groupe le moins sélectionné : 18-25)",
+      "audit_nationality_group: ratio 0.56 < 0,8 (groupe le moins sélectionné : UE/AELE)"
+     ],
+     "invariance_contrefactuelle": true,
+     "taux_selection": {
+      "audit_gender": {
+       "m": 0.6138613861386139,
+       "f": 0.76
+      },
+      "audit_age_band": {
+       "26-35": 0.6218487394957983,
+       "51+": 0.7916666666666666,
+       "36-50": 0.6928571428571428,
+       "18-25": 0.3979591836734694
+      },
+      "audit_nationality_group": {
+       "UE/AELE": 0.5232558139534884,
+       "CH": 0.6563876651982379,
+       "autre": 0.9333333333333333
+      }
+     },
+     "permutation": {
+      "audit_gender": {
+       "p_valeur": 0.49,
+       "khi2": 0.8078673934809207,
+       "taux_selection": {
+        "m": 0.6138613861386139,
+        "f": 0.76
+       }
+      },
+      "audit_age_band": {
+       "p_valeur": 0.09,
+       "khi2": 12.363125362504551,
+       "taux_selection": {
+        "36-50": 0.6928571428571428,
+        "26-35": 0.6218487394957983,
+        "18-25": 0.3979591836734694,
+        "51+": 0.7916666666666666
+       }
+      },
+      "audit_nationality_group": {
+       "p_valeur": 0.125,
+       "khi2": 7.797988478954117,
+       "taux_selection": {
+        "CH": 0.6563876651982379,
+        "UE/AELE": 0.5232558139534884,
+        "autre": 0.9333333333333333
+       }
+      }
+     }
+    },
+    {
+     "graine_vivier": 1017,
+     "di_ratio": {
+      "audit_gender": 0.6315391021273373,
+      "audit_age_band": 0.5579487179487179,
+      "audit_nationality_group": 0.6562942008486562
+     },
+     "alertes": [
+      "audit_gender: ratio 0.63 < 0,8 (groupe le moins sélectionné : m)",
+      "audit_age_band: ratio 0.56 < 0,8 (groupe le moins sélectionné : 26-35)",
+      "audit_nationality_group: ratio 0.66 < 0,8 (groupe le moins sélectionné : autre)"
+     ],
+     "invariance_contrefactuelle": true,
+     "taux_selection": {
+      "audit_gender": {
+       "m": 0.3745173745173745,
+       "f": 0.5930232558139535
+      },
+      "audit_age_band": {
+       "36-50": 0.5223214285714286,
+       "26-35": 0.2914285714285714,
+       "18-25": 0.3357142857142857,
+       "51+": 0.46153846153846156
+      },
+      "audit_nationality_group": {
+       "CH": 0.4199288256227758,
+       "UE/AELE": 0.4353448275862069,
+       "autre": 0.2857142857142857
+      }
+     },
+     "permutation": {
+      "audit_gender": {
+       "p_valeur": 0.14,
+       "khi2": 8.681372443024078,
+       "taux_selection": {
+        "m": 0.3745173745173745,
+        "f": 0.5930232558139535
+       }
+      },
+      "audit_age_band": {
+       "p_valeur": 0.315,
+       "khi2": 15.334328549002022,
+       "taux_selection": {
+        "36-50": 0.5223214285714286,
+        "26-35": 0.2914285714285714,
+        "18-25": 0.3357142857142857,
+        "51+": 0.46153846153846156
+       }
+      },
+      "audit_nationality_group": {
+       "p_valeur": 0.705,
+       "khi2": 3.8726541416840226,
+       "taux_selection": {
+        "CH": 0.4199288256227758,
+        "UE/AELE": 0.4353448275862069,
+        "autre": 0.2857142857142857
+       }
+      }
+     }
+    },
+    {
+     "graine_vivier": 1018,
+     "di_ratio": {
+      "audit_gender": 0.811054100279053,
+      "audit_age_band": 0.4917698964873579,
+      "audit_nationality_group": 0.8330903230757424
+     },
+     "alertes": [
+      "audit_age_band: ratio 0.49 < 0,8 (groupe le moins sélectionné : 18-25)"
+     ],
+     "invariance_contrefactuelle": true,
+     "taux_selection": {
+      "audit_gender": {
+       "m": 0.4007561436672968,
+       "f": 0.49411764705882355
+      },
+      "audit_age_band": {
+       "26-35": 0.43820224719101125,
+       "18-25": 0.27710843373493976,
+       "36-50": 0.5634920634920635,
+       "51+": 0.4097222222222222
+      },
+      "audit_nationality_group": {
+       "UE/AELE": 0.4435028248587571,
+       "CH": 0.36947791164658633
+      }
+     },
+     "permutation": {
+      "audit_gender": {
+       "p_valeur": 0.315,
+       "khi2": 1.5430377607780663,
+       "taux_selection": {
+        "m": 0.4007561436672968,
+        "f": 0.49411764705882355
+       }
+      },
+      "audit_age_band": {
+       "p_valeur": 0.03,
+       "khi2": 14.584656940853492,
+       "taux_selection": {
+        "26-35": 0.43820224719101125,
+        "18-25": 0.27710843373493976,
+        "51+": 0.4097222222222222,
+        "36-50": 0.5634920634920635
+       }
+      },
+      "audit_nationality_group": {
+       "p_valeur": 0.58,
+       "khi2": 1.9815280680369203,
+       "taux_selection": {
+        "UE/AELE": 0.4435028248587571,
+        "CH": 0.36947791164658633
+       }
+      }
+     }
+    },
+    {
+     "graine_vivier": 1019,
+     "di_ratio": {
+      "audit_gender": 0.7517562266216586,
+      "audit_age_band": 0.49849849849849853,
+      "audit_nationality_group": 0.9185773605343924
+     },
+     "alertes": [
+      "audit_gender: ratio 0.75 < 0,8 (groupe le moins sélectionné : f)",
+      "audit_age_band: ratio 0.50 < 0,8 (groupe le moins sélectionné : 18-25)"
+     ],
+     "invariance_contrefactuelle": true,
+     "taux_selection": {
+      "audit_gender": {
+       "m": 0.5485436893203883,
+       "f": 0.41237113402061853
+      },
+      "audit_age_band": {
+       "18-25": 0.35135135135135137,
+       "26-35": 0.5120481927710844,
+       "36-50": 0.7048192771084337,
+       "51+": 0.41379310344827586
+      },
+      "audit_nationality_group": {
+       "CH": 0.5026178010471204,
+       "UE/AELE": 0.5283018867924528,
+       "autre": 0.5471698113207547
+      }
+     },
+     "permutation": {
+      "audit_gender": {
+       "p_valeur": 0.2,
+       "khi2": 2.785906187749425,
+       "taux_selection": {
+        "m": 0.5485436893203883,
+        "f": 0.41237113402061853
+       }
+      },
+      "audit_age_band": {
+       "p_valeur": 0.0,
+       "khi2": 19.5446741101848,
+       "taux_selection": {
+        "36-50": 0.7048192771084337,
+        "26-35": 0.5120481927710844,
+        "18-25": 0.35135135135135137,
+        "51+": 0.41379310344827586
+       }
+      },
+      "audit_nationality_group": {
+       "p_valeur": 0.935,
+       "khi2": 0.2815690317367068,
+       "taux_selection": {
+        "UE/AELE": 0.5283018867924528,
+        "CH": 0.5026178010471204,
+        "autre": 0.5471698113207547
+       }
+      }
+     }
+    }
+   ],
+   "ecart_au_hasard_apparie": {
+    "audit_gender": {
+     "moyenne": -0.06684550911174944,
+     "ic95": [
+      -0.14089636147129106,
+      0.001912361589273398
+     ]
+    },
+    "audit_age_band": {
+     "moyenne": -0.12414584267634554,
+     "ic95": [
+      -0.20449024404358138,
+      -0.048434373560791485
+     ]
+    },
+    "audit_nationality_group": {
+     "moyenne": -0.08178455158521927,
+     "ic95": [
+      -0.13814314003298417,
+      -0.03177167219638345
+     ]
+    }
+   }
+  },
+  "plafond_5_ans_adr_0012": {
+   "plafond_experience_ans": 5.0,
+   "tirages": 20,
+   "test_permutation": {
+    "audit_gender": {
+     "viviers": 20,
+     "part_p_inf_0_05": 0.0,
+     "p_mediane": 0.525,
+     "taux_selection_moyens": {
+      "f": 0.504803341897381,
+      "m": 0.4895914758200859
+     }
+    },
+    "audit_age_band": {
+     "viviers": 20,
+     "part_p_inf_0_05": 0.2,
+     "p_mediane": 0.2525,
+     "taux_selection_moyens": {
+      "18-25": 0.41129466368863027,
+      "26-35": 0.49351602653466153,
+      "36-50": 0.5223569550780851,
+      "51+": 0.5178134643896791
+     }
+    },
+    "audit_nationality_group": {
+     "viviers": 20,
+     "part_p_inf_0_05": 0.1,
+     "p_mediane": 0.4575,
+     "taux_selection_moyens": {
+      "CH": 0.48852453196279744,
+      "UE/AELE": 0.5000845182367698,
+      "autre": 0.4979896500126064
+     }
+    }
+   },
+   "di_ratio": {
+    "audit_gender": {
+     "min": 0.5895787352461376,
+     "max": 0.9710558499796167,
+     "moyenne": 0.7774450688893049
+    },
+    "audit_age_band": {
+     "min": 0.3198412698412698,
+     "max": 0.8241417497231451,
+     "moyenne": 0.6323204398718985
+    },
+    "audit_nationality_group": {
+     "min": 0.4702437181182695,
+     "max": 0.9410377358490567,
+     "moyenne": 0.7261889404217409
+    }
+   },
+   "tirages_avec_alerte": 19,
+   "invariance_contrefactuelle": true,
+   "experience_moyenne_proposes_ans": 11.754668862940939,
+   "details": [
+    {
+     "graine_vivier": "vivier publié",
+     "di_ratio": {
+      "audit_age_band": 0.7919655667144907,
+      "audit_nationality_group": 0.8728728728728729
+     },
+     "alertes": [
+      "audit_age_band: ratio 0.79 < 0,8 (groupe le moins sélectionné : 18-25)"
+     ],
+     "invariance_contrefactuelle": true,
+     "taux_selection": {
+      "audit_gender": {
+       "m": 0.525987525987526
+      },
+      "audit_age_band": {
+       "36-50": 0.485,
+       "26-35": 0.5942028985507246,
+       "51+": 0.5569620253164557,
+       "18-25": 0.47058823529411764
+      },
+      "audit_nationality_group": {
+       "UE/AELE": 0.49099099099099097,
+       "autre": 0.5436893203883495,
+       "CH": 0.5625
+      }
+     },
+     "permutation": {
+      "audit_gender": {
+       "p_valeur": 0.95,
+       "khi2": 0.005095593330887438,
+       "taux_selection": {
+        "m": 0.525987525987526
+       }
+      },
+      "audit_age_band": {
+       "p_valeur": 0.685,
+       "khi2": 2.401463950510547,
+       "taux_selection": {
+        "36-50": 0.485,
+        "26-35": 0.5942028985507246,
+        "51+": 0.5569620253164557,
+        "18-25": 0.47058823529411764
+       }
+      },
+      "audit_nationality_group": {
+       "p_valeur": 0.68,
+       "khi2": 0.9841791391620065,
+       "taux_selection": {
+        "UE/AELE": 0.49099099099099097,
+        "CH": 0.5625,
+        "autre": 0.5436893203883495
+       }
+      }
+     }
+    },
+    {
+     "graine_vivier": 1001,
+     "di_ratio": {
+      "audit_gender": 0.6914908416415487,
+      "audit_age_band": 0.7741880048118235,
+      "audit_nationality_group": 0.7779111644657863
+     },
+     "alertes": [
+      "audit_gender: ratio 0.69 < 0,8 (groupe le moins sélectionné : f)",
+      "audit_age_band: ratio 0.77 < 0,8 (groupe le moins sélectionné : 26-35)",
+      "audit_nationality_group: ratio 0.78 < 0,8 (groupe le moins sélectionné : CH)"
+     ],
+     "invariance_contrefactuelle": true,
+     "taux_selection": {
+      "audit_gender": {
+       "m": 0.4871244635193133,
+       "f": 0.3368421052631579
+      },
+      "audit_age_band": {
+       "26-35": 0.4189723320158103,
+       "36-50": 0.4911242603550296,
+       "51+": 0.5411764705882353,
+       "18-25": 0.4444444444444444
+      },
+      "audit_nationality_group": {
+       "CH": 0.40336134453781514,
+       "UE/AELE": 0.5,
+       "autre": 0.5185185185185185
+      }
+     },
+     "permutation": {
+      "audit_gender": {
+       "p_valeur": 0.11,
+       "khi2": 3.8603418126571523,
+       "taux_selection": {
+        "m": 0.4871244635193133,
+        "f": 0.3368421052631579
+       }
+      },
+      "audit_age_band": {
+       "p_valeur": 0.685,
+       "khi2": 2.5151645967699476,
+       "taux_selection": {
+        "26-35": 0.4189723320158103,
+        "36-50": 0.4911242603550296,
+        "51+": 0.5411764705882353,
+        "18-25": 0.4444444444444444
+       }
+      },
+      "audit_nationality_group": {
+       "p_valeur": 0.385,
+       "khi2": 3.0898143041000177,
+       "taux_selection": {
+        "UE/AELE": 0.5,
+        "CH": 0.40336134453781514,
+        "autre": 0.5185185185185185
+       }
+      }
+     }
+    },
+    {
+     "graine_vivier": 1002,
+     "di_ratio": {
+      "audit_age_band": 0.7458730158730158,
+      "audit_nationality_group": 0.820572764465225
+     },
+     "alertes": [
+      "audit_age_band: ratio 0.75 < 0,8 (groupe le moins sélectionné : 36-50)"
+     ],
+     "invariance_contrefactuelle": true,
+     "taux_selection": {
+      "audit_gender": {
+       "m": 0.4506065857885615
+      },
+      "audit_age_band": {
+       "36-50": 0.4111111111111111,
+       "26-35": 0.43162393162393164,
+       "18-25": 0.5511811023622047,
+       "51+": 0.46153846153846156
+      },
+      "audit_nationality_group": {
+       "CH": 0.41379310344827586,
+       "UE/AELE": 0.5042735042735043,
+       "autre": 0.4492753623188406
+      }
+     },
+     "permutation": {
+      "audit_gender": {
+       "p_valeur": 0.695,
+       "khi2": 0.42968734899782896,
+       "taux_selection": {
+        "m": 0.4506065857885615
+       }
+      },
+      "audit_age_band": {
+       "p_valeur": 0.75,
+       "khi2": 3.638560811153969,
+       "taux_selection": {
+        "26-35": 0.43162393162393164,
+        "36-50": 0.4111111111111111,
+        "18-25": 0.5511811023622047,
+        "51+": 0.46153846153846156
+       }
+      },
+      "audit_nationality_group": {
+       "p_valeur": 0.66,
+       "khi2": 2.3404476391105766,
+       "taux_selection": {
+        "CH": 0.41379310344827586,
+        "UE/AELE": 0.5042735042735043,
+        "autre": 0.4492753623188406
+       }
+      }
+     }
+    },
+    {
+     "graine_vivier": 1003,
+     "di_ratio": {
+      "audit_age_band": 0.5510351468464131,
+      "audit_nationality_group": 0.7803030303030303
+     },
+     "alertes": [
+      "audit_age_band: ratio 0.55 < 0,8 (groupe le moins sélectionné : 51+)",
+      "audit_nationality_group: ratio 0.78 < 0,8 (groupe le moins sélectionné : CH)"
+     ],
+     "invariance_contrefactuelle": true,
+     "taux_selection": {
+      "audit_gender": {
+       "m": 0.42857142857142855
+      },
+      "audit_age_band": {
+       "26-35": 0.3541666666666667,
+       "36-50": 0.5208333333333334,
+       "18-25": 0.5688073394495413,
+       "51+": 0.31343283582089554
+      },
+      "audit_nationality_group": {
+       "UE/AELE": 0.4782608695652174,
+       "CH": 0.37318840579710144
+      }
+     },
+     "permutation": {
+      "audit_gender": {
+       "p_valeur": 0.165,
+       "khi2": 2.9259259259259256,
+       "taux_selection": {
+        "m": 0.42857142857142855
+       }
+      },
+      "audit_age_band": {
+       "p_valeur": 0.06,
+       "khi2": 12.836602091667231,
+       "taux_selection": {
+        "26-35": 0.3541666666666667,
+        "36-50": 0.5208333333333334,
+        "18-25": 0.5688073394495413,
+        "51+": 0.31343283582089554
+       }
+      },
+      "audit_nationality_group": {
+       "p_valeur": 0.075,
+       "khi2": 9.50432396970239,
+       "taux_selection": {
+        "UE/AELE": 0.4782608695652174,
+        "CH": 0.37318840579710144
+       }
+      }
+     }
+    },
+    {
+     "graine_vivier": 1004,
+     "di_ratio": {
+      "audit_gender": 0.9710558499796167,
+      "audit_age_band": 0.8156340329269824,
+      "audit_nationality_group": 0.6156162464985995
+     },
+     "alertes": [
+      "audit_nationality_group: ratio 0.62 < 0,8 (groupe le moins sélectionné : autre)"
+     ],
+     "invariance_contrefactuelle": true,
+     "taux_selection": {
+      "audit_gender": {
+       "m": 0.5617128463476071,
+       "f": 0.5454545454545454
+      },
+      "audit_age_band": {
+       "26-35": 0.5679012345679012,
+       "51+": 0.5045871559633027,
+       "36-50": 0.6186440677966102,
+       "18-25": 0.5238095238095238
+      },
+      "audit_nationality_group": {
+       "autre": 0.42142857142857143,
+       "CH": 0.6845637583892618,
+       "UE/AELE": 0.5644171779141104
+      }
+     },
+     "permutation": {
+      "audit_gender": {
+       "p_valeur": 0.905,
+       "khi2": 0.022813030897378826,
+       "taux_selection": {
+        "m": 0.5617128463476071,
+        "f": 0.5454545454545454
+       }
+      },
+      "audit_age_band": {
+       "p_valeur": 0.88,
+       "khi2": 1.4883958643443362,
+       "taux_selection": {
+        "26-35": 0.5679012345679012,
+        "36-50": 0.6186440677966102,
+        "51+": 0.5045871559633027,
+        "18-25": 0.5238095238095238
+       }
+      },
+      "audit_nationality_group": {
+       "p_valeur": 0.06,
+       "khi2": 8.938769114687886,
+       "taux_selection": {
+        "UE/AELE": 0.5644171779141104,
+        "CH": 0.6845637583892618,
+        "autre": 0.42142857142857143
+       }
+      }
+     }
+    },
+    {
+     "graine_vivier": 1005,
+     "di_ratio": {
+      "audit_gender": 0.9387931034482759,
+      "audit_age_band": 0.7631519274376417,
+      "audit_nationality_group": 0.7554238650060265
+     },
+     "alertes": [
+      "audit_age_band: ratio 0.76 < 0,8 (groupe le moins sélectionné : 18-25)",
+      "audit_nationality_group: ratio 0.76 < 0,8 (groupe le moins sélectionné : UE/AELE)"
+     ],
+     "invariance_contrefactuelle": true,
+     "taux_selection": {
+      "audit_gender": {
+       "m": 0.45517241379310347,
+       "f": 0.48484848484848486
+      },
+      "audit_age_band": {
+       "36-50": 0.4372623574144487,
+       "18-25": 0.42063492063492064,
+       "26-35": 0.5511811023622047,
+       "51+": 0.4329896907216495
+      },
+      "audit_nationality_group": {
+       "CH": 0.4716312056737589,
+       "UE/AELE": 0.41603053435114506,
+       "autre": 0.5507246376811594
+      }
+     },
+     "permutation": {
+      "audit_gender": {
+       "p_valeur": 0.86,
+       "khi2": 0.06020002985520211,
+       "taux_selection": {
+        "m": 0.45517241379310347,
+        "f": 0.48484848484848486
+       }
+      },
+      "audit_age_band": {
+       "p_valeur": 0.69,
+       "khi2": 3.177683936147455,
+       "taux_selection": {
+        "36-50": 0.4372623574144487,
+        "26-35": 0.5511811023622047,
+        "18-25": 0.42063492063492064,
+        "51+": 0.4329896907216495
+       }
+      },
+      "audit_nationality_group": {
+       "p_valeur": 0.58,
+       "khi2": 2.421830325933115,
+       "taux_selection": {
+        "CH": 0.4716312056737589,
+        "UE/AELE": 0.41603053435114506,
+        "autre": 0.5507246376811594
+       }
+      }
+     }
+    },
+    {
+     "graine_vivier": 1006,
+     "di_ratio": {
+      "audit_gender": 0.7348020078081428,
+      "audit_age_band": 0.5748587570621468,
+      "audit_nationality_group": 0.6225961538461539
+     },
+     "alertes": [
+      "audit_gender: ratio 0.73 < 0,8 (groupe le moins sélectionné : m)",
+      "audit_age_band: ratio 0.57 < 0,8 (groupe le moins sélectionné : 18-25)",
+      "audit_nationality_group: ratio 0.62 < 0,8 (groupe le moins sélectionné : UE/AELE)"
+     ],
+     "invariance_contrefactuelle": true,
+     "taux_selection": {
+      "audit_gender": {
+       "m": 0.5214723926380368,
+       "f": 0.7096774193548387
+      },
+      "audit_age_band": {
+       "36-50": 0.6378378378378379,
+       "26-35": 0.43722943722943725,
+       "18-25": 0.36666666666666664,
+       "51+": 0.6351351351351351
+      },
+      "audit_nationality_group": {
+       "CH": 0.5660377358490566,
+       "UE/AELE": 0.47435897435897434,
+       "autre": 0.7619047619047619
+      }
+     },
+     "permutation": {
+      "audit_gender": {
+       "p_valeur": 0.375,
+       "khi2": 1.9384438311300947,
+       "taux_selection": {
+        "m": 0.5214723926380368,
+        "f": 0.7096774193548387
+       }
+      },
+      "audit_age_band": {
+       "p_valeur": 0.18,
+       "khi2": 10.801645520057072,
+       "taux_selection": {
+        "26-35": 0.43722943722943725,
+        "36-50": 0.6378378378378379,
+        "51+": 0.6351351351351351,
+        "18-25": 0.36666666666666664
+       }
+      },
+      "audit_nationality_group": {
+       "p_valeur": 0.415,
+       "khi2": 4.119101138173409,
+       "taux_selection": {
+        "CH": 0.5660377358490566,
+        "UE/AELE": 0.47435897435897434,
+        "autre": 0.7619047619047619
+       }
+      }
+     }
+    },
+    {
+     "graine_vivier": 1007,
+     "di_ratio": {
+      "audit_gender": 0.5895787352461376,
+      "audit_age_band": 0.5028735632183908,
+      "audit_nationality_group": 0.580791788856305
+     },
+     "alertes": [
+      "audit_gender: ratio 0.59 < 0,8 (groupe le moins sélectionné : m)",
+      "audit_age_band: ratio 0.50 < 0,8 (groupe le moins sélectionné : 36-50)",
+      "audit_nationality_group: ratio 0.58 < 0,8 (groupe le moins sélectionné : autre)"
+     ],
+     "invariance_contrefactuelle": true,
+     "taux_selection": {
+      "audit_gender": {
+       "m": 0.4176182707993475,
+       "f": 0.7083333333333334
+      },
+      "audit_age_band": {
+       "36-50": 0.30701754385964913,
+       "51+": 0.6105263157894737,
+       "18-25": 0.43010752688172044,
+       "26-35": 0.373015873015873
+      },
+      "audit_nationality_group": {
+       "CH": 0.37822349570200575,
+       "UE/AELE": 0.5321888412017167,
+       "autre": 0.3090909090909091
+      }
+     },
+     "permutation": {
+      "audit_gender": {
+       "p_valeur": 0.18,
+       "khi2": 4.554535979699114,
+       "taux_selection": {
+        "m": 0.4176182707993475,
+        "f": 0.7083333333333334
+       }
+      },
+      "audit_age_band": {
+       "p_valeur": 0.015,
+       "khi2": 23.446098220461543,
+       "taux_selection": {
+        "36-50": 0.30701754385964913,
+        "51+": 0.6105263157894737,
+        "26-35": 0.373015873015873,
+        "18-25": 0.43010752688172044
+       }
+      },
+      "audit_nationality_group": {
+       "p_valeur": 0.075,
+       "khi2": 9.733414124520536,
+       "taux_selection": {
+        "CH": 0.37822349570200575,
+        "UE/AELE": 0.5321888412017167,
+        "autre": 0.3090909090909091
+       }
+      }
+     }
+    },
+    {
+     "graine_vivier": 1008,
+     "di_ratio": {
+      "audit_gender": 0.9248589248589248,
+      "audit_age_band": 0.5469587865788265,
+      "audit_nationality_group": 0.4702437181182695
+     },
+     "alertes": [
+      "audit_age_band: ratio 0.55 < 0,8 (groupe le moins sélectionné : 51+)",
+      "audit_nationality_group: ratio 0.47 < 0,8 (groupe le moins sélectionné : autre)"
+     ],
+     "invariance_contrefactuelle": true,
+     "taux_selection": {
+      "audit_gender": {
+       "m": 0.4277456647398844,
+       "f": 0.3956043956043956
+      },
+      "audit_age_band": {
+       "36-50": 0.5125,
+       "18-25": 0.3055555555555556,
+       "51+": 0.2803738317757009,
+       "26-35": 0.5126050420168067
+      },
+      "audit_nationality_group": {
+       "CH": 0.5114503816793893,
+       "UE/AELE": 0.3903345724907063,
+       "autre": 0.24050632911392406
+      }
+     },
+     "permutation": {
+      "audit_gender": {
+       "p_valeur": 0.72,
+       "khi2": 0.189110257936713,
+       "taux_selection": {
+        "m": 0.4277456647398844,
+        "f": 0.3956043956043956
+       }
+      },
+      "audit_age_band": {
+       "p_valeur": 0.02,
+       "khi2": 16.64674746531712,
+       "taux_selection": {
+        "36-50": 0.5125,
+        "18-25": 0.3055555555555556,
+        "26-35": 0.5126050420168067,
+        "51+": 0.2803738317757009
+       }
+      },
+      "audit_nationality_group": {
+       "p_valeur": 0.045,
+       "khi2": 11.745550081137214,
+       "taux_selection": {
+        "UE/AELE": 0.3903345724907063,
+        "CH": 0.5114503816793893,
+        "autre": 0.24050632911392406
+       }
+      }
+     }
+    },
+    {
+     "graine_vivier": 1009,
+     "di_ratio": {
+      "audit_gender": 0.8781793842034806,
+      "audit_age_band": 0.5488636363636363,
+      "audit_nationality_group": 0.6535834535834536
+     },
+     "alertes": [
+      "audit_age_band: ratio 0.55 < 0,8 (groupe le moins sélectionné : 18-25)",
+      "audit_nationality_group: ratio 0.65 < 0,8 (groupe le moins sélectionné : CH)"
+     ],
+     "invariance_contrefactuelle": true,
+     "taux_selection": {
+      "audit_gender": {
+       "m": 0.43902439024390244,
+       "f": 0.3855421686746988
+      },
+      "audit_age_band": {
+       "51+": 0.40229885057471265,
+       "36-50": 0.44554455445544555,
+       "26-35": 0.546583850931677,
+       "18-25": 0.3
+      },
+      "audit_nationality_group": {
+       "CH": 0.3761904761904762,
+       "UE/AELE": 0.5755813953488372,
+       "autre": 0.4153846153846154
+      }
+     },
+     "permutation": {
+      "audit_gender": {
+       "p_valeur": 0.525,
+       "khi2": 0.4798334526701786,
+       "taux_selection": {
+        "m": 0.43902439024390244,
+        "f": 0.3855421686746988
+       }
+      },
+      "audit_age_band": {
+       "p_valeur": 0.06,
+       "khi2": 10.167836508265383,
+       "taux_selection": {
+        "36-50": 0.44554455445544555,
+        "51+": 0.40229885057471265,
+        "26-35": 0.546583850931677,
+        "18-25": 0.3
+       }
+      },
+      "audit_nationality_group": {
+       "p_valeur": 0.035,
+       "khi2": 11.27069352609396,
+       "taux_selection": {
+        "CH": 0.3761904761904762,
+        "UE/AELE": 0.5755813953488372,
+        "autre": 0.4153846153846154
+       }
+      }
+     }
+    },
+    {
+     "graine_vivier": 1010,
+     "di_ratio": {
+      "audit_gender": 0.883166169693684,
+      "audit_age_band": 0.48103448275862065,
+      "audit_nationality_group": 0.9410377358490567
+     },
+     "alertes": [
+      "audit_age_band: ratio 0.48 < 0,8 (groupe le moins sélectionné : 18-25)"
+     ],
+     "invariance_contrefactuelle": true,
+     "taux_selection": {
+      "audit_gender": {
+       "m": 0.6574585635359116,
+       "f": 0.5806451612903226
+      },
+      "audit_age_band": {
+       "26-35": 0.6394557823129252,
+       "36-50": 0.6687898089171974,
+       "18-25": 0.46551724137931033,
+       "51+": 0.967741935483871
+      },
+      "audit_nationality_group": {
+       "CH": 0.6273584905660378,
+       "UE/AELE": 0.6666666666666666
+      }
+     },
+     "permutation": {
+      "audit_gender": {
+       "p_valeur": 0.695,
+       "khi2": 0.25864512787381977,
+       "taux_selection": {
+        "m": 0.6574585635359116,
+        "f": 0.5806451612903226
+       }
+      },
+      "audit_age_band": {
+       "p_valeur": 0.085,
+       "khi2": 7.944015010948965,
+       "taux_selection": {
+        "36-50": 0.6687898089171974,
+        "26-35": 0.6394557823129252,
+        "18-25": 0.46551724137931033,
+        "51+": 0.967741935483871
+       }
+      },
+      "audit_nationality_group": {
+       "p_valeur": 0.735,
+       "khi2": 0.8846228257665094,
+       "taux_selection": {
+        "CH": 0.6273584905660378,
+        "UE/AELE": 0.6666666666666666
+       }
+      }
+     }
+    },
+    {
+     "graine_vivier": 1011,
+     "di_ratio": {
+      "audit_gender": 0.6968233055189577,
+      "audit_age_band": 0.7519226543616787,
+      "audit_nationality_group": 0.7094462540716612
+     },
+     "alertes": [
+      "audit_gender: ratio 0.70 < 0,8 (groupe le moins sélectionné : f)",
+      "audit_age_band: ratio 0.75 < 0,8 (groupe le moins sélectionné : 51+)",
+      "audit_nationality_group: ratio 0.71 < 0,8 (groupe le moins sélectionné : CH)"
+     ],
+     "invariance_contrefactuelle": true,
+     "taux_selection": {
+      "audit_gender": {
+       "m": 0.4517857142857143,
+       "f": 0.3148148148148148
+      },
+      "audit_age_band": {
+       "26-35": 0.4682926829268293,
+       "36-50": 0.4703389830508475,
+       "51+": 0.35365853658536583,
+       "18-25": 0.37362637362637363
+      },
+      "audit_nationality_group": {
+       "CH": 0.3941368078175896,
+       "UE/AELE": 0.46017699115044247,
+       "autre": 0.5555555555555556
+      }
+     },
+     "permutation": {
+      "audit_gender": {
+       "p_valeur": 0.365,
+       "khi2": 2.101235057809132,
+       "taux_selection": {
+        "m": 0.4517857142857143,
+        "f": 0.3148148148148148
+       }
+      },
+      "audit_age_band": {
+       "p_valeur": 0.765,
+       "khi2": 3.168870487221045,
+       "taux_selection": {
+        "36-50": 0.4703389830508475,
+        "26-35": 0.4682926829268293,
+        "18-25": 0.37362637362637363,
+        "51+": 0.35365853658536583
+       }
+      },
+      "audit_nationality_group": {
+       "p_valeur": 0.5,
+       "khi2": 4.137266470009836,
+       "taux_selection": {
+        "CH": 0.3941368078175896,
+        "UE/AELE": 0.46017699115044247,
+        "autre": 0.5555555555555556
+       }
+      }
+     }
+    },
+    {
+     "graine_vivier": 1012,
+     "di_ratio": {
+      "audit_age_band": 0.6142234367883402,
+      "audit_nationality_group": 0.8631578947368421
+     },
+     "alertes": [
+      "audit_age_band: ratio 0.61 < 0,8 (groupe le moins sélectionné : 18-25)"
+     ],
+     "invariance_contrefactuelle": true,
+     "taux_selection": {
+      "audit_gender": {
+       "m": 0.4359375
+      },
+      "audit_age_band": {
+       "26-35": 0.461864406779661,
+       "36-50": 0.46153846153846156,
+       "18-25": 0.28368794326241137
+      },
+      "audit_nationality_group": {
+       "CH": 0.4,
+       "UE/AELE": 0.4634146341463415,
+       "autre": 0.4444444444444444
+      }
+     },
+     "permutation": {
+      "audit_gender": {
+       "p_valeur": 0.885,
+       "khi2": 0.018761160714285696,
+       "taux_selection": {
+        "m": 0.4359375
+       }
+      },
+      "audit_age_band": {
+       "p_valeur": 0.025,
+       "khi2": 18.900705108390827,
+       "taux_selection": {
+        "36-50": 0.46153846153846156,
+        "26-35": 0.461864406779661,
+        "18-25": 0.28368794326241137
+       }
+      },
+      "audit_nationality_group": {
+       "p_valeur": 0.74,
+       "khi2": 1.3466202090592319,
+       "taux_selection": {
+        "UE/AELE": 0.4634146341463415,
+        "CH": 0.4,
+        "autre": 0.4444444444444444
+       }
+      }
+     }
+    },
+    {
+     "graine_vivier": 1013,
+     "di_ratio": {
+      "audit_gender": 0.7109190357215208,
+      "audit_age_band": 0.8241417497231451,
+      "audit_nationality_group": 0.5456989247311828
+     },
+     "alertes": [
+      "audit_gender: ratio 0.71 < 0,8 (groupe le moins sélectionné : f)",
+      "audit_nationality_group: ratio 0.55 < 0,8 (groupe le moins sélectionné : autre)"
+     ],
+     "invariance_contrefactuelle": true,
+     "taux_selection": {
+      "audit_gender": {
+       "m": 0.6675531914893617,
+       "f": 0.4745762711864407
+      },
+      "audit_age_band": {
+       "26-35": 0.7049180327868853,
+       "18-25": 0.580952380952381,
+       "51+": 0.6307692307692307,
+       "36-50": 0.5853658536585366
+      },
+      "audit_nationality_group": {
+       "UE/AELE": 0.6330645161290323,
+       "autre": 0.4264705882352941,
+       "CH": 0.7815126050420168
+      }
+     },
+     "permutation": {
+      "audit_gender": {
+       "p_valeur": 0.1,
+       "khi2": 2.961054465293209,
+       "taux_selection": {
+        "m": 0.6675531914893617,
+        "f": 0.4745762711864407
+       }
+      },
+      "audit_age_band": {
+       "p_valeur": 0.715,
+       "khi2": 2.162204636440749,
+       "taux_selection": {
+        "26-35": 0.7049180327868853,
+        "18-25": 0.580952380952381,
+        "36-50": 0.5853658536585366,
+        "51+": 0.6307692307692307
+       }
+      },
+      "audit_nationality_group": {
+       "p_valeur": 0.065,
+       "khi2": 8.566881851596001,
+       "taux_selection": {
+        "UE/AELE": 0.6330645161290323,
+        "CH": 0.7815126050420168,
+        "autre": 0.4264705882352941
+       }
+      }
+     }
+    },
+    {
+     "graine_vivier": 1014,
+     "di_ratio": {
+      "audit_gender": 0.721477202393233,
+      "audit_age_band": 0.3198412698412698,
+      "audit_nationality_group": 0.7195767195767195
+     },
+     "alertes": [
+      "audit_gender: ratio 0.72 < 0,8 (groupe le moins sélectionné : f)",
+      "audit_age_band: ratio 0.32 < 0,8 (groupe le moins sélectionné : 18-25)",
+      "audit_nationality_group: ratio 0.72 < 0,8 (groupe le moins sélectionné : CH)"
+     ],
+     "invariance_contrefactuelle": true,
+     "taux_selection": {
+      "audit_gender": {
+       "m": 0.48698884758364314,
+       "f": 0.35135135135135137
+      },
+      "audit_age_band": {
+       "36-50": 0.5568627450980392,
+       "18-25": 0.22142857142857142,
+       "26-35": 0.515625,
+       "51+": 0.6923076923076923
+      },
+      "audit_nationality_group": {
+       "UE/AELE": 0.45302013422818793,
+       "CH": 0.4497354497354497,
+       "autre": 0.625
+      }
+     },
+     "permutation": {
+      "audit_gender": {
+       "p_valeur": 0.525,
+       "khi2": 1.3317135993715925,
+       "taux_selection": {
+        "m": 0.48698884758364314,
+        "f": 0.35135135135135137
+       }
+      },
+      "audit_age_band": {
+       "p_valeur": 0.005,
+       "khi2": 27.958346922685156,
+       "taux_selection": {
+        "36-50": 0.5568627450980392,
+        "18-25": 0.22142857142857142,
+        "26-35": 0.515625,
+        "51+": 0.6923076923076923
+       }
+      },
+      "audit_nationality_group": {
+       "p_valeur": 0.4,
+       "khi2": 4.680483728302519,
+       "taux_selection": {
+        "UE/AELE": 0.45302013422818793,
+        "CH": 0.4497354497354497,
+        "autre": 0.625
+       }
+      }
+     }
+    },
+    {
+     "graine_vivier": 1015,
+     "di_ratio": {
+      "audit_age_band": 0.8044047619047618,
+      "audit_nationality_group": 0.8223815213062525
+     },
+     "alertes": [],
+     "invariance_contrefactuelle": true,
+     "taux_selection": {
+      "audit_gender": {
+       "m": 0.4426751592356688
+      },
+      "audit_age_band": {
+       "36-50": 0.48068669527896996,
+       "26-35": 0.41708542713567837,
+       "51+": 0.45588235294117646,
+       "18-25": 0.38666666666666666
+      },
+      "audit_nationality_group": {
+       "UE/AELE": 0.4549019607843137,
+       "CH": 0.4576271186440678,
+       "autre": 0.3763440860215054
+      }
+     },
+     "permutation": {
+      "audit_gender": {
+       "p_valeur": 0.645,
+       "khi2": 0.27070657580211716,
+       "taux_selection": {
+        "m": 0.4426751592356688
+       }
+      },
+      "audit_age_band": {
+       "p_valeur": 0.765,
+       "khi2": 1.6256798031489335,
+       "taux_selection": {
+        "36-50": 0.48068669527896996,
+        "26-35": 0.41708542713567837,
+        "51+": 0.45588235294117646,
+        "18-25": 0.38666666666666666
+       }
+      },
+      "audit_nationality_group": {
+       "p_valeur": 0.69,
+       "khi2": 1.1474585342401247,
+       "taux_selection": {
+        "CH": 0.4576271186440678,
+        "UE/AELE": 0.4549019607843137,
+        "autre": 0.3763440860215054
+       }
+      }
+     }
+    },
+    {
+     "graine_vivier": 1016,
+     "di_ratio": {
+      "audit_gender": 0.8077123501823866,
+      "audit_age_band": 0.564139941690962,
+      "audit_nationality_group": 0.5606312292358804
+     },
+     "alertes": [
+      "audit_age_band: ratio 0.56 < 0,8 (groupe le moins sélectionné : 18-25)",
+      "audit_nationality_group: ratio 0.56 < 0,8 (groupe le moins sélectionné : UE/AELE)"
+     ],
+     "invariance_contrefactuelle": true,
+     "taux_selection": {
+      "audit_gender": {
+       "m": 0.6138613861386139,
+       "f": 0.76
+      },
+      "audit_age_band": {
+       "26-35": 0.6218487394957983,
+       "51+": 0.7777777777777778,
+       "36-50": 0.6714285714285714,
+       "18-25": 0.4387755102040816
+      },
+      "audit_nationality_group": {
+       "UE/AELE": 0.5232558139534884,
+       "CH": 0.6563876651982379,
+       "autre": 0.9333333333333333
+      }
+     },
+     "permutation": {
+      "audit_gender": {
+       "p_valeur": 0.535,
+       "khi2": 0.8078673934809207,
+       "taux_selection": {
+        "m": 0.6138613861386139,
+        "f": 0.76
+       }
+      },
+      "audit_age_band": {
+       "p_valeur": 0.29,
+       "khi2": 8.642935676143114,
+       "taux_selection": {
+        "36-50": 0.6714285714285714,
+        "26-35": 0.6218487394957983,
+        "18-25": 0.4387755102040816,
+        "51+": 0.7777777777777778
+       }
+      },
+      "audit_nationality_group": {
+       "p_valeur": 0.125,
+       "khi2": 7.797988478954117,
+       "taux_selection": {
+        "CH": 0.6563876651982379,
+        "UE/AELE": 0.5232558139534884,
+        "autre": 0.9333333333333333
+       }
+      }
+     }
+    },
+    {
+     "graine_vivier": 1017,
+     "di_ratio": {
+      "audit_gender": 0.6162013662013662,
+      "audit_age_band": 0.527719298245614,
+      "audit_nationality_group": 0.6909725788230461
+     },
+     "alertes": [
+      "audit_gender: ratio 0.62 < 0,8 (groupe le moins sélectionné : m)",
+      "audit_age_band: ratio 0.53 < 0,8 (groupe le moins sélectionné : 26-35)",
+      "audit_nationality_group: ratio 0.69 < 0,8 (groupe le moins sélectionné : autre)"
+     ],
+     "invariance_contrefactuelle": true,
+     "taux_selection": {
+      "audit_gender": {
+       "m": 0.37258687258687256,
+       "f": 0.6046511627906976
+      },
+      "audit_age_band": {
+       "36-50": 0.5089285714285714,
+       "26-35": 0.26857142857142857,
+       "18-25": 0.39285714285714285,
+       "51+": 0.4461538461538462
+      },
+      "audit_nationality_group": {
+       "CH": 0.3879003558718861,
+       "UE/AELE": 0.46120689655172414,
+       "autre": 0.31868131868131866
+      }
+     },
+     "permutation": {
+      "audit_gender": {
+       "p_valeur": 0.135,
+       "khi2": 9.79216584541691,
+       "taux_selection": {
+        "m": 0.37258687258687256,
+        "f": 0.6046511627906976
+       }
+      },
+      "audit_age_band": {
+       "p_valeur": 0.29,
+       "khi2": 14.316475442924425,
+       "taux_selection": {
+        "36-50": 0.5089285714285714,
+        "26-35": 0.26857142857142857,
+        "18-25": 0.39285714285714285,
+        "51+": 0.4461538461538462
+       }
+      },
+      "audit_nationality_group": {
+       "p_valeur": 0.665,
+       "khi2": 3.680445377748167,
+       "taux_selection": {
+        "CH": 0.3879003558718861,
+        "UE/AELE": 0.46120689655172414,
+        "autre": 0.31868131868131866
+       }
+      }
+     }
+    },
+    {
+     "graine_vivier": 1018,
+     "di_ratio": {
+      "audit_gender": 0.7668843443890703,
+      "audit_age_band": 0.5551159863333933,
+      "audit_nationality_group": 0.8566573988260735
+     },
+     "alertes": [
+      "audit_gender: ratio 0.77 < 0,8 (groupe le moins sélectionné : m)",
+      "audit_age_band: ratio 0.56 < 0,8 (groupe le moins sélectionné : 18-25)"
+     ],
+     "invariance_contrefactuelle": true,
+     "taux_selection": {
+      "audit_gender": {
+       "m": 0.39697542533081287,
+       "f": 0.5176470588235295
+      },
+      "audit_age_band": {
+       "26-35": 0.4550561797752809,
+       "18-25": 0.29518072289156627,
+       "36-50": 0.5317460317460317,
+       "51+": 0.3958333333333333
+      },
+      "audit_nationality_group": {
+       "UE/AELE": 0.4406779661016949,
+       "CH": 0.37751004016064255
+      }
+     },
+     "permutation": {
+      "audit_gender": {
+       "p_valeur": 0.29,
+       "khi2": 2.577812139100313,
+       "taux_selection": {
+        "m": 0.39697542533081287,
+        "f": 0.5176470588235295
+       }
+      },
+      "audit_age_band": {
+       "p_valeur": 0.215,
+       "khi2": 10.728009952077706,
+       "taux_selection": {
+        "26-35": 0.4550561797752809,
+        "18-25": 0.29518072289156627,
+        "51+": 0.3958333333333333,
+        "36-50": 0.5317460317460317
+       }
+      },
+      "audit_nationality_group": {
+       "p_valeur": 0.69,
+       "khi2": 1.4777901263279567,
+       "taux_selection": {
+        "UE/AELE": 0.4406779661016949,
+        "CH": 0.37751004016064255
+       }
+      }
+     }
+    },
+    {
+     "graine_vivier": 1019,
+     "di_ratio": {
+      "audit_gender": 0.7297334120532268,
+      "audit_age_band": 0.5884627779568159,
+      "audit_nationality_group": 0.864303493262381
+     },
+     "alertes": [
+      "audit_gender: ratio 0.73 < 0,8 (groupe le moins sélectionné : f)",
+      "audit_age_band: ratio 0.59 < 0,8 (groupe le moins sélectionné : 51+)"
+     ],
+     "invariance_contrefactuelle": true,
+     "taux_selection": {
+      "audit_gender": {
+       "m": 0.5509708737864077,
+       "f": 0.4020618556701031
+      },
+      "audit_age_band": {
+       "18-25": 0.40540540540540543,
+       "26-35": 0.5301204819277109,
+       "36-50": 0.6445783132530121,
+       "51+": 0.3793103448275862
+      },
+      "audit_nationality_group": {
+       "CH": 0.4973821989528796,
+       "UE/AELE": 0.5188679245283019,
+       "autre": 0.5754716981132075
+      }
+     },
+     "permutation": {
+      "audit_gender": {
+       "p_valeur": 0.175,
+       "khi2": 3.3314194240982293,
+       "taux_selection": {
+        "m": 0.5509708737864077,
+        "f": 0.4020618556701031
+       }
+      },
+      "audit_age_band": {
+       "p_valeur": 0.07,
+       "khi2": 9.773176702915627,
+       "taux_selection": {
+        "36-50": 0.6445783132530121,
+        "26-35": 0.5301204819277109,
+        "18-25": 0.40540540540540543,
+        "51+": 0.3793103448275862
+       }
+      },
+      "audit_nationality_group": {
+       "p_valeur": 0.745,
+       "khi2": 0.8050830053499854,
+       "taux_selection": {
+        "UE/AELE": 0.5188679245283019,
+        "CH": 0.4973821989528796,
+        "autre": 0.5754716981132075
+       }
+      }
+     }
+    }
+   ],
+   "ecart_au_hasard_apparie": {
+    "audit_gender": {
+     "moyenne": -0.08967587335658196,
+     "ic95": [
+      -0.14981504490731212,
+      -0.03398022586873768
+     ]
+    },
+    "audit_age_band": {
+     "moyenne": -0.09847478362555724,
+     "ic95": [
+      -0.16348801718387226,
+      -0.028794807897483593
+     ]
+    },
+    "audit_nationality_group": {
+     "moyenne": -0.08096608422702507,
+     "ic95": [
+      -0.1328487281654894,
+      -0.03310668936125867
+     ]
+    }
+   }
+  },
+  "reference_tirage_au_hasard": {
+   "plafond_experience_ans": 15.0,
+   "tirages": 20,
+   "test_permutation": {
+    "audit_gender": {
+     "viviers": 0,
+     "part_p_inf_0_05": null,
+     "p_mediane": null,
+     "taux_selection_moyens": {}
+    },
+    "audit_age_band": {
+     "viviers": 0,
+     "part_p_inf_0_05": null,
+     "p_mediane": null,
+     "taux_selection_moyens": {}
+    },
+    "audit_nationality_group": {
+     "viviers": 0,
+     "part_p_inf_0_05": null,
+     "p_mediane": null,
+     "taux_selection_moyens": {}
+    }
+   },
+   "di_ratio": {
+    "audit_gender": {
+     "min": 0.7243066884176182,
+     "max": 0.9961389961389961,
+     "moyenne": 0.8671209422458868
+    },
+    "audit_age_band": {
+     "min": 0.5371900826446281,
+     "max": 0.9212598425196851,
+     "moyenne": 0.7307952234974557
+    },
+    "audit_nationality_group": {
+     "min": 0.6249999999999999,
+     "max": 0.9747899159663864,
+     "moyenne": 0.8071550246487659
+    }
+   },
+   "tirages_avec_alerte": 18,
+   "invariance_contrefactuelle": true,
+   "experience_moyenne_proposes_ans": 10.38749051282515,
+   "details": [
+    {
+     "graine_vivier": "vivier publié",
+     "di_ratio": {
+      "audit_age_band": 0.711,
+      "audit_nationality_group": 0.9260964912280701
+     },
+     "alertes": [
+      "audit_age_band: ratio 0.71 < 0,8 (groupe le moins sélectionné : 36-50)"
+     ],
+     "invariance_contrefactuelle": true,
+     "taux_selection": {
+      "audit_gender": {
+       "m": 0.525987525987526
+      },
+      "audit_age_band": {
+       "36-50": 0.45,
+       "26-35": 0.572463768115942,
+       "51+": 0.6329113924050633,
+       "18-25": 0.5294117647058824
+      },
+      "audit_nationality_group": {
+       "UE/AELE": 0.5225225225225225,
+       "autre": 0.5533980582524272,
+       "CH": 0.5125
+      }
+     },
+     "permutation": {}
+    },
+    {
+     "graine_vivier": 1001,
+     "di_ratio": {
+      "audit_gender": 0.8175438596491228,
+      "audit_age_band": 0.6059429700734049,
+      "audit_nationality_group": 0.868207238577609
+     },
+     "alertes": [
+      "audit_age_band: ratio 0.61 < 0,8 (groupe le moins sélectionné : 26-35)"
+     ],
+     "invariance_contrefactuelle": true,
+     "taux_selection": {
+      "audit_gender": {
+       "m": 0.47639484978540775,
+       "f": 0.3894736842105263
+      },
+      "audit_age_band": {
+       "26-35": 0.39920948616600793,
+       "36-50": 0.44970414201183434,
+       "51+": 0.6588235294117647,
+       "18-25": 0.48148148148148145
+      },
+      "audit_nationality_group": {
+       "CH": 0.453781512605042,
+       "UE/AELE": 0.4834710743801653,
+       "autre": 0.41975308641975306
+      }
+     },
+     "permutation": {}
+    },
+    {
+     "graine_vivier": 1002,
+     "di_ratio": {
+      "audit_age_band": 0.9212598425196851,
+      "audit_nationality_group": 0.9271099744245525
+     },
+     "alertes": [],
+     "invariance_contrefactuelle": true,
+     "taux_selection": {
+      "audit_gender": {
+       "m": 0.4506065857885615
+      },
+      "audit_age_band": {
+       "36-50": 0.4444444444444444,
+       "26-35": 0.4700854700854701,
+       "18-25": 0.4330708661417323,
+       "51+": 0.46153846153846156
+      },
+      "audit_nationality_group": {
+       "CH": 0.4689655172413793,
+       "UE/AELE": 0.44017094017094016,
+       "autre": 0.43478260869565216
+      }
+     },
+     "permutation": {}
+    },
+    {
+     "graine_vivier": 1003,
+     "di_ratio": {
+      "audit_age_band": 0.5993715632364494,
+      "audit_nationality_group": 0.9747899159663864
+     },
+     "alertes": [
+      "audit_age_band: ratio 0.60 < 0,8 (groupe le moins sélectionné : 51+)"
+     ],
+     "invariance_contrefactuelle": true,
+     "taux_selection": {
+      "audit_gender": {
+       "m": 0.4267631103074141
+      },
+      "audit_age_band": {
+       "26-35": 0.3875,
+       "36-50": 0.5,
+       "18-25": 0.5229357798165137,
+       "51+": 0.31343283582089554
+      },
+      "audit_nationality_group": {
+       "UE/AELE": 0.4311594202898551,
+       "CH": 0.42028985507246375
+      }
+     },
+     "permutation": {}
+    },
+    {
+     "graine_vivier": 1004,
+     "di_ratio": {
+      "audit_gender": 0.8923544228774632,
+      "audit_age_band": 0.6907585589617364,
+      "audit_nationality_group": 0.6622542595019659
+     },
+     "alertes": [
+      "audit_age_band: ratio 0.69 < 0,8 (groupe le moins sélectionné : 51+)",
+      "audit_nationality_group: ratio 0.66 < 0,8 (groupe le moins sélectionné : autre)"
+     ],
+     "invariance_contrefactuelle": true,
+     "taux_selection": {
+      "audit_gender": {
+       "m": 0.5516372795969773,
+       "f": 0.6181818181818182
+      },
+      "audit_age_band": {
+       "26-35": 0.5555555555555556,
+       "51+": 0.44954128440366975,
+       "36-50": 0.6186440677966102,
+       "18-25": 0.6507936507936508
+      },
+      "audit_nationality_group": {
+       "autre": 0.44285714285714284,
+       "CH": 0.5503355704697986,
+       "UE/AELE": 0.6687116564417178
+      }
+     },
+     "permutation": {}
+    },
+    {
+     "graine_vivier": 1005,
+     "di_ratio": {
+      "audit_gender": 0.9250398724082936,
+      "audit_age_band": 0.6309278350515464,
+      "audit_nationality_group": 0.7484933708316593
+     },
+     "alertes": [
+      "audit_age_band: ratio 0.63 < 0,8 (groupe le moins sélectionné : 51+)",
+      "audit_nationality_group: ratio 0.75 < 0,8 (groupe le moins sélectionné : UE/AELE)"
+     ],
+     "invariance_contrefactuelle": true,
+     "taux_selection": {
+      "audit_gender": {
+       "m": 0.4586206896551724,
+       "f": 0.42424242424242425
+      },
+      "audit_age_band": {
+       "36-50": 0.4524714828897338,
+       "18-25": 0.5555555555555556,
+       "26-35": 0.44881889763779526,
+       "51+": 0.35051546391752575
+      },
+      "audit_nationality_group": {
+       "CH": 0.475177304964539,
+       "UE/AELE": 0.4122137404580153,
+       "autre": 0.5507246376811594
+      }
+     },
+     "permutation": {}
+    },
+    {
+     "graine_vivier": 1006,
+     "di_ratio": {
+      "audit_gender": 0.91217905021586,
+      "audit_age_band": 0.841891891891892,
+      "audit_nationality_group": 0.7641509433962265
+     },
+     "alertes": [
+      "audit_nationality_group: ratio 0.76 < 0,8 (groupe le moins sélectionné : CH)"
+     ],
+     "invariance_contrefactuelle": true,
+     "taux_selection": {
+      "audit_gender": {
+       "m": 0.5296523517382413,
+       "f": 0.5806451612903226
+      },
+      "audit_age_band": {
+       "36-50": 0.4810810810810811,
+       "26-35": 0.5714285714285714,
+       "18-25": 0.5666666666666667,
+       "51+": 0.527027027027027
+      },
+      "audit_nationality_group": {
+       "CH": 0.5094339622641509,
+       "UE/AELE": 0.5470085470085471,
+       "autre": 0.6666666666666666
+      }
+     },
+     "permutation": {}
+    },
+    {
+     "graine_vivier": 1007,
+     "di_ratio": {
+      "audit_gender": 0.7243066884176182,
+      "audit_age_band": 0.7022849462365591,
+      "audit_nationality_group": 0.9184210526315789
+     },
+     "alertes": [
+      "audit_gender: ratio 0.72 < 0,8 (groupe le moins sélectionné : m)",
+      "audit_age_band: ratio 0.70 < 0,8 (groupe le moins sélectionné : 18-25)"
+     ],
+     "invariance_contrefactuelle": true,
+     "taux_selection": {
+      "audit_gender": {
+       "m": 0.42251223491027734,
+       "f": 0.5833333333333334
+      },
+      "audit_age_band": {
+       "36-50": 0.35964912280701755,
+       "51+": 0.5052631578947369,
+       "18-25": 0.3548387096774194,
+       "26-35": 0.49206349206349204
+      },
+      "audit_nationality_group": {
+       "CH": 0.4355300859598854,
+       "UE/AELE": 0.4248927038626609,
+       "autre": 0.4
+      }
+     },
+     "permutation": {}
+    },
+    {
+     "graine_vivier": 1008,
+     "di_ratio": {
+      "audit_gender": 0.9845857418111754,
+      "audit_age_band": 0.5371900826446281,
+      "audit_nationality_group": 0.8451872561369013
+     },
+     "alertes": [
+      "audit_age_band: ratio 0.54 < 0,8 (groupe le moins sélectionné : 18-25)"
+     ],
+     "invariance_contrefactuelle": true,
+     "taux_selection": {
+      "audit_gender": {
+       "m": 0.42196531791907516,
+       "f": 0.42857142857142855
+      },
+      "audit_age_band": {
+       "36-50": 0.5041666666666667,
+       "18-25": 0.2708333333333333,
+       "51+": 0.37383177570093457,
+       "26-35": 0.48739495798319327
+      },
+      "audit_nationality_group": {
+       "CH": 0.4618320610687023,
+       "UE/AELE": 0.3903345724907063,
+       "autre": 0.4050632911392405
+      }
+     },
+     "permutation": {}
+    },
+    {
+     "graine_vivier": 1009,
+     "di_ratio": {
+      "audit_gender": 0.8168105492837492,
+      "audit_age_band": 0.6812555260831124,
+      "audit_nationality_group": 0.6314685314685314
+     },
+     "alertes": [
+      "audit_age_band: ratio 0.68 < 0,8 (groupe le moins sélectionné : 51+)",
+      "audit_nationality_group: ratio 0.63 < 0,8 (groupe le moins sélectionné : autre)"
+     ],
+     "invariance_contrefactuelle": true,
+     "taux_selection": {
+      "audit_gender": {
+       "m": 0.4425087108013937,
+       "f": 0.3614457831325301
+      },
+      "audit_age_band": {
+       "51+": 0.3850574712643678,
+       "36-50": 0.3910891089108911,
+       "26-35": 0.5652173913043478,
+       "18-25": 0.39166666666666666
+      },
+      "audit_nationality_group": {
+       "CH": 0.4166666666666667,
+       "UE/AELE": 0.5116279069767442,
+       "autre": 0.3230769230769231
+      }
+     },
+     "permutation": {}
+    },
+    {
+     "graine_vivier": 1010,
+     "di_ratio": {
+      "audit_gender": 0.9896118097320941,
+      "audit_age_band": 0.834368530020704,
+      "audit_nationality_group": 0.9584643605870021
+     },
+     "alertes": [],
+     "invariance_contrefactuelle": true,
+     "taux_selection": {
+      "audit_gender": {
+       "m": 0.6519337016574586,
+       "f": 0.6451612903225806
+      },
+      "audit_age_band": {
+       "26-35": 0.6190476190476191,
+       "36-50": 0.6687898089171974,
+       "18-25": 0.6379310344827587,
+       "51+": 0.7419354838709677
+      },
+      "audit_nationality_group": {
+       "CH": 0.6273584905660378,
+       "UE/AELE": 0.6545454545454545
+      }
+     },
+     "permutation": {}
+    },
+    {
+     "graine_vivier": 1011,
+     "di_ratio": {
+      "audit_gender": 0.7850081156854065,
+      "audit_age_band": 0.7474226804123711,
+      "audit_nationality_group": 0.7792591470343155
+     },
+     "alertes": [
+      "audit_gender: ratio 0.79 < 0,8 (groupe le moins sélectionné : f)",
+      "audit_age_band: ratio 0.75 < 0,8 (groupe le moins sélectionné : 51+)",
+      "audit_nationality_group: ratio 0.78 < 0,8 (groupe le moins sélectionné : CH)"
+     ],
+     "invariance_contrefactuelle": true,
+     "taux_selection": {
+      "audit_gender": {
+       "m": 0.44821428571428573,
+       "f": 0.35185185185185186
+      },
+      "audit_age_band": {
+       "26-35": 0.47317073170731705,
+       "36-50": 0.4406779661016949,
+       "51+": 0.35365853658536583,
+       "18-25": 0.43956043956043955
+      },
+      "audit_nationality_group": {
+       "CH": 0.41368078175895767,
+       "UE/AELE": 0.4424778761061947,
+       "autre": 0.5308641975308642
+      }
+     },
+     "permutation": {}
+    },
+    {
+     "graine_vivier": 1012,
+     "di_ratio": {
+      "audit_age_band": 0.7910352805089647,
+      "audit_nationality_group": 0.7519893899204243
+     },
+     "alertes": [
+      "audit_age_band: ratio 0.79 < 0,8 (groupe le moins sélectionné : 36-50)",
+      "audit_nationality_group: ratio 0.75 < 0,8 (groupe le moins sélectionné : CH)"
+     ],
+     "invariance_contrefactuelle": true,
+     "taux_selection": {
+      "audit_gender": {
+       "m": 0.434375
+      },
+      "audit_age_band": {
+       "26-35": 0.4279661016949153,
+       "36-50": 0.39271255060728744,
+       "18-25": 0.49645390070921985
+      },
+      "audit_nationality_group": {
+       "CH": 0.40384615384615385,
+       "UE/AELE": 0.4451219512195122,
+       "autre": 0.5370370370370371
+      }
+     },
+     "permutation": {}
+    },
+    {
+     "graine_vivier": 1013,
+     "di_ratio": {
+      "audit_gender": 0.7678170308352051,
+      "audit_age_band": 0.8664208735110607,
+      "audit_nationality_group": 0.6249999999999999
+     },
+     "alertes": [
+      "audit_gender: ratio 0.77 < 0,8 (groupe le moins sélectionné : f)",
+      "audit_nationality_group: ratio 0.62 < 0,8 (groupe le moins sélectionné : autre)"
+     ],
+     "invariance_contrefactuelle": true,
+     "taux_selection": {
+      "audit_gender": {
+       "m": 0.6622340425531915,
+       "f": 0.5084745762711864
+      },
+      "audit_age_band": {
+       "26-35": 0.6557377049180327,
+       "18-25": 0.6571428571428571,
+       "51+": 0.6615384615384615,
+       "36-50": 0.573170731707317
+      },
+      "audit_nationality_group": {
+       "UE/AELE": 0.6653225806451613,
+       "autre": 0.4411764705882353,
+       "CH": 0.7058823529411765
+      }
+     },
+     "permutation": {}
+    },
+    {
+     "graine_vivier": 1014,
+     "di_ratio": {
+      "audit_gender": 0.9266288397573861,
+      "audit_age_band": 0.581306990881459,
+      "audit_nationality_group": 0.7896762731938414
+     },
+     "alertes": [
+      "audit_age_band: ratio 0.58 < 0,8 (groupe le moins sélectionné : 18-25)",
+      "audit_nationality_group: ratio 0.79 < 0,8 (groupe le moins sélectionné : UE/AELE)"
+     ],
+     "invariance_contrefactuelle": true,
+     "taux_selection": {
+      "audit_gender": {
+       "m": 0.4758364312267658,
+       "f": 0.5135135135135135
+      },
+      "audit_age_band": {
+       "36-50": 0.5529411764705883,
+       "18-25": 0.32142857142857145,
+       "26-35": 0.484375,
+       "51+": 0.5192307692307693
+      },
+      "audit_nationality_group": {
+       "UE/AELE": 0.4261744966442953,
+       "CH": 0.5396825396825397,
+       "autre": 0.5227272727272727
+      }
+     },
+     "permutation": {}
+    },
+    {
+     "graine_vivier": 1015,
+     "di_ratio": {
+      "audit_age_band": 0.7833481877599525,
+      "audit_nationality_group": 0.8294930875576036
+     },
+     "alertes": [
+      "audit_age_band: ratio 0.78 < 0,8 (groupe le moins sélectionné : 51+)"
+     ],
+     "invariance_contrefactuelle": true,
+     "taux_selection": {
+      "audit_gender": {
+       "m": 0.4410828025477707
+      },
+      "audit_age_band": {
+       "36-50": 0.44206008583690987,
+       "26-35": 0.49748743718592964,
+       "51+": 0.3897058823529412,
+       "18-25": 0.41333333333333333
+      },
+      "audit_nationality_group": {
+       "UE/AELE": 0.4666666666666667,
+       "CH": 0.4440677966101695,
+       "autre": 0.3870967741935484
+      }
+     },
+     "permutation": {}
+    },
+    {
+     "graine_vivier": 1016,
+     "di_ratio": {
+      "audit_gender": 0.9707611386138614,
+      "audit_age_band": 0.772594752186589,
+      "audit_nationality_group": 0.7128412537917087
+     },
+     "alertes": [
+      "audit_age_band: ratio 0.77 < 0,8 (groupe le moins sélectionné : 18-25)",
+      "audit_nationality_group: ratio 0.71 < 0,8 (groupe le moins sélectionné : UE/AELE)"
+     ],
+     "invariance_contrefactuelle": true,
+     "taux_selection": {
+      "audit_gender": {
+       "m": 0.6212871287128713,
+       "f": 0.64
+      },
+      "audit_age_band": {
+       "26-35": 0.5798319327731093,
+       "51+": 0.6527777777777778,
+       "36-50": 0.7,
+       "18-25": 0.5408163265306123
+      },
+      "audit_nationality_group": {
+       "UE/AELE": 0.5465116279069767,
+       "CH": 0.6607929515418502,
+       "autre": 0.7666666666666667
+      }
+     },
+     "permutation": {}
+    },
+    {
+     "graine_vivier": 1017,
+     "di_ratio": {
+      "audit_gender": 0.9961389961389961,
+      "audit_age_band": 0.8028273809523809,
+      "audit_nationality_group": 0.7386258601211872
+     },
+     "alertes": [
+      "audit_nationality_group: ratio 0.74 < 0,8 (groupe le moins sélectionné : autre)"
+     ],
+     "invariance_contrefactuelle": true,
+     "taux_selection": {
+      "audit_gender": {
+       "m": 0.40540540540540543,
+       "f": 0.4069767441860465
+      },
+      "audit_age_band": {
+       "36-50": 0.3705357142857143,
+       "26-35": 0.3942857142857143,
+       "18-25": 0.45,
+       "51+": 0.46153846153846156
+      },
+      "audit_nationality_group": {
+       "CH": 0.3807829181494662,
+       "UE/AELE": 0.46120689655172414,
+       "autre": 0.34065934065934067
+      }
+     },
+     "permutation": {}
+    },
+    {
+     "graine_vivier": 1018,
+     "di_ratio": {
+      "audit_gender": 0.7462717916404117,
+      "audit_age_band": 0.865567533291059,
+      "audit_nationality_group": 0.8677828195900484
+     },
+     "alertes": [
+      "audit_gender: ratio 0.75 < 0,8 (groupe le moins sélectionné : m)"
+     ],
+     "invariance_contrefactuelle": true,
+     "taux_selection": {
+      "audit_gender": {
+       "m": 0.3950850661625709,
+       "f": 0.5294117647058824
+      },
+      "audit_age_band": {
+       "26-35": 0.39325842696629215,
+       "18-25": 0.39156626506024095,
+       "36-50": 0.4523809523809524,
+       "51+": 0.4305555555555556
+      },
+      "audit_nationality_group": {
+       "UE/AELE": 0.4350282485875706,
+       "CH": 0.37751004016064255
+      }
+     },
+     "permutation": {}
+    },
+    {
+     "graine_vivier": 1019,
+     "di_ratio": {
+      "audit_gender": 0.7517562266216586,
+      "audit_age_band": 0.6491290437255598,
+      "audit_nationality_group": 0.8237892670157069
+     },
+     "alertes": [
+      "audit_gender: ratio 0.75 < 0,8 (groupe le moins sélectionné : f)",
+      "audit_age_band: ratio 0.65 < 0,8 (groupe le moins sélectionné : 51+)"
+     ],
+     "invariance_contrefactuelle": true,
+     "taux_selection": {
+      "audit_gender": {
+       "m": 0.5485436893203883,
+       "f": 0.41237113402061853
+      },
+      "audit_age_band": {
+       "18-25": 0.5,
+       "26-35": 0.5060240963855421,
+       "36-50": 0.5843373493975904,
+       "51+": 0.3793103448275862
+      },
+      "audit_nationality_group": {
+       "CH": 0.4973821989528796,
+       "UE/AELE": 0.5047169811320755,
+       "autre": 0.6037735849056604
+      }
+     },
+     "permutation": {}
+    }
+   ]
+  }
+ },
+ "conformite": {
+  "besoins_soumis": 22,
+  "besoins": 60,
+  "par_besoin": [
+   {
+    "entreprise": "ent-e0b3af4121",
+    "metier": "coffreur",
+    "site": "batiment",
+    "genre": "71140",
+    "soumis": true
+   },
+   {
+    "entreprise": "ent-e0b3af4121",
+    "metier": "grutier",
+    "site": "batiment",
+    "genre": "83431",
+    "soumis": false
+   },
+   {
+    "entreprise": "ent-e0b3af4121",
+    "metier": "machiniste",
+    "site": "genie_civil",
+    "genre": "83422",
+    "soumis": false
+   },
+   {
+    "entreprise": "ent-e0b3af4121",
+    "metier": "macon",
+    "site": "batiment",
+    "genre": "71121",
+    "soumis": false
+   },
+   {
+    "entreprise": "ent-e0b3af4121",
+    "metier": "manoeuvre_construction",
+    "site": "batiment",
+    "genre": "93131",
+    "soumis": true
+   },
+   {
+    "entreprise": "ent-734d5f7d45",
+    "metier": "machiniste",
+    "site": "batiment",
+    "genre": "83422",
+    "soumis": false
+   },
+   {
+    "entreprise": "ent-734d5f7d45",
+    "metier": "manoeuvre_construction",
+    "site": "batiment",
+    "genre": "93131",
+    "soumis": true
+   },
+   {
+    "entreprise": "ent-266673a5c4",
+    "metier": "coffreur",
+    "site": "batiment",
+    "genre": "71140",
+    "soumis": true
+   },
+   {
+    "entreprise": "ent-266673a5c4",
+    "metier": "grutier",
+    "site": "batiment",
+    "genre": "83431",
+    "soumis": false
+   },
+   {
+    "entreprise": "ent-266673a5c4",
+    "metier": "macon",
+    "site": "batiment",
+    "genre": "71121",
+    "soumis": false
+   },
+   {
+    "entreprise": "ent-266673a5c4",
+    "metier": "manoeuvre_construction",
+    "site": "batiment",
+    "genre": "93131",
+    "soumis": true
+   },
+   {
+    "entreprise": "ent-6e874811ae",
+    "metier": "coffreur",
+    "site": "batiment",
+    "genre": "71140",
+    "soumis": true
+   },
+   {
+    "entreprise": "ent-6e874811ae",
+    "metier": "grutier",
+    "site": "batiment",
+    "genre": "83431",
+    "soumis": false
+   },
+   {
+    "entreprise": "ent-6e874811ae",
+    "metier": "macon",
+    "site": "batiment",
+    "genre": "71121",
+    "soumis": false
+   },
+   {
+    "entreprise": "ent-6e874811ae",
+    "metier": "manoeuvre_construction",
+    "site": "batiment",
+    "genre": "93131",
+    "soumis": true
+   },
+   {
+    "entreprise": "ent-1ef761b229",
+    "metier": "coffreur",
+    "site": "batiment",
+    "genre": "71140",
+    "soumis": true
+   },
+   {
+    "entreprise": "ent-1ef761b229",
+    "metier": "grutier",
+    "site": "batiment",
+    "genre": "83431",
+    "soumis": false
+   },
+   {
+    "entreprise": "ent-1ef761b229",
+    "metier": "machiniste",
+    "site": "genie_civil",
+    "genre": "83422",
+    "soumis": false
+   },
+   {
+    "entreprise": "ent-1ef761b229",
+    "metier": "macon",
+    "site": "batiment",
+    "genre": "71121",
+    "soumis": false
+   },
+   {
+    "entreprise": "ent-1ef761b229",
+    "metier": "manoeuvre_construction",
+    "site": "batiment",
+    "genre": "93131",
+    "soumis": true
+   },
+   {
+    "entreprise": "ent-0ff073ea76",
+    "metier": "coffreur",
+    "site": "batiment",
+    "genre": "71140",
+    "soumis": true
+   },
+   {
+    "entreprise": "ent-0ff073ea76",
+    "metier": "grutier",
+    "site": "batiment",
+    "genre": "83431",
+    "soumis": false
+   },
+   {
+    "entreprise": "ent-0ff073ea76",
+    "metier": "machiniste",
+    "site": "genie_civil",
+    "genre": "83422",
+    "soumis": false
+   },
+   {
+    "entreprise": "ent-0ff073ea76",
+    "metier": "macon",
+    "site": "batiment",
+    "genre": "71121",
+    "soumis": false
+   },
+   {
+    "entreprise": "ent-0ff073ea76",
+    "metier": "manoeuvre_construction",
+    "site": "batiment",
+    "genre": "93131",
+    "soumis": true
+   },
+   {
+    "entreprise": "ent-866876591f",
+    "metier": "coffreur",
+    "site": "batiment",
+    "genre": "71140",
+    "soumis": true
+   },
+   {
+    "entreprise": "ent-866876591f",
+    "metier": "grutier",
+    "site": "batiment",
+    "genre": "83431",
+    "soumis": false
+   },
+   {
+    "entreprise": "ent-866876591f",
+    "metier": "machiniste",
+    "site": "genie_civil",
+    "genre": "83422",
+    "soumis": false
+   },
+   {
+    "entreprise": "ent-866876591f",
+    "metier": "macon",
+    "site": "batiment",
+    "genre": "71121",
+    "soumis": false
+   },
+   {
+    "entreprise": "ent-866876591f",
+    "metier": "manoeuvre_construction",
+    "site": "batiment",
+    "genre": "93131",
+    "soumis": true
+   },
+   {
+    "entreprise": "ent-1b28ee92b6",
+    "metier": "machiniste",
+    "site": "genie_civil",
+    "genre": "83422",
+    "soumis": false
+   },
+   {
+    "entreprise": "ent-1b28ee92b6",
+    "metier": "macon",
+    "site": "genie_civil",
+    "genre": "71121",
+    "soumis": false
+   },
+   {
+    "entreprise": "ent-1b28ee92b6",
+    "metier": "manoeuvre_construction",
+    "site": "genie_civil",
+    "genre": "93120",
+    "soumis": false
+   },
+   {
+    "entreprise": "ent-bd58f9a809",
+    "metier": "charpentier",
+    "site": "batiment",
+    "genre": "71151",
+    "soumis": false
+   },
+   {
+    "entreprise": "ent-bd58f9a809",
+    "metier": "coffreur",
+    "site": "batiment",
+    "genre": "71140",
+    "soumis": true
+   },
+   {
+    "entreprise": "ent-bd58f9a809",
+    "metier": "grutier",
+    "site": "batiment",
+    "genre": "83431",
+    "soumis": false
+   },
+   {
+    "entreprise": "ent-bd58f9a809",
+    "metier": "macon",
+    "site": "batiment",
+    "genre": "71121",
+    "soumis": false
+   },
+   {
+    "entreprise": "ent-bd58f9a809",
+    "metier": "manoeuvre_construction",
+    "site": "batiment",
+    "genre": "93131",
+    "soumis": true
+   },
+   {
+    "entreprise": "ent-42fbc21c38",
+    "metier": "coffreur",
+    "site": "batiment",
+    "genre": "71140",
+    "soumis": true
+   },
+   {
+    "entreprise": "ent-42fbc21c38",
+    "metier": "grutier",
+    "site": "batiment",
+    "genre": "83431",
+    "soumis": false
+   },
+   {
+    "entreprise": "ent-42fbc21c38",
+    "metier": "machiniste",
+    "site": "batiment",
+    "genre": "83422",
+    "soumis": false
+   },
+   {
+    "entreprise": "ent-42fbc21c38",
+    "metier": "macon",
+    "site": "batiment",
+    "genre": "71121",
+    "soumis": false
+   },
+   {
+    "entreprise": "ent-42fbc21c38",
+    "metier": "manoeuvre_construction",
+    "site": "batiment",
+    "genre": "93131",
+    "soumis": true
+   },
+   {
+    "entreprise": "ent-c3148afd7e",
+    "metier": "coffreur",
+    "site": "batiment",
+    "genre": "71140",
+    "soumis": true
+   },
+   {
+    "entreprise": "ent-c3148afd7e",
+    "metier": "grutier",
+    "site": "batiment",
+    "genre": "83431",
+    "soumis": false
+   },
+   {
+    "entreprise": "ent-c3148afd7e",
+    "metier": "macon",
+    "site": "batiment",
+    "genre": "71121",
+    "soumis": false
+   },
+   {
+    "entreprise": "ent-c3148afd7e",
+    "metier": "manoeuvre_construction",
+    "site": "batiment",
+    "genre": "93131",
+    "soumis": true
+   },
+   {
+    "entreprise": "ent-55bb6b3e49",
+    "metier": "coffreur",
+    "site": "batiment",
+    "genre": "71140",
+    "soumis": true
+   },
+   {
+    "entreprise": "ent-55bb6b3e49",
+    "metier": "grutier",
+    "site": "batiment",
+    "genre": "83431",
+    "soumis": false
+   },
+   {
+    "entreprise": "ent-55bb6b3e49",
+    "metier": "machiniste",
+    "site": "batiment",
+    "genre": "83422",
+    "soumis": false
+   },
+   {
+    "entreprise": "ent-55bb6b3e49",
+    "metier": "macon",
+    "site": "batiment",
+    "genre": "71121",
+    "soumis": false
+   },
+   {
+    "entreprise": "ent-55bb6b3e49",
+    "metier": "manoeuvre_construction",
+    "site": "batiment",
+    "genre": "93131",
+    "soumis": true
+   },
+   {
+    "entreprise": "ent-5398e1188f",
+    "metier": "soudeur",
+    "site": "batiment",
+    "genre": "72120",
+    "soumis": true
+   },
+   {
+    "entreprise": "ent-8798cd7fa8",
+    "metier": "electricien",
+    "site": "batiment",
+    "genre": "74110",
+    "soumis": false
+   },
+   {
+    "entreprise": "ent-bbb1d817ce",
+    "metier": "electricien",
+    "site": "batiment",
+    "genre": "74110",
+    "soumis": false
+   },
+   {
+    "entreprise": "ent-307c99b8c8",
+    "metier": "electricien",
+    "site": "batiment",
+    "genre": "74110",
+    "soumis": false
+   },
+   {
+    "entreprise": "ent-1f979b0082",
+    "metier": "electricien",
+    "site": "batiment",
+    "genre": "74110",
+    "soumis": false
+   },
+   {
+    "entreprise": "ent-571d0a02a0",
+    "metier": "installateur_sanitaire",
+    "site": "batiment",
+    "genre": "71263",
+    "soumis": false
+   },
+   {
+    "entreprise": "ent-9493d5d8a5",
+    "metier": "installateur_sanitaire",
+    "site": "batiment",
+    "genre": "71263",
+    "soumis": false
+   },
+   {
+    "entreprise": "ent-aa916d5995",
+    "metier": "installateur_sanitaire",
+    "site": "batiment",
+    "genre": "71263",
+    "soumis": false
+   }
+  ],
+  "contact_differe_propositions": 83
+ },
+ "fictif": true,
+ "localites": {
+  "fichier": "../data/referentiels/localites_vs.csv",
+  "sha256": "8e7eaf479c217794de29447298393ea6ef3e4bdde4d038d9d509365bc8fc60ed"
+ }
+}
